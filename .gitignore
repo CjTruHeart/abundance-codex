@@ -1,0 +1,42 @@
+# Abundance Codex — Build Artifacts
+
+# Node modules (if any scripts use npm)
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temp files
+tmp/
+temp/
+*.tmp
+
+# Build outputs
+dist/
+build/
+
+# Keep the structure but allow empty dirs to be tracked
+!.gitkeep
+
+# Don't ignore the scripts we create
+!scripts/
