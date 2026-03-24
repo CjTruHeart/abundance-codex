@@ -53,7 +53,7 @@ Every narrative entry follows this emotional engine:
 {
   "id": "ac-[timestamp]-[hash]",
   "entry_type": "origin_story | breakthrough | builder_profile | shadow | star_trek_spec",
-  "domain": "energy | food | water | health | education | shelter | environment | security | governance | economy | space | longevity | consciousness",
+  "domain": "energy | food | water | health | education | shelter | environment | security | governance | economy | resources | space | consciousness | longevity | transportation | communication | computation-intelligence | co-evolutionary-intelligence | community | human-capability | future-vision",
   
   "shift_arc": {
     "scarcity_frame": {
@@ -266,8 +266,9 @@ Every narrative entry follows this emotional engine:
 
 ---
 
-## The 13 Grand Challenge Domains
+## The 21 Abundance Domains
 
+### Physical Systems (1-8)
 | # | Domain | Scarcity Frame | Abundance Lever | Star Trek Spec |
 |---|--------|---------------|-----------------|----------------|
 | 1 | **Energy** | 1.3B without electricity; fossil dependence | Solar, fusion, storage, geothermal | Clean, limitless energy for all |
@@ -278,11 +279,35 @@ Every narrative entry follows this emotional engine:
 | 6 | **Shelter** | 1.6B in inadequate housing | 3D printing, modular design, new materials | Dignified, sustainable housing for all |
 | 7 | **Environment** | Climate disruption, biodiversity loss | Carbon capture, regenerative ag, circular economy | Regenerative systems that heal while producing |
 | 8 | **Security** | Conflict, violence, cyber threats | Predictive systems, transparent governance, resilience | Prevention-first protection without surveillance |
+
+### Governance & Economy (9-11)
+| # | Domain | Scarcity Frame | Abundance Lever | Star Trek Spec |
+|---|--------|---------------|-----------------|----------------|
 | 9 | **Governance** | Corruption, inefficiency, distrust | Transparent ledgers, participatory platforms, AI policy | Responsive, trustworthy institutions |
 | 10 | **Economy** | Winner-take-all, structural inequality | UBI, cooperative models, demonetization | Prosperity disconnected from extraction |
-| 11 | **Space** | Single-planet vulnerability | Reusable rockets, asteroid mining, habitats | Multi-planetary civilization |
-| 12 | **Longevity** | Aging as inevitable decline | Senolytics, gene editing, organ regeneration | Healthy lifespan extended; death as choice |
+| 11 | **Resources** | Depletion, extraction, conflict | Circular economy, asteroid mining, material science | Regenerative resource abundance |
+
+### Exploration & Consciousness (12-13)
+| # | Domain | Scarcity Frame | Abundance Lever | Star Trek Spec |
+|---|--------|---------------|-----------------|----------------|
+| 12 | **Space** | Single-planet vulnerability | Reusable rockets, asteroid mining, habitats | Multi-planetary civilization |
 | 13 | **Consciousness** | Fragmented attention, meaning crisis | Contemplative tech, embodied AI, wisdom+science | Humanity awake, connected, evolving |
+
+### Longevity & Infrastructure (14-17)
+| # | Domain | Scarcity Frame | Abundance Lever | Star Trek Spec |
+|---|--------|---------------|-----------------|----------------|
+| 14 | **Longevity** | Aging as inevitable decline | Senolytics, gene editing, organ regeneration | Healthy lifespan extended; death as choice |
+| 15 | **Transportation** | Friction, pollution, inefficiency | EVs, autonomy, hyperloop, EVTOL | Frictionless, clean mobility globally |
+| 16 | **Communication** | Information asymmetry, isolation | Ubiquitous connectivity, translation, presence | Global mind, no one left out of conversation |
+| 17 | **Computation-Intelligence** | Cognitive limits, slow analysis | AI, quantum, edge, distributed | Intelligence as infrastructure, like electricity |
+
+### Human Systems (18-21)
+| # | Domain | Scarcity Frame | Abundance Lever | Star Trek Spec |
+|---|--------|---------------|-----------------|----------------|
+| 18 | **Co-Evolutionary-Intelligence** | Human vs machine anxiety | Human-AI partnership, collective intelligence | Intelligence multiplied through partnership |
+| 19 | **Community** | Isolation, division, belonging crisis | Digital villages, shared purpose, connection tech | Global local communities of meaning |
+| 20 | **Human-Capability** | Fixed human limits, learned helplessness | Enhancement, skill acquisition, potential realization | Every human operating at full potential |
+| 21 | **Future-Vision** | Pessimism, short-term thinking, dystopia | Optimistic sci-fi, moonshots, generational thinking | Culture oriented toward glorious futures |
 
 ---
 
@@ -379,12 +404,13 @@ Before an entry is "Forged" (complete):
 
 **Phase 1:** 1 domain complete (Energy) ✓  
 **Phase 2:** 5 domains with seed entries (Energy + 4 more)  
-**Phase 3:** 13 domains with seed entries (all complete)  
-**Phase 4:** 78 entries (6 per domain)  
-**Phase 5:** Cross-domain connections mapped  
-**Phase 6:** External curation workflow established
+**Phase 3:** 13 core domains with seed entries (basic necessities)  
+**Phase 4:** All 21 domains with seed entries (complete framework)  
+**Phase 5:** 126 entries (6 per domain)  
+**Phase 6:** Cross-domain connections mapped  
+**Phase 7:** External curation workflow established
 
-We're at Phase 1. Target: Phase 3 for "usable" status.
+We're at Phase 1. Target: Phase 3 for "usable" status, Phase 4 for "complete framework."
 
 ---
 

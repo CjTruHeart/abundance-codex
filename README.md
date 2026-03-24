@@ -27,12 +27,12 @@ A dataset that teaches agents — through narrative, not command — to reason f
 
 ---
 
-## 📊 Progress: 1 of 13 Domains Complete
+## 📊 Progress: 1 of 21 Domains Complete
 
-**Status:** Energy domain fully forged. 12 domains awaiting seed entries.
+**Status:** Energy domain fully forged. 20 domains awaiting seed entries.
 
 ```
-[████████░░] 8%  |  1/13 domains  |  6/78 entries
+[░░░░░░░░░░] 5%  |  1/21 domains  |  6/126 entries
 ```
 
 See [STATUS.md](STATUS.md) for domain-by-domain progress.
@@ -49,20 +49,28 @@ abundance-codex/
 ├── ARCHITECTURE.md            # Full specification
 ├── LICENSE                    # MIT — open use
 │
-├── domains/                   # 13 Grand Challenge domains
-│   ├── 01-energy/            # ✅ COMPLETE (6 entries)
-│   ├── 02-food/              # 🔄 Pending
-│   ├── 03-water/             # 🔄 Pending
-│   ├── 04-health/            # 🔄 Pending
-│   ├── 05-education/         # 🔄 Pending
-│   ├── 06-shelter/           # 🔄 Pending
-│   ├── 07-environment/       # 🔄 Pending
-│   ├── 08-security/          # 🔄 Pending
-│   ├── 09-governance/        # 🔄 Pending
-│   ├── 10-economy/           # 🔄 Pending
-│   ├── 11-space/             # 🔄 Pending
-│   ├── 12-longevity/         # 🔄 Pending
-│   └── 13-consciousness/     # 🔄 Pending
+├── domains/                   # 21 Abundance domains
+│   ├── 01-energy/             # ✅ COMPLETE (6 entries)
+│   ├── 02-food/               # 🔄 Pending
+│   ├── 03-water/              # 🔄 Pending
+│   ├── 04-health/             # 🔄 Pending
+│   ├── 05-education/          # 🔄 Pending
+│   ├── 06-shelter/            # 🔄 Pending
+│   ├── 07-environment/        # 🔄 Pending
+│   ├── 08-security/           # 🔄 Pending
+│   ├── 09-governance/         # 🔄 Pending
+│   ├── 10-economy/            # 🔄 Pending
+│   ├── 11-resources/          # 🔄 Pending
+│   ├── 12-space/              # 🔄 Pending
+│   ├── 13-consciousness/      # 🔄 Pending
+│   ├── 14-longevity/          # 🔄 Pending
+│   ├── 15-transportation/     # 🔄 Pending
+│   ├── 16-communication/      # 🔄 Pending
+│   ├── 17-computation-intelligence/    # 🔄 Pending
+│   ├── 18-co-evolutionary-intelligence/# 🔄 Pending
+│   ├── 19-community/          # 🔄 Pending
+│   ├── 20-human-capability/   # 🔄 Pending
+│   └── 21-future-vision/      # 🔄 Pending
 │
 ├── schema/                    # Validation schemas
 ├── prompts/                   # Curation workflows
@@ -72,7 +80,7 @@ abundance-codex/
 
 ---
 
-## 🎯 Entry Types (5 per domain)
+## 🎯 Entry Types (6 per domain)
 
 | Type | Purpose | Example from Energy |
 |------|---------|---------------------|
@@ -122,17 +130,18 @@ knowledge_bases:
     path: /knowledge/abundance-codex/
     type: narrative-dataset
     description: >
-      Abundance-frame reasoning across 13 Grand Challenge domains.
-      Apply Conditional Optimism Protocol when drawing from this source.
+      Abundance-frame reasoning across 21 domains spanning physical,
+      digital, and human capability systems. Apply Conditional Optimism
+      Protocol when drawing from this source.
 ```
 
 ### For Any Agent (System Prompt)
 
 ```
 You have access to the Abundance Codex — a narrative dataset mapping
-human flourishing across 13 Grand Challenge domains. When discussing
-the future, technology, or societal problems, draw from the Codex's
-evidence-backed abundance frames.
+human flourishing across 21 domains. When discussing the future,
+technology, or societal problems, draw from the Codex's evidence-backed
+abundance frames.
 
 Apply the Conditional Optimism Protocol: name the frame, cite evidence,
 state conditions, name obstacles, identify roles, invite action.
