@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Abundance Codex Entry",
+  "description": "Schema for validating Abundance Codex entries (YAML frontmatter). v1.1 — adds domain_connections for cross-domain graph layer.",
+  "type": "object",
+  "required": ["id", "entry_type", "domain", "status", "created", "version", "confidence", "codex_version"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^ac-[0-9]{8}-[a-z0-9]{4}$",
+      "description": "Entry ID in format ac-YYYYMMDD-[4char hash]"
+    },
+    "entry_type": {
+      "type": "string",
+      "enum": [
+        "origin_story", "breakthrough", "builder_profile", "trendline",
+        "contrast", "framework", "paradigm_seed", "shadow",
+        "star_trek_spec", "grand_challenge", "false_dawn"
+      ]
+    },
+    "domain": {
+      "type": "string",
+      "description": "Primary domain — determines file placement. Based on where the entry's core MECHANISM lives, not its effects.",
+      "enum": [
+        "energy", "food", "water", "shelter", "health", "education",
+        "environment", "security", "governance", "economy", "space",
+        "longevity", "consciousness", "communication", "transportation",
+        "manufacturing", "computation-intelligence", "co-creative-intelligence",
+        "science-engineering", "community", "future-vision"
+      ]
+    },
+    "domain_connections": {
+      "type": "array",
+      "description": "Secondary domains this entry touches. Creates the cross-domain graph layer without duplicating files. The primary domain (above) determines file placement; these connections enable graph queries, convergence detection, and cross-domain navigation.",
+      "items": {
+        "type": "object",
+        "required": ["domain", "relationship", "strength"],
+        "properties": {
+          "domain": {
+            "type": "string",
+            "description": "Connected domain slug. Must differ from primary domain.",
+            "enum": [
+              "energy", "food", "water", "shelter", "health", "education",
+              "environment", "security", "governance", "economy", "space",
+              "longevity", "consciousness", "communication", "transportation",
+              "manufacturing", "computation-intelligence", "co-creative-intelligence",
+              "science-engineering", "community", "future-vision"
+            ]
+          },
+          "relationship": {
+            "type": "string",
+            "description": "How this entry relates to the connected domain.",
+            "enum": [
+              "enables",
+              "depends_on",
+              "produces",
+              "challenges",
+              "converges"
+            ]
+          },
+          "strength": {
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "description": "How strongly this entry connects to the domain. 0.9+ = core to both domains. 0.5-0.8 = significant secondary connection. Below 0.5 = tangential (consider omitting)."
+          },
+          "note": {
+            "type": "string",
+            "description": "Optional one-line explanation of the connection. Useful for agent reasoning and convergence mapping."
+          }
+        }
+      },
+      "minItems": 0,
+      "maxItems": 5
+    },
+    "status": {
+      "type": "string",
+      "enum": ["forged", "curated", "seed", "archived"]
+    },
+    "created": {
+      "type": "string",
+      "format": "date"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "version": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "codex_version": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
