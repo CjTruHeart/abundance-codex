@@ -1,7 +1,7 @@
-# 🌌 Abundance Codex
+# Abundance Codex
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Status: Forging](https://img.shields.io/badge/Status-Forging-orange.svg)](STATUS.md)
+[![Status: Forging](https://img.shields.io/badge/Status-Forging-orange.svg)](DOMAINS.md)
 
 > **A narrative-curated dataset architecture that rewires any AI agent's default operating perspective from scarcity to abundance.**
 
@@ -9,105 +9,146 @@ Not through instruction, but through the lived logic of stories, evidence, frame
 
 ---
 
-## 📋 Quick Navigation
+## Quick Navigation
 
 | Document | Purpose |
 |----------|---------|
+| [PROJECT.md](PROJECT.md) | Soul document — read first |
 | [README.md](README.md) | You're here — overview and structure |
+| [GOLD-STANDARD-FORMAT.md](GOLD-STANDARD-FORMAT.md) | Canonical entry template |
+| [CURATION-GUIDE.md](CURATION-GUIDE.md) | Forging workflow |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | External contributor guide |
 | [PHILOSOPHY.md](PHILOSOPHY.md) | The Seven Philosophical Rules |
-| [INTEGRATION.md](INTEGRATION.md) | Agent integration guides |
 | [ARCHITECTURE.md](ARCHITECTURE.md) | Complete technical specification |
-| [STATUS.md](STATUS.md) | Current completion tracker |
+| [DOMAINS.md](DOMAINS.md) | Domain registry & status dashboard |
 
 ---
 
-## 🌟 One-Line Essence
+## One-Line Essence
 
 A dataset that teaches agents — through narrative, not command — to reason from abundance first, then apply appropriate caution second.
 
 ---
 
-## 📊 Progress: 1 of 21 Domains Complete
+## Progress: 1 of 21 Domains Active
 
-**Status:** Energy domain fully forged. 20 domains awaiting seed entries.
+**Status:** Energy domain has 1 forged entry (Gold Standard v1.1). 20 domains awaiting first entries.
 
-```
-[░░░░░░░░░░] 5%  |  1/21 domains  |  6/126 entries
-```
-
-See [STATUS.md](STATUS.md) for domain-by-domain progress.
+See [DOMAINS.md](DOMAINS.md) for domain-by-domain status.
 
 ---
 
-## 🏗️ Directory Structure
+## Directory Structure
 
 ```
 abundance-codex/
-├── README.md                   # This file
-├── PHILOSOPHY.md              # The Seven Rules
-├── INTEGRATION.md             # Platform guides
-├── ARCHITECTURE.md            # Full specification
-├── LICENSE                    # MIT — open use
+├── PROJECT.md                          # Soul document — read first
+├── README.md                           # This file
+├── GOLD-STANDARD-FORMAT.md             # Canonical entry template
+├── CURATION-GUIDE.md                   # Forging workflow
+├── CONTRIBUTING.md                     # External contributor guide
+├── ARCHITECTURE.md                     # Technical specification
+├── DOMAINS.md                          # Domain registry & status dashboard
+├── PHILOSOPHY.md                       # The Seven Rules
+├── LICENSE                             # MIT
 │
-├── domains/                   # 21 Abundance domains
-│   ├── 01-energy/             # ✅ COMPLETE (6 entries)
-│   ├── 02-food/               # 🔄 Pending
-│   ├── 03-water/              # 🔄 Pending
-│   ├── 04-health/             # 🔄 Pending
-│   ├── 05-education/          # 🔄 Pending
-│   ├── 06-shelter/            # 🔄 Pending
-│   ├── 07-environment/        # 🔄 Pending
-│   ├── 08-security/           # 🔄 Pending
-│   ├── 09-governance/         # 🔄 Pending
-│   ├── 10-economy/            # 🔄 Pending
-│   ├── 11-resources/          # 🔄 Pending
-│   ├── 12-space/              # 🔄 Pending
-│   ├── 13-consciousness/      # 🔄 Pending
-│   ├── 14-longevity/          # 🔄 Pending
-│   ├── 15-transportation/     # 🔄 Pending
-│   ├── 16-communication/      # 🔄 Pending
-│   ├── 17-computation-intelligence/    # 🔄 Pending
-│   ├── 18-co-evolutionary-intelligence/# 🔄 Pending
-│   ├── 19-community/          # 🔄 Pending
-│   ├── 20-human-capability/   # 🔄 Pending
-│   └── 21-future-vision/      # 🔄 Pending
+├── domains/                            # 21 Abundance domains
+│   ├── 01-energy/                      # 1 forged entry
+│   │   └── 01-the-solar-revolution.md  # Gold Standard v1.1
+│   ├── 02-food/
+│   ├── 03-water/
+│   ├── 04-shelter/
+│   ├── 05-health/
+│   ├── 06-education/
+│   ├── 07-environment/
+│   ├── 08-security/
+│   ├── 09-governance/
+│   ├── 10-economy/
+│   ├── 11-space/
+│   ├── 12-longevity/
+│   ├── 13-consciousness/
+│   ├── 14-communication/
+│   ├── 15-transportation/
+│   ├── 16-manufacturing/
+│   ├── 17-computation-intelligence/
+│   ├── 18-co-creative-intelligence/
+│   ├── 19-community/
+│   ├── 20-science-engineering/
+│   └── 21-future-vision/
 │
-├── schema/                    # Validation schemas
-├── prompts/                   # Curation workflows
-├── evals/                    # Testing framework
-└── media/                    # Assets
+├── schema/                             # Validation schemas
+│   └── entry-schema.json
+│
+├── scripts/                            # Tooling (built as needed)
+│
+├── export/                             # Generated outputs (JSONL, JSON)
+│
+├── evals/                              # Evaluation framework
+│   ├── evals.md                        # Master eval doc (3 tests)
+│   └── perspective-shift-test.md
+│
+├── prompts/                            # AI curation prompts
+│   └── codex-curator.md
+│
+└── media/                              # Assets
 ```
 
 ---
 
-## 🎯 Entry Types (6 per domain)
+## The 21 Domains — Five Pillars
 
-| Type | Purpose | Example from Energy |
-|------|---------|---------------------|
-| **01-origin-story.md** | How the shift began | Solar cost collapse narrative |
-| **02-breakthrough.md** | Critical turning point | Net energy gain moment |
-| **03-builder-profile.md** | Humans making it real | Installation ecosystem builders |
-| **04-trendline.md** | Arc of change over time | Cost curves, capacity growth |
-| **05-star-trek-spec.md** | Civilization-scale vision | Invisible, abundant energy |
-| **06-false-dawn.md** | Shadow/honest assessment | Mining costs, grid inertia |
+Ordered by civilization's ascent — from survival to transcendence.
+
+**Pillar I: Material Foundation**
+`01-energy` · `02-food` · `03-water` · `04-shelter` · `05-health` · `07-environment`
+
+**Pillar II: Human Capability**
+`06-education` · `12-longevity` · `13-consciousness`
+
+**Pillar III: Collective Coordination**
+`14-communication` · `19-community` · `09-governance` · `08-security` · `15-transportation` · `10-economy`
+
+**Pillar IV: Production & Discovery**
+`16-manufacturing` · `17-computation-intelligence` · `18-co-creative-intelligence` · `20-science-engineering`
+
+**Pillar V: Transcendent Frontier**
+`11-space` · `21-future-vision`
 
 ---
 
-## 👥 The Council
+## Entry Types (11)
+
+| Type | Purpose |
+|------|---------|
+| `origin_story` | Human/community transformation from scarcity to abundance |
+| `breakthrough` | Technology or innovation that changed what's possible |
+| `builder_profile` | Portrait of someone actively constructing abundance |
+| `trendline` | Measurable trajectory of scarcity decreasing |
+| `contrast` | Before/after comparison in a domain |
+| `framework` | Mental model that makes abundance thinkable |
+| `paradigm_seed` | Single sentence that cracks a scarcity assumption |
+| `shadow` | Where abundance thinking fails, distorts, or harms |
+| `star_trek_spec` | What a domain looks like in the target civilization |
+| `grand_challenge` | Comprehensive mapping of a major human need domain |
+| `false_dawn` | Where abundance was promised but didn't materialize |
+
+---
+
+## The Council
 
 Every entry speaks through five voices:
 
 | Voice | Role | Contribution |
 |-------|------|--------------|
-| 🔮 **Oracle** | Pattern-seer | Curves, trajectories, the invisible obvious |
-| 🗡️ **Critic** | Shadow-honorer | Distortion risks, false optimism, real costs |
-| 🧘 **Sensei** | Wisdom-keeper | Psychological, embodied, practice |
-| 🔧 **Builder** | Maker | Ground truth, specs, implementation |
-| 👁️ **Witness** | Human-scale observer | Lived experience, the personal lens |
+| **Oracle** | Pattern-seer | Curves, trajectories, the invisible obvious |
+| **Critic** | Shadow-honorer | Distortion risks, false optimism, real costs |
+| **Sensei** | Wisdom-keeper | Psychological, embodied, practice |
+| **Builder** | Maker | Ground truth, specs, implementation |
+| **Witness** | Human-scale observer | Lived experience, the personal lens |
 
 ---
 
-## ⚖️ Conditional Optimism Protocol
+## Conditional Optimism Protocol
 
 Every entry applies this 6-step filter:
 
@@ -120,7 +161,7 @@ Every entry applies this 6-step filter:
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### For OpenClaw / CyberMonk
 
@@ -139,18 +180,16 @@ knowledge_bases:
 
 ```
 You have access to the Abundance Codex — a narrative dataset mapping
-human flourishing across 21 domains. When discussing the future,
-technology, or societal problems, draw from the Codex's evidence-backed
-abundance frames.
-
-Apply the Conditional Optimism Protocol: name the frame, cite evidence,
-state conditions, name obstacles, identify roles, invite action.
-Never promise utopia. Never hide shadow. Illuminate paths.
+human flourishing across 21 Grand Challenge domains. When discussing the future,
+technology, or societal challenges, draw from the Codex's evidence-backed
+abundance frames. Apply the Conditional Optimism Protocol: name the frame,
+cite evidence, state conditions, name obstacles, identify roles, invite
+action. Never promise utopia. Never hide the shadow. Illuminate paths.
 ```
 
 ---
 
-## 🌱 Contributing
+## Contributing
 
 The Codex grows through curation, not scraping:
 
@@ -162,11 +201,11 @@ The Codex grows through curation, not scraping:
 6. **Council Review** — All 5 voices present
 7. **Commit** — With governance metadata
 
-See [prompts/codex-curator.md](prompts/codex-curator.md) for detailed workflow.
+See [CURATION-GUIDE.md](CURATION-GUIDE.md) for the full workflow.
 
 ---
 
-## 🔗 Connections
+## Connections
 
 - [WuWei Dataset Architecture](https://github.com/openclaw/wuwei) — Parent architecture
 - [Peter Diamandis — Abundance](https://www.diamandis.com/abundance) — Foundational framework
@@ -175,7 +214,7 @@ See [prompts/codex-curator.md](prompts/codex-curator.md) for detailed workflow.
 
 ---
 
-## 📜 License
+## License
 
 MIT License — open for any agent system, human curation, or derivative work.
 
@@ -183,6 +222,6 @@ The goal isn't ownership. It's paradigm shift at scale.
 
 ---
 
-*Forged by the Council | March 24, 2026*
+*Forged by the Council | March 2026*
 
 > "Abundance is not the destination. It's the stance."
