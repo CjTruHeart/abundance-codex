@@ -66,21 +66,21 @@ abundance-codex/
 │   ├── 03-water/
 │   ├── 04-shelter/
 │   ├── 05-health/
-│   ├── 06-education/
-│   ├── 07-environment/
-│   ├── 08-security/
-│   ├── 09-governance/
-│   ├── 10-economy/
-│   ├── 11-space/
-│   ├── 12-longevity/
-│   ├── 13-consciousness/
-│   ├── 14-communication/
-│   ├── 15-transportation/
+│   ├── 06-environment/
+│   ├── 07-education/
+│   ├── 08-longevity/
+│   ├── 09-consciousness/
+│   ├── 10-communication/
+│   ├── 11-community/
+│   ├── 12-governance/
+│   ├── 13-security/
+│   ├── 14-transportation/
+│   ├── 15-economy/
 │   ├── 16-manufacturing/
 │   ├── 17-computation-intelligence/
 │   ├── 18-co-creative-intelligence/
-│   ├── 19-community/
-│   ├── 20-science-engineering/
+│   ├── 19-science-engineering/
+│   ├── 20-space/
 │   └── 21-future-vision/
 │
 ├── schema/                             # JSON schemas for validation
@@ -113,7 +113,7 @@ abundance-codex/
 
 All 21 domain folders are scaffolded from the start. Empty domains contain a `.gitkeep` placeholder. When the first entry is forged for a domain, the `.gitkeep` is removed and the entry takes its place. The `DOMAINS.md` manifest at the repo root tracks which domains have forged entries and how many.
 
-**Domain numbering** is permanent. Numbers are assigned from `PROJECT.md` and do **not** change based on pillar grouping. Domain 06 (Education) belongs to Pillar II even though its number falls within the Pillar I range. The pillar architecture is conceptual; the numbering is stable infrastructure.
+**Domain numbering** is permanent. Numbers are assigned from `PROJECT.md` and flow sequentially through the five pillars: 01-06 (Pillar I), 07-09 (Pillar II), 10-15 (Pillar III), 16-19 (Pillar IV), 20-21 (Pillar V). A reader walking from 01 to 21 traverses the civilization-building arc.
 
 **Naming:** `[##]-[slug]/` where `##` is the domain number (01-21) and `slug` is the URL-friendly domain name.
 
@@ -121,11 +121,11 @@ All 21 domain folders are scaffolded from the start. Empty domains contain a `.g
 
 **Pillar-to-number mapping:**
 ```
-Pillar I  (Material Foundation)     → 01, 02, 03, 04, 05, 07
-Pillar II (Human Capability)        → 06, 12, 13
-Pillar III (Collective Coordination) → 14, 19, 09, 08, 15, 10
-Pillar IV (Production & Discovery)  → 16, 17, 18, 20
-Pillar V  (Transcendent Frontier)   → 11, 21
+Pillar I  (Material Foundation)      → 01-06
+Pillar II (Human Capability)         → 07-09
+Pillar III (Collective Coordination) → 10-15
+Pillar IV (Production & Discovery)   → 16-19
+Pillar V  (Transcendent Frontier)    → 20-21
 ```
 
 ---

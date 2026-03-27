@@ -59,21 +59,21 @@ abundance-codex/
 │   ├── 03-water/
 │   ├── 04-shelter/
 │   ├── 05-health/
-│   ├── 06-education/
-│   ├── 07-environment/
-│   ├── 08-security/
-│   ├── 09-governance/
-│   ├── 10-economy/
-│   ├── 11-space/
-│   ├── 12-longevity/
-│   ├── 13-consciousness/
-│   ├── 14-communication/
-│   ├── 15-transportation/
+│   ├── 06-environment/
+│   ├── 07-education/
+│   ├── 08-longevity/
+│   ├── 09-consciousness/
+│   ├── 10-communication/
+│   ├── 11-community/
+│   ├── 12-governance/
+│   ├── 13-security/
+│   ├── 14-transportation/
+│   ├── 15-economy/
 │   ├── 16-manufacturing/
 │   ├── 17-computation-intelligence/
 │   ├── 18-co-creative-intelligence/
-│   ├── 19-community/
-│   ├── 20-science-engineering/
+│   ├── 19-science-engineering/
+│   ├── 20-space/
 │   └── 21-future-vision/
 │
 ├── schema/                             # Validation schemas
@@ -100,19 +100,19 @@ abundance-codex/
 Ordered by civilization's ascent — from survival to transcendence.
 
 **Pillar I: Material Foundation**
-`01-energy` · `02-food` · `03-water` · `04-shelter` · `05-health` · `07-environment`
+`01-energy` · `02-food` · `03-water` · `04-shelter` · `05-health` · `06-environment`
 
 **Pillar II: Human Capability**
-`06-education` · `12-longevity` · `13-consciousness`
+`07-education` · `08-longevity` · `09-consciousness`
 
 **Pillar III: Collective Coordination**
-`14-communication` · `19-community` · `09-governance` · `08-security` · `15-transportation` · `10-economy`
+`10-communication` · `11-community` · `12-governance` · `13-security` · `14-transportation` · `15-economy`
 
 **Pillar IV: Production & Discovery**
-`16-manufacturing` · `17-computation-intelligence` · `18-co-creative-intelligence` · `20-science-engineering`
+`16-manufacturing` · `17-computation-intelligence` · `18-co-creative-intelligence` · `19-science-engineering`
 
 **Pillar V: Transcendent Frontier**
-`11-space` · `21-future-vision`
+`20-space` · `21-future-vision`
 
 ---
 

@@ -120,26 +120,26 @@ The domains are organized into five pillars that trace the arc from survival to 
 | 03 | `water` | Water & Sanitation |
 | 04 | `shelter` | Shelter & Housing |
 | 05 | `health` | Health & Medicine |
-| 07 | `environment` | Environment & Climate |
+| 06 | `environment` | Environment & Climate |
 
 **PILLAR II: Human Capability** — *From surviving to self-actualizing.*
 
 | # | Slug | Full Name |
 |---|------|-----------|
-| 06 | `education` | Education & Learning |
-| 12 | `longevity` | Longevity & Healthspan |
-| 13 | `consciousness` | Consciousness & Meaning |
+| 07 | `education` | Education & Learning |
+| 08 | `longevity` | Longevity & Healthspan |
+| 09 | `consciousness` | Consciousness & Meaning |
 
 **PILLAR III: Collective Coordination** — *From individuals to federation.*
 
 | # | Slug | Full Name |
 |---|------|-----------|
-| 14 | `communication` | Communication & Connection |
-| 19 | `community` | Community & Belonging |
-| 09 | `governance` | Governance & Institutions |
-| 08 | `security` | Security & Safety |
-| 15 | `transportation` | Transportation & Mobility |
-| 10 | `economy` | Economy & Prosperity |
+| 10 | `communication` | Communication & Connection |
+| 11 | `community` | Community & Belonging |
+| 12 | `governance` | Governance & Institutions |
+| 13 | `security` | Security & Safety |
+| 14 | `transportation` | Transportation & Mobility |
+| 15 | `economy` | Economy & Prosperity |
 
 **PILLAR IV: Production & Discovery** — *The compounding engine.*
 
@@ -148,22 +148,22 @@ The domains are organized into five pillars that trace the arc from survival to 
 | 16 | `manufacturing` | Manufacturing & Materials |
 | 17 | `computation-intelligence` | Computation & AI |
 | 18 | `co-creative-intelligence` | Co-Evolution & Human-AI Symbiosis |
-| 20 | `science-engineering` | Discovery & Frontier Science/Engineering |
+| 19 | `science-engineering` | Discovery & Frontier Science/Engineering |
 
 **PILLAR V: The Transcendent Frontier** — *Where humanity reaches beyond itself.*
 
 | # | Slug | Full Name |
 |---|------|-----------|
-| 11 | `space` | Space & Exploration |
+| 20 | `space` | Space & Exploration |
 | 21 | `future-vision` | Collective Imagination & Narrative Infrastructure |
 
 **The Sequence:**
 ```
-01-05, 07  → Material Foundation (6 domains)
-06, 12-13  → Human Capability (3 domains)
-14, 19, 09, 08, 15, 10 → Collective Coordination (6 domains)
-16-18, 20  → Production & Discovery (4 domains)
-11, 21     → Transcendent Frontier (2 domains)
+01-06  → Material Foundation (6 domains)
+07-09  → Human Capability (3 domains)
+10-15  → Collective Coordination (6 domains)
+16-19  → Production & Discovery (4 domains)
+20-21  → Transcendent Frontier (2 domains)
 ```
 21 total. Five arcs. One civilization.
 
