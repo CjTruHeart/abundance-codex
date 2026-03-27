@@ -23,9 +23,9 @@
 
 | # | Domain | Slug | Entries | Status |
 |---|--------|------|:-------:|--------|
-| 07 | Education & Learning | `education` | 0 | ⬜ Empty |
-| 08 | Longevity & Healthspan | `longevity` | 0 | ⬜ Empty |
-| 09 | Consciousness & Meaning | `consciousness` | 0 | ⬜ Empty |
+| 07 | Education & Learning | `education` | 3 | 🟢 origin_story, trendline, false_dawn |
+| 08 | Longevity & Healthspan | `longevity` | 3 | 🟢 breakthrough, trendline, shadow |
+| 09 | Consciousness & Meaning | `consciousness` | 3 | 🟢 framework, shadow, origin_story |
 
 ## Pillar III — Collective Coordination
 
@@ -67,8 +67,8 @@
 | Metric | Count |
 |--------|:-----:|
 | Total domains | 21 |
-| Domains with entries | 6 |
-| Total forged entries | 18 |
+| Domains with entries | 9 |
+| Total forged entries | 27 |
 | Codex version | 1.1 |
 
 ---

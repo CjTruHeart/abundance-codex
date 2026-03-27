@@ -30,9 +30,9 @@ A dataset that teaches agents — through narrative, not command — to reason f
 
 ---
 
-## Progress: 1 of 21 Domains Active
+## Progress: 9 of 21 Domains Active
 
-**Status:** Energy domain has 1 forged entry (Gold Standard v1.1). 20 domains awaiting first entries.
+**Status:** 27 forged entries across Pillar I (18 entries, 6 domains) and Pillar II (9 entries, 3 domains). 12 domains awaiting first entries.
 
 See [DOMAINS.md](DOMAINS.md) for domain-by-domain status.
 
