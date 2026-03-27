@@ -32,9 +32,9 @@ RESULTS_DIR = REPO_ROOT / "evals" / "results"
 MODEL = "claude-sonnet-4-20250514"
 MAX_TOKENS = 1500
 TEMPERATURE = 0.3
-API_DELAY = 1.0        # seconds between API calls
+API_DELAY = 2.0        # seconds between API calls
 MAX_RETRIES = 2
-RETRY_BACKOFF = 5.0    # seconds
+RETRY_BACKOFF = 10.0   # seconds
 
 # ---------------------------------------------------------------------------
 # Eval Prompts
@@ -502,12 +502,19 @@ def print_scorecard(results: dict, run_ts: str, entry_count: int, domain_count: 
 # ---------------------------------------------------------------------------
 
 def main():
+    global MODEL
+
     parser = argparse.ArgumentParser(description="Abundance Codex Eval Harness")
     parser.add_argument("--verbose", action="store_true", help="Show full responses")
     parser.add_argument("--test", choices=list(EVAL_PROMPTS.keys()),
                         help="Run only one test")
     parser.add_argument("--output", type=str, help="Output JSON path")
+    parser.add_argument("--model", type=str, default=MODEL,
+                        help=f"Model to use (default: {MODEL})")
     args = parser.parse_args()
+
+    # Override global MODEL with CLI flag
+    MODEL = args.model
 
     # Check API key
     api_key = os.environ.get("ANTHROPIC_API_KEY")
@@ -535,7 +542,7 @@ def main():
                 domains.add(json.loads(line.strip()).get("domain", ""))
     domain_count = len(domains)
 
-    client = anthropic.Anthropic(api_key=api_key)
+    client = anthropic.Anthropic(api_key=api_key, timeout=120.0)
 
     # Stage 2 & 3: Run prompts and score
     tests_to_run = [args.test] if args.test else list(EVAL_PROMPTS.keys())
