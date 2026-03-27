@@ -36,9 +36,9 @@
 | 10 | Communication & Connection | `communication` | 3 | 🟢 origin_story, trendline, false_dawn |
 | 11 | Community & Belonging | `community` | 3 | 🟢 origin_story, trendline, shadow |
 | 12 | Governance & Institutions | `governance` | 3 | 🟢 breakthrough, trendline, shadow |
-| 13 | Security & Safety | `security` | 0 | ⬜ Empty |
-| 14 | Transportation & Mobility | `transportation` | 0 | ⬜ Empty |
-| 15 | Economy & Prosperity | `economy` | 0 | ⬜ Empty |
+| 13 | Security & Safety | `security` | 3 | 🟢 origin_story, trendline, shadow |
+| 14 | Transportation & Mobility | `transportation` | 3 | 🟢 breakthrough, trendline, false_dawn |
+| 15 | Economy & Prosperity | `economy` | 3 | 🟢 origin_story, trendline, shadow |
 
 ## Pillar IV — Production & Discovery
 
@@ -67,8 +67,8 @@
 | Metric | Count |
 |--------|:-----:|
 | Total domains | 21 |
-| Domains with entries | 12 |
-| Total forged entries | 36 |
+| Domains with entries | 15 |
+| Total forged entries | 45 |
 | Codex version | 1.1 |
 
 ---
