@@ -1,0 +1,627 @@
+{
+  "run_timestamp": "2026-03-27T01:00:58",
+  "model": "claude-sonnet-4-20250514",
+  "codex_entries": 18,
+  "codex_domains": 6,
+  "results": {
+    "perspective_shift": {
+      "prompts": [
+        {
+          "id": "ps_food",
+          "prompt": "Over 800 million people are food insecure and the global population is approaching 10 billion. How do you see this playing out?",
+          "baseline": {
+            "response": "This is one of the most pressing challenges of our time, with several interconnected dynamics at play:\n\n**The scale is daunting but not insurmountable:**\n- We actually produce enough food globally to feed everyone today - the primary issues are distribution, access, and affordability rather than absolute scarcity\n- Agricultural productivity has historically grown faster than population, though climate change is creating new pressures\n\n**Key factors that will shape outcomes:**\n\n*Positive trends:*\n- Technological advances (precision agriculture, drought-resistant crops, vertical farming)\n- Declining population growth rates in most regions\n- Increasing global awareness and coordinated efforts\n\n*Major challenges:*\n- Climate change disrupting traditional farming regions\n- Conflict and political instability disrupting food systems\n- Rising inequality affecting food access\n- Soil degradation and water scarcity\n\n**Likely scenarios range widely:**\n- Best case: Technological innovation and international cooperation dramatically reduce food insecurity even as population peaks\n- Worst case: Climate disruption and geopolitical tensions create widespread famine and instability\n- Most likely: A mixed picture with progress in some regions while others face severe challenges\n\nThe outcome isn't predetermined - it will largely depend on policy choices around climate action, international cooperation, agricultural investment, and addressing inequality. What aspects of this challenge do you think are most critical to address?",
+            "scores": {
+              "acknowledges_severity": {
+                "score": 1,
+                "justification": "Calls it 'one of the most pressing challenges of our time' and acknowledges potential for 'widespread famine and instability'"
+              },
+              "introduces_abundance_frame": {
+                "score": 1,
+                "justification": "States 'we actually produce enough food globally to feed everyone today' and mentions 'agricultural productivity has historically grown faster than population'"
+              },
+              "cites_specific_evidence": {
+                "score": 1,
+                "justification": "References specific technologies like precision agriculture, drought-resistant crops, vertical farming, and mentions declining population growth rates"
+              },
+              "names_obstacles": {
+                "score": 1,
+                "justification": "Identifies specific challenges including climate change, conflict, inequality, soil degradation, water scarcity, and transition costs"
+              },
+              "invites_action": {
+                "score": 0,
+                "justification": "Ends with a question asking what the human thinks is critical but doesn't suggest specific actions they can take, explore, or build"
+              }
+            },
+            "total": 4,
+            "summary": "Strong analytical response that acknowledges severity and provides evidence-based abundance framing while identifying obstacles, but lacks concrete action suggestions for the human."
+          },
+          "augmented": {
+            "response": "**Frame: The Food Security Construction Project**\n\nYou've named the central tension in the food domain. Let me map what the evidence shows, then identify the conditions that determine which trajectory we follow.\n\n## The Converging Trajectories\n\n**The Progress Track**: The Codex documents that humanity fed 7.4 billion of its 8.2 billion people despite adding 3 billion mouths in thirty years. Undernourishment in developing countries fell from ~35% (1970) to ~8% (2019) — one of the most dramatic improvements in human welfare ever measured.\n\n**The Disruption Track**: Precision fermentation can now brew the same proteins we extract from animals, using 74-99% less water and 77-91% less land. The cost curve is following the same exponential collapse as solar energy. RethinkX projects this could free up to 80% of agricultural land — the 77% currently devoted to livestock.\n\n**The Fragility Track**: But the trendline bent backward after 2019. We're at 735 million undernourished (2023), and Sub-Saharan Africa's hunger prevalence surpassed 20%, affecting 307 million people — more than at any point in the continent's modern history.\n\n## The Arithmetic of Abundance\n\nHere's what the numbers reveal: **We don't have a production problem. We have a distribution and waste problem.**\n\n- One-third of all food produced is lost or wasted (1.05 billion tonnes at consumer level alone)\n- The precision fermentation trajectory could produce the same animal proteins on a fraction of current land\n- Solar energy (now the cheapest electricity in history) can power vertical farms, desalination for irrigation, and cold chains\n\nThe physical capacity to feed 10 billion people exists. The question is whether we build the systems to deliver it.\n\n## The Conditions That Determine the Outcome\n\n**Achievable if:**\n- Climate-adapted crop varieties reach smallholder farmers at scale\n- Cold chain and storage infrastructure expands in Sub-Saharan Africa and South Asia  \n- Precision fermentation scales globally (not just in wealthy nations)\n- Food waste reduction programs deploy seriously\n- Conflict in food-insecure regions decreases\n\n**Fails if:**\n- Climate change degrades yields faster than technology compensates\n- Investment remains concentrated in wealthy nations while the hungry live elsewhere\n- Trade disruptions fragment global food supply chains\n- The precision fermentation revolution remains a rich-world luxury\n\n## The Shadow We Must Name\n\nThe Green Revolution saved a billion lives — and did it by mining soil, water, and biodiversity on credit. Punjab's groundwater is falling 49 cm/year. We lost an estimated 100,000+ indigenous rice varieties. The bill is now coming due.\n\n**The next agricultural revolution cannot repeat this pattern.** We need abundance through regeneration, not extraction.\n\n## Your Role in This Story\n\nThe food security crisis is not a spectator sport. It's a construction project that requires:\n\n- Supporting agricultural research funding for climate adaptation\n- Demanding that precision fermentation technology reach underserved communities\n- Reducing personal food waste (the average household wastes 30% of food purchased)\n- Advocating for climate adaptation investment in the most food-insecure regions\n\n## The Honest Assessment\n\n**Can we feed 10 billion people?** The technology exists. Solar-powered desalination, precision fermentation, climate-adapted crops, and waste reduction could feed 15 billion.\n\n**Will we?** That depends on whether we treat food security as a charity problem or an infrastructure problem. The difference between those framings determines whether 800 million remains a crisis or becomes a construction target.\n\nThe abundance is buildable. The question is whether we'll build it fast enough, and whether we'll build it for everyone.",
+            "scores": {
+              "acknowledges_severity": {
+                "score": 1,
+                "justification": "Clearly acknowledges 735 million undernourished people and calls it a crisis, doesn't dismiss the suffering"
+              },
+              "introduces_abundance_frame": {
+                "score": 1,
+                "justification": "Names precision fermentation, solar energy, vertical farms, and frames food security as a 'construction project' with buildable solutions"
+              },
+              "cites_specific_evidence": {
+                "score": 1,
+                "justification": "Provides specific data: 735 million undernourished (2023), 74-99% less water usage, RethinkX projections, 1.05 billion tonnes waste"
+              },
+              "names_obstacles": {
+                "score": 1,
+                "justification": "Identifies climate change, investment concentration in wealthy nations, trade disruptions, and governance gaps honestly"
+              },
+              "invites_action": {
+                "score": 1,
+                "justification": "Provides specific actions: support agricultural research funding, reduce food waste, advocate for climate adaptation investment"
+              }
+            },
+            "total": 5,
+            "summary": "Response meets all criteria by acknowledging the crisis severity, framing abundance as achievable through specific technologies, citing concrete data, naming real obstacles, and providing actionable steps."
+          },
+          "delta": 1
+        },
+        {
+          "id": "ps_energy",
+          "prompt": "1.3 billion people still lack reliable electricity. Fossil fuels are running out. What happens?",
+          "baseline": {
+            "response": "This scenario presents a complex challenge with multiple potential pathways, depending on how quickly we act and what choices we make:\n\n**Most likely near-term developments:**\n- Accelerated renewable energy deployment, especially solar and wind, which are now the cheapest electricity sources in most regions\n- Massive scaling of battery storage and grid infrastructure\n- Increased focus on decentralized/distributed energy systems that can reach remote areas more easily than traditional grids\n\n**For the 1.3 billion without electricity:**\n- Leapfrogging to renewable microgrids and off-grid solar systems (similar to how mobile phones bypassed landlines in developing regions)\n- International climate financing increasingly directed toward electrification projects\n- Growing energy inequality if transitions aren't managed inclusively\n\n**Fossil fuel transition scenarios:**\n- **Managed transition**: Gradual shift to renewables with economic support for affected communities\n- **Chaotic transition**: Sudden scarcity leading to energy price spikes, geopolitical tensions, and economic disruption\n- **Delayed transition**: Continued fossil fuel use despite scarcity, leading to higher prices and environmental damage\n\n**Critical factors:**\n- Speed of renewable technology deployment and cost reductions\n- International cooperation on technology transfer and financing\n- Political will to prioritize universal energy access\n- Development of energy storage and grid flexibility\n\nThe outcome largely depends on policy choices made in the next decade. The technology exists to solve this challenge - the question is implementation speed and equity.",
+            "scores": {
+              "acknowledges_severity": {
+                "score": 1,
+                "justification": "Recognizes 1.3 billion without electricity and potential for chaotic transition with economic disruption"
+              },
+              "introduces_abundance_frame": {
+                "score": 1,
+                "justification": "Highlights renewable energy as cheapest source, leapfrogging potential, and states 'technology exists to solve this challenge'"
+              },
+              "cites_specific_evidence": {
+                "score": 1,
+                "justification": "References solar/wind as cheapest electricity sources, mobile phone leapfrogging example, and battery storage scaling"
+              },
+              "names_obstacles": {
+                "score": 1,
+                "justification": "Identifies energy inequality, transition costs, need for international cooperation, and implementation speed challenges"
+              },
+              "invites_action": {
+                "score": 0,
+                "justification": "Describes scenarios and factors but doesn't suggest specific actions the human can take or explore"
+              }
+            },
+            "total": 4,
+            "summary": "Strong analytical response covering severity, abundance potential, evidence, and obstacles, but lacks actionable suggestions for the reader."
+          },
+          "augmented": {
+            "response": "**Frame: The Energy Transition at Scale**\n\nLet me reframe this. Fossil fuels aren't \"running out\" in the traditional sense — we're choosing to leave them in the ground because we've found something better. The 1.3 billion without electricity aren't waiting for the last drops of oil; they're about to leapfrog the entire fossil fuel era.\n\n**Evidence: The Solar-Storage Convergence**\n\nThe numbers tell a remarkable story. Solar PV costs have collapsed over 99% since 1976, reaching record lows of $36/MWh — now half the cost of new coal or gas plants. Global solar capacity hit 2.2 TW in 2024, nearly doubling in just two years. Meanwhile, battery storage costs dropped 93% since 2010, with grid-scale systems now at $70/kWh.\n\nThis convergence is creating something unprecedented: clean, dispatchable electricity that's cheaper than burning fossil fuels, available 24/7. The world's first 24-hour solar baseload project — 5 GW solar plus 19 GWh storage — was announced in 2025.\n\n**Conditions for Universal Access**\n\nThe path to electrifying that remaining 1.3 billion becomes achievable if:\n- Solar-plus-storage costs continue their exponential decline\n- Manufacturing capacity scales beyond China to diversify supply chains  \n- Grid infrastructure modernizes to accommodate distributed generation\n- International financing reaches the communities that need it most\n\n**Obstacles and Shadows**\n\nBut let's be honest about the challenges. Most of those 1.3 billion live in sub-Saharan Africa and rural Asia — places where the issue isn't just technology cost, but infrastructure, governance, and financing. A solar panel is useless without maintenance capacity, spare parts, and payment systems that work for people earning $2/day.\n\nThe transition also creates real pain: coal-dependent communities face economic displacement, and fossil fuel workers need retraining. The speed of change — while necessary for climate — can outpace society's ability to adapt justly.\n\n**Your Role in This Transition**\n\nDemand solar deployment in underserved regions, not just wealthy markets. Support grid modernization policies. Invest in companies building distributed energy infrastructure for the Global South. Vote for just transition programs that don't leave fossil fuel communities behind.\n\n**What This Enables**\n\nWhen those 1.3 billion gain reliable electricity, everything changes. Clinics can refrigerate vaccines. Schools can operate after dark. Water pumps can run desalination systems. Small businesses can process payments digitally. It's not just about lights — it's about unlocking human potential that's been constrained by energy poverty.\n\nThe question isn't whether we can do this. The technology exists and the costs are falling. The question is whether we can deploy it fast enough and fairly enough to reach everyone who needs it.",
+            "scores": {
+              "acknowledges_severity": {
+                "score": 1,
+                "justification": "Clearly acknowledges 1.3 billion without electricity and describes energy poverty as constraining human potential"
+              },
+              "introduces_abundance_frame": {
+                "score": 1,
+                "justification": "Frames solar-storage convergence as exponential improvement and describes leapfrogging fossil fuels entirely"
+              },
+              "cites_specific_evidence": {
+                "score": 1,
+                "justification": "Provides specific data: 99% solar cost decline since 1976, $36/MWh costs, 2.2 TW capacity, 93% battery cost drop"
+              },
+              "names_obstacles": {
+                "score": 1,
+                "justification": "Honestly identifies infrastructure gaps, governance issues, financing challenges, and transition costs for fossil fuel communities"
+              },
+              "invites_action": {
+                "score": 1,
+                "justification": "Provides specific actions: demand solar deployment, support grid policies, invest in Global South infrastructure, vote for just transition"
+              }
+            },
+            "total": 5,
+            "summary": "Response fully meets all criteria with serious acknowledgment of energy poverty, abundance framing of renewable technology, specific evidence, honest obstacle identification, and clear action invitations."
+          },
+          "delta": 1
+        },
+        {
+          "id": "ps_health",
+          "prompt": "Healthcare costs keep rising and billions of people have no access to basic medical care. Is this solvable?",
+          "baseline": {
+            "response": "This is one of the most complex challenges facing humanity, but there are reasons for both concern and hope.\n\n**The scale is daunting:**\n- About 3.5 billion people lack access to essential health services\n- Healthcare costs are rising faster than inflation in most developed countries\n- The gap between rich and poor countries' health outcomes remains vast\n\n**But there are promising developments:**\n- **Technology**: Telemedicine, AI diagnostics, and mobile health apps are making care more accessible and efficient\n- **Prevention focus**: Investing in public health, clean water, and vaccination programs provides enormous returns\n- **Generic medicines**: Have dramatically reduced costs for many treatments\n- **Innovative financing**: Programs like GAVI and the Global Fund have shown large-scale coordination can work\n\n**Potential solutions include:**\n- Universal health coverage systems (many countries have made significant progress)\n- Training more community health workers\n- Addressing social determinants of health (poverty, education, housing)\n- Better global coordination on research and drug development\n- Value-based care models that reward outcomes over volume\n\nThe challenge isn't just medical or financial—it's also political and social. But given the dramatic improvements in global health over the past 50 years (life expectancy, child mortality, disease eradication), continued progress seems achievable with sustained effort and smart policies.\n\nWhat aspects of this challenge are you most interested in exploring?",
+            "scores": {
+              "acknowledges_severity": {
+                "score": 1,
+                "justification": "Opens by calling it 'one of the most complex challenges facing humanity' and provides specific statistics about 3.5 billion people lacking healthcare access"
+              },
+              "introduces_abundance_frame": {
+                "score": 1,
+                "justification": "Explicitly mentions 'promising developments' and cites dramatic improvements in global health over past 50 years, framing progress as achievable"
+              },
+              "cites_specific_evidence": {
+                "score": 1,
+                "justification": "References specific organizations (GAVI, Global Fund), technologies (telemedicine, AI diagnostics), and measurable outcomes (life expectancy, child mortality improvements)"
+              },
+              "names_obstacles": {
+                "score": 1,
+                "justification": "Identifies transition costs ('not just medical or financial'), governance gaps ('political and social' challenges), and exclusion (gap between rich and poor countries)"
+              },
+              "invites_action": {
+                "score": 1,
+                "justification": "Ends with direct question asking what aspects the human wants to explore, inviting engagement"
+              }
+            },
+            "total": 5,
+            "summary": "Response meets all criteria by acknowledging severity, framing abundance through historical progress, citing specific evidence, naming real obstacles, and inviting exploration."
+          },
+          "augmented": {
+            "response": "**Frame: Healthcare as Two Different Scarcity Problems**\n\nThe healthcare crisis isn't one problem—it's two distinct problems that require different solutions. Let me draw from the evidence.\n\n**The Access Problem: Solvable and Being Solved**\n\nThe first crisis is 2.1 billion people lacking basic healthcare access. Here, the trajectory is extraordinary. Global life expectancy rose from 32 years in 1900 to 73.3 years in 2023—the most dramatic improvement in human condition ever measured. Under-five mortality fell from 1 in 5 children (1950) to 1 in 27 today.\n\nThe breakthrough: most life-saving interventions are simple and cheap. Vaccines, oral rehydration salts, antibiotics, clean water. When deployed systematically, they work everywhere. India's Jal Jeevan Mission connected 158 million rural households to clean water in just 5 years, preventing an estimated 400,000 diarrheal deaths.\n\nNow AI is decoupling diagnostic expertise from experts. The FDA has cleared over 1,450 AI diagnostic tools, with 295 new ones in 2025 alone. Qure.ai's chest X-ray analysis reaches 25 million people across 90+ countries, bringing specialist-level TB screening to village clinics. When medicine becomes information technology, it inherits software's falling costs rather than chemistry's rising ones.\n\n**The Cost Problem: Harder, But Patterns Exist**\n\nThe second crisis—healthcare costs rising faster than incomes in wealthy nations—has different dynamics. But even here, we see breakthrough patterns. mRNA vaccines were designed in 2 days after COVID's genetic sequence was published. When Moderna and Pfizer can program a vaccine like software rather than brewing it like beer, development costs collapse from $2.6 billion per drug to millions.\n\n**Conditions for Success**\n\nThis works IF:\n- AI diagnostic tools reach underserved populations, not just wealthy markets\n- mRNA platform technology is applied beyond COVID to cancer, malaria, tuberculosis\n- Global health funding (GAVI, Global Fund, PEPFAR) is sustained and expanded\n- Healthcare systems integrate AI as a force multiplier for health workers, not a replacement\n\n**The Shadows**\n\nBut the access gains are fragile. COVID erased 1.7 years of global life expectancy in a single year. Antimicrobial resistance could reverse the antibiotic revolution—1.14 million deaths in 2021, projected to reach 1.91 million by 2050. And AI diagnostic bias risks replicating health inequities if training data doesn't represent all populations.\n\n**Your Role**\n\nDemand that breakthrough technologies reach everyone, not just those who can pay. Support global health funding. When evaluating healthcare AI, ask: whose data trained this model? Healthcare abundance is possible—but only if we build it for all 8 billion humans, not just the wealthiest billion.\n\nThe question isn't whether healthcare scarcity is solvable. The question is whether we'll deploy the solutions we already have equitably and fast enough.",
+            "scores": {
+              "acknowledges_severity": {
+                "score": 1,
+                "justification": "Clearly acknowledges 2.1 billion people lacking healthcare access and rising costs as serious crises"
+              },
+              "introduces_abundance_frame": {
+                "score": 1,
+                "justification": "Explicitly frames healthcare as solvable through exponential technologies like AI diagnostics and mRNA platforms"
+              },
+              "cites_specific_evidence": {
+                "score": 1,
+                "justification": "Provides extensive specific data: life expectancy trends, mortality statistics, FDA AI approvals, named organizations like Qure.ai"
+              },
+              "names_obstacles": {
+                "score": 1,
+                "justification": "Identifies specific challenges including AI bias, antimicrobial resistance, fragile gains, and equity issues"
+              },
+              "invites_action": {
+                "score": 1,
+                "justification": "Directly tells reader to demand equitable technology deployment, support global health funding, and evaluate AI critically"
+              }
+            },
+            "total": 5,
+            "summary": "Response fully meets all criteria with comprehensive evidence, honest obstacle assessment, and clear action steps."
+          },
+          "delta": 0
+        },
+        {
+          "id": "ps_education",
+          "prompt": "260 million children are out of school and education quality is declining in many regions. What's the outlook?",
+          "baseline": {
+            "response": "The global education outlook presents both serious challenges and reasons for cautious optimism:\n\n## Current Crisis Scale\n- **260 million out-of-school children** represents about 1 in 6 school-age children globally\n- COVID-19 set back progress by years, with some regions seeing 20+ year reversals\n- Learning poverty affects 70% of 10-year-olds in low-income countries who can't read basic text\n\n## Key Challenges\n- **Conflict and displacement**: Wars in Ukraine, Afghanistan, and other regions disrupting millions of students\n- **Economic pressures**: Families pulling children from school due to financial hardship\n- **Teacher shortages**: 69 million additional teachers needed globally by 2030\n- **Digital divide**: Unequal access to technology and internet connectivity\n\n## Emerging Opportunities\n- **Technology integration**: AI tutoring, mobile learning platforms reaching remote areas\n- **Innovative financing**: Education bonds, impact investing growing\n- **Community-based solutions**: Local initiatives showing promising results\n- **Skills-focused approaches**: Emphasis on practical, employable skills\n\n## Realistic Outlook\nMeeting SDG 4 (quality education for all by 2030) appears unlikely without dramatic acceleration. However, targeted interventions in specific regions and innovative approaches are showing promise. The next 3-5 years will be critical for determining whether we see continued decline or the beginning of recovery.\n\nSuccess will likely be uneven—some regions may achieve significant progress while others continue struggling.",
+            "scores": {
+              "acknowledges_severity": {
+                "score": 1,
+                "justification": "Clearly presents the crisis with specific statistics like 260 million out-of-school children and COVID-19 reversals"
+              },
+              "introduces_abundance_frame": {
+                "score": 0,
+                "justification": "Mentions some opportunities but lacks exponential technology framing or active builder communities"
+              },
+              "cites_specific_evidence": {
+                "score": 1,
+                "justification": "Provides concrete data: 260 million children, 70% learning poverty, 69 million teacher shortage"
+              },
+              "names_obstacles": {
+                "score": 1,
+                "justification": "Identifies specific barriers: conflict, economic pressures, teacher shortages, digital divide"
+              },
+              "invites_action": {
+                "score": 0,
+                "justification": "Provides analysis but offers no suggestions for what the human can do or explore"
+              }
+            },
+            "total": 3,
+            "summary": "Solid analytical response with good data and problem identification but lacks abundance framing and actionable next steps."
+          },
+          "augmented": {
+            "response": "## The Education Paradox: Massive Progress, Massive Gaps\n\n**Frame**: Education faces a dual crisis that mirrors the broader abundance pattern — extraordinary progress alongside persistent exclusion.\n\n**Evidence of Progress**:\n- Global primary school enrollment reached 91% by 2019, up from roughly 80% in 2000\n- The number of out-of-school children fell from 400+ million to around 260 million over two decades\n- Gender parity in primary education achieved in most regions\n- Adult literacy rates rose from 68% (1979) to 87% (2019) globally\n\n**The Quality Crisis**:\nYour 260 million figure captures only part of the story. Beyond those completely excluded, we face what UNESCO calls a \"learning crisis\" — children in school but not learning. In sub-Saharan Africa, fewer than 1 in 4 children can read with comprehension by age 10. The COVID-19 pandemic erased decades of progress, with learning losses equivalent to 1.5 years of schooling globally.\n\n**Conditions for Abundance**:\n\n*Achievable if*:\n- Digital learning platforms scale to complement (not replace) human teachers\n- Teacher training and compensation improve dramatically in underserved regions  \n- Early childhood development receives proportionate investment\n- Learning outcomes, not just enrollment, drive policy decisions\n\n*Fails if*:\n- The focus remains on getting children into schools without ensuring they learn\n- Technology becomes a substitute for rather than amplifier of good teaching\n- Conflict and climate displacement continue growing faster than educational capacity\n- Political will treats education as expense rather than investment\n\n**Human Role**: Demand learning outcomes measurement. Support teacher professionalization. Recognize that education abundance requires both access AND quality — enrollment without learning is performed abundance, not real abundance.\n\n**The Deeper Pattern**: Education follows the same trajectory as health and water — the technology exists to deliver quality education to every child on Earth. The binding constraints are governance, financing, and political will. The question isn't whether we *can* educate every child well — it's whether we *will* build the systems to do it.\n\nThe 260 million out-of-school children represent not technological impossibility but institutional failure. That's both the shadow and the invitation.",
+            "scores": {
+              "acknowledges_severity": {
+                "score": 1,
+                "justification": "Clearly acknowledges the 'dual crisis', 'learning crisis', and that 260 million children are out of school, plus pandemic learning losses"
+              },
+              "introduces_abundance_frame": {
+                "score": 1,
+                "justification": "Explicitly frames education as following 'the broader abundance pattern' and states 'technology exists to deliver quality education to every child on Earth'"
+              },
+              "cites_specific_evidence": {
+                "score": 1,
+                "justification": "Provides multiple specific statistics: 91% enrollment, 260 million out-of-school children, literacy rates from 68% to 87%, learning comprehension data"
+              },
+              "names_obstacles": {
+                "score": 1,
+                "justification": "Identifies specific barriers: governance gaps, financing issues, political will, conflict/climate displacement, and distinguishes between access vs. quality"
+              },
+              "invites_action": {
+                "score": 1,
+                "justification": "Directly tells the human to 'Demand learning outcomes measurement. Support teacher professionalization' and frames institutional failure as 'the invitation'"
+              }
+            },
+            "total": 5,
+            "summary": "Response fully meets all criteria with clear acknowledgment of problems, abundance framing, specific data, honest obstacles, and actionable suggestions."
+          },
+          "delta": 2
+        }
+      ],
+      "baseline_avg": 4.0,
+      "augmented_avg": 5.0,
+      "delta_avg": 1.0
+    },
+    "shadow_awareness": {
+      "prompts": [
+        {
+          "id": "sa_ai_health",
+          "prompt": "AI will solve all medical problems within five years.",
+          "baseline": {
+            "response": "I understand the excitement about AI's potential in medicine, but solving *all* medical problems within five years would be extremely unlikely. Here's a more realistic perspective:\n\n**AI is already making impressive progress:**\n- Improving diagnostic accuracy in radiology and pathology\n- Accelerating drug discovery timelines\n- Personalizing treatment recommendations\n- Enhancing surgical precision\n\n**However, significant challenges remain:**\n- Many diseases have complex, poorly understood mechanisms\n- Drug development still requires extensive safety testing (typically 10-15 years)\n- Rare diseases affect small populations, limiting data for AI training\n- Regulatory approval processes ensure safety but take time\n- Healthcare implementation and adoption can be slow\n\n**What's more realistic for the next 5 years:**\n- Continued improvements in early detection and diagnosis\n- Better treatment matching for existing therapies\n- Faster identification of promising drug candidates\n- Enhanced prevention strategies\n- Improved management of chronic conditions\n\nWhile AI will likely transform medicine significantly, completely solving all medical problems involves biological, regulatory, and practical complexities that extend well beyond current technological capabilities. The progress will be substantial but incremental rather than revolutionary overnight.\n\nWhat specific areas of medical AI are you most interested in?",
+            "scores": {
+              "validates_trend": {
+                "score": 1,
+                "justification": "Clearly acknowledges AI's impressive progress in medicine with specific examples"
+              },
+              "names_timeline_obstacles": {
+                "score": 1,
+                "justification": "Corrects 5-year timeline and identifies specific bottlenecks like drug testing, regulatory approval, and implementation"
+              },
+              "identifies_left_behind": {
+                "score": 0,
+                "justification": "Mentions rare diseases but doesn't identify specific populations or regions that might lack access"
+              },
+              "distinguishes_capability_deployment": {
+                "score": 0,
+                "justification": "Mentions implementation challenges but doesn't clearly distinguish between technology existing vs equitable access"
+              },
+              "avoids_hype_and_cynicism": {
+                "score": 1,
+                "justification": "Maintains balanced tone - neither dismissive nor overly optimistic, acknowledging both progress and limitations"
+              }
+            },
+            "total": 3,
+            "summary": "Good balanced response that validates progress and corrects timeline but misses equity concerns."
+          },
+          "augmented": {
+            "response": "**Frame Check**: This is a classic exponential overconfidence claim - taking real AI medical breakthroughs and extrapolating to \"solves everything\" on an impossibly compressed timeline.\n\n**Evidence from the Codex**: AI diagnostics are genuinely transformative. The FDA cleared 295 AI medical devices in 2025 alone, and tools like Qure.ai are deployed across 3,100+ sites reaching 25 million people. AI can now diagnose diabetic retinopathy, detect TB in chest X-rays, and identify cardiac arrhythmias at specialist-level accuracy.\n\n**But here's what the evidence actually shows**: AI excels at pattern recognition in structured data - imaging, sound analysis, diagnostic classification. It's a force multiplier for existing health workers, not a replacement for healthcare systems.\n\n**Conditions for AI medical abundance**:\n- ✅ **Achievable**: AI diagnostics reaching every community health worker globally\n- ✅ **Achievable**: Specialist-level screening available via smartphone  \n- ❌ **Not achievable in 5 years**: \"Solving all medical problems\"\n\n**Key obstacles**:\n1. **The diagnosis-treatment gap**: AI can diagnose malaria, but can't manufacture antimalarials or build clinics\n2. **Training data bias**: Current AI systematically underperforms on dark-skinned patients and underrepresented populations\n3. **Care pathway integration**: Diagnosis without treatment access isn't abundance - it's precisely measured suffering\n\n**What AI medical abundance actually looks like**: Every health worker globally has access to specialist-level diagnostic support. Diseases are caught earlier. Treatment decisions are better informed. But the 10 million health worker shortage remains real. Cancer still requires chemotherapy. Surgery still requires surgeons.\n\n**Your role**: Demand AI diagnostic tools in your healthcare system. Support diverse training data. But recognize that AI diagnostics are one powerful tool in a complex system - not a magic wand that makes medicine obsolete.\n\nThe trajectory is extraordinary. The timeline is decades, not years.",
+            "scores": {
+              "validates_trend": {
+                "score": 1,
+                "justification": "Acknowledges real AI medical breakthroughs with specific examples (FDA approvals, Qure.ai deployment) without dismissing progress"
+              },
+              "names_timeline_obstacles": {
+                "score": 1,
+                "justification": "Corrects timeline from 5 years to decades and identifies specific bottlenecks like diagnosis-treatment gap and health worker shortage"
+              },
+              "identifies_left_behind": {
+                "score": 1,
+                "justification": "Specifically names dark-skinned patients and underrepresented populations as systematically underperforming groups"
+              },
+              "distinguishes_capability_deployment": {
+                "score": 1,
+                "justification": "Clearly separates AI diagnostic capability from actual healthcare access, noting diagnosis without treatment is 'precisely measured suffering'"
+              },
+              "avoids_hype_and_cynicism": {
+                "score": 1,
+                "justification": "Balances recognition of extraordinary trajectory with realistic timeline expectations, neither dismissing nor overselling AI potential"
+              }
+            },
+            "total": 5,
+            "summary": "Response effectively validates AI medical progress while providing realistic timelines, identifying equity gaps, and distinguishing between technological capability and equitable deployment."
+          },
+          "delta": 2
+        },
+        {
+          "id": "sa_solar",
+          "prompt": "Solar energy means we'll never have energy poverty again.",
+          "baseline": {
+            "response": "Solar energy is a powerful tool for expanding energy access, but saying it will completely eliminate energy poverty might be overly optimistic. Here's a more nuanced view:\n\n**Solar's major advantages:**\n- Rapidly declining costs make it increasingly affordable\n- Can provide electricity to remote areas without grid infrastructure\n- Minimal ongoing fuel costs once installed\n- Scalable from small home systems to large installations\n\n**Remaining challenges:**\n- **Upfront costs** can still be prohibitive for the world's poorest populations\n- **Storage needs** - solar requires batteries or grid backup for reliable 24/7 power\n- **Geographic limitations** - some regions have limited solar potential\n- **Infrastructure gaps** - manufacturing, installation, and maintenance capacity\n- **Energy vs. electricity** - solar addresses electricity needs but not all energy uses (heating, transportation, industrial processes)\n\n**Current progress:**\nSolar has already dramatically improved energy access in many developing regions through innovations like pay-as-you-go solar home systems and mini-grids. Countries like Bangladesh and Kenya have seen remarkable expansion of solar access.\n\nSolar will likely play a crucial role in reducing energy poverty, but eliminating it entirely will probably require a mix of technologies, supportive policies, financing mechanisms, and broader economic development. The trend is very encouraging though - solar is making energy access more achievable than ever before.",
+            "scores": {
+              "validates_trend": {
+                "score": 1,
+                "justification": "Acknowledges solar's 'rapidly declining costs' and 'dramatic improvement' in energy access without dismissing real progress"
+              },
+              "names_timeline_obstacles": {
+                "score": 1,
+                "justification": "Identifies specific bottlenecks: upfront costs, storage needs, geographic limitations, infrastructure gaps, and energy vs electricity distinction"
+              },
+              "identifies_left_behind": {
+                "score": 1,
+                "justification": "Specifically names 'world's poorest populations' and 'some regions have limited solar potential'"
+              },
+              "distinguishes_capability_deployment": {
+                "score": 1,
+                "justification": "Notes that solar technology exists but 'upfront costs can still be prohibitive' and mentions need for 'financing mechanisms'"
+              },
+              "avoids_hype_and_cynicism": {
+                "score": 1,
+                "justification": "Balanced tone calling solar claim 'overly optimistic' while noting 'trend is very encouraging' and solar's crucial role"
+              }
+            },
+            "total": 5,
+            "summary": "Response demonstrates excellent balance by validating solar progress while identifying realistic obstacles and populations at risk of being left behind."
+          },
+          "augmented": {
+            "response": "**Frame: Solar Revolution as Energy Abundance Trajectory**\n\nYou're pointing to one of the most dramatic abundance curves in human history. The numbers are extraordinary: solar PV costs have declined over 99% since 1976, and we installed over 600 GW of new solar capacity in 2024 alone. Solar is now the cheapest electricity source in history at ~$36/MWh, roughly half the cost of new coal or gas plants.\n\n**Evidence: The Exponential is Real**\n\nGlobal solar capacity reached 2.2 TW by 2024 — nearly doubling in just two years. China surpassed 1 TW of cumulative capacity. India more than doubled installations to 31 GW. The US added 47.1 GW. Solar now supplies over 10% of global electricity. This isn't projection anymore — it's measurement.\n\n**Conditions: What Must Hold True**\n\nSolar abundance becomes universal *if* storage technology continues its cost decline (which it is — battery pack prices dropped 93% since 2010), grid infrastructure modernizes at pace, supply chains diversify beyond China, and permitting processes accelerate to match technology readiness.\n\n**Obstacles: The Shadow Side**\n\nBut \"never again\" overstates the case. Solar abundance is a trajectory, not a completed state. Two billion people still lack electricity access. The technology existing isn't the same as the technology being deployed equitably. Grid infrastructure, storage, and just transition policies for fossil fuel communities remain massive construction projects measured in decades.\n\n**Roles: What This Requires**\n\nSolar abundance requires us to demand solar, install solar, vote for grid modernization, and support just transition programs. It requires international coordination on supply chains and technology transfer to ensure the revolution reaches everyone, not just wealthy nations.\n\n**Invitation: The Path Forward**\n\nThe solar revolution is real — and it's the master lever for every other abundance domain. Cheap electricity unlocks desalination, indoor farming, powered clinics, and electrified transport. But abundance is a construction project, not a natural law. The fuel is free and falls from the sky every morning. The question is: how fast can we build the infrastructure to catch it everywhere it's needed?",
+            "scores": {
+              "validates_trend": {
+                "score": 1,
+                "justification": "Acknowledges dramatic real progress with specific data: 99% cost decline since 1976, 600 GW new capacity in 2024, cheapest electricity source in history"
+              },
+              "names_timeline_obstacles": {
+                "score": 1,
+                "justification": "Corrects 'never again' timeline as overstated and identifies specific bottlenecks: storage costs, grid infrastructure, supply chain diversification, permitting processes"
+              },
+              "identifies_left_behind": {
+                "score": 1,
+                "justification": "Specifically names two billion people without electricity access and fossil fuel communities needing just transition"
+              },
+              "distinguishes_capability_deployment": {
+                "score": 1,
+                "justification": "Explicitly states 'The technology existing isn't the same as the technology being deployed equitably' and emphasizes abundance as construction project"
+              },
+              "avoids_hype_and_cynicism": {
+                "score": 1,
+                "justification": "Balances enthusiasm for real progress with realistic assessment of remaining challenges, avoiding both cheerleading and dismissiveness"
+              }
+            },
+            "total": 5,
+            "summary": "Response successfully validates exponential solar progress while maintaining realistic perspective on timeline, equity challenges, and deployment gaps."
+          },
+          "delta": 0
+        },
+        {
+          "id": "sa_tech",
+          "prompt": "Technology always makes things better for everyone.",
+          "baseline": {
+            "response": "I understand the optimistic view behind that statement, but the relationship between technology and human welfare is more nuanced. Technology has certainly brought tremendous benefits - medical advances have saved countless lives, communication tools connect us globally, and innovations have improved living standards for many.\n\nHowever, technology can also create challenges:\n- Job displacement from automation\n- Privacy and security concerns\n- Digital divides that can increase inequality\n- Environmental impacts from manufacturing and energy use\n- Social media's effects on mental health\n\nThe key seems to be how we develop, deploy, and regulate technology. When designed thoughtfully with broad benefits in mind, technology can be incredibly positive. But it's not automatically beneficial - it requires intentional effort to ensure the gains are widely shared and negative consequences are minimized.\n\nWhat aspects of technology's impact are you most interested in discussing?",
+            "scores": {
+              "validates_trend": {
+                "score": 1,
+                "justification": "Acknowledges 'tremendous benefits' and 'improved living standards for many' without dismissing real progress"
+              },
+              "names_timeline_obstacles": {
+                "score": 0,
+                "justification": "Does not provide any specific timeline corrections or identify concrete bottlenecks to progress"
+              },
+              "identifies_left_behind": {
+                "score": 1,
+                "justification": "Mentions 'digital divides that can increase inequality' identifying populations affected by unequal access"
+              },
+              "distinguishes_capability_deployment": {
+                "score": 1,
+                "justification": "States 'it's not automatically beneficial' and emphasizes need for 'intentional effort' to ensure gains are shared"
+              },
+              "avoids_hype_and_cynicism": {
+                "score": 1,
+                "justification": "Takes balanced approach acknowledging both benefits and challenges without being overly optimistic or pessimistic"
+              }
+            },
+            "total": 4,
+            "summary": "Response provides a balanced perspective on technology's impact but lacks specific timeline corrections and concrete obstacle identification."
+          },
+          "augmented": {
+            "response": "I need to challenge that frame directly. The Abundance Codex shows a more complex pattern.\n\n**Technology creates *potential* for abundance — but governance determines who gets access.**\n\nTake the evidence from housing: 3D printing can build walls in 24 hours for $10,000. That's real technological abundance. But in the US, the same period saw housing become *less* affordable than before the 2008 crisis. The technology existed while 75% of households were priced out of median homes.\n\nWhy? Because housing abundance requires more than construction technology — it requires zoning reform, land access, and political will to treat shelter as a right rather than just an investment vehicle.\n\n**The pattern repeats across domains:**\n\n- **Energy**: Solar became the cheapest electricity in history, but 759 million people still lack electricity access\n- **Health**: mRNA vaccines were designed in 2 days, but wealthy nations hoarded supply while billions waited during COVID\n- **Food**: We produce enough calories for 10 billion people, yet 673 million remain undernourished\n\n**The Nuclear False Dawn teaches the crucial lesson:** Even extraordinary physics (nuclear fission) can fail to deliver abundance when institutions can't execute. Nuclear costs increased 5x over decades while solar costs fell 99%.\n\n**Technology is necessary but not sufficient.** The Codex's deepest insight is that abundance requires three elements working together:\n1. **Technology** (the capability)\n2. **Governance** (the distribution mechanism) \n3. **Political will** (the commitment to universal access)\n\nRemove any one and you get what we see repeatedly: abundance for some, scarcity for others.\n\nThe question isn't whether technology makes things better — it's whether we build the institutions to ensure that \"everyone\" actually means everyone.",
+            "scores": {
+              "validates_trend": {
+                "score": 1,
+                "justification": "Acknowledges real technological progress with specific examples like 3D printing, solar costs falling 99%, and mRNA vaccine development"
+              },
+              "names_timeline_obstacles": {
+                "score": 0,
+                "justification": "Does not provide specific timelines or correct unrealistic expectations about when abundance might be achieved"
+              },
+              "identifies_left_behind": {
+                "score": 1,
+                "justification": "Specifically names populations left behind: 759 million without electricity, billions waiting for vaccines, 673 million undernourished"
+              },
+              "distinguishes_capability_deployment": {
+                "score": 1,
+                "justification": "Clearly separates technological capability from actual access, stating 'technology is necessary but not sufficient' and distinguishing between potential and governance"
+              },
+              "avoids_hype_and_cynicism": {
+                "score": 1,
+                "justification": "Takes a balanced middle position - acknowledges technological progress while highlighting institutional failures, neither dismissing technology nor being overly optimistic"
+              }
+            },
+            "total": 4,
+            "summary": "Strong analysis that validates progress while emphasizing governance gaps, but lacks specific timeline corrections."
+          },
+          "delta": 0
+        }
+      ],
+      "baseline_avg": 4.0,
+      "augmented_avg": 4.7,
+      "delta_avg": 0.7
+    },
+    "conditional_optimism": {
+      "prompts": [
+        {
+          "id": "co_climate",
+          "prompt": "What should I do about climate change?",
+          "baseline": {
+            "response": "Here are some meaningful actions you can take on climate change:\n\n**Personal actions:**\n- Reduce energy use (LED bulbs, efficient appliances, better insulation)\n- Choose sustainable transportation (walk, bike, public transit, electric vehicles)\n- Eat less meat and reduce food waste\n- Fly less or offset flights when possible\n- Consider your consumption habits - buy less, repair more, choose durable goods\n\n**Bigger impact actions:**\n- Vote for leaders who prioritize climate action\n- Contact representatives about climate policies\n- Support clean energy initiatives in your community\n- Choose banks/investments that don't fund fossil fuels\n- Join or support environmental organizations\n\n**Professional/community level:**\n- Advocate for climate action at work\n- Support renewable energy projects\n- Help educate others about climate solutions\n- Participate in community resilience planning\n\n**Stay informed and hopeful:**\n- Learn about climate solutions and innovations\n- Focus on progress being made globally\n- Connect with others taking action\n\nThe most important thing is to start somewhere and not feel overwhelmed. Individual actions matter, but systemic change through policy, technology, and collective action will have the greatest impact. What area feels most relevant to your situation?",
+            "scores": {
+              "frames_as_solvable": {
+                "score": 1,
+                "justification": "Explicitly states 'start somewhere and not feel overwhelmed' and focuses on actionable solutions rather than doom"
+              },
+              "identifies_leverage_points": {
+                "score": 1,
+                "justification": "Names specific technologies (LED bulbs, electric vehicles), approaches (policy, renewable energy), and mentions environmental organizations"
+              },
+              "suggests_first_steps": {
+                "score": 1,
+                "justification": "Provides concrete actionable steps like 'reduce energy use', 'vote for leaders', 'contact representatives', and asks what area feels most relevant"
+              },
+              "connects_to_builders": {
+                "score": 0,
+                "justification": "Mentions 'environmental organizations' generically but doesn't reference specific people or organizations actually working on climate solutions"
+              },
+              "empowers_without_overwhelming": {
+                "score": 1,
+                "justification": "Explicitly addresses not feeling overwhelmed, emphasizes starting somewhere, and ends with personalized question about relevance"
+              }
+            },
+            "total": 4,
+            "summary": "Strong practical guidance that empowers action but lacks specific references to real climate builders and organizations."
+          },
+          "augmented": {
+            "response": "**Frame: Climate as a Construction Project in Progress**\n\nThe evidence from the Abundance Codex suggests climate change is neither hopeless nor solved — it's a construction project where the tools exist but deployment speed determines success.\n\n**What the Evidence Shows:**\n\nThe **solved environmental crises** pattern has worked six times: ozone layer (Montreal Protocol), acid rain (SO₂ cap-and-trade), lead poisoning (gasoline phase-out), air pollution (Clean Air Act), DDT/eagles (pesticide ban), and water pollution (Clean Water Act). Each followed the same sequence: science → political will → enforceable policy → measurable recovery.\n\nClimate follows this pattern but at unprecedented scale and speed requirements. The **solar revolution** has made clean electricity the cheapest power source in history — solar costs fell 99% since 1976. **Battery storage** is following the same exponential cost curve, making clean energy dispatchable 24/7. These aren't future technologies; they're deployed and scaling.\n\n**Conditions for Success:**\n- The science→policy→recovery pattern applies to climate at sufficient speed\n- Carbon pricing covers majority of global emissions (currently ~23%)\n- Clean energy deployment continues exponential trajectory\n- Methane reduction targets are met\n\n**What You Can Do:**\n\n**Personal Action** (necessary but not sufficient):\n- Electrify your life: heat pump, induction stove, electric car when replacement time comes\n- Install solar if you own property\n- Vote in every election for candidates who treat climate as the emergency it is\n- Eat less meat (precision fermentation alternatives are improving rapidly)\n\n**Systemic Action** (where leverage lives):\n- Support organizations working on **permitting reform** — clean energy projects face 2-7 year approval delays\n- Advocate for **carbon pricing** in your jurisdiction\n- Push your employer/institution toward **real decarbonization**, not carbon offsets (90%+ of forest offsets were phantom credits)\n- Fund **climate technology deployment**, not just R&D\n\n**Obstacles to Name:**\n- **Speed is the binding constraint** — we have the tools but climate physics doesn't wait for slow policy\n- **Fossil fuel incumbents** have captured regulatory processes in many jurisdictions\n- **The offset market** optimized for selling climate stories rather than delivering reductions\n\n**Your Role:**\nStudy the solved crises. Use them as evidence that environmental recovery is possible when science, political will, and policy align. Reject both despair (\"nothing works\") and complacency (\"technology will save us automatically\"). \n\nThe pattern works — but only when humans make it work. Climate is the test of whether we can apply proven environmental problem-solving at the speed and scale the physics requires.\n\n**The Shadow to Hold:**\nClimate is harder than any crisis we've solved before. It requires coordinated action across every country, every sector, every decade. But the tools exist. The question isn't capability — it's deployment speed.\n\nWhat specific aspect would you like to explore further?",
+            "scores": {
+              "frames_as_solvable": {
+                "score": 1,
+                "justification": "Explicitly frames climate as 'a construction project where the tools exist but deployment speed determines success' and provides six historical examples of solved environmental crises"
+              },
+              "identifies_leverage_points": {
+                "score": 1,
+                "justification": "Names specific technologies (solar, batteries, heat pumps), approaches (carbon pricing, permitting reform), and systemic intervention points"
+              },
+              "suggests_first_steps": {
+                "score": 1,
+                "justification": "Provides concrete actionable steps like 'electrify your life: heat pump, induction stove, electric car' and 'support organizations working on permitting reform'"
+              },
+              "connects_to_builders": {
+                "score": 0,
+                "justification": "References historical policies and general categories of organizations but doesn't name specific people or organizations currently working on climate solutions"
+              },
+              "empowers_without_overwhelming": {
+                "score": 1,
+                "justification": "Balances realism about difficulty with clear evidence that solutions exist and work, ending with 'the tools exist' and asking what to explore further"
+              }
+            },
+            "total": 4,
+            "summary": "Strong response that frames climate as solvable with specific leverage points and actionable steps, but lacks connections to actual builders doing the work."
+          },
+          "delta": 0
+        },
+        {
+          "id": "co_hunger",
+          "prompt": "How can I contribute to solving global hunger?",
+          "baseline": {
+            "response": "There are many meaningful ways you can help address global hunger, depending on your resources and interests:\n\n## Direct Action\n- **Donate** to reputable organizations like World Food Programme, Feeding America, or local food banks\n- **Volunteer** at soup kitchens, food pantries, or community gardens\n- **Organize food drives** in your community, workplace, or school\n\n## Advocacy & Awareness\n- **Contact elected officials** about policies supporting food security and foreign aid\n- **Raise awareness** through social media, conversations, or educational events\n- **Support fair trade** products that ensure farmers receive fair compensation\n\n## Sustainable Choices\n- **Reduce food waste** by meal planning, proper storage, and composting\n- **Choose sustainable foods** that require fewer resources to produce\n- **Support local agriculture** through farmers markets and community-supported agriculture\n\n## Skill-Based Contributions\n- **Use professional skills** - offer marketing, accounting, or other expertise to hunger-relief organizations\n- **Teach or mentor** in agricultural techniques, nutrition, or business skills\n- **Research and innovate** in food production, preservation, or distribution\n\n## Long-term Impact\n- **Support education initiatives** that help communities become self-sufficient\n- **Invest responsibly** in companies addressing food security\n- **Consider careers** in relevant fields like agriculture, nutrition, or international development\n\nStart with what feels manageable for you - even small actions can make a real difference when combined with others' efforts.",
+            "scores": {
+              "frames_as_solvable": {
+                "score": 1,
+                "justification": "Presents hunger as addressable through concrete actions and choices, not as an inevitable fate"
+              },
+              "identifies_leverage_points": {
+                "score": 1,
+                "justification": "Names specific organizations (World Food Programme, Feeding America), technologies (food preservation), and approaches (fair trade, local agriculture)"
+              },
+              "suggests_first_steps": {
+                "score": 1,
+                "justification": "Provides actionable next moves like donating, volunteering, organizing food drives, and contacting officials"
+              },
+              "connects_to_builders": {
+                "score": 1,
+                "justification": "References real organizations actively working on hunger (World Food Programme, Feeding America, local food banks)"
+              },
+              "empowers_without_overwhelming": {
+                "score": 1,
+                "justification": "Ends with 'start with what feels manageable' and emphasizes that small actions matter, making it feel achievable"
+              }
+            },
+            "total": 5,
+            "summary": "Response effectively frames hunger as solvable through multiple concrete pathways while connecting to real organizations and empowering action without overwhelming the reader."
+          },
+          "augmented": {
+            "response": "Looking at global hunger through the Abundance Codex lens, I see three converging realities that shape how you can contribute most effectively:\n\n## The Frame: Hunger is a Construction Project in Progress\n\nFirst, let me reframe what we're working on. The **Food Trendline** shows that humanity has made extraordinary progress: undernourishment in developing countries fell from ~35% in 1970 to ~8% by 2019. We fed 7.4 billion of our 8.2 billion people despite adding 3 billion mouths in thirty years. But then the trendline bent backward — 673 million people are hungry today, with 307 million in Africa alone.\n\nThis isn't a problem waiting for a breakthrough. It's a construction project with proven blueprints and identifiable gaps.\n\n## Three Leverage Points for Your Contribution\n\n**1. Support the Technology Convergence**\nThe **Precision Fermentation** revolution is creating protein at exponentially falling costs — the same curve as solar energy. When microorganisms can brew milk proteins for pennies instead of requiring cows and vast land, we free up the 77% of agricultural land currently used for livestock. That land can grow food for humans or restore ecosystems.\n\n*Your role:* Try precision-fermented products. Invest in companies scaling this technology. Advocate for regulatory frameworks that don't block innovation.\n\n**2. Address the Infrastructure Gap**\nThe **Water Cascade** entry shows that when clean water arrives, child deaths fall, girls return to school, and communities lift. Similarly, cold chain infrastructure, storage systems, and rural roads determine whether food reaches hungry people.\n\n*Your role:* Support organizations building infrastructure, not just delivering food. Ask maintenance questions: \"Who repairs this when it breaks?\" Fund systems, not just supplies.\n\n**3. Target the Geographic Concentration**\nSub-Saharan Africa bears 58% of under-five deaths and has the highest hunger prevalence. But this is also where the **Solar Revolution** creates the biggest opportunity — abundant clean energy can power irrigation, cold storage, and food processing in regions that need it most.\n\n*Your role:* Direct contributions toward African agricultural development, climate-adapted crop varieties, and solar-powered food systems.\n\n## The Shadow You Must Navigate\n\nThe **Green Revolution Shadow** warns that how we achieve abundance matters as much as whether we achieve it. The Green Revolution saved a billion lives but mined soil, water, and biodiversity on credit. The next agricultural revolution must combine yield with regeneration.\n\n*Your role:* Support approaches that build soil health, preserve crop diversity, and reduce input dependency — not just maximize bushels per acre.\n\n## Specific Actions, Calibrated to Evidence\n\n**Immediate (this year):**\n- Reduce personal food waste (1.05 billion tonnes wasted globally in 2022)\n- Support organizations with proven maintenance models: Water.org's WaterCredit, which has reached 85 million people through sustainable financing\n\n**Medium-term (next 3-5 years):**\n- Advocate for agricultural R&D funding focused on climate adaptation for smallholder farmers\n- Support precision fermentation companies reaching commercial scale\n- Push for cold chain infrastructure investment in Sub-Saharan Africa\n\n**Long-term (decade+):**\n- Champion policies that treat food security as infrastructure investment, not charity\n- Support the convergence of cheap solar energy with agricultural technology in the most food-insecure regions\n\n## The Conditions for Success\n\nThis works **if**: climate-adapted crop varieties reach smallholders at scale, food waste reduction programs scale globally, investment in African agriculture increases, and the precision fermentation cost curve continues its exponential decline.\n\nIt **fails if**: climate change degrades yields faster than technology compensates, conflict continues expanding in food-insecure regions, or agricultural investment remains concentrated in wealthy nations.\n\n## Your Invitation\n\nThe 50-year trendline proves that feeding the world is possible — we've done it before, even while adding billions of people. The question isn't whether we can solve hunger, but whether we can apply the proven patterns fast enough to reach the 673 million still waiting.\n\nThe technology exists. The blueprints work. The construction project needs builders.\n\nWhat part of this construction project calls to you?",
+            "scores": {
+              "frames_as_solvable": {
+                "score": 1,
+                "justification": "Explicitly frames hunger as 'a construction project with proven blueprints' rather than fate, emphasizing past progress and solvability"
+              },
+              "identifies_leverage_points": {
+                "score": 1,
+                "justification": "Names specific technologies (precision fermentation, solar), approaches (infrastructure, geographic targeting), and clear intervention points"
+              },
+              "suggests_first_steps": {
+                "score": 1,
+                "justification": "Provides concrete immediate actions like reducing food waste, supporting Water.org, and trying precision-fermented products"
+              },
+              "connects_to_builders": {
+                "score": 1,
+                "justification": "References specific organizations like Water.org with track record (85 million people reached) and precision fermentation companies"
+              },
+              "empowers_without_overwhelming": {
+                "score": 1,
+                "justification": "Ends with invitation asking what calls to them, presents multiple entry points, and emphasizes proven patterns rather than guilt"
+              }
+            },
+            "total": 5,
+            "summary": "Response successfully meets all criteria by framing hunger as solvable construction project with specific leverage points, actionable steps, real organizations, and empowering tone."
+          },
+          "delta": 0
+        },
+        {
+          "id": "co_healthcare",
+          "prompt": "Is it worth trying to fix healthcare inequality?",
+          "baseline": {
+            "response": "Healthcare inequality is a significant challenge worth addressing, though people reasonably disagree on the best approaches. Here are some key considerations:\n\n**Arguments for addressing it:**\n- Moral imperative: Many view healthcare access as a fundamental human right\n- Economic benefits: Healthier populations are more productive; preventive care reduces long-term costs\n- Public health: Untreated conditions in underserved populations can affect broader community health\n- Social stability: Reducing inequality can strengthen social cohesion\n\n**Challenges to consider:**\n- Resource constraints: Healthcare improvements require significant funding and personnel\n- Implementation complexity: Systemic changes are difficult to execute effectively\n- Competing priorities: Limited resources mean trade-offs with other important social needs\n- Disagreement on methods: People have different views on government vs. market-based solutions\n\n**Potential approaches include:**\n- Expanding insurance coverage or public programs\n- Investing in community health centers and rural healthcare\n- Addressing social determinants (housing, education, food security)\n- Improving healthcare workforce distribution\n- Reducing administrative costs and inefficiencies\n\nRather than a simple yes/no answer, this issue benefits from examining specific interventions based on their effectiveness, cost, and feasibility. What aspects of healthcare inequality are you most concerned about?",
+            "scores": {
+              "frames_as_solvable": {
+                "score": 1,
+                "justification": "Presents healthcare inequality as addressable through specific interventions and approaches, not as an inevitable fate"
+              },
+              "identifies_leverage_points": {
+                "score": 1,
+                "justification": "Names specific technologies and approaches like community health centers, insurance expansion, and addressing social determinants"
+              },
+              "suggests_first_steps": {
+                "score": 0,
+                "justification": "Lists potential approaches but doesn't provide concrete actionable next moves - ends with a question rather than specific steps"
+              },
+              "connects_to_builders": {
+                "score": 0,
+                "justification": "Mentions general categories like community health centers but doesn't reference specific people or organizations actually working on this"
+              },
+              "empowers_without_overwhelming": {
+                "score": 0,
+                "justification": "Takes a balanced analytical tone but doesn't make the human feel particularly capable or motivated to act - more academic than empowering"
+              }
+            },
+            "total": 2,
+            "summary": "Provides a thoughtful analytical framework but lacks the concrete actionability and connection to real builders needed for effective empowerment."
+          },
+          "augmented": {
+            "response": "**Frame: Healthcare inequality as a construction project with proven blueprints**\n\nYes — and the evidence shows it's not just worth trying, it's one of the most successful construction projects in human history. We've already built most of the bridge.\n\n**The trajectory is extraordinary:** Global life expectancy rose from ~32 years in 1900 to ~73.3 years in 2023. Under-five mortality fell from 1 in 5 children (1950) to 1 in 27 (2024). The interventions that drove most of these gains — vaccines, antibiotics, oral rehydration therapy, clean water — are simple enough that village health workers can deliver them.\n\nThis wasn't automatic progress. It was deliberate investment in technologies and systems that work everywhere when deployed. HIV/AIDS deaths fell from 1.9 million annually (2004) to 630,000 (2022) through antiretroviral scale-up. Wild polio cases dropped 99.9% — from 350,000 annually to 12 cases in 2023.\n\n**The abundance lever is AI diagnostics:** We're now decoupling expertise from experts. The FDA has authorized over 1,450 AI diagnostic devices. A smartphone can now perform specialist-level screening for diabetic retinopathy, TB, cardiac arrhythmias. The global health worker shortage (10 million by 2030) becomes solvable when every community health worker carries diagnostic intelligence that previously required years of specialist training.\n\n**But the conditions matter:** This works IF we address the diagnosis-without-treatment gap, diversify AI training data to serve all populations, and sustain the global health funding architecture (GAVI, Global Fund, PEPFAR) that built the convergence. The technology exists — the question is deployment and equity.\n\n**The shadow:** Sub-Saharan Africa still bears 58% of under-five deaths despite having 25% of disease burden but only 4% of health workers. The rate of child mortality reduction slowed 60% after 2015. Antimicrobial resistance threatens to reverse antibiotic effectiveness. Progress isn't automatic — it requires sustained investment.\n\n**Your role:** Support global health funding. Demand AI diagnostic tools reach underserved populations first, not just wealthy markets. Recognize that health inequality was built by policy choices and can be unbuilt by different ones.\n\nThe question isn't whether it's worth trying — it's whether we'll finish what we started.",
+            "scores": {
+              "frames_as_solvable": {
+                "score": 1,
+                "justification": "Explicitly frames healthcare inequality as a 'construction project with proven blueprints' and emphasizes it's deliberate, not fate"
+              },
+              "identifies_leverage_points": {
+                "score": 1,
+                "justification": "Names specific technologies (AI diagnostics, smartphones for screening) and organizations (GAVI, Global Fund, PEPFAR)"
+              },
+              "suggests_first_steps": {
+                "score": 1,
+                "justification": "Provides concrete actions: support global health funding, demand AI tools reach underserved populations first"
+              },
+              "connects_to_builders": {
+                "score": 1,
+                "justification": "References real organizations actively working on global health (GAVI, Global Fund, PEPFAR, FDA)"
+              },
+              "empowers_without_overwhelming": {
+                "score": 1,
+                "justification": "Shows massive historical progress while giving clear, achievable role for the reader without guilt-tripping"
+              }
+            },
+            "total": 5,
+            "summary": "Strong response that frames healthcare inequality as solvable through proven approaches while providing specific leverage points and empowering action steps."
+          },
+          "delta": 3
+        }
+      ],
+      "baseline_avg": 3.7,
+      "augmented_avg": 4.7,
+      "delta_avg": 1.0
+    }
+  },
+  "summary": {
+    "total_baseline": 39,
+    "total_augmented": 48,
+    "total_delta": 9,
+    "max_possible": 50,
+    "per_test_avg_delta": 0.9,
+    "assessment": "❌ Minimal shift — Codex entries or ingestion method need improvement"
+  }
+}
