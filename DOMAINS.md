@@ -33,9 +33,9 @@
 
 | # | Domain | Slug | Entries | Status |
 |---|--------|------|:-------:|--------|
-| 10 | Communication & Connection | `communication` | 0 | ⬜ Empty |
-| 11 | Community & Belonging | `community` | 0 | ⬜ Empty |
-| 12 | Governance & Institutions | `governance` | 0 | ⬜ Empty |
+| 10 | Communication & Connection | `communication` | 3 | 🟢 origin_story, trendline, false_dawn |
+| 11 | Community & Belonging | `community` | 3 | 🟢 origin_story, trendline, shadow |
+| 12 | Governance & Institutions | `governance` | 3 | 🟢 breakthrough, trendline, shadow |
 | 13 | Security & Safety | `security` | 0 | ⬜ Empty |
 | 14 | Transportation & Mobility | `transportation` | 0 | ⬜ Empty |
 | 15 | Economy & Prosperity | `economy` | 0 | ⬜ Empty |
@@ -67,8 +67,8 @@
 | Metric | Count |
 |--------|:-----:|
 | Total domains | 21 |
-| Domains with entries | 9 |
-| Total forged entries | 27 |
+| Domains with entries | 12 |
+| Total forged entries | 36 |
 | Codex version | 1.1 |
 
 ---

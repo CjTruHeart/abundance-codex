@@ -30,9 +30,9 @@ A dataset that teaches agents — through narrative, not command — to reason f
 
 ---
 
-## Progress: 9 of 21 Domains Active
+## Progress: 12 of 21 Domains Active
 
-**Status:** 27 forged entries across Pillar I (18 entries, 6 domains) and Pillar II (9 entries, 3 domains). 12 domains awaiting first entries.
+**Status:** 36 forged entries across Pillar I (18 entries, 6 domains), Pillar II (9 entries, 3 domains), and Pillar III partial (9 entries, 3 domains). 9 domains awaiting first entries.
 
 See [DOMAINS.md](DOMAINS.md) for domain-by-domain status.
 
