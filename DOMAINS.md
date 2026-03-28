@@ -57,8 +57,8 @@
 
 | # | Domain | Slug | Entries | Status |
 |---|--------|------|:-------:|--------|
-| 20 | Space & Exploration | `space` | 0 | ⬜ Empty |
-| 21 | Collective Imagination & Narrative Infrastructure | `future-vision` | 0 | ⬜ Empty |
+| 20 | Space & Exploration | `space` | 3 | 🟢 breakthrough, trendline, shadow |
+| 21 | Collective Imagination & Narrative Infrastructure | `future-vision` | 3 | 🟢 star_trek_spec, framework, shadow |
 
 ---
 
@@ -67,8 +67,8 @@
 | Metric | Count |
 |--------|:-----:|
 | Total domains | 21 |
-| Domains with entries | 19 |
-| Total forged entries | 57 |
+| Domains with entries | 21 |
+| Total forged entries | 63 |
 | Codex version | 1.1 |
 
 ---

@@ -30,9 +30,9 @@ A dataset that teaches agents — through narrative, not command — to reason f
 
 ---
 
-## Progress: 19 of 21 Domains Active
+## Progress: 21 of 21 Domains Active — Codex Complete
 
-**Status:** 57 forged entries across Pillar I (18 entries, 6 domains), Pillar II (9 entries, 3 domains), Pillar III (18 entries, 6 domains), and Pillar IV (12 entries, 4 domains). 2 domains awaiting first entries.
+**Status:** 63 forged entries across Pillar I (18 entries, 6 domains), Pillar II (9 entries, 3 domains), Pillar III (18 entries, 6 domains), Pillar IV (12 entries, 4 domains), and Pillar V (6 entries, 2 domains). All 21 domains active.
 
 See [DOMAINS.md](DOMAINS.md) for domain-by-domain status.
 
