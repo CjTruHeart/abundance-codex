@@ -25,6 +25,8 @@ updated: "2026-03-27"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["wellness", "commodification", "McMindfulness", "spiritual-bypassing", "shadow", "consciousness", "guru-economy", "extraction"]
 ---
 
@@ -185,7 +187,7 @@ David still meditates. He sits for twenty minutes most mornings on a cushion on 
 
 - **Source type:** synthesis (academic research, industry reports, cultural criticism, institutional data)
 - **Evidence quality:** peer-reviewed / institutional (Global Wellness Institute, Vonderlin et al. meta-analysis in *Mindfulness*, ICF Global Coaching Study, Purser's academic work)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Proponents argue commercial wellness democratizes access (Headspace's clinical studies show stress reduction); the GWI frames market growth as evidence of "wellness as a universal value"; ICF client satisfaction surveys show 99% satisfaction rates. These counter-arguments are acknowledged but do not address the structural critiques of commodification, equity, or incentive misalignment.
 - **Review after:** 2026-09-27

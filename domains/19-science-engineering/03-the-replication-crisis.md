@@ -25,6 +25,8 @@ updated: "2026-03-28"
 version: "1.0"
 confidence: 0.88
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["replication-crisis", "reproducibility", "p-hacking", "publication-bias", "Ioannidis", "publish-or-perish", "predatory-journals", "scientific-integrity", "broken-incentives", "shadow"]
 ---
 
@@ -196,7 +198,7 @@ Nosek went on to co-found the Center for Open Science, which now supports pre-re
 
 - **Source type:** synthesis (meta-scientific literature, replication project data, institutional analyses)
 - **Evidence quality:** peer-reviewed / institutional (Science, Nature, PLoS Medicine, mBio, NIH data)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-28
 - **Counter-sources:** Gilbert et al. (2016) critique in Science argued the OSC underestimated reproducibility due to methodological limitations — Many Labs data shows 85% replication at adequate power. Jager & Leek (2014) estimated biomedical false positive rate at ~14%, not >50%. Goodman & Greenland (2007) challenged Ioannidis's model as based on justifiable but arbitrary assumptions. These critiques suggest the headline numbers may overstate the crisis while agreeing the underlying problems are real.
 - **Review after:** 2026-09-28

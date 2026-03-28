@@ -29,6 +29,8 @@ updated: "2026-03-26"
 version: "1.1"
 confidence: 0.88
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["solar", "energy", "exponential", "cost-curve", "democratization", "6Ds"]
 ---
 
@@ -240,7 +242,7 @@ She is one story. There are millions.
 
 - **Source type:** synthesis (multiple research sources, industry reports, institutional data)
 - **Evidence quality:** peer-reviewed / institutional (IEA, IRENA, BloombergNEF, LBNL)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-25
 - **Counter-sources:** Concerns about solar intermittency (IEA grid flexibility reports), China supply chain concentration (SEIA trade policy analyses), critical mineral constraints (IEA Critical Minerals report 2024), curtailment challenges (Chile case studies via IEA-PVPS)
 - **Review after:** 2026-09-25

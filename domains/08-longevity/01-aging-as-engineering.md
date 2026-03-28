@@ -29,6 +29,8 @@ updated: "2026-03-27"
 version: "1.0"
 confidence: 0.75
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["longevity", "aging", "reprogramming", "hallmarks", "healthspan", "exponential", "biology-as-information"]
 ---
 
@@ -237,7 +239,7 @@ In 2023, she enrolled in a longevity medicine certification program. She began p
 
 - **Source type:** synthesis (peer-reviewed research, industry reports, regulatory filings, investor data)
 - **Evidence quality:** peer-reviewed / institutional (Cell, Nature, FDA filings, Longevity.Technology investment reports, company press releases)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** UC San Diego research arguing somatic mutations (not epigenetic drift) are the root cause of aging, challenging the reprogramming thesis; Fight Aging! analysis questioning metformin as a geroprotector; concerns about reproducibility of some mouse reprogramming studies; FDA's current non-recognition of aging as a treatable indication
 - **Review after:** 2026-09-27

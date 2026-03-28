@@ -25,6 +25,8 @@ updated: "2026-03-26"
 version: "1.0"
 confidence: 0.70
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["water", "atmospheric-water-generation", "AWG", "MOF", "decentralization", "off-grid", "6Ds", "deceptive-phase"]
 ---
 
@@ -228,7 +230,7 @@ She is one story. But in the Navajo Nation alone, roughly 30% of households lack
 
 - **Source type:** synthesis (academic papers, industry reports, company data, XPRIZE records, Nobel Foundation)
 - **Evidence quality:** peer-reviewed / institutional (Science journal, Nobel Foundation, XPRIZE, WHO/UNICEF JMP, industry market reports)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-26
 - **Counter-sources:** Global Water Intelligence analysis showing SOURCE Hydropanel water cost at ~$150/m³ (>100x tap water); criticisms of AWG energy intensity from IEA water-energy nexus reports; academic papers noting condensation AWG failure below 40% relative humidity; concerns about techno-solutionism diverting investment from proven conventional water infrastructure (WaterAid, IRC WASH policy papers)
 - **Review after:** 2026-09-26

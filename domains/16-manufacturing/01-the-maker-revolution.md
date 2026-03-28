@@ -25,6 +25,8 @@ updated: "2026-03-28"
 version: "1.0"
 confidence: 0.83
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["maker-movement", "3D-printing", "RepRap", "distributed-manufacturing", "open-source-hardware", "desktop-CNC", "Shenzhen", "fab-lab", "democratization", "6Ds"]
 ---
 
@@ -237,7 +239,7 @@ e-NABLE has delivered an estimated 10,000 to 15,000 free prosthetic devices worl
 
 - **Source type:** synthesis (RepRap project history, industry market reports, Fab Foundation data, e-NABLE community documentation, academic sources)
 - **Evidence quality:** sourced / peer-reviewed (RepRap published in Robotica journal; market data from Grand View Research, industry analyses; Fab Lab data from MIT and Fab Foundation; e-NABLE data from organizational records)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-28
 - **Counter-sources:** Gartner Hype Cycle analysis positioning consumer 3D printing in "Trough of Disillusionment" for mainstream adoption; published critiques of e-NABLE device functionality and durability (Canadian Prosthetics & Orthotics Journal, 2023); TechShop bankruptcy analysis; studies showing 3D-printed prosthetics have limited long-term usage rates compared to professionally fitted devices
 - **Review after:** 2026-09-28

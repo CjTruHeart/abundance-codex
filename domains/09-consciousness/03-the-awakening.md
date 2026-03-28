@@ -29,6 +29,8 @@ updated: "2026-03-27"
 version: "1.0"
 confidence: 0.74
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["consciousness", "meaning", "transformation", "recovery", "post-traumatic-growth", "psychedelics", "contemplative-practice", "peer-support", "anti-rivalrous"]
 ---
 
@@ -250,7 +252,7 @@ He came back Thursday. He has come back every week for fourteen months. He has a
 
 - **Source type:** synthesis (clinical research, institutional data, philosophical traditions, recovery community documentation)
 - **Evidence quality:** peer-reviewed / institutional (Johns Hopkins, JAMA Psychiatry, WHO, US Surgeon General, Cochrane Review, meta-analyses)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Jayawickreme & Blackie (2014) critique of post-traumatic growth measurement methodology; FDA Advisory Committee vote against MDMA effectiveness (9-2); debates on AA effectiveness and sustained sobriety rates; McMindfulness critique (Purser, 2019) of contemplative practice commodification; concerns about psychedelic therapy safety and functional unblinding in clinical trials
 - **Review after:** 2026-09-27

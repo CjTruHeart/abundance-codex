@@ -29,6 +29,8 @@ updated: "2026-03-28"
 version: "1.0"
 confidence: 0.88
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["extraction", "mining", "cobalt", "lithium", "rare-earths", "supply-chain", "DRC", "child-labor", "clean-tech-shadow", "paradox", "critical-minerals"]
 ---
 
@@ -186,7 +188,7 @@ He is a composite. His details are drawn from investigative reporting by Kara, A
 
 - **Source type:** synthesis (investigative journalism, institutional reports, industry data, human rights documentation)
 - **Evidence quality:** peer-reviewed / institutional (IEA, Cobalt Institute, Amnesty International, EU regulatory documents, Siddharth Kara fieldwork)
-- **Curator:** co-created
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-28
 - **Counter-sources:** Industry position that supply chain improvements have substantially reduced ASM-sourced cobalt (Cobalt Institute data shows ASM share below 2% of DRC output in 2024); lifecycle analysis showing clean tech's total environmental footprint remains far lower than fossil fuel alternatives (IPCC, UNEP); argument that chemistry substitution (LFP, sodium-ion) is already solving the cobalt problem faster than governance reform
 - **Review after:** 2026-09-28

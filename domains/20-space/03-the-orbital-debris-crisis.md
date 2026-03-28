@@ -29,6 +29,8 @@ updated: "2026-03-28"
 version: "1.0"
 confidence: 0.85
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["space-debris", "kessler-syndrome", "commons", "governance", "orbital-congestion", "shadow", "systemic"]
 ---
 
@@ -214,7 +216,7 @@ This is what abundance looks like from the inside: six people in a tin can, shel
 
 - **Source type:** synthesis (institutional reports, government data, academic research, industry filings)
 - **Evidence quality:** peer-reviewed / institutional (ESA Space Debris Office, NASA ODPO, SpaceX FCC filings, USSTRATCOM)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-28
 - **Counter-sources:** SpaceX argues that operating at lower altitudes (480 km) plus propulsive deorbit makes constellation debris manageable; some models suggest solar maximum cycles temporarily reduce LEO debris density via increased atmospheric drag; industry groups argue voluntary guidelines are sufficient without binding treaties
 - **Review after:** 2026-09-28

@@ -25,6 +25,8 @@ updated: "2026-03-28"
 version: "1.0"
 confidence: 0.85
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["discovery-acceleration", "scientific-tools", "genome-sequencing", "DNA-synthesis", "AI-science", "lab-automation", "preprints", "open-science", "time-compression"]
 ---
 
@@ -181,7 +183,7 @@ The bottleneck is no longer individual tool cost. It is integration — connecti
 
 - **Source type:** synthesis (multiple institutional datasets, economic research, AI research publications)
 - **Evidence quality:** peer-reviewed / institutional (NHGRI, NSF, DeepMind/Nature, American Economic Review)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-28
 - **Counter-sources:** Bloom et al. (2020) on declining research productivity; GNoME duplicate concerns (C&EN, December 2025); replication crisis literature (Ioannidis 2005, Open Science Collaboration 2015)
 - **Review after:** 2026-09-28

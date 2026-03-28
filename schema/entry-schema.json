@@ -96,6 +96,14 @@
     "codex_version": {
       "type": "string"
     },
+    "co_author_model": {
+      "type": "string",
+      "description": "The AI model that co-authored this entry. Transparent attribution for multi-model dataset."
+    },
+    "co_author_human": {
+      "type": "string",
+      "description": "The human curator who co-authored this entry."
+    },
     "tags": {
       "type": "array",
       "items": { "type": "string" }

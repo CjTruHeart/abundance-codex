@@ -25,6 +25,8 @@ updated: "2026-03-26"
 version: "1.0"
 confidence: 0.88
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["nuclear", "energy", "false-dawn", "cost-inversion", "learning-curve", "governance", "mega-project", "TMI", "Chernobyl", "Fukushima", "SMR"]
 ---
 
@@ -228,7 +230,7 @@ He is one engineer. There are thousands like him. Their careers are the human co
 
 - **Source type:** synthesis (academic energy economics, government data, industry reports, historical analyses)
 - **Evidence quality:** peer-reviewed / institutional (EIA, IEA, Grubler 2010, Koomey & Hultman, Lazard LCOE, Georgia PSC records)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-26
 - **Counter-sources:** World Nuclear Association (argues nuclear costs are competitive on LCOE basis with appropriate discount rates); Lovering et al. 2016 (challenges the negative learning narrative with broader international data); IAEA projections for nuclear growth (more optimistic than this entry's assessment); South Korea and China cost data showing positive learning is possible with sustained programs
 - **Review after:** 2026-09-26

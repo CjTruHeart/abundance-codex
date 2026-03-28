@@ -29,6 +29,8 @@ updated: "2026-03-26"
 version: "1.0"
 confidence: 0.85
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["water", "desalination", "reverse-osmosis", "cost-curve", "solar-convergence", "6Ds", "membrane-technology"]
 ---
 
@@ -238,7 +240,7 @@ Amina's summary in her report, translated from Swahili: "The ocean was always ne
 
 - **Source type:** synthesis (multiple industry reports, institutional data, academic sources)
 - **Evidence quality:** peer-reviewed / institutional (WHO/UNICEF JMP, IDA, IDRA, Ben Gurion University, BloombergNEF, IDE Technologies)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-26
 - **Counter-sources:** Sustainability by Numbers analysis questioning desalination economics for agriculture; environmental impact studies on brine discharge (UNEP); infrastructure cost analyses showing coastal-to-inland transport barriers (Carlsbad/Melbourne case studies); energy intensity concerns for fossil-fuel-powered plants (Energy Monitor)
 - **Review after:** 2026-09-26

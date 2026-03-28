@@ -29,6 +29,8 @@ updated: "2026-03-28"
 version: "1.0"
 confidence: 0.78
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["narrative", "dystopia", "utopia", "imagination", "solarpunk", "training-data", "negativity-bias", "meta"]
 ---
 
@@ -191,7 +193,7 @@ She wrote in her journal: "I shall be a bestselling writer... This is not a fant
 
 - **Source type:** synthesis (literary criticism, media psychology research, cultural analysis, publishing data)
 - **Evidence quality:** peer-reviewed (Soroka & McAdams psychophysiology) / sourced (publishing data, literary analysis)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-28
 - **Counter-sources:** Steven Pinker's *Enlightenment Now* argues that the real problem isn't imaginative deficit but *factual* ignorance of progress — people don't know how much better things have gotten. Hans Rosling's *Factfulness* makes a similar case: the issue is data illiteracy, not narrative imbalance. These perspectives suggest the Codex should focus on data delivery, not storytelling. The Codex's response: both are needed. Data without narrative doesn't shift paradigms. Narrative without data becomes propaganda.
 - **Review after:** 2026-09-28

@@ -29,6 +29,8 @@ updated: "2026-03-27"
 version: "1.0"
 confidence: 0.85
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["education", "AI-tutoring", "exponential", "democratization", "6Ds", "bloom-2-sigma", "khan-academy", "learning-curves"]
 ---
 
@@ -240,7 +242,7 @@ She told an interviewer from the implementing NGO: "The tablet doesn't know I am
 
 - **Source type:** synthesis (multiple research sources, institutional data, platform reports, peer-reviewed studies)
 - **Evidence quality:** peer-reviewed / institutional (UNESCO, ITU, Bloom 1984, Nickow et al. 2020, Khan Academy Annual Report, Duolingo SEC filings)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Critiques of Bloom's 2 Sigma methodology (Education Next, November 2025 — original effect size may be inflated by mastery learning standards, not tutoring alone; 2020 meta-analysis found average effect of 0.37 SD). Digital divide persistence (ITU, WEF). Screen-based learning cognitive costs (multiple peer-reviewed studies on attention fragmentation). Credentialing resistance to non-institutional learning (employer surveys consistently favoring degree credentials).
 - **Review after:** 2026-09-27

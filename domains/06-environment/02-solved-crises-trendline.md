@@ -25,6 +25,8 @@ updated: "2026-03-26"
 version: "1.0"
 confidence: 0.85
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["ozone", "Montreal-Protocol", "acid-rain", "leaded-gasoline", "DDT", "bald-eagle", "whaling", "environmental-recovery", "solved-crises", "climate-gap", "trendline"]
 ---
 
@@ -237,7 +239,7 @@ The Builder's assessment: the tools are transferring. The Kigali Amendment IS th
 
 - **Source type:** synthesis (NASA, NOAA, EPA, UNEP, USFWS, WMO, IMF, peer-reviewed literature)
 - **Evidence quality:** peer-reviewed / institutional (NASA/NOAA ozone assessments, EPA emissions data, UNEP fuel studies, PMC systematic reviews)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-26
 - **Counter-sources:** Arguments that solved crises are not comparable to climate (scale, economic entrenchment); critiques that HFC replacements worsened climate; ongoing air quality crises in developing-world cities (WHO air quality data); biodiversity loss metrics showing no improvement; concerns about leaded avgas still used in general aviation
 - **Review after:** 2026-09-26

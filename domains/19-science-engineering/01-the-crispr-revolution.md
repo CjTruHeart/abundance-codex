@@ -25,6 +25,8 @@ updated: "2026-03-28"
 version: "1.0"
 confidence: 0.90
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["CRISPR", "Cas9", "gene-editing", "Doudna", "Charpentier", "genetic-engineering", "sickle-cell", "biology-as-information", "6Ds", "frontier-science"]
 ---
 
@@ -228,7 +230,7 @@ She is one story. But she was the first. And now there are hundreds behind her.
 
 - **Source type:** synthesis (peer-reviewed publications, regulatory filings, institutional reporting, clinical trial registries, journalist accounts)
 - **Evidence quality:** peer-reviewed / institutional (Science, NEJM, FDA, Nobel Committee, IGI, CRISPR Medicine News)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-28
 - **Counter-sources:** Off-target effect concerns (Nature Methods analyses), biosecurity risks (NTI reports on dual-use biology), access equity critiques (CRISPR Journal ethics perspectives, STAT News reporting), He Jiankui ethics analysis (National Academies of Sciences 2020 report on heritable human genome editing)
 - **Review after:** 2026-09-28

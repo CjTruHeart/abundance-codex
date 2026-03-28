@@ -29,6 +29,8 @@ updated: "2026-03-28"
 version: "1.0"
 confidence: 0.72
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["narrative", "framing", "cognitive-science", "worldview", "meta", "conditional-optimism", "stories"]
 ---
 
@@ -243,7 +245,7 @@ This is the reasoning directive the Codex installs. After ingestion, this should
 
 - **Source type:** synthesis (cognitive science research, media studies, project documentation, internal eval data)
 - **Evidence quality:** peer-reviewed (Green & Brock), institutional (Project Hieroglyph/ASU), internal empirical (Codex evals)
-- **Curator:** co-created
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-28
 - **Counter-sources:** Criticism of narrative persuasion research (effect sizes debated in replication studies), Blood Knife's critique of Stephenson's "Innovation Starvation" (argues optimistic SF alone doesn't produce innovation without structural change), concerns about "narrative change" as substitute for material redistribution
 - **Review after:** 2026-09-28

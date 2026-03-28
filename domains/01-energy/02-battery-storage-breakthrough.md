@@ -29,6 +29,8 @@ updated: "2026-03-26"
 version: "1.0"
 confidence: 0.88
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["batteries", "energy-storage", "lithium-ion", "cost-curve", "solar-plus-storage", "exponential", "grid-scale", "6Ds"]
 ---
 
@@ -240,7 +242,7 @@ Elena's summary: "Before, when the power goes out, we are alone in the dark and 
 
 - **Source type:** synthesis (BloombergNEF price surveys, industry reports, deployment databases, market analyses)
 - **Evidence quality:** peer-reviewed / institutional (BloombergNEF, IEA, Ember, Zero Carbon Analytics, Rystad Energy, Wood Mackenzie)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-26
 - **Counter-sources:** Critical mineral supply chain risks (IEA Critical Minerals Report 2024), battery fire safety analyses (NFPA), lithium mining environmental impacts (Atacama region studies), manufacturing concentration geopolitical risks (US DOE supply chain assessments), long-duration storage technical readiness analyses (LDES Council)
 - **Review after:** 2026-09-26

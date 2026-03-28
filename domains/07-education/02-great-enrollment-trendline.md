@@ -25,6 +25,8 @@ updated: "2026-03-27"
 version: "1.0"
 confidence: 0.88
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["education", "literacy", "enrollment", "trendline", "learning-poverty", "exponential-access", "digital-learning"]
 ---
 
@@ -169,7 +171,7 @@ The investment landscape is shifting. Global education spending is projected to 
 
 - **Source type:** synthesis (UNESCO-UIS, World Bank, Our World in Data, GPE, Khan Academy reporting)
 - **Evidence quality:** peer-reviewed / institutional (UNESCO, World Bank, IEA data)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** World Bank Learning Poverty reports (documenting the enrollment-learning gap), UNESCO GEM Report 2024 (documenting stagnation in out-of-school reduction), PIAAC functional literacy assessments (showing that even literate adults in developed nations often lack proficiency)
 - **Review after:** 2026-09-27

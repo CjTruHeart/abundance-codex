@@ -29,6 +29,8 @@ updated: "2026-03-26"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["hunger", "food-security", "trendline", "malthus", "green-revolution", "precision-agriculture", "CRISPR", "food-waste", "FAO", "reversal"]
 ---
 
@@ -181,7 +183,7 @@ The bottlenecks are not primarily technological. They are infrastructural (cold 
 
 - **Source type:** synthesis (FAO SOFI reports, UNEP data, World Bank datasets, industry analyses, historical accounts)
 - **Evidence quality:** peer-reviewed / institutional (FAO, UNEP, World Bank, CGIAR, Our World in Data)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-26
 - **Counter-sources:** Critiques of Green Revolution environmental costs (Vandana Shiva, various agroecology advocates), concerns about CRISPR crop monoculture risks, FAO own acknowledgment that SDG 2 (Zero Hunger by 2030) is off track, Global Hunger Index 2025 highlighting stalled or reversed progress in two-thirds of countries
 - **Review after:** 2026-09-26

@@ -25,6 +25,8 @@ updated: "2026-03-28"
 version: "1.0"
 confidence: 0.85
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["dematerialization", "ephemeralization", "decoupling", "material-intensity", "McAfee", "Fuller", "circular-economy", "resource-productivity", "more-from-less"]
 ---
 
@@ -179,7 +181,7 @@ The next phase of dematerialization is being actively constructed across five fr
 
 - **Source type:** synthesis (USGS data, UNEP reports, academic research, industry analysis)
 - **Evidence quality:** peer-reviewed / institutional (USGS, UNEP International Resource Panel, PNAS, Nature)
-- **Curator:** co-created
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-28
 - **Counter-sources:** Wiedmann et al. (2015, PNAS) — consumption-basis accounting challenges absolute decoupling claims; UNEP Global Resources Outlook 2024 — global extraction still rising at 2.3% annually; Jevons paradox literature on rebound effects
 - **Review after:** 2026-09-28

@@ -29,6 +29,8 @@ updated: "2026-03-26"
 version: "1.0"
 confidence: 0.78
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["3d-printing", "shelter", "housing", "construction", "affordability", "automation", "6Ds", "concrete"]
 ---
 
@@ -223,7 +225,7 @@ The home was printed by a machine. It feels like home because it is one.
 
 - **Source type:** synthesis (industry reporting, UN data, company disclosures, project documentation)
 - **Evidence quality:** sourced / institutional (UN-Habitat for housing deficit data, ICON/Lennar/14Trees for project data, Habitat for Humanity for affordable housing outcomes)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-26
 - **Counter-sources:** Concrete carbon footprint concerns (Global Cement and Concrete Association data on 8% of global CO2), limited long-term durability data on printed structures, construction labor impact analyses, land cost vs. construction cost research (McKinsey Global Institute housing affordability studies), multi-story limitation criticisms
 - **Review after:** 2026-09-26

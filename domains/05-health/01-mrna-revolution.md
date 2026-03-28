@@ -29,6 +29,8 @@ updated: "2026-03-26"
 version: "1.0"
 confidence: 0.87
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["mRNA", "health", "vaccines", "platform-technology", "exponential", "information-technology", "Karikó", "personalized-medicine", "6Ds"]
 ---
 
@@ -256,7 +258,7 @@ Karikó's story is not a fairy tale about persistence rewarded. It is a warning 
 
 - **Source type:** synthesis (academic publications, clinical trial data, WHO programme documentation, biographical sources, industry reports)
 - **Evidence quality:** peer-reviewed / institutional (*The Lancet Infectious Diseases*, *JAMA Health Forum*, NIH, WHO, Nobel Prize committee, FDA regulatory records, Moderna/Merck clinical trial disclosures)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-26
 - **Counter-sources:** Political resistance to mRNA funding (BARDA revocation, 2025); cold-chain limitation analyses (WHO Essential Medicines); mRNA vaccine adverse event monitoring (CDC VAERS, though noting that reporting ≠ causation); Ioannidis et al. conservative estimates of lives saved (JAMA Health Forum 2025); critical analyses of COVID vaccine equity failures (Lancet Commission on COVID-19)
 - **Review after:** 2026-09-26

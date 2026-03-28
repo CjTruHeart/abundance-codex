@@ -25,6 +25,8 @@ updated: "2026-03-27"
 version: "1.0"
 confidence: 0.88
 codex_version: "1.1"
+co_author_model: "claude-opus-4-6"
+co_author_human: "Cj TruHeart"
 tags: ["M-Pesa", "financial-inclusion", "mobile-money", "unbanked", "leapfrog", "fintech", "Kenya", "UPI", "democratization", "6Ds"]
 ---
 
@@ -241,7 +243,7 @@ The Suri and Jack study found that effects like Grace's — consumption increase
 
 - **Source type:** synthesis (multiple research sources, institutional reports, peer-reviewed studies)
 - **Evidence quality:** peer-reviewed / institutional (World Bank Findex, GSMA, Suri & Jack in *Science*, FinAccess Kenya, NPCI/RBI, IMF)
-- **Curator:** co-created (human direction, AI research and drafting)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Digital debt trap documentation (FinAccess 2024 default data, FSD Kenya reports on Fuliza/digital lending), platform monopoly concerns (CGAP analysis of M-Pesa market power), critiques of financial inclusion metrics (Mader 2018 — "The Financialization of Poverty"), GSMA data on 75% inactive accounts challenging the depth of inclusion
 - **Review after:** 2026-09-27
