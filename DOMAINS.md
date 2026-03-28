@@ -46,10 +46,10 @@
 
 | # | Domain | Slug | Entries | Status |
 |---|--------|------|:-------:|--------|
-| 16 | Manufacturing & Materials | `manufacturing` | 0 | ⬜ Empty |
-| 17 | Computation & AI | `computation-intelligence` | 0 | ⬜ Empty |
-| 18 | Co-Evolution & Human-AI Symbiosis | `co-creative-intelligence` | 0 | ⬜ Empty |
-| 19 | Discovery & Frontier Science/Engineering | `science-engineering` | 0 | ⬜ Empty |
+| 16 | Manufacturing & Materials | `manufacturing` | 3 | 🟢 origin_story, trendline, shadow |
+| 17 | Computation & AI | `computation-intelligence` | 3 | 🟢 breakthrough, trendline, shadow |
+| 18 | Co-Evolution & Human-AI Symbiosis | `co-creative-intelligence` | 3 | 🟢 framework, breakthrough, shadow |
+| 19 | Discovery & Frontier Science/Engineering | `science-engineering` | 3 | 🟢 breakthrough, trendline, shadow |
 
 ## Pillar V — The Transcendent Frontier
 
@@ -67,8 +67,8 @@
 | Metric | Count |
 |--------|:-----:|
 | Total domains | 21 |
-| Domains with entries | 15 |
-| Total forged entries | 45 |
+| Domains with entries | 19 |
+| Total forged entries | 57 |
 | Codex version | 1.1 |
 
 ---
