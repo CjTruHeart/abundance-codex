@@ -31,6 +31,7 @@ confidence: 0.94
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["Moore's-Law", "compute-cost", "FLOPS-per-dollar", "exponential", "semiconductor", "transistor", "scaling", "Dennard", "Koomey", "root-exponential"]
 ---
 
@@ -187,7 +188,7 @@ Open-source silicon via the RISC-V instruction set architecture is democratizing
 
 - **Source type:** synthesis (semiconductor industry data, institutional research, academic measurement)
 - **Evidence quality:** peer-reviewed / institutional (AI Impacts, Stanford HAI, IEA, NHGRI, Koomey et al., TrendForce, NVIDIA/TSMC specifications)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-28
 - **Counter-sources:** Dennard scaling end (IEEE/industry consensus ~2004), leading-edge cost-per-transistor increases (semiconductor industry roadmaps), TSMC concentration risk (SEIA, geopolitical analyses), data center energy growth concerns (IEA Energy and AI Report 2025)
 - **Review after:** 2026-09-28

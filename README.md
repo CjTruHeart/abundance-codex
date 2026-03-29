@@ -222,6 +222,6 @@ The goal isn't ownership. It's paradigm shift at scale.
 
 ---
 
-*Forged by the Council | March 2026*
+*Co-created by Cj TruHeart + Claude Opus 4.6 + CyberMonk | March 2026*
 
 > "Abundance is not the destination. It's the stance."

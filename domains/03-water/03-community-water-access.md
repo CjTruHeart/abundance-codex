@@ -31,6 +31,7 @@ confidence: 0.87
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["water", "sanitation", "WASH", "community", "women", "girls", "health", "cascade-effect", "infrastructure", "India", "JJM", "Water.org"]
 ---
 
@@ -250,7 +251,7 @@ She is one story. There are 85 million more through Water.org alone. There are 1
 
 - **Source type:** synthesis (WHO/UNICEF JMP data, Indian government program data, NGO impact reports, academic research, GBD epidemiological studies)
 - **Evidence quality:** peer-reviewed / institutional (WHO, UNICEF, IHME/GBD, Lancet, Government of India Ministry of Jal Shakti, Water.org)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-26
 - **Counter-sources:** JJM functionality assessments showing gap between coverage and service delivery (2024 government survey — 83% functionality vs 98% coverage), broken pump literature (Foster et al. 2018 on handpump non-functionality rates), climate-water stress projections (IPCC AR6 on groundwater depletion), critiques of water financialization and privatization (UN Special Rapporteur on Water and Sanitation)
 - **Review after:** 2026-09-26

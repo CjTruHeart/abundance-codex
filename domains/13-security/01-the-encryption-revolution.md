@@ -27,6 +27,7 @@ confidence: 0.85
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["encryption", "cryptography", "privacy", "PGP", "Signal", "democratization", "6Ds", "digital-rights"]
 ---
 
@@ -233,7 +234,7 @@ Franceschi-Bicchierai later said that without SecureDrop's encrypted anonymous f
 
 - **Source type:** synthesis (historical records, institutional reports, technical standards, journalism)
 - **Evidence quality:** peer-reviewed / institutional (NIST, HTTP Archive, Let's Encrypt/ISRG, Google Transparency Report, Freedom of the Press Foundation)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Law enforcement perspectives on "going dark" (FBI Director testimony, Interpol statements on encrypted platform challenges); EU Chat Control legislative proposals (European Commission); Apple's 2021 CSAM detection proposal and withdrawal; concerns about encryption enabling CSAM distribution (NCMEC reports); metadata surveillance capabilities (Hayden's public statements, Snowden disclosures)
 - **Review after:** 2026-09-27

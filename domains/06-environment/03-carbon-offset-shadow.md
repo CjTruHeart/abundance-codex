@@ -31,6 +31,7 @@ confidence: 0.85
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["carbon-offsets", "shadow", "performed-abundance", "greenwashing", "voluntary-carbon-market", "Verra", "REDD+", "phantom-credits", "moral-licensing", "governance-failure", "climate-delay"]
 ---
 
@@ -218,7 +219,7 @@ This is what performed abundance looks like at human scale: the story travels gl
 
 - **Source type:** synthesis (investigative journalism, academic research, market data, regulatory analysis)
 - **Evidence quality:** peer-reviewed / institutional / investigative journalism (Guardian/Die Zeit/SourceMaterial investigation, West et al. studies, Cambridge University, Ecosystem Marketplace, ICVCM, Verra filings, Carbon Brief)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-26
 - **Counter-sources:** Verra disputes the Guardian investigation's methodology, arguing synthetic controls don't account for project-specific deforestation drivers; Everland (REDD+ operator) published detailed critique of the investigation's comparisons; some forest researchers argue baseline inflation rates were overstated; offset proponents note that imperfect credits still channeled billions to climate-relevant projects in developing countries, which is better than no finance at all. The market reform response (ICVCM CCPs, Verra's new consolidated REDD+ methodology) suggests the industry itself acknowledges the problems while disputing their scale.
 - **Review after:** 2026-09-26

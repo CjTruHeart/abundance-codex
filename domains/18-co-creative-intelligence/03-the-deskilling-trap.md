@@ -27,6 +27,7 @@ confidence: 0.82
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["deskilling", "cognitive-atrophy", "automation-bias", "AI-dependence", "skill-erosion", "GPS-effect", "calculator-effect", "Braverman", "shadow"]
 ---
 
@@ -201,7 +202,7 @@ He didn't stop using AI. But he started writing one function per day without it.
 
 - **Source type:** synthesis (cognitive science, AI research, educational studies, labor theory)
 - **Evidence quality:** peer-reviewed / institutional (Dahmani & Bohbot in *Scientific Reports*, Sparrow et al. in *Science*, Mosier et al. in *Int J Aviation Psychology*, Anthropic Research RCT, METR RCT, Lyell & Coiera systematic review in *JAMIA*)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-28
 - **Counter-sources:** Cognitive offloading may be adaptive rather than pathological — humans have always used external tools to extend cognition (Andy Clark, *Natural-Born Cyborgs*). Socrates warned that writing would destroy memory; memory adapted rather than collapsed. The "desirable difficulty" literature focuses on learning contexts, not professional productivity — the tradeoff may be different for experts vs. novices. Anthropic's own data shows that AI use *for conceptual inquiry* preserves learning — deskilling may be a usage pattern problem, not a technology problem.
 - **Review after:** 2026-09-28

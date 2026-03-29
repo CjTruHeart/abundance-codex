@@ -31,6 +31,7 @@ confidence: 0.90
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["health", "life-expectancy", "child-mortality", "convergence", "trendline", "vaccines", "AMR", "COVID", "disease-eradication"]
 ---
 
@@ -232,7 +233,7 @@ What's being built to sustain the convergence — and what are the bottlenecks?
 
 - **Source type:** synthesis (WHO, UNICEF, Our World in Data, Lancet, UNAIDS, Global Burden of Disease)
 - **Evidence quality:** peer-reviewed / institutional (UN IGME, WHO Global Health Estimates, Lancet GRAM AMR study, JAMA healthspan analysis)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-26
 - **Counter-sources:** Lancet GRAM 2024 (AMR as rising counter-trend), JAMA 2024 healthspan-lifespan gap study, UNICEF 2025 warnings about funding cuts reversing gains, WHO data showing COVID reversed a decade of life expectancy gains, US life expectancy decline 2014-2017 as evidence that convergence can reverse even in wealthy countries
 - **Review after:** 2026-09-26

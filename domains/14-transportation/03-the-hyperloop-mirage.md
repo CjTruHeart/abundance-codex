@@ -23,6 +23,7 @@ confidence: 0.85
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["hyperloop", "false-dawn", "vaporware", "mega-projects", "induced-demand", "transportation-hype", "opportunity-cost", "learning-curve"]
 ---
 
@@ -201,7 +202,7 @@ The 6D analysis *is* the lesson: when a proposed technology cannot demonstrate p
 
 - **Source type:** synthesis (company histories, biographical accounts, engineering analyses, industry data)
 - **Evidence quality:** sourced (Bloomberg, TechCrunch, Ashlee Vance biography, China State Railway Group data, Wikipedia compilation of engineering critiques)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Hyperloop proponents argue the technology was abandoned prematurely due to funding cycles, not physics. Some engineers (notably at Hardt Hyperloop and Nevomo) argue that modified approaches (partial vacuum, existing track infrastructure) could be viable. The Brownstone Research analysis argues California HSR's own cost overruns validate Musk's original critique regardless of Hyperloop's viability.
 - **Review after:** 2026-09-27

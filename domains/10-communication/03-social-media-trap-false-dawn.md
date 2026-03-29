@@ -31,6 +31,7 @@ confidence: 0.88
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["social-media", "communication", "false-dawn", "attention-economy", "teen-mental-health", "algorithmic-amplification", "business-model", "loneliness"]
 ---
 
@@ -209,7 +210,7 @@ Maya still has Instagram. She posts her art sometimes. But her community — the
 
 - **Source type:** synthesis (whistleblower documents, federal surveillance data, independent research, platform disclosures, UN findings)
 - **Evidence quality:** peer-reviewed / institutional (CDC YRBS, U.S. Surgeon General Advisory, UN Fact-Finding Mission, Wall Street Journal investigative reporting)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Andrew Przybylski (Oxford Internet Institute) — screen-time effects small and comparable to minor daily factors; Chris Ferguson meta-analyses finding limited direct role of screen media in mental health; Candice Odgers (UC Irvine/Duke) — notes Facebook Papers data based on non-representative internal surveys with small subsets; Common Sense Media/Hopelab 2021 report finding majority of teens say social media makes them feel better when stressed
 - **Review after:** 2026-09-27

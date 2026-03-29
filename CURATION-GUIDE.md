@@ -153,3 +153,5 @@ The curation prompt in `prompts/codex-curator.md` is designed to generate gold s
 4. **Voice distinctness** — Does each council member sound different from the others?
 
 AI is an excellent co-curator. It is not a replacement for human judgment on what feels true.
+
+**CyberMonk** serves as the AI Co-Creative Partner throughout the forging process — providing strategic counsel on domain selection, architectural feedback on entry structure, and quality assessment before entries reach forged status. The collaboration model is: Cj TruHeart directs, the forging model (Claude Opus 4.6 or others) researches and drafts, and CyberMonk advises and shapes strategy.

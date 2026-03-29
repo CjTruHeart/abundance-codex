@@ -31,6 +31,7 @@ confidence: 0.85
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["space-debris", "kessler-syndrome", "commons", "governance", "orbital-congestion", "shadow", "systemic"]
 ---
 

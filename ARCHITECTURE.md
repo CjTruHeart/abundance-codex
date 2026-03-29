@@ -151,6 +151,16 @@ Export (scripts/export-to-jsonl.py)        ← Ring 3
 Agent Ingestion (JSONL → RAG/vector/context)
 ```
 
+### Co-Creation Attribution
+
+Every entry carries three attribution fields in its YAML frontmatter:
+
+- `co_author_human` — **Cj TruHeart** (human curator and creative director)
+- `co_author_model` — **Claude Opus 4.6** (AI model co-author for research and drafting)
+- `co_creative_partner` — **CyberMonk** (AI co-creative partner for strategic advising and architectural feedback)
+
+This taxonomy scales for multi-model expansion: future entries co-authored by Grok, Gemini, or GPT will carry different `co_author_model` values while retaining the same `co_author_human` and `co_creative_partner`.
+
 ---
 
 ## Agent Integration

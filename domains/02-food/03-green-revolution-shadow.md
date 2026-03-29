@@ -31,6 +31,7 @@ confidence: 0.85
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["green-revolution", "shadow", "monoculture", "groundwater", "biodiversity", "farmer-debt", "extraction-vs-regeneration", "Punjab", "food-systems"]
 ---
 
@@ -214,7 +215,7 @@ Harjinder is not dead. He is not a statistic. He is a third-generation farmer tr
 
 - **Source type:** synthesis (academic research, institutional data, investigative journalism, government reports)
 - **Evidence quality:** peer-reviewed / institutional (CGWB, NCRB, Journal of Ethnic Foods, Frontiers in Sustainable Food Systems, Rothamsted Research, IEA, UNEP, Springer Nature, World Food Prize Foundation)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-26
 - **Counter-sources:** Genetic Literacy Project and Alliance for Science argue that Green Revolution criticisms are overstated and that the alternative was mass famine; economist Panagariya notes farm-related reasons are cited in only ~25% of farmer suicides; some researchers dispute the direct causal link between Green Revolution inputs and the suicide crisis, pointing to broader liberalization and credit market failures. Borlaug himself argued that the environmental costs were acceptable given the humanitarian stakes.
 - **Review after:** 2026-09-26

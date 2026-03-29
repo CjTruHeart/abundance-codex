@@ -31,6 +31,7 @@ confidence: 0.82
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["precision-fermentation", "food", "protein", "exponential", "biology-as-information", "6Ds", "second-domestication", "dairy-disruption"]
 ---
 
@@ -236,7 +237,7 @@ Her team achieved their first successful production run in 2023 — fifty liters
 
 - **Source type:** synthesis (multiple research sources, industry reports, market analyses, company disclosures)
 - **Evidence quality:** sourced / peer-reviewed (Poore & Nemecek 2018 in Science for land use data; market sizing from multiple independent research firms; FDA regulatory records; company disclosures and financial data)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-26
 - **Counter-sources:** RethinkX projections criticized as overaggressive by agricultural economists and industry groups (2019 prediction of US dairy industry "collapse" by 2030 is not tracking); Health Research Institute identification of unknown compounds in PF products raises safety questions; high production cost critiques from Geltor, Triton case studies (Custom Market Insights 2026); energy intensity concerns documented by ProVeg International LCA analyses
 - **Review after:** 2026-09-26

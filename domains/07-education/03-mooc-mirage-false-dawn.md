@@ -27,6 +27,7 @@ confidence: 0.85
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["MOOC", "education", "false-dawn", "hype-cycle", "digital-learning", "access", "completion-rates", "AI-tutoring"]
 ---
 
@@ -217,7 +218,7 @@ Three years later, a community digital literacy program run by a local NGO gave 
 
 - **Source type:** synthesis (academic studies, financial filings, industry reporting, news coverage)
 - **Evidence quality:** peer-reviewed / institutional (UPenn study, Jordan 2015 meta-analysis, SEC filings, earnings reports)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Some researchers argue traditional MOOC completion metrics are misleading — many enrollees are "browsing" rather than committed students, and completion rates among intentional learners are significantly higher (Celik & Cagiltay, 2024). Coursera's own learner outcomes reports show meaningful career benefits for those who do complete. These counter-arguments are valid but do not address the core false dawn: the demographic skew and the failure to serve the populations that were promised abundance.
 - **Review after:** 2026-09-27

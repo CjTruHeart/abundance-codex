@@ -31,6 +31,7 @@ confidence: 0.82
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["AI", "diagnostics", "health", "community-health-workers", "smartphone", "retinopathy", "tuberculosis", "radiology", "last-mile", "6Ds", "decoupling"]
 ---
 
@@ -241,7 +242,7 @@ Meera screens eight to twelve patients on clinic days now. She has flagged ninet
 
 - **Source type:** synthesis (FDA regulatory data, WHO workforce statistics, peer-reviewed clinical trials, industry deployment reports, meta-analyses)
 - **Evidence quality:** peer-reviewed / institutional (FDA, WHO, The Lancet, JAMA Network Open, Journal of Thoracic Disease, BMJ Global Health, Qure.ai clinical evidence base)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-26
 - **Counter-sources:** Studies documenting AI diagnostic bias on underrepresented populations (dermatology AI on dark skin), JAMA 2025 systematic review noting limited clinical generalizability evidence for FDA-cleared AI radiology devices, critiques of "diagnosis without treatment" ethical concerns, analysis showing only ~10 FDA-cleared AI devices have CMS reimbursement coverage (gap between clearance and payment)
 - **Review after:** 2026-09-26

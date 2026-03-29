@@ -31,6 +31,7 @@ confidence: 0.87
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["governance", "digital", "estonia", "e-residency", "x-road", "leapfrog", "6Ds", "transparency", "decentralization"]
 ---
 
@@ -229,7 +230,7 @@ Taavi voted in the last parliamentary election from a café in Lisbon, using his
 
 - **Source type:** synthesis (government sources, international indices, investigative journalism, academic analysis)
 - **Evidence quality:** peer-reviewed / institutional (UN EGDI, OECD, World Bank, PwC, Lisbon Council, e-Estonia government data)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Security concerns about i-Voting (independent security analysis at estoniaevoting.org), scalability skepticism (TechRepublic analysis of transferability limits), e-Residency revenue inflation due to tax timing (Estonian World critical analysis, Jan 2026), OSCE/ODIHR recommendations on e-voting legal framework
 - **Review after:** 2026-09-27

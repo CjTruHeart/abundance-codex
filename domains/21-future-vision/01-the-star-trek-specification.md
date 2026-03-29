@@ -31,6 +31,7 @@ confidence: 0.74
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["star-trek", "convergence", "design-specification", "civilization", "capstone", "narrative-infrastructure", "21-domains"]
 ---
 
@@ -247,7 +248,7 @@ The Star Trek specification works not because it's accurate, but because it's *b
 
 - **Source type:** synthesis (cross-Codex integration, cultural analysis, technology mapping)
 - **Evidence quality:** mixed — individual technology claims are peer-reviewed/institutional; the integrated convergence thesis is analytical
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-28
 - **Counter-sources:** The specification's cultural bias is critiqued within the entry. Convergence skepticism from Vaclav Smil (*How the World Really Works*, 2022) and from the "ideas are getting harder to find" literature (Bloom et al., 2020). Democratic backsliding data from Freedom House challenges the governance prerequisite. Meaning crisis literature (Vervaeke, 2019) challenges the purpose-shift assumption.
 - **Review after:** 2026-09-28

@@ -31,6 +31,7 @@ confidence: 0.80
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["restoration", "rewilding", "reforestation", "trophic-cascade", "land-liberation", "ecosystem-recovery", "Costa-Rica", "6Ds"]
 ---
 
@@ -238,7 +239,7 @@ Thirty-five years in, Carlos walks through forest that was cattle pasture within
 
 - **Source type:** synthesis (peer-reviewed ecology, government program data, NGO reporting, technology assessment)
 - **Evidence quality:** peer-reviewed / institutional (World Bank FCPF data for Costa Rica, Colorado State University / ScienceDirect for Yellowstone trophic cascade, WWF Living Planet Report for wildlife decline, UNFCCC for PES program data, RethinkX for land liberation projections)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-26
 - **Counter-sources:** Trophic cascade oversimplification critiques (Middleton et al., MeatEater Conservation; multiple factors beyond wolves contributed to Yellowstone recovery); Great Green Wall implementation shortfalls; mass tree-planting seedling mortality studies; climate tipping point research (Amazon dieback models, coral reef thermal thresholds); RethinkX projection critiques from agricultural economists
 - **Review after:** 2026-09-26

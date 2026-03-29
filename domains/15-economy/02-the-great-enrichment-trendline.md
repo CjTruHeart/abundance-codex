@@ -27,6 +27,7 @@ confidence: 0.92
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["poverty-decline", "great-enrichment", "GDP-per-capita", "extreme-poverty", "Maddison", "hockey-stick", "Rosling", "global-development"]
 ---
 
@@ -187,7 +188,7 @@ The honest builder's assessment: the tools to extend the enrichment exist and ar
 
 - **Source type:** synthesis (Maddison Project Database, World Bank PIP, UBS Global Wealth Report, Our World in Data, Gapminder)
 - **Evidence quality:** peer-reviewed / institutional (World Bank, Maddison Project, UN agencies, UBS)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Piketty (*Capital in the Twenty-First Century*) on within-nation inequality; Hickel (contested claims on poverty measurement methodology); World Bank methodology critiques regarding PPP adjustments and poverty line revisions; alternative measures (Genuine Progress Indicator, Gross National Happiness) that moderate the enrichment narrative
 - **Review after:** 2026-09-27

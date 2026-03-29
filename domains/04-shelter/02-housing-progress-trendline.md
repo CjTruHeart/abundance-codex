@@ -31,6 +31,7 @@ confidence: 0.78
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["housing", "shelter", "slums", "urbanization", "construction-productivity", "affordability", "modular", "zoning", "Singapore-HDB", "trendline"]
 ---
 
@@ -203,7 +204,7 @@ The core bottleneck is not technology availability. It is the gap between what c
 
 - **Source type:** synthesis (UN-Habitat data, IMF analysis, McKinsey research, Federal Reserve studies, Singapore HDB statistics, OECD housing databases)
 - **Evidence quality:** peer-reviewed / institutional (UN-Habitat, IMF, McKinsey, Federal Reserve, Bureau of Economic Analysis, OECD)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-26
 - **Counter-sources:** Critiques of Singapore's model (leasehold depreciation, rising HDB prices), China's property crisis and ghost cities (Nature Cities 2025 study on declining housing utilization efficiency), arguments that construction productivity is mismeasured (Garcia & Molloy 2022 — "probably not the sole source"), NIMBYism as rational self-interest defense (homeowners protecting their largest asset)
 - **Review after:** 2026-09-26

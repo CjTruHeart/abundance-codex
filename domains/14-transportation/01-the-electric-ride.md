@@ -27,6 +27,7 @@ confidence: 0.88
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["EV", "electric-vehicles", "battery", "lithium-ion", "cost-curve", "Tesla", "BYD", "ICE-disruption", "6Ds", "transportation-electrification"]
 ---
 
@@ -227,7 +228,7 @@ Wei's summary, translated loosely: "Same route. Same passengers. But the air is 
 
 - **Source type:** synthesis (multiple research sources, industry reports, institutional data)
 - **Evidence quality:** peer-reviewed / institutional (BloombergNEF, IEA, WRI, ICCT, PwC Autofacts)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** US policy reversal and EV sales decline (PwC Q4 2025), grid capacity concerns (IEA grid flexibility reports), critical mineral supply risks (IEA Critical Minerals Report), cobalt mining labor practices (Amnesty International), lithium extraction environmental impacts (NRDC reports), EV adoption inequality mapping (ICCT regional analyses)
 - **Review after:** 2026-09-27

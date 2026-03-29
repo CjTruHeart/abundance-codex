@@ -27,6 +27,7 @@ confidence: 0.82
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["violence-decline", "peace", "homicide", "war-deaths", "nuclear-arsenals", "Pinker", "UCDP", "long-peace"]
 ---
 
@@ -182,7 +183,7 @@ The honest builder's assessment: the infrastructure of peace is real, but it is 
 
 - **Source type:** synthesis (UCDP, SIPRI, UNODC, Our World in Data, Gapminder, Cure Violence Global evaluations, historical criminology)
 - **Evidence quality:** peer-reviewed / institutional (UCDP/Journal of Peace Research, SIPRI Yearbook, UNODC Global Study on Homicide, WHO)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Taleb's critique of Pinker (fat-tailed distributions), Galtung's structural violence framework, UCDP 2024 data showing record conflict counts, SIPRI 2025 warning on new nuclear arms race, County Health Rankings noting mixed evidence on Cure Violence
 - **Review after:** 2026-09-27

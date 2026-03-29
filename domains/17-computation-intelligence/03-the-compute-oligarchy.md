@@ -27,6 +27,7 @@ confidence: 0.87
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["compute-concentration", "AI-oligarchy", "training-cost", "frontier-AI", "open-source-AI", "TSMC", "GPU-monopoly", "power-concentration", "digital-divide", "shadow"]
 ---
 
@@ -189,7 +190,7 @@ She is one story. The pattern is structural.
 
 - **Source type:** synthesis (industry reports, academic research, institutional data, company disclosures)
 - **Evidence quality:** peer-reviewed / institutional (Epoch AI, Stanford AI Index, NSF, SemiAnalysis, NVIDIA filings)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-28
 - **Counter-sources:** Arguments that open-source AI is closing the frontier gap faster than the oligarchy narrative suggests (DeepSeek V3/R1 as evidence); arguments that inference democratization matters more than training concentration (Ben Thompson, Stratechery); arguments that efficient architectures will collapse training costs as they did inference costs (Mistral, Phi-family evidence)
 - **Review after:** 2026-09-28

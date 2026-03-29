@@ -27,6 +27,7 @@ confidence: 0.87
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["inequality", "wealth-concentration", "Piketty", "Gini", "r-greater-than-g", "billionaires", "winner-take-all", "financialization", "shadow"]
 ---
 
@@ -200,7 +201,7 @@ Marcus is a composite. His economics are documented by studies from UC Berkeley'
 
 - **Source type:** synthesis (Piketty, World Inequality Database, EPI, Oxfam, UBS/Credit Suisse, Wilkinson-Pickett, Gilens-Page)
 - **Evidence quality:** peer-reviewed / institutional (World Inequality Database, EPI, Federal Reserve DFA, peer-reviewed political science and epidemiology)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Methodological critiques of productivity-wage gap measurement (AEI, Investigative Economics — gold standard vs CPI deflators, aggregate vs per-worker measurement); critiques of Wilkinson-Pickett's cross-national correlations (Saunders 2010, Snowdon 2010); debates on whether relative or absolute inequality matters more for wellbeing (Deaton 2013); Oxfam wealth methodology criticisms (net wealth measurement treats indebted Western graduates as "poorer" than unindebted subsistence farmers)
 - **Review after:** 2026-09-27

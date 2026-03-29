@@ -27,6 +27,7 @@ confidence: 0.87
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["loneliness", "social-capital", "community", "mutual-aid", "social-prescribing", "belonging", "trendline", "U-curve"]
 ---
 
@@ -187,7 +188,7 @@ The Builder's honest assessment: community infrastructure is the most underfunde
 
 - **Source type:** synthesis (institutional survey data, meta-analyses, policy reports, organizational data)
 - **Evidence quality:** peer-reviewed / institutional (GSS, Pew Research, Holt-Lunstad meta-analyses, Lancet Public Health, U.S. Surgeon General, Census Bureau, Survey Center on American Life)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Critiques of Putnam's nostalgia for exclusionary mid-century institutions; arguments that online community constitutes genuine connection (Klinenberg's "Going Solo"); concerns that social prescribing evidence base is still developing (Lancet acknowledges this); data showing trust and community metrics vary substantially by country (Nordic nations show high and stable trust)
 - **Review after:** 2026-09-27

@@ -27,6 +27,7 @@ confidence: 0.92
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["road-safety", "traffic-deaths", "seatbelts", "airbags", "crash-avoidance", "Vision-Zero", "NHTSA", "fatality-rate", "per-mile-decline"]
 ---
 
@@ -178,7 +179,7 @@ In low- and middle-income countries, the UN Decade of Action for Road Safety 202
 
 - **Source type:** synthesis (NHTSA FARS, WHO Global Status Report, IIHS research, GHSA spotlight reports, NSC Injury Facts)
 - **Evidence quality:** peer-reviewed / institutional (NHTSA, WHO, IIHS, GHSA — decades of standardized measurement)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** GHSA pedestrian fatality spotlight reports documenting the 77% increase; IIHS research on ADAS limitations at higher speeds and in adverse conditions; WHO data showing persistent LMIC burden despite global decline; critiques of VMT-based metrics as masking absolute death toll trends
 - **Review after:** 2026-09-27

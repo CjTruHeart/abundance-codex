@@ -27,6 +27,7 @@ confidence: 0.93
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["connectivity", "mobile", "internet", "exponential", "democratization", "6Ds", "digital-divide", "communication"]
 ---
 
@@ -191,7 +192,7 @@ The honest builder's assessment: coverage is a mostly-solved problem — over 95
 
 - **Source type:** synthesis (multiple institutional data sources)
 - **Evidence quality:** peer-reviewed / institutional (ITU, GSMA, World Bank, Ericsson, Meta)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** ITU digital divide reports highlighting persistent quality gaps; GSMA Mobile Gender Gap Report 2025 documenting stalled progress on gender equity; research on attention economy harms (Center for Humane Technology); internet fragmentation analysis (Freedom House "Freedom on the Net" reports)
 - **Review after:** 2026-09-27

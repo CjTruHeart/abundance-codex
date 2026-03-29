@@ -31,6 +31,7 @@ confidence: 0.70
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["meaning-crisis", "consciousness", "flourishing", "meaning-triad", "mastery", "belonging", "contribution", "anti-rivalrous", "framework"]
 ---
 
@@ -224,7 +225,7 @@ The 6 D's framework was designed for information technologies with measurable co
 
 - **Source type:** synthesis (psychology, philosophy, neuroscience, public health data, contemplative traditions)
 - **Evidence quality:** peer-reviewed / institutional (WHO, GBD, Surgeon General Advisory, SDT literature, flow research)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Critics of Maslow's hierarchy (Hofstede, Tay & Diener 2011 — needs may not be hierarchical). Critiques of SDT's cultural universality (Markus & Kitayama on independent vs. interdependent self-construal). Skeptics of the "meaning crisis" framing who argue that meaning has always been in flux and the current moment is not uniquely deficient. Materialist positions that increased well-being follows directly from increased material abundance (Stevenson & Wolfers on income and happiness).
 - **Review after:** 2026-09-27

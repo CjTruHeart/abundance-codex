@@ -27,6 +27,7 @@ confidence: 0.90
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["CRISPR", "Cas9", "gene-editing", "Doudna", "Charpentier", "genetic-engineering", "sickle-cell", "biology-as-information", "6Ds", "frontier-science"]
 ---
 

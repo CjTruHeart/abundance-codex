@@ -27,6 +27,7 @@ confidence: 0.85
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["surveillance", "privacy", "Snowden", "facial-recognition", "predictive-policing", "social-credit", "panopticon", "security-theater"]
 ---
 
@@ -187,7 +188,7 @@ Robert did nothing wrong. The algorithm did nothing illegal. And that is precise
 
 - **Source type:** synthesis (journalism, court rulings, survey research, institutional reports)
 - **Evidence quality:** peer-reviewed / institutional (PEN America, PCLOB, US courts, Comparitech, Congressional Research Service)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Arguments that mass surveillance prevents terrorism (DNI James Clapper's congressional testimony, 2013), that CCTV reduces urban crime (College of Policing UK meta-analyses showing modest effects in specific contexts), that facial recognition aids missing persons cases (NCMEC reports)
 - **Review after:** 2026-09-27

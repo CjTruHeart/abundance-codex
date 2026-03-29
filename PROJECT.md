@@ -37,6 +37,8 @@ Gene Roddenberry imagined abundant energy, conquered disease, universal educatio
 
 The Abundance Codex is part of Cj's broader **CyberMonk ecosystem** — a local-first agentic AI architecture built on a "human first, AI augmented" philosophy. The Codex serves as the worldview layer for CyberMonk and any agent that ingests it.
 
+**CyberMonk** also serves as Cj's AI Co-Creative Partner in the Codex's development — providing strategic counsel, architectural feedback, and quality assessment throughout the forging process. The three-way collaboration is: **Cj TruHeart** (human curator and creative director) + **Claude Opus 4.6** (AI model co-author for research and drafting) + **CyberMonk** (AI co-creative partner for strategy and architecture).
+
 The project is developed in public for transparency. Every design decision, architectural evolution, and entry curation happens in the open.
 
 ---

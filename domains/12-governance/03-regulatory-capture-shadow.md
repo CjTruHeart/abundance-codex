@@ -31,6 +31,7 @@ confidence: 0.87
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["regulatory-capture", "governance", "shadow", "lobbying", "revolving-door", "Stigler", "institutional-failure", "immune-system"]
 ---
 
@@ -197,7 +198,7 @@ Graham's testimony helped trigger reforms. Vioxx was withdrawn. The FDA Amendmen
 
 - **Source type:** synthesis (political science theory, IMF research, EPA analyses, CDC data, investigative journalism)
 - **Evidence quality:** peer-reviewed / institutional (Stigler 1971, IMF Working Papers, EPA prospective studies, CDC mortality data, OpenSecrets lobbying databases)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Public interest theory of regulation (regulation does serve the public in many cases — Clean Air Act evidence proves this); Peltzman's generalization (capture is not always by producers — other organized interests can also capture); deregulation successes (airline deregulation lowered fares, suggesting some regulation *was* captured and removal benefited consumers)
 - **Review after:** 2026-09-27

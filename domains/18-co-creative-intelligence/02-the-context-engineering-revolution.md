@@ -27,6 +27,7 @@ confidence: 0.78
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["context-engineering", "prompt-engineering", "system-prompts", "RAG", "few-shot", "chain-of-thought", "human-AI-interface", "cognitive-scaffolding", "6Ds"]
 ---
 
@@ -234,7 +235,7 @@ Maria's phrase for the shift: "I stopped asking the computer to guess what I nee
 
 - **Source type:** synthesis (academic papers, industry reports, enterprise data, community practice, internal eval data)
 - **Evidence quality:** peer-reviewed (Wei et al., Brown et al.) + institutional (McKinsey, Gartner) + internal (Codex eval harness — flagged as self-generated)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-28
 - **Counter-sources:** Research suggesting model improvements may reduce the need for elaborate prompting (instruction-tuned models performing well on zero-shot tasks); concerns that context engineering is a temporary skill that will be automated away; criticism of prompt engineering as overhyped (various industry commentary)
 - **Review after:** 2026-09-28

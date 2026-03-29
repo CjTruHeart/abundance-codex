@@ -104,6 +104,10 @@
       "type": "string",
       "description": "The human curator who co-authored this entry."
     },
+    "co_creative_partner": {
+      "type": "string",
+      "description": "AI co-creative partner that provided strategic advising, feedback, and architectural direction during entry development."
+    },
     "tags": {
       "type": "array",
       "items": { "type": "string" }

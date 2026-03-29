@@ -27,6 +27,7 @@ confidence: 0.82
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["longevity", "shadow", "biohacking", "supplements", "inequality", "death-anxiety", "Blue-Zones", "geroscience"]
 ---
 
@@ -197,7 +198,7 @@ Marcus didn't stop caring about his health. He kept exercising, kept sleeping we
 
 - **Source type:** synthesis (industry reports, clinical trial databases, peer-reviewed meta-analyses, investigative journalism, public statements)
 - **Evidence quality:** peer-reviewed / institutional (British Journal of Sports Medicine, FDA, Nature Biotechnology, Science)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Bryan Johnson's published biomarker data (protocol.bryanjohnson.com) showing measurable improvements in specific markers; David Sinclair's continued research on NAD+ biology; emerging NMN human trial data showing modest biomarker changes; the argument that wealthy early adopters fund the R&D that eventually benefits everyone (trickle-down innovation thesis)
 - **Review after:** 2026-09-27

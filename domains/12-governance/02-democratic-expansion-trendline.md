@@ -31,6 +31,7 @@ confidence: 0.90
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["democracy", "governance", "third-wave", "democratic-recession", "autocratization", "freedom-house", "v-dem", "citizen-assemblies", "participatory-budgeting"]
 ---
 
@@ -185,7 +186,7 @@ The honest builder's assessment: the tools to *improve* democracy are more sophi
 
 - **Source type:** synthesis (multiple institutional datasets, annual reports, academic research)
 - **Evidence quality:** peer-reviewed / institutional (Freedom House, V-Dem Institute, Edelman Trust Barometer, OECD, academic literature)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Some scholars argue the democratic recession is overstated (Levitsky & Way's distinction between competitive authoritarianism and full autocracy; debates about Freedom House methodology sensitivity to media freedom); others argue structural preconditions are insufficient predictors of democratic durability (Acemoglu & Robinson's institutionalist critique)
 - **Review after:** 2026-09-27

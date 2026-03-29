@@ -31,6 +31,7 @@ confidence: 0.90
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["longevity", "life-expectancy", "child-mortality", "survival-curve", "rectangularization", "healthspan", "trendline", "demographics"]
 ---
 
@@ -183,7 +184,7 @@ The infrastructure that maintains this trendline is real, extensive, and under p
 
 - **Source type:** synthesis (UN, WHO, CDC, UNICEF, peer-reviewed demographic research)
 - **Evidence quality:** peer-reviewed / institutional (WHO Global Health Estimates, UN WPP, CDC NCHS, UNICEF UN IGME, JAMA Network Open)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Case & Deaton "deaths of despair" research (documenting reversal conditions), WHO AMR reports (biological threat to trendline), JAMA healthspan-lifespan gap study (challenging quality-of-life narrative), medRxiv centenarian data quality concerns (Newman 2024 — questioning accuracy of extreme age reporting)
 - **Review after:** 2026-09-27

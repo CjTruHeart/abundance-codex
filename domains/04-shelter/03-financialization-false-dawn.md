@@ -27,6 +27,7 @@ confidence: 0.85
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["housing", "financialization", "false-dawn", "affordability", "asset-class", "governance-failure", "homeownership", "institutional-investors", "NIMBY", "Vienna", "Singapore"]
 ---
 
@@ -224,7 +225,7 @@ She is not a failure. She is the system's output.
 
 - **Source type:** synthesis (census data, academic research, government reports, financial filings, investigative journalism)
 - **Evidence quality:** peer-reviewed / institutional (US Census Bureau, Harvard JCHS, NAHB, FRED, HUD, GAO, AEI, NAR, SEC filings)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-26
 - **Counter-sources:** AEI argues that institutional investors hold only ~1% of housing stock and are scapegoated for a supply problem caused by zoning; some economists contend that financialization increased credit availability and construction in the pre-2008 period; critics of counter-models note Vienna's dependence on state land ownership and Singapore's authoritarian governance features that enable their housing systems; NAHB emphasizes construction cost and regulatory burden as primary affordability drivers.
 - **Review after:** 2026-09-26

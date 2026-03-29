@@ -31,6 +31,7 @@ confidence: 0.85
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["tribalism", "belonging", "exclusion", "radicalization", "in-group", "out-group", "shadow", "community", "permeability"]
 ---
 
@@ -201,7 +202,7 @@ He has twelve regular members. The work is slow.
 
 - **Source type:** synthesis (social psychology research, political science, sociology, case studies)
 - **Evidence quality:** peer-reviewed / meta-analysis (Holt-Lunstad meta-analysis, Tajfel experimental tradition, Kruglanski's 3N model tested across multiple cultures)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** Robert Putnam's "Bowling Alone" emphasizes community decline as the primary threat (true, but incomplete — this entry argues that *what kind* of community matters as much as *how much*). Arguments that contact theory has limited effects in conditions of structural inequality (Paluck et al., 2019 meta-analysis shows positive but modest effects). Arguments that strong group identity is psychologically necessary and that cross-cutting identities may produce rootlessness rather than resilience.
 - **Review after:** 2026-09-27

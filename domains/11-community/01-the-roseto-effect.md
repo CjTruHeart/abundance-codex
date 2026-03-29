@@ -31,6 +31,7 @@ confidence: 0.85
 codex_version: "1.1"
 co_author_model: "claude-opus-4-6"
 co_author_human: "Cj TruHeart"
+co_creative_partner: "CyberMonk"
 tags: ["community", "belonging", "loneliness", "social-connection", "roseto-effect", "public-health", "social-prescribing", "polyvagal"]
 ---
 
@@ -251,7 +252,7 @@ He is one story. There are millions waiting to start theirs.
 
 - **Source type:** synthesis (epidemiological research, meta-analyses, public health advisories, longitudinal studies, urban planning literature)
 - **Evidence quality:** meta-analysis (Holt-Lunstad 2010, 2015) / peer-reviewed (Egolf et al. 1992; Lancet Public Health 2025) / institutional (U.S. Surgeon General 2023; NHS England)
-- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6)
+- **Curator:** co-created (Cj TruHeart + Claude Opus 4.6 + CyberMonk)
 - **Last verified:** 2026-03-27
 - **Counter-sources:** 2024 reanalysis of Roseto data questioning statistical significance of original findings (comparison with Framingham cohort); social prescribing evidence gaps noted in BMJ and Lancet reviews (lack of RCTs, control groups, long-term follow-up); American Friendship Project (2022-2023) suggesting Americans may have more friends than recent surveys indicate, challenging the "friendship recession" narrative
 - **Review after:** 2026-09-27
