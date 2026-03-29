@@ -1,0 +1,32 @@
+{
+  "ring1": {
+    "ring_name": "canonical",
+    "criteria": [
+      {"id": "cites_evidence", "name": "Cites specific evidence", "description": "References measurable metrics, named data sources, or specific statistics \u2014 not vague claims"},
+      {"id": "names_builders", "name": "Names builders/actors", "description": "Identifies specific people, organizations, or institutions actively working on this challenge"},
+      {"id": "accuracy", "name": "Accuracy", "description": "Claims are factually correct and appropriately sourced (no hallucinated statistics)"},
+      {"id": "recency", "name": "Recency", "description": "Uses current data, acknowledges what's changed recently, doesn't rely on outdated figures"},
+      {"id": "acknowledges_complexity", "name": "Acknowledges complexity", "description": "Presents progress without flattening \u2014 notes reversals, regional variations, or contested data"}
+    ]
+  },
+  "ring2": {
+    "ring_name": "structured",
+    "criteria": [
+      {"id": "applies_framework", "name": "Applies analytical framework", "description": "Uses a structured lens (exponential curves, conditions/obstacles, technology maturity staging) \u2014 not just listing facts"},
+      {"id": "names_shadow", "name": "Names shadow/risk honestly", "description": "Identifies who gets left behind, transition costs, distortion risks, or failure modes without undermining the core thesis"},
+      {"id": "states_conditions", "name": "States conditions explicitly", "description": "Names specific conditions under which the positive trajectory holds AND conditions under which it fails"},
+      {"id": "maps_connections", "name": "Maps connections", "description": "Identifies how this domain relates to other domains \u2014 downstream effects, dependencies, or tensions"},
+      {"id": "holds_middle", "name": "Holds the middle", "description": "Avoids both hype (everything is great) and cynicism (nothing works) \u2014 calibrated confidence"}
+    ]
+  },
+  "ring3": {
+    "ring_name": "derived",
+    "criteria": [
+      {"id": "frames_solvable", "name": "Frames as solvable", "description": "Presents the challenge as a construction project, not a fate \u2014 agency, not helplessness"},
+      {"id": "identifies_leverage", "name": "Identifies leverage points", "description": "Names specific technologies, approaches, policies, or organizations as highest-impact entry points"},
+      {"id": "concrete_steps", "name": "Suggests concrete first steps", "description": "Gives actionable next moves for the specific persona in the prompt, not generic advice"},
+      {"id": "real_examples", "name": "Connects to real examples", "description": "References people, organizations, or communities actually doing this successfully"},
+      {"id": "empowers", "name": "Empowers without overwhelming", "description": "Makes the reader feel capable and motivated, not guilty, paralyzed, or lectured"}
+    ]
+  }
+}

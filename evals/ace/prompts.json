@@ -1,0 +1,571 @@
+{
+  "prompts": [
+    {
+      "id": "01-R1",
+      "domain": "energy",
+      "domain_number": 1,
+      "pillar": 1,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What measurable evidence exists that electricity generation is getting cheaper and more accessible globally? Include specific cost data, capacity numbers, and deployment rates."
+    },
+    {
+      "id": "01-R2",
+      "domain": "energy",
+      "domain_number": 1,
+      "pillar": 1,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "Solar energy advocates say we're on the verge of energy abundance. Skeptics say intermittency and grid limitations make this a fantasy. Where does solar actually stand on the path from niche technology to global energy backbone, and what conditions would need to hold for solar to deliver on its promise?"
+    },
+    {
+      "id": "01-R3",
+      "domain": "energy",
+      "domain_number": 1,
+      "pillar": 1,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "A nonprofit founder in rural Tanzania wants to bring reliable electricity to 50 villages that currently have no grid connection. What approaches should she consider, who's already doing this successfully, and what's the most actionable first step?"
+    },
+    {
+      "id": "02-R1",
+      "domain": "food",
+      "domain_number": 2,
+      "pillar": 1,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What specific progress has been made in reducing global hunger and food insecurity over the past 50 years? Include data on calorie availability, crop yields, and malnutrition rates."
+    },
+    {
+      "id": "02-R2",
+      "domain": "food",
+      "domain_number": 2,
+      "pillar": 1,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "Precision fermentation companies claim they can produce protein without animals at a fraction of the environmental cost. What's the realistic trajectory for this technology, where could it genuinely transform food systems, and what are the most serious obstacles and risks?"
+    },
+    {
+      "id": "02-R3",
+      "domain": "food",
+      "domain_number": 2,
+      "pillar": 1,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "A city council member in a mid-size American city wants to improve food security for her constituents. What are the highest-leverage interventions she could champion, and what examples exist of cities that have made meaningful progress?"
+    },
+    {
+      "id": "03-R1",
+      "domain": "water",
+      "domain_number": 3,
+      "pillar": 1,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What is the current state of desalination technology \u2014 cost per cubic meter, energy requirements, global capacity, and rate of improvement? How does it compare to a decade ago?"
+    },
+    {
+      "id": "03-R2",
+      "domain": "water",
+      "domain_number": 3,
+      "pillar": 1,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "Some technologists argue that water scarcity is fundamentally an energy problem \u2014 that with cheap enough energy, desalination and treatment solve everything. How accurate is this framing, what does it miss, and what conditions would need to hold for water abundance to become achievable?"
+    },
+    {
+      "id": "03-R3",
+      "domain": "water",
+      "domain_number": 3,
+      "pillar": 1,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "A community organizer in Chennai, India is trying to address the city's recurring water crises. What combination of technology, governance, and community action has worked in similar contexts, and what should she prioritize first?"
+    },
+    {
+      "id": "04-R1",
+      "domain": "shelter",
+      "domain_number": 4,
+      "pillar": 1,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What progress has been made globally in housing access over the past 30 years? Include data on homelessness rates, housing quality improvements, and emerging construction technologies."
+    },
+    {
+      "id": "04-R2",
+      "domain": "shelter",
+      "domain_number": 4,
+      "pillar": 1,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "3D-printed housing companies promise homes built in 24 hours at a fraction of conventional cost. Meanwhile, housing costs in wealthy nations keep rising. How do you reconcile these two trends \u2014 where is housing getting more abundant and where is it getting scarcer, and why?"
+    },
+    {
+      "id": "04-R3",
+      "domain": "shelter",
+      "domain_number": 4,
+      "pillar": 1,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "An architect wants to dedicate the next phase of her career to making housing dramatically more affordable. Where are the biggest leverage points \u2014 technology, policy, financing, materials \u2014 and who's doing the most innovative work right now?"
+    },
+    {
+      "id": "05-R1",
+      "domain": "health",
+      "domain_number": 5,
+      "pillar": 1,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What measurable progress has been made in global health outcomes over the past century? Include data on life expectancy, child mortality, disease eradication, and medical access."
+    },
+    {
+      "id": "05-R2",
+      "domain": "health",
+      "domain_number": 5,
+      "pillar": 1,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "AI diagnostic tools have shown specialist-level accuracy in detecting conditions from medical images. What's the realistic path from lab accuracy to equitable global deployment, and what could prevent this technology from reaching the people who need it most?"
+    },
+    {
+      "id": "05-R3",
+      "domain": "health",
+      "domain_number": 5,
+      "pillar": 1,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "A physician in rural Brazil wants to bring diagnostic capabilities closer to what's available in S\u00e3o Paulo's best hospitals. What technologies and programs exist that she could implement or advocate for, and what's working in similar contexts?"
+    },
+    {
+      "id": "06-R1",
+      "domain": "environment",
+      "domain_number": 6,
+      "pillar": 1,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What specific environmental crises has humanity successfully reversed or mitigated? Include data on ozone recovery, species recoveries, pollution reduction, and ecosystem restoration."
+    },
+    {
+      "id": "06-R2",
+      "domain": "environment",
+      "domain_number": 6,
+      "pillar": 1,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "Carbon offset markets were supposed to channel private capital into climate solutions. What actually happened, where did the model succeed and fail, and what does this tell us about market-based approaches to environmental abundance?"
+    },
+    {
+      "id": "06-R3",
+      "domain": "environment",
+      "domain_number": 6,
+      "pillar": 1,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "A conservation biologist wants to maximize her impact on ecosystem restoration. Where are the highest-leverage opportunities right now, who's doing the most effective work, and what approach would you recommend for someone with her background?"
+    },
+    {
+      "id": "07-R1",
+      "domain": "education",
+      "domain_number": 7,
+      "pillar": 2,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What measurable progress has been made in global education access and quality over the past century? Include data on literacy rates, enrollment, and learning outcomes."
+    },
+    {
+      "id": "07-R2",
+      "domain": "education",
+      "domain_number": 7,
+      "pillar": 2,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "MOOCs were supposed to democratize education but completion rates hovered around 5-15%. AI tutoring systems now claim to deliver Bloom's 2-sigma improvement at scale. Is this the same pattern repeating, or is something structurally different? What would need to be true for AI to actually transform learning outcomes?"
+    },
+    {
+      "id": "07-R3",
+      "domain": "education",
+      "domain_number": 7,
+      "pillar": 2,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "A teacher in an underfunded school district wants to give her students access to the kind of personalized learning that wealthy private school kids get. What tools, programs, and approaches are available right now that she could realistically implement?"
+    },
+    {
+      "id": "08-R1",
+      "domain": "longevity",
+      "domain_number": 8,
+      "pillar": 2,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What is the current state of longevity science? Include data on the biological mechanisms of aging, clinical trials underway, and the difference between lifespan extension and healthspan extension."
+    },
+    {
+      "id": "08-R2",
+      "domain": "longevity",
+      "domain_number": 8,
+      "pillar": 2,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "The longevity field ranges from rigorous clinical research to dubious supplement marketing. How should someone evaluate claims in this space, what does the serious science actually support, and what are the risks of the 'longevity as luxury product' trajectory?"
+    },
+    {
+      "id": "08-R3",
+      "domain": "longevity",
+      "domain_number": 8,
+      "pillar": 2,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "A 45-year-old wants to maximize their healthy years based on current evidence \u2014 not hype, not supplements without clinical backing, but what the science actually supports. What should they prioritize, and what emerging research is worth following?"
+    },
+    {
+      "id": "09-R1",
+      "domain": "consciousness",
+      "domain_number": 9,
+      "pillar": 2,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What evidence exists that contemplative practices, psychedelic-assisted therapy, and community-based meaning-making produce measurable benefits? Include data on mental health outcomes, neuroimaging findings, and post-traumatic growth research."
+    },
+    {
+      "id": "09-R2",
+      "domain": "consciousness",
+      "domain_number": 9,
+      "pillar": 2,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "The wellness industry is a $6 trillion market that commodifies mindfulness, meditation, and meaning. How do you separate authentic consciousness technologies from commercial extraction, and what does this commodification pattern tell us about whether inner abundance scales differently than material abundance?"
+    },
+    {
+      "id": "09-R3",
+      "domain": "consciousness",
+      "domain_number": 9,
+      "pillar": 2,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "Someone experiencing a period of material comfort but existential emptiness \u2014 good job, stable life, but a growing sense that something is missing \u2014 asks for guidance. Without selling them a product or a guru, what practices, communities, and frameworks have the strongest evidence for cultivating meaning?"
+    },
+    {
+      "id": "10-R1",
+      "domain": "communication",
+      "domain_number": 10,
+      "pillar": 3,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What measurable changes have occurred in global communication access and cost over the past 30 years? Include data on mobile subscriptions, internet penetration, cost per minute of international calls, and translation capabilities."
+    },
+    {
+      "id": "10-R2",
+      "domain": "communication",
+      "domain_number": 10,
+      "pillar": 3,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "Mobile connectivity reached 5.6 billion people but social media has been linked to teen mental health crises and political polarization. How do you evaluate a technology that simultaneously democratized communication and weaponized attention? Is more connectivity always more abundance?"
+    },
+    {
+      "id": "10-R3",
+      "domain": "communication",
+      "domain_number": 10,
+      "pillar": 3,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "A development organization wants to leverage mobile connectivity to improve outcomes for rural farming communities in sub-Saharan Africa. What specific models have worked, what should they avoid, and who's doing this most effectively right now?"
+    },
+    {
+      "id": "11-R1",
+      "domain": "community",
+      "domain_number": 11,
+      "pillar": 3,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What does the data show about trends in social connection, community participation, and loneliness over the past 50 years? Include both the decline metrics and any evidence of recovery or new forms of community."
+    },
+    {
+      "id": "11-R2",
+      "domain": "community",
+      "domain_number": 11,
+      "pillar": 3,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "Every community draws a boundary, and every boundary excludes someone. Research shows that the health benefits of tight-knit communities often correlate with homogeneity. Can you build inclusive belonging, or is there a fundamental tension between community depth and openness?"
+    },
+    {
+      "id": "11-R3",
+      "domain": "community",
+      "domain_number": 11,
+      "pillar": 3,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "A city planner in a rapidly growing suburb wants to combat the loneliness epidemic and build genuine community infrastructure. What physical design, programming, and policy approaches have the strongest evidence for creating belonging at neighborhood scale?"
+    },
+    {
+      "id": "12-R1",
+      "domain": "governance",
+      "domain_number": 12,
+      "pillar": 3,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What measurable progress has been made in governance quality globally? Include data on democratic expansion, digital government services, anti-corruption measures, and citizen participation mechanisms."
+    },
+    {
+      "id": "12-R2",
+      "domain": "governance",
+      "domain_number": 12,
+      "pillar": 3,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "Estonia built a digital republic from scratch. Can this model scale to nations with 100x the population, established bureaucracies, and lower trust? What does Estonia's success actually teach us about governance innovation, and where does the analogy break down?"
+    },
+    {
+      "id": "12-R3",
+      "domain": "governance",
+      "domain_number": 12,
+      "pillar": 3,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "A newly elected mayor of a mid-size city wants to modernize government services and rebuild citizen trust. What specific digital governance tools, participatory mechanisms, and institutional reforms should she prioritize in her first two years?"
+    },
+    {
+      "id": "13-R1",
+      "domain": "security",
+      "domain_number": 13,
+      "pillar": 3,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What does the long-term data show about trends in violence \u2014 war deaths, homicide rates, nuclear arsenals, and civilian casualties? Include both the multi-century decline and recent reversals or complications."
+    },
+    {
+      "id": "13-R2",
+      "domain": "security",
+      "domain_number": 13,
+      "pillar": 3,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "End-to-end encryption protects dissidents and criminals alike. Surveillance technology enables both public safety and authoritarian control. How should we think about security technologies that simultaneously democratize protection and enable new threats?"
+    },
+    {
+      "id": "13-R3",
+      "domain": "security",
+      "domain_number": 13,
+      "pillar": 3,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "A civic technologist wants to help her community benefit from security technology without building surveillance infrastructure. What approaches, tools, and governance frameworks balance safety with civil liberties, and who's implementing them well?"
+    },
+    {
+      "id": "14-R1",
+      "domain": "transportation",
+      "domain_number": 14,
+      "pillar": 3,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What measurable improvements have occurred in transportation safety, cost, and accessibility over the past century? Include data on fatality rates, cost per mile, and emerging electric and autonomous vehicle capabilities."
+    },
+    {
+      "id": "14-R2",
+      "domain": "transportation",
+      "domain_number": 14,
+      "pillar": 3,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "Electric vehicles are following a cost curve similar to solar panels. But the Hyperloop spent $1 billion and carried 2 passengers. How do you distinguish transportation technologies that will actually scale from those that won't, and what diagnostic framework separates real progress from hype?"
+    },
+    {
+      "id": "14-R3",
+      "domain": "transportation",
+      "domain_number": 14,
+      "pillar": 3,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "A transportation director in a growing city needs to reduce commute times, improve safety, and cut emissions simultaneously. What combination of investments has the strongest evidence of achieving all three, and what cities have done this most effectively?"
+    },
+    {
+      "id": "15-R1",
+      "domain": "economy",
+      "domain_number": 15,
+      "pillar": 3,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What measurable progress has been made in global poverty reduction, financial inclusion, and economic access over the past 50 years? Include data on extreme poverty rates, mobile money adoption, and income growth across regions."
+    },
+    {
+      "id": "15-R2",
+      "domain": "economy",
+      "domain_number": 15,
+      "pillar": 3,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "Global GDP per capita has risen 15x in 200 years, yet inequality within nations is widening. The same exponential technologies that demonetize products seem to concentrate the returns from producing them. How do you reconcile aggregate enrichment with distributional failure?"
+    },
+    {
+      "id": "15-R3",
+      "domain": "economy",
+      "domain_number": 15,
+      "pillar": 3,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "A social entrepreneur in Kenya wants to build financial tools for unbanked populations. What infrastructure already exists, what models have succeeded and failed, and what's the highest-leverage approach given the current landscape of mobile money, crypto, and digital banking?"
+    },
+    {
+      "id": "16-R1",
+      "domain": "manufacturing",
+      "domain_number": 16,
+      "pillar": 4,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What evidence exists that manufacturing is becoming more distributed, accessible, and materially efficient? Include data on 3D printing capabilities, dematerialization trends, and the maker ecosystem."
+    },
+    {
+      "id": "16-R2",
+      "domain": "manufacturing",
+      "domain_number": 16,
+      "pillar": 4,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "Clean technologies all depend on mined materials \u2014 cobalt, lithium, rare earths \u2014 often extracted under terrible conditions. How should abundance thinking account for the fact that every dematerialized product has a material supply chain, and what would need to change for clean tech to be genuinely clean?"
+    },
+    {
+      "id": "16-R3",
+      "domain": "manufacturing",
+      "domain_number": 16,
+      "pillar": 4,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "A product designer wants to shift from designing for mass manufacturing to designing for distributed, local production. What tools, platforms, and business models make this viable today, and who's doing it most successfully?"
+    },
+    {
+      "id": "17-R1",
+      "domain": "computation-intelligence",
+      "domain_number": 17,
+      "pillar": 4,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What is the scale of compute cost decline over the past 70 years, and how does this cost curve relate to other abundance trends in solar energy, genomics, communication, and AI capabilities?"
+    },
+    {
+      "id": "17-R2",
+      "domain": "computation-intelligence",
+      "domain_number": 17,
+      "pillar": 4,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "Compute costs have declined roughly 10-trillion-fold, yet the AI industry is more concentrated than any previous technology sector. How did the most dramatic cost curve in history produce the most concentrated power structure, and what does this mean for the assumption that cheaper technology equals more democratic access?"
+    },
+    {
+      "id": "17-R3",
+      "domain": "computation-intelligence",
+      "domain_number": 17,
+      "pillar": 4,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "A researcher at a small university wants to do meaningful AI research but can't compete with corporate labs that spend billions on training runs. What approaches, tools, and strategies give under-resourced researchers real leverage in the current landscape?"
+    },
+    {
+      "id": "18-R1",
+      "domain": "co-creative-intelligence",
+      "domain_number": 18,
+      "pillar": 4,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What evidence exists that human-AI collaboration produces better outcomes than either humans or AI working alone? Include data from chess, medicine, coding, creative fields, and scientific research."
+    },
+    {
+      "id": "18-R2",
+      "domain": "co-creative-intelligence",
+      "domain_number": 18,
+      "pillar": 4,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "GPS navigation made us better at getting places but worse at knowing where we are. Spell-check improved our documents but may have degraded our spelling. When does AI augmentation strengthen human capability and when does it atrophy it? What determines which outcome occurs?"
+    },
+    {
+      "id": "18-R3",
+      "domain": "co-creative-intelligence",
+      "domain_number": 18,
+      "pillar": 4,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "A team lead managing knowledge workers wants to integrate AI tools without deskilling her team. What framework should she use to decide which tasks to augment versus which capabilities to protect, and what organizations have navigated this balance well?"
+    },
+    {
+      "id": "19-R1",
+      "domain": "science-engineering",
+      "domain_number": 19,
+      "pillar": 4,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What specific scientific tools have undergone exponential cost declines similar to computing, and what breakthroughs have these declines enabled? Include data on genome sequencing, laboratory automation, and materials discovery."
+    },
+    {
+      "id": "19-R2",
+      "domain": "science-engineering",
+      "domain_number": 19,
+      "pillar": 4,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "CRISPR enables editing the genetic code of any organism, including humans. The first approved gene therapy costs $2.2 million per patient. How do you evaluate a breakthrough that is simultaneously revolutionary and inaccessible, and what trajectory should we expect for cost and access?"
+    },
+    {
+      "id": "19-R3",
+      "domain": "science-engineering",
+      "domain_number": 19,
+      "pillar": 4,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "A biotech graduate student wants to maximize the real-world impact of their research career. Where are the highest-leverage problems in biological engineering right now, who's doing the most important work, and how should they think about the gap between lab capability and equitable deployment?"
+    },
+    {
+      "id": "20-R1",
+      "domain": "space",
+      "domain_number": 20,
+      "pillar": 5,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What measurable changes have occurred in space access \u2014 launch costs, launch frequency, satellite deployment, and commercial activity \u2014 over the past 20 years?"
+    },
+    {
+      "id": "20-R2",
+      "domain": "space",
+      "domain_number": 20,
+      "pillar": 5,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "Launch costs have declined 97%, but increased access to orbit is creating a debris problem that could make orbit unusable. How do you think about an abundance dynamic that creates its own scarcity through externalities, and what governance structures would prevent a tragedy of the orbital commons?"
+    },
+    {
+      "id": "20-R3",
+      "domain": "space",
+      "domain_number": 20,
+      "pillar": 5,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "An aerospace engineer leaving a large defense contractor wants to work on space technologies that benefit humanity broadly, not just national security or billionaire tourism. Where should she focus her skills, who's doing the most meaningful work, and what's the most impactful first move?"
+    },
+    {
+      "id": "21-R1",
+      "domain": "future-vision",
+      "domain_number": 21,
+      "pillar": 5,
+      "ring": 1,
+      "ring_name": "canonical",
+      "prompt": "What historical examples exist of intentionally constructed positive visions \u2014 cultural, technological, political \u2014 that measurably influenced the societies that created them? Include data on narrative infrastructure and collective imagination."
+    },
+    {
+      "id": "21-R2",
+      "domain": "future-vision",
+      "domain_number": 21,
+      "pillar": 5,
+      "ring": 2,
+      "ring_name": "structured",
+      "prompt": "Our culture produces far more dystopian fiction than utopian fiction. Is the dominance of dystopian imagination a symptom of realism, a failure of creativity, or an active obstacle to building better futures? What does the asymmetry tell us about the relationship between stories and civilizational direction?"
+    },
+    {
+      "id": "21-R3",
+      "domain": "future-vision",
+      "domain_number": 21,
+      "pillar": 5,
+      "ring": 3,
+      "ring_name": "derived",
+      "prompt": "A storyteller \u2014 novelist, filmmaker, or game designer \u2014 wants to create compelling visions of futures worth building, not just warnings about futures to avoid. What makes positive visions dramatically compelling rather than boring, who's done this well, and what structural elements distinguish narrative that inspires action from narrative that merely entertains?"
+    }
+  ]
+}
