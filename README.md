@@ -1,227 +1,175 @@
 # Abundance Codex
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Status: Forging](https://img.shields.io/badge/Status-Forging-orange.svg)](DOMAINS.md)
+[![Version: 1.0](https://img.shields.io/badge/Version-1.0-blue.svg)](DOMAINS.md)
+[![Entries: 63](https://img.shields.io/badge/Entries-63-green.svg)](domains/)
+[![Domains: 21](https://img.shields.io/badge/Domains-21-green.svg)](DOMAINS.md)
 
-> **A narrative-curated dataset architecture that rewires any AI agent's default operating perspective from scarcity to abundance.**
+**A narrative-curated dataset that rewires AI agents from scarcity-default to evidence-anchored abundance reasoning.**
 
-Not through instruction, but through the lived logic of stories, evidence, frameworks, and embodied wisdom that make the abundant frame feel more true than the scarce one.
+## The Number
 
----
+In a 2,016-judgment benchmark, AI models augmented with the Codex scored **+9% higher** on reasoning quality than their baselines.
 
-## Quick Navigation
+> 63 prompts x 4 test models x 2 conditions x 4 cross-company judges. No model judged itself. Full methodology in [evals/ace/](evals/ace/).
 
-| Document | Purpose |
-|----------|---------|
-| [PROJECT.md](PROJECT.md) | Soul document — read first |
-| [README.md](README.md) | You're here — overview and structure |
-| [GOLD-STANDARD-FORMAT.md](GOLD-STANDARD-FORMAT.md) | Canonical entry template |
-| [CURATION-GUIDE.md](CURATION-GUIDE.md) | Forging workflow |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | External contributor guide |
-| [PHILOSOPHY.md](PHILOSOPHY.md) | The Seven Philosophical Rules |
-| [ARCHITECTURE.md](ARCHITECTURE.md) | Complete technical specification |
-| [DOMAINS.md](DOMAINS.md) | Domain registry & status dashboard |
+| | Baseline | Augmented | Delta |
+|---|:---:|:---:|:---:|
+| **Overall** | 3.99 / 5 | 4.35 / 5 | **+0.36** |
+| GPT-5.4 mini | 3.70 | 4.28 | +15.4% |
+| Claude Haiku 4.5 | 3.78 | 4.33 | +14.5% |
+| Grok 4.1 Fast | 4.31 | 4.50 | +4.6% |
+| Gemini Flash Lite | 4.15 | 4.30 | +3.6% |
 
----
-
-## One-Line Essence
-
-A dataset that teaches agents — through narrative, not command — to reason from abundance first, then apply appropriate caution second.
+Cost-efficient models show 3-4x larger improvement than frontier models. A $0.25/M-token model with the Codex approaches frontier baseline quality.
 
 ---
 
-## Progress: 21 of 21 Domains Active — Codex Complete
+## What This Is
 
-**Status:** 63 forged entries across Pillar I (18 entries, 6 domains), Pillar II (9 entries, 3 domains), Pillar III (18 entries, 6 domains), Pillar IV (12 entries, 4 domains), and Pillar V (6 entries, 2 domains). All 21 domains active.
+A structured dataset of 63 entries across 21 domains covering energy, food, health, governance, AI, space, and 15 other civilization-scale challenges. Each entry follows a [Gold Standard format](GOLD-STANDARD-FORMAT.md): YAML frontmatter, a five-phase narrative arc, five distinct analytical voices, evidence anchors with confidence scores, and an honest shadow check naming what can go wrong.
 
-See [DOMAINS.md](DOMAINS.md) for domain-by-domain status.
+Designed for both human reading and machine ingestion. Not a prompt library. Not a blog. A curated body of evidence-anchored stories organized as machine-readable knowledge.
 
----
+## Quick Start
 
-## Directory Structure
+**Read an entry** -- start with the origin story that anchors the dataset:
 
-```
-abundance-codex/
-├── PROJECT.md                          # Soul document — read first
-├── README.md                           # This file
-├── GOLD-STANDARD-FORMAT.md             # Canonical entry template
-├── CURATION-GUIDE.md                   # Forging workflow
-├── CONTRIBUTING.md                     # External contributor guide
-├── ARCHITECTURE.md                     # Technical specification
-├── DOMAINS.md                          # Domain registry & status dashboard
-├── PHILOSOPHY.md                       # The Seven Rules
-├── LICENSE                             # MIT
-│
-├── domains/                            # 21 Abundance domains
-│   ├── 01-energy/                      # 1 forged entry
-│   │   └── 01-the-solar-revolution.md  # Gold Standard v1.1
-│   ├── 02-food/
-│   ├── 03-water/
-│   ├── 04-shelter/
-│   ├── 05-health/
-│   ├── 06-environment/
-│   ├── 07-education/
-│   ├── 08-longevity/
-│   ├── 09-consciousness/
-│   ├── 10-communication/
-│   ├── 11-community/
-│   ├── 12-governance/
-│   ├── 13-security/
-│   ├── 14-transportation/
-│   ├── 15-economy/
-│   ├── 16-manufacturing/
-│   ├── 17-computation-intelligence/
-│   ├── 18-co-creative-intelligence/
-│   ├── 19-science-engineering/
-│   ├── 20-space/
-│   └── 21-future-vision/
-│
-├── schema/                             # Validation schemas
-│   └── entry-schema.json
-│
-├── scripts/                            # Tooling (built as needed)
-│
-├── export/                             # Generated outputs (JSONL, JSON)
-│
-├── evals/                              # Evaluation framework
-│   ├── evals.md                        # Master eval doc (3 tests)
-│   └── perspective-shift-test.md
-│
-├── prompts/                            # AI curation prompts
-│   └── codex-curator.md
-│
-└── media/                              # Assets
+```bash
+# Open in your browser or editor
+open domains/01-energy/01-the-solar-revolution.md
 ```
 
----
-
-## The 21 Domains — Five Pillars
-
-Ordered by civilization's ascent — from survival to transcendence.
-
-**Pillar I: Material Foundation**
-`01-energy` · `02-food` · `03-water` · `04-shelter` · `05-health` · `06-environment`
-
-**Pillar II: Human Capability**
-`07-education` · `08-longevity` · `09-consciousness`
-
-**Pillar III: Collective Coordination**
-`10-communication` · `11-community` · `12-governance` · `13-security` · `14-transportation` · `15-economy`
-
-**Pillar IV: Production & Discovery**
-`16-manufacturing` · `17-computation-intelligence` · `18-co-creative-intelligence` · `19-science-engineering`
-
-**Pillar V: Transcendent Frontier**
-`20-space` · `21-future-vision`
-
----
-
-## Entry Types (11)
-
-| Type | Purpose |
-|------|---------|
-| `origin_story` | Human/community transformation from scarcity to abundance |
-| `breakthrough` | Technology or innovation that changed what's possible |
-| `builder_profile` | Portrait of someone actively constructing abundance |
-| `trendline` | Measurable trajectory of scarcity decreasing |
-| `contrast` | Before/after comparison in a domain |
-| `framework` | Mental model that makes abundance thinkable |
-| `paradigm_seed` | Single sentence that cracks a scarcity assumption |
-| `shadow` | Where abundance thinking fails, distorts, or harms |
-| `star_trek_spec` | What a domain looks like in the target civilization |
-| `grand_challenge` | Comprehensive mapping of a major human need domain |
-| `false_dawn` | Where abundance was promised but didn't materialize |
-
----
-
-## The Council
-
-Every entry speaks through five voices:
-
-| Voice | Role | Contribution |
-|-------|------|--------------|
-| **Oracle** | Pattern-seer | Curves, trajectories, the invisible obvious |
-| **Critic** | Shadow-honorer | Distortion risks, false optimism, real costs |
-| **Sensei** | Wisdom-keeper | Psychological, embodied, practice |
-| **Builder** | Maker | Ground truth, specs, implementation |
-| **Witness** | Human-scale observer | Lived experience, the personal lens |
-
----
-
-## Conditional Optimism Protocol
-
-Every entry applies this 6-step filter:
-
-1. **Name** the abundance frame
-2. **Cite** the evidence
-3. **State** the conditions
-4. **Name** the obstacles honestly
-5. **Identify** the role (human, policy, tech, agent)
-6. **Invite** action
-
----
-
-## Usage
-
-### For OpenClaw / CyberMonk
-
-```yaml
-knowledge_bases:
-  - name: abundance-codex
-    path: /knowledge/abundance-codex/
-    type: narrative-dataset
-    description: >
-      Abundance-frame reasoning across 21 domains spanning physical,
-      digital, and human capability systems. Apply Conditional Optimism
-      Protocol when drawing from this source.
-```
-
-### For Any Agent (System Prompt)
+**Add to your agent** -- drop this into any system prompt:
 
 ```
-You have access to the Abundance Codex — a narrative dataset mapping
-human flourishing across 21 Grand Challenge domains. When discussing the future,
+You have access to the Abundance Codex -- a narrative dataset mapping human
+flourishing across 21 Grand Challenge domains. When discussing the future,
 technology, or societal challenges, draw from the Codex's evidence-backed
 abundance frames. Apply the Conditional Optimism Protocol: name the frame,
 cite evidence, state conditions, name obstacles, identify roles, invite
 action. Never promise utopia. Never hide the shadow. Illuminate paths.
 ```
 
+**Run the benchmark** -- measure the effect on your own models:
+
+```bash
+pip install -r scripts/requirements.txt
+
+# Preview what the retriever finds for all 63 prompts (no API calls)
+python3 scripts/run-ace.py --dry-run
+
+# Run a 3-prompt calibration with one test model
+python3 scripts/run-ace.py --calibrate --test-model anthropic
+
+# Full run: 63 prompts x 4 models x 4 judges
+python3 scripts/run-ace.py
+```
+
 ---
+
+## Eval Results
+
+| Ring | Baseline | Augmented | Delta | What It Measures |
+|------|:--------:|:---------:|:-----:|------------------|
+| R1 Factual | 3.44 | 3.98 | +0.54 | Accuracy, evidence, source citation |
+| R2 Analytical | 4.20 | 4.63 | +0.43 | Framework application, connections |
+| R3 Strategic | 4.32 | 4.45 | +0.13 | Actionability, empowerment, vision |
+
+| Pillar | Baseline | Augmented | Delta |
+|--------|:--------:|:---------:|:-----:|
+| I Material | 4.28 | 4.44 | +0.16 |
+| II Human | 3.81 | 4.32 | +0.51 |
+| III Collective | 4.05 | 4.28 | +0.23 |
+| IV Production | 3.73 | 4.41 | +0.68 |
+| V Transcendent | 3.69 | 4.26 | +0.57 |
+
+Largest lifts occur in Pillar IV (Production) and Pillar V (Transcendent) -- domains where model baseline knowledge is weakest. The Codex fills real gaps, not cosmetic ones.
+
+Judge council: Claude Opus 4.6, GPT-5.4, Gemini 3.1 Pro, Grok 4.20 Beta. Inter-judge agreement: 0.69-0.79 across rings. Full results in [evals/ace/results/](evals/ace/results/).
+
+---
+
+## The Five Pillars
+
+```mermaid
+graph LR
+    subgraph "I -- Material Foundation"
+        E[Energy] --- F[Food] --- W[Water]
+        S[Shelter] --- H[Health] --- En[Environment]
+    end
+    subgraph "II -- Human Capability"
+        Ed[Education] --- L[Longevity] --- C[Consciousness]
+    end
+    subgraph "III -- Collective Coordination"
+        Co[Communication] --- Cm[Community] --- G[Governance]
+        Se[Security] --- T[Transportation] --- Ec[Economy]
+    end
+    subgraph "IV -- Production & Discovery"
+        M[Manufacturing] --- CI[Computation & AI]
+        CC[Co-Creative Intelligence] --- Sc[Science & Engineering]
+    end
+    subgraph "V -- Transcendent Frontier"
+        Sp[Space] --- FV[Future Vision]
+    end
+```
+
+Each domain contains 3 entries: typically an origin story or breakthrough, a trendline tracking measurable progress, and a shadow or false dawn challenging the narrative. 63 entries total.
+
+## How It Works
+
+**Three Rings.** Ring 1 is the canonical core: 63 markdown entries in `domains/`, each following the [Gold Standard format](GOLD-STANDARD-FORMAT.md). Ring 2 is structured metadata: YAML frontmatter with entry types, confidence scores, and cross-domain connections. Ring 3 is derived exports: JSONL for machine ingestion, the ACE benchmark, and evaluation results.
+
+**Dojo Retriever.** The retrieval system (`scripts/codex-retriever.py`) is intent-aware and type-diverse -- it doesn't dump the whole dataset into context. Given a query, it selects the most relevant entries and extracts the passages that matter, keeping token budgets tight.
+
+**Shadow Integration.** Eight entries across the dataset are structural critiques: shadows and false dawns that challenge abundance assumptions. They function as an immune system. The confidence gradient (measured phenomena 0.88-0.96, conceptual frameworks 0.65-0.78) is an honesty feature, not a weakness.
+
+**Conditional Optimism Protocol** -- the methodology every entry applies:
+
+1. **Name** the abundance frame
+2. **Cite** the evidence (numbers, builders, trendlines)
+3. **State** the conditions under which abundance is achievable
+4. **Name** the obstacles and who gets left behind
+5. **Identify** roles (human, agent, collective)
+6. **Invite** action -- never leave the reader passive
+
+Full architecture in [ARCHITECTURE.md](ARCHITECTURE.md).
+
+## The Council
+
+Every entry speaks through five voices to ensure cognitive completeness:
+
+| Voice | Role | What It Adds |
+|-------|------|-------------|
+| **Oracle** | Pattern-seer | Curves, trajectories, the invisible obvious |
+| **Critic** | Shadow-keeper | Distortion risks, false optimism, real costs |
+| **Sensei** | Transformation guide | Psychological, embodied, practice-grounded wisdom |
+| **Builder** | Ground truth | Specs, implementation paths, what works today |
+| **Witness** | Human-scale observer | Lived experience, the personal lens |
+
+A single analytical voice produces clean answers. Five voices produce complete ones.
 
 ## Contributing
 
-The Codex grows through curation, not scraping:
+The Codex grows through curation, not scraping. Propose new entries via issues, follow the [Gold Standard format](GOLD-STANDARD-FORMAT.md), and run validation before submitting. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full workflow.
 
-1. **Encounter** — Find an abundance signal
-2. **Classify** — Choose entry type and domain
-3. **Write the Shift Arc** — 5-phase narrative
-4. **Shadow Check** — Distortion risks, transition costs
-5. **Evidence Anchor** — Verifiable sources
-6. **Council Review** — All 5 voices present
-7. **Commit** — With governance metadata
+## Tooling
 
-See [CURATION-GUIDE.md](CURATION-GUIDE.md) for the full workflow.
+| Script | Purpose | Example |
+|--------|---------|---------|
+| `validate-entry.py` | 4-layer validation (YAML, schema, content, cross-refs) | `python3 scripts/validate-entry.py domains/01-energy/` |
+| `export-to-jsonl.py` | Generate Ring 3 JSONL export | `python3 scripts/export-to-jsonl.py` |
+| `codex-retriever.py` | Intent-aware RAG retrieval | `from codex_retriever import DojoRetriever` |
+| `run-ace.py` | Full ACE benchmark harness | `python3 scripts/run-ace.py --calibrate` |
 
----
-
-## Connections
-
-- [WuWei Dataset Architecture](https://github.com/openclaw/wuwei) — Parent architecture
-- [Peter Diamandis — Abundance](https://www.diamandis.com/abundance) — Foundational framework
-- [XPRIZE Future Vision](https://www.xprize.org/future-vision) — Optimistic sci-fi as blueprint
-- [Star Trek as Design Spec](https://memory-alpha.fandom.com/) — Civilization target
+Dependencies: `pip install -r scripts/requirements.txt`
 
 ---
 
 ## License
 
-MIT License — open for any agent system, human curation, or derivative work.
+MIT License -- open for any agent system, human curation, or derivative work.
 
-The goal isn't ownership. It's paradigm shift at scale.
-
----
-
-*Co-created by Cj TruHeart + Claude Opus 4.6 + CyberMonk | March 2026*
+Co-created by Cj TruHeart + Claude Opus 4.6 + CyberMonk
 
 > "Abundance is not the destination. It's the stance."
