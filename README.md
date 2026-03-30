@@ -69,6 +69,19 @@ python3 scripts/run-ace.py --calibrate --test-model anthropic
 python3 scripts/run-ace.py
 ```
 
+**Query with Codex context** -- see the difference live:
+
+```bash
+# Ask Claude with Codex-augmented context
+python3 scripts/codex-query.py "What evidence exists for solar energy abundance?"
+
+# Compare baseline vs Codex-augmented
+python3 scripts/codex-query.py "Is solar abundance realistic?" --compare
+
+# Query all four models
+python3 scripts/codex-query.py "How should we think about AI governance?" --model all
+```
+
 ---
 
 ## Eval Results
@@ -166,6 +179,7 @@ The Codex grows through curation, not scraping. Propose new entries via issues, 
 | `export-to-jsonl.py` | Generate Ring 3 JSONL export | `python3 scripts/export-to-jsonl.py` |
 | `codex-retriever.py` | Intent-aware RAG retrieval | `from codex_retriever import DojoRetriever` |
 | `run-ace.py` | Full ACE benchmark harness | `python3 scripts/run-ace.py --calibrate` |
+| `codex-query.py` | Query any model with Codex context | `python3 scripts/codex-query.py "your question" --model claude` |
 
 Dependencies: `pip install -r scripts/requirements.txt`
 
