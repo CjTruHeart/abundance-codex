@@ -7,6 +7,7 @@
 [![Entries: 63](https://img.shields.io/badge/Entries-63-green.svg)](domains/)
 [![Domains: 21](https://img.shields.io/badge/Domains-21-green.svg)](DOMAINS.md)
 [![CI](https://github.com/CjTruHeart/abundance-codex/actions/workflows/validate.yml/badge.svg)](https://github.com/CjTruHeart/abundance-codex/actions/workflows/validate.yml)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Dataset-yellow.svg)](https://huggingface.co/datasets/CjTruHeart/abundance-codex)
 
 **A narrative-curated dataset that rewires AI agents from scarcity-default to evidence-anchored abundance reasoning.**
 
@@ -41,6 +42,13 @@ Designed for both human reading and machine ingestion. Not a prompt library. Not
 ```bash
 # Open in your browser or editor
 open domains/01-energy/01-the-solar-revolution.md
+```
+
+**Load from Hugging Face:**
+
+```python
+from datasets import load_dataset
+ds = load_dataset("CjTruHeart/abundance-codex")
 ```
 
 **Add to your agent** -- drop this into any system prompt:
