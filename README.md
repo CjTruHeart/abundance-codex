@@ -1,3 +1,5 @@
+![Abundance Codex](media/banner.png)
+
 # Abundance Codex
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -118,6 +120,8 @@ graph LR
 Each domain contains 3 entries: typically an origin story or breakthrough, a trendline tracking measurable progress, and a shadow or false dawn challenging the narrative. 63 entries total.
 
 ## How It Works
+
+![Three Rings Architecture](media/architecture.svg)
 
 **Three Rings.** Ring 1 is the canonical core: 63 markdown entries in `domains/`, each following the [Gold Standard format](GOLD-STANDARD-FORMAT.md). Ring 2 is structured metadata: YAML frontmatter with entry types, confidence scores, and cross-domain connections. Ring 3 is derived exports: JSONL for machine ingestion, the ACE benchmark, and evaluation results.
 

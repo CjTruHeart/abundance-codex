@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="#0a0e1a"/>
+
+  <!-- === TOP SECTION: Three Rings === -->
+  <!-- Center point for rings: 400, 175 -->
+
+  <!-- Ring 3 — Derived Exports (outermost) -->
+  <circle cx="400" cy="175" r="180" stroke="#2dd4bf" stroke-width="2" fill="none"/>
+  <text x="400" y="12" text-anchor="middle" fill="#2dd4bf" font-size="11" font-weight="600" letter-spacing="0.1em">RING 3 — DERIVED EXPORTS</text>
+  <!-- Ring 3 labels -->
+  <text x="235" y="95" text-anchor="middle" fill="#8899aa" font-size="9" letter-spacing="0.05em">JSONL</text>
+  <text x="565" y="95" text-anchor="middle" fill="#8899aa" font-size="9" letter-spacing="0.05em">BENCHMARK</text>
+  <text x="400" y="370" text-anchor="middle" fill="#8899aa" font-size="9" letter-spacing="0.05em">EVAL RESULTS</text>
+
+  <!-- Ring 2 — Structured Metadata (middle) -->
+  <circle cx="400" cy="175" r="130" stroke="#d4a72c" stroke-width="2.5" fill="none"/>
+  <text x="400" y="58" text-anchor="middle" fill="#d4a72c" font-size="11" font-weight="600" letter-spacing="0.1em">RING 2 — STRUCTURED METADATA</text>
+  <!-- Ring 2 labels -->
+  <text x="282" y="140" text-anchor="middle" fill="#8899aa" font-size="9" letter-spacing="0.05em">YAML</text>
+  <text x="518" y="140" text-anchor="middle" fill="#8899aa" font-size="9" letter-spacing="0.05em">CONFIDENCE</text>
+  <text x="290" y="240" text-anchor="middle" fill="#8899aa" font-size="9" letter-spacing="0.05em">CONNECTIONS</text>
+  <text x="510" y="240" text-anchor="middle" fill="#8899aa" font-size="9" letter-spacing="0.05em">TYPES</text>
+
+  <!-- Ring 1 — Canonical Core (innermost) -->
+  <circle cx="400" cy="175" r="70" stroke="#f0f4f8" stroke-width="3" fill="#121829"/>
+  <text x="400" y="163" text-anchor="middle" fill="#f0f4f8" font-size="12" font-weight="600" letter-spacing="0.1em">RING 1</text>
+  <text x="400" y="180" text-anchor="middle" fill="#f0f4f8" font-size="10" font-weight="400">Canonical Core</text>
+  <text x="400" y="196" text-anchor="middle" fill="#8899aa" font-size="10" font-weight="400">63 Entries</text>
+
+  <!-- === Separator line === -->
+  <line x1="60" y1="385" x2="740" y2="385" stroke="#1e2a3a" stroke-width="1"/>
+
+  <!-- === BOTTOM SECTION: Dojo Retriever Pipeline === -->
+  <!-- Pipeline label -->
+  <text x="400" y="410" text-anchor="middle" fill="#8899aa" font-size="10" font-weight="600" letter-spacing="0.15em">DOJO RETRIEVER v1.0</text>
+
+  <!-- Pipeline panels — 6 panels, each ~90x30, spaced with arrows -->
+  <!-- Starting x: 400 - (6*90 + 5*22)/2 = 400 - 325 = 75 -->
+
+  <!-- Panel 1: Query (teal text) -->
+  <rect x="75" y="428" width="90" height="30" rx="0" ry="0" fill="#121829" stroke="#2dd4bf" stroke-width="1"/>
+  <rect x="75" y="428" width="8" height="30" rx="4" ry="0" fill="#2dd4bf"/>
+  <text x="124" y="447" text-anchor="middle" fill="#2dd4bf" font-size="11" font-weight="600" letter-spacing="0.05em">QUERY</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="167" y1="443" x2="183" y2="443" stroke="#8899aa" stroke-width="1"/>
+  <polygon points="183,440 189,443 183,446" fill="#8899aa"/>
+
+  <!-- Panel 2: Intent (gold text) -->
+  <rect x="189" y="428" width="90" height="30" rx="0" ry="0" fill="#121829" stroke="#d4a72c" stroke-width="1"/>
+  <rect x="189" y="428" width="8" height="30" rx="4" ry="0" fill="#d4a72c"/>
+  <text x="238" y="447" text-anchor="middle" fill="#d4a72c" font-size="11" font-weight="600" letter-spacing="0.05em">INTENT</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="281" y1="443" x2="297" y2="443" stroke="#8899aa" stroke-width="1"/>
+  <polygon points="297,440 303,443 297,446" fill="#8899aa"/>
+
+  <!-- Panel 3: Retrieve (teal text) -->
+  <rect x="303" y="428" width="90" height="30" rx="0" ry="0" fill="#121829" stroke="#2dd4bf" stroke-width="1"/>
+  <rect x="303" y="428" width="8" height="30" rx="4" ry="0" fill="#2dd4bf"/>
+  <text x="352" y="447" text-anchor="middle" fill="#2dd4bf" font-size="11" font-weight="600" letter-spacing="0.05em">RETRIEVE</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="395" y1="443" x2="411" y2="443" stroke="#8899aa" stroke-width="1"/>
+  <polygon points="411,440 417,443 411,446" fill="#8899aa"/>
+
+  <!-- Panel 4: Extract (gold text) -->
+  <rect x="417" y="428" width="90" height="30" rx="0" ry="0" fill="#121829" stroke="#d4a72c" stroke-width="1"/>
+  <rect x="417" y="428" width="8" height="30" rx="4" ry="0" fill="#d4a72c"/>
+  <text x="466" y="447" text-anchor="middle" fill="#d4a72c" font-size="11" font-weight="600" letter-spacing="0.05em">EXTRACT</text>
+
+  <!-- Arrow 4→5 -->
+  <line x1="509" y1="443" x2="525" y2="443" stroke="#8899aa" stroke-width="1"/>
+  <polygon points="525,440 531,443 525,446" fill="#8899aa"/>
+
+  <!-- Panel 5: Order (teal text) -->
+  <rect x="531" y="428" width="90" height="30" rx="0" ry="0" fill="#121829" stroke="#2dd4bf" stroke-width="1"/>
+  <rect x="531" y="428" width="8" height="30" rx="4" ry="0" fill="#2dd4bf"/>
+  <text x="580" y="447" text-anchor="middle" fill="#2dd4bf" font-size="11" font-weight="600" letter-spacing="0.05em">ORDER</text>
+
+  <!-- Arrow 5→6 -->
+  <line x1="623" y1="443" x2="639" y2="443" stroke="#8899aa" stroke-width="1"/>
+  <polygon points="639,440 645,443 639,446" fill="#8899aa"/>
+
+  <!-- Panel 6: Generate (gold text) -->
+  <rect x="645" y="428" width="90" height="30" rx="0" ry="0" fill="#121829" stroke="#d4a72c" stroke-width="1"/>
+  <rect x="645" y="428" width="8" height="30" rx="4" ry="0" fill="#d4a72c"/>
+  <text x="694" y="447" text-anchor="middle" fill="#d4a72c" font-size="11" font-weight="600" letter-spacing="0.05em">GENERATE</text>
+
+</svg>
