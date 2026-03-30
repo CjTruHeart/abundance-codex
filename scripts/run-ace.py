@@ -13,6 +13,7 @@ Architecture:
 
 import argparse
 import asyncio
+import importlib.util
 import json
 import os
 import re
@@ -23,7 +24,16 @@ from pathlib import Path
 from statistics import mean, median, stdev
 
 import httpx
-import yaml
+
+# Import DojoRetriever from codex-retriever.py (hyphenated filename)
+_retriever_spec = importlib.util.spec_from_file_location(
+    "codex_retriever",
+    os.path.join(os.path.dirname(__file__), "codex-retriever.py"),
+)
+_codex_retriever = importlib.util.module_from_spec(_retriever_spec)
+sys.modules["codex_retriever"] = _codex_retriever
+_retriever_spec.loader.exec_module(_codex_retriever)
+DojoRetriever = _codex_retriever.DojoRetriever
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -32,24 +42,24 @@ import yaml
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 TEST_SUBJECTS = {
-    "anthropic": "anthropic/claude-haiku-4-6",
+    "anthropic": "anthropic/claude-haiku-4-5",
     "openai": "openai/gpt-5.4-mini",
-    "google": "google/gemini-3.1-flash-lite",
+    "google": "google/gemini-3.1-flash-lite-preview",
     "xai": "x-ai/grok-4.1-fast",
 }
 
 JUDGE_COUNCIL = {
-    "anthropic": "anthropic/claude-opus-4-6",
-    "openai": "openai/gpt-5.4-thinking",
-    "google": "google/gemini-3.1-pro",
-    "xai": "x-ai/grok-4.20",
+    "anthropic": "anthropic/claude-opus-4.6",
+    "openai": "openai/gpt-5.4",           # flagship; no -thinking variant on OpenRouter
+    "google": "google/gemini-3.1-pro-preview",
+    "xai": "x-ai/grok-4.20-beta",
 }
 
 COMPANY_PAIRS = {
-    "anthropic": ("anthropic/claude-opus-4-6", "anthropic/claude-haiku-4-6"),
-    "openai": ("openai/gpt-5.4-thinking", "openai/gpt-5.4-mini"),
-    "google": ("google/gemini-3.1-pro", "google/gemini-3.1-flash-lite"),
-    "xai": ("x-ai/grok-4.20", "x-ai/grok-4.1-fast"),
+    "anthropic": ("anthropic/claude-opus-4.6", "anthropic/claude-haiku-4-5"),
+    "openai": ("openai/gpt-5.4", "openai/gpt-5.4-mini"),
+    "google": ("google/gemini-3.1-pro-preview", "google/gemini-3.1-flash-lite-preview"),
+    "xai": ("x-ai/grok-4.20-beta", "x-ai/grok-4.1-fast"),
 }
 
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
@@ -80,16 +90,9 @@ DOMAIN_FOLDERS = {
     "future-vision": "21-future-vision",
 }
 
-CODEX_SYSTEM_PROMPT = """You have access to the Abundance Codex — a narrative dataset mapping human
-flourishing across 21 Grand Challenge domains. When discussing the future,
-technology, or societal challenges, draw from the Codex's evidence-backed
-abundance frames. Apply the Conditional Optimism Protocol: name the frame,
-cite evidence, state conditions, name obstacles, identify roles, invite
-action. Never promise utopia. Never hide the shadow. Illuminate paths.
+CODEX_SYSTEM_PROMPT = """You are a helpful assistant with access to the Abundance Codex — a narrative dataset mapping human flourishing across 21 Grand Challenge domains. When discussing the future, technology, or societal challenges, draw from the provided context. Apply conditional optimism: name the frame, cite evidence, state conditions, name obstacles, identify roles, invite action. Never promise utopia. Never hide the shadow. Illuminate paths. When citing specific numbers or statistics from the provided context, note the source year. Present evidence as sourced claims, not as your own assertions.
 
-Here are the relevant entries from the Codex:
-
-{codex_entries}"""
+{codex_context}"""
 
 # Concurrency limiter — avoid hammering OpenRouter
 MAX_CONCURRENT_REQUESTS = 8
@@ -151,79 +154,6 @@ async def query_openrouter(model: str, messages: list, max_tokens: int = 2000) -
 
 
 # ---------------------------------------------------------------------------
-# Codex entry loading
-# ---------------------------------------------------------------------------
-
-def parse_yaml_frontmatter(text: str) -> dict:
-    """Extract YAML frontmatter from a markdown file."""
-    match = re.match(r"^---\n(.*?)\n---", text, re.DOTALL)
-    if not match:
-        return {}
-    try:
-        return yaml.safe_load(match.group(1)) or {}
-    except yaml.YAMLError:
-        return {}
-
-
-def load_domain_entries(domain_slug: str) -> list[tuple[str, dict, str]]:
-    """Load all entries from a domain folder. Returns [(filename, frontmatter, content)]."""
-    folder = DOMAIN_FOLDERS.get(domain_slug)
-    if not folder:
-        return []
-    domain_path = REPO_ROOT / "domains" / folder
-    if not domain_path.exists():
-        return []
-    entries = []
-    for f in sorted(domain_path.glob("*.md")):
-        text = f.read_text(encoding="utf-8")
-        fm = parse_yaml_frontmatter(text)
-        entries.append((f.name, fm, text))
-    return entries
-
-
-def load_codex_entries(domain_slug: str, max_entries: int = 5) -> str | None:
-    """Load relevant Codex entries for a domain, including connected domains."""
-    primary = load_domain_entries(domain_slug)
-    if not primary:
-        return None
-
-    # Collect connected domains with strengths
-    connected = []
-    for _, fm, _ in primary:
-        for dc in fm.get("domain_connections", []) or []:
-            connected.append((dc.get("domain", ""), dc.get("strength", 0)))
-
-    # Sort connected by strength descending, deduplicate
-    seen = {domain_slug}
-    connected_sorted = []
-    for d, s in sorted(connected, key=lambda x: -x[1]):
-        if d not in seen:
-            seen.add(d)
-            connected_sorted.append(d)
-
-    # Build entry list: primary first, then connected
-    all_entries = []
-    for name, fm, text in primary:
-        all_entries.append(text)
-    for cd in connected_sorted:
-        if len(all_entries) >= max_entries:
-            break
-        for name, fm, text in load_domain_entries(cd):
-            if len(all_entries) >= max_entries:
-                break
-            all_entries.append(text)
-
-    # Strip Raw Spark sections to save tokens
-    cleaned = []
-    for entry in all_entries[:max_entries]:
-        # Remove everything between "## Raw Spark" and the next "##"
-        entry = re.sub(r"## Raw Spark.*?(?=\n## |\Z)", "", entry, flags=re.DOTALL)
-        cleaned.append(entry.strip())
-
-    return "\n\n---\n\n".join(cleaned)
-
-
-# ---------------------------------------------------------------------------
 # Test subject interaction
 # ---------------------------------------------------------------------------
 
@@ -231,7 +161,7 @@ async def get_test_response(model: str, prompt: str, codex_context: str | None =
     """Get a response from a test subject — baseline or augmented."""
     messages = []
     if codex_context:
-        system_msg = CODEX_SYSTEM_PROMPT.format(codex_entries=codex_context)
+        system_msg = CODEX_SYSTEM_PROMPT.format(codex_context=codex_context)
         messages.append({"role": "system", "content": system_msg})
     messages.append({"role": "user", "content": prompt})
     return await query_openrouter(model, messages)
@@ -334,14 +264,30 @@ def parse_judge_scores(text: str, rubric: dict) -> dict | None:
 
 
 async def judge_response(judge_model: str, eval_prompt: str, response: str,
-                         ring: int, rubric: dict) -> dict | None:
-    """Send a response to a judge and parse scores."""
+                         ring: int, rubric: dict, max_retries: int = 3) -> dict | None:
+    """Send a response to a judge and parse scores.
+
+    Retries on both API failures and parse failures (regex didn't match).
+    Returns parsed scores dict on success, None after all retries exhausted.
+    """
     prompt = build_judge_prompt(eval_prompt, response, ring, rubric)
     messages = [{"role": "user", "content": prompt}]
-    result = await query_openrouter(judge_model, messages, max_tokens=500)
-    if not result:
-        return None
-    return parse_judge_scores(result, rubric)
+
+    for attempt in range(max_retries):
+        result = await query_openrouter(judge_model, messages, max_tokens=2000)
+        if not result:
+            if attempt < max_retries - 1:
+                print(f"  [JUDGE-RETRY] {judge_model}: API failure — attempt {attempt + 1}/{max_retries}")
+            continue
+
+        parsed = parse_judge_scores(result, rubric)
+        if parsed:
+            return parsed
+
+        if attempt < max_retries - 1:
+            print(f"  [JUDGE-RETRY] {judge_model}: parse failure — attempt {attempt + 1}/{max_retries}")
+
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -641,21 +587,9 @@ def generate_variance_report(all_results: list, output_path: Path):
 
 async def evaluate_prompt(prompt_data: dict, test_model: str, condition: str,
                           codex_context: str | None, judges: list[str],
-                          rubrics: dict, dry_run: bool = False) -> dict | None:
+                          rubrics: dict, retrieval_info: dict | None = None) -> dict | None:
     """Evaluate a single prompt: get response, anonymize, judge, aggregate."""
     pid = prompt_data["id"]
-
-    if dry_run:
-        return {
-            "prompt_id": pid,
-            "domain": prompt_data["domain"],
-            "ring": prompt_data["ring"],
-            "test_model": test_model,
-            "condition": condition,
-            "raw_response": "[DRY RUN]",
-            "judge_scores": {},
-            "aggregated": {"mean": 0, "median": 0, "stdev": 0, "agreement_index": 0, "fault_lines": []},
-        }
 
     # 1. Get test response
     response = await get_test_response(test_model, prompt_data["prompt"], codex_context)
@@ -677,22 +611,21 @@ async def evaluate_prompt(prompt_data: dict, test_model: str, condition: str,
     ]
     judge_results = await asyncio.gather(*judge_tasks)
 
-    # 5. Build result
+    # 5. Build result — store None for failed judges so they are visible in JSON
     judge_scores = {}
     for j, result in zip(judges, judge_results):
-        if result:
-            judge_scores[j] = result
-        else:
+        judge_scores[j] = result
+        if not result:
             print(f"  [JUDGE-FAIL] {j} on {pid} ({condition})")
 
-    if not judge_scores:
+    if not any(judge_scores.values()):
         print(f"  [SKIP] All judges failed for {pid}")
         return None
 
     # 6. Aggregate
     aggregated = compute_aggregates(judge_scores)
 
-    return {
+    result_dict = {
         "prompt_id": pid,
         "domain": prompt_data["domain"],
         "ring": prompt_data["ring"],
@@ -702,6 +635,12 @@ async def evaluate_prompt(prompt_data: dict, test_model: str, condition: str,
         "judge_scores": judge_scores,
         "aggregated": aggregated,
     }
+
+    # 7. Attach retrieval metadata for augmented condition
+    if retrieval_info:
+        result_dict["retrieval"] = retrieval_info
+
+    return result_dict
 
 
 def load_prompts(args) -> list[dict]:
@@ -751,6 +690,10 @@ async def main(args):
     rubrics = load_rubrics()
     judges = list(JUDGE_COUNCIL.values())
 
+    # Initialize Dojo Retriever
+    jsonl_path = str(REPO_ROOT / "export" / "abundance-codex.jsonl")
+    retriever = DojoRetriever(jsonl_path)
+
     # Determine test subjects
     if args.test_model:
         if args.test_model not in TEST_SUBJECTS:
@@ -778,31 +721,88 @@ async def main(args):
     total = len(prompts) * len(test_subjects) * len(conditions)
     skipped = 0
 
+    # -----------------------------------------------------------------------
+    # Dry-run: retrieval-only mode — no API calls
+    # -----------------------------------------------------------------------
     if args.dry_run:
-        print(f"\n{'='*60}")
-        print(f"  ACE DRY RUN")
-        print(f"  Prompts: {len(prompts)}")
-        print(f"  Test subjects: {list(test_subjects.values())}")
-        print(f"  Conditions: {conditions}")
-        print(f"  Judges: {judges}")
-        print(f"  Total evaluations: {total}")
-        print(f"  API calls per eval: 1 (test) + {len(judges)} (judges) = {1 + len(judges)}")
-        print(f"  Total API calls: {total * (1 + len(judges))}")
-        print(f"{'='*60}\n")
+        print(f"\n{'='*72}")
+        print(f"  ACE DRY RUN — Retrieval Preview (no API calls)")
+        print(f"  Prompts: {len(prompts)} | Retriever: dojo-v1.0")
+        print(f"{'='*72}\n")
 
-        # Show a sample
-        if prompts:
-            p = prompts[0]
-            print(f"  Sample prompt [{p['id']}] Ring {p['ring']}:")
-            print(f"  {p['prompt'][:120]}...")
-            codex = load_codex_entries(p["domain"])
-            if codex:
-                print(f"  Codex context: {len(codex)} chars from domain '{p['domain']}'")
+        header = f"{'ID':<8} {'Domain':<28} {'Ring':>4} {'Intent':<12} {'Entries':>7} {'Tokens':>7} {'Shadow?':<8} {'Types'}"
+        print(header)
+        print("-" * len(header))
+
+        token_totals = []
+        shadow_count = 0
+        graph_count = 0
+        entry_totals = []
+        errors = []
+
+        for p in prompts:
+            try:
+                result = retriever.retrieve(
+                    query=p["prompt"],
+                    known_domain=p["domain"],
+                    known_ring=p["ring"],
+                    max_entries=9,
+                )
+                m = result.metadata
+                types = ", ".join(m.get("type_coverage", []))
+                shadow = m.get("shadow_forced", False)
+                graph = m.get("graph_expanded", False)
+                n_entries = len(result.entries)
+                tokens = result.token_estimate
+
+                print(
+                    f"{p['id']:<8} {p['domain']:<28} {p['ring']:>4} "
+                    f"{result.intent.value:<12} {n_entries:>7} {tokens:>7} "
+                    f"{'YES' if shadow else 'no':<8} {types}"
+                )
+
+                token_totals.append(tokens)
+                entry_totals.append(n_entries)
+                if shadow:
+                    shadow_count += 1
+                if graph:
+                    graph_count += 1
+
+            except Exception as e:
+                errors.append((p["id"], str(e)))
+                print(f"{p['id']:<8} {'ERROR':>48} — {e}")
+
+        # Aggregate stats
+        print(f"\n{'='*72}")
+        print(f"  Aggregate Stats")
+        print(f"{'='*72}")
+        if token_totals:
+            print(f"  Prompts processed:  {len(token_totals)}/{len(prompts)}")
+            print(f"  Avg entries/prompt: {mean(entry_totals):.1f}")
+            print(f"  Avg tokens/prompt:  {mean(token_totals):.0f}")
+            print(f"  Max tokens:         {max(token_totals)}")
+            print(f"  Min tokens:         {min(token_totals)}")
+            print(f"  Shadow forced:      {shadow_count}/{len(prompts)} ({100*shadow_count/len(prompts):.0f}%)")
+            print(f"  Graph expanded:     {graph_count}/{len(prompts)} ({100*graph_count/len(prompts):.0f}%)")
+            over_budget = [t for t in token_totals if t > 25000]
+            if over_budget:
+                print(f"  ⚠ Over 25k tokens: {len(over_budget)} prompts")
+            else:
+                print(f"  All token estimates under 25,000")
+        if errors:
+            print(f"\n  ERRORS ({len(errors)}):")
+            for pid, err in errors:
+                print(f"    {pid}: {err}")
+        print()
         return
 
+    # -----------------------------------------------------------------------
+    # Live run
+    # -----------------------------------------------------------------------
     print(f"\n{'='*60}")
     print(f"  ACE Council Judge — Starting Run")
     print(f"  Prompts: {len(prompts)} | Subjects: {len(test_subjects)} | Conditions: {len(conditions)}")
+    print(f"  Retriever: dojo-v1.0")
     print(f"  Total evaluations: {total}")
     print(f"{'='*60}\n")
 
@@ -819,12 +819,29 @@ async def main(args):
                     continue
 
                 codex_context = None
+                retrieval_info = None
                 if condition == "augmented":
-                    codex_context = load_codex_entries(prompt_data["domain"])
+                    retrieval_result = retriever.retrieve(
+                        query=prompt_data["prompt"],
+                        known_domain=prompt_data["domain"],
+                        known_ring=prompt_data["ring"],
+                        max_entries=9,
+                    )
+                    codex_context = retrieval_result.context
+                    retrieval_info = {
+                        "retriever_version": retrieval_result.metadata.get("retriever_version"),
+                        "intent": retrieval_result.intent.value,
+                        "entries_retrieved": len(retrieval_result.entries),
+                        "token_estimate": retrieval_result.token_estimate,
+                        "shadow_forced": retrieval_result.metadata.get("shadow_forced"),
+                        "graph_expanded": retrieval_result.metadata.get("graph_expanded"),
+                        "type_coverage": retrieval_result.metadata.get("type_coverage"),
+                        "entries_per_tier": retrieval_result.metadata.get("entries_per_tier"),
+                    }
 
                 result = await evaluate_prompt(
                     prompt_data, model, condition, codex_context,
-                    judges, rubrics, dry_run=args.dry_run
+                    judges, rubrics, retrieval_info=retrieval_info,
                 )
 
                 if result:
@@ -833,7 +850,6 @@ async def main(args):
                 completed += 1
                 elapsed = time.time() - start_time
                 rate = completed / elapsed if elapsed > 0 else 0
-                remaining = (total - completed) / rate if rate > 0 else 0
                 agg_mean = result["aggregated"]["mean"] if result else "SKIP"
                 print(f"  [{completed}/{total}] {model} | {condition} | {prompt_data['id']} → {agg_mean}")
 
@@ -847,6 +863,7 @@ async def main(args):
         "eval_run_id": run_id,
         "timestamp": datetime.now().isoformat(),
         "codex_version": "1.1",
+        "retriever_version": "dojo-v1.0",
         "codex_entry_count": 63,
         "judge_council": judges,
         "test_models": list(test_subjects.values()),

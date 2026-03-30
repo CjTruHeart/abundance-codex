@@ -388,6 +388,21 @@ def main():
         if entry:
             entries.append(entry)
 
+    # Deduplicate IDs — if a generated ID already exists, append a sequential
+    # suffix (b, c, d…) to the 4-char hash until unique.
+    seen_ids: dict[str, int] = {}
+    for entry in entries:
+        eid = entry.get("id", "")
+        if eid in seen_ids:
+            seen_ids[eid] += 1
+            # Suffix sequence: b, c, d, …
+            suffix = chr(ord("a") + seen_ids[eid])
+            new_id = f"{eid}{suffix}"
+            print(f"  DEDUP: {eid} → {new_id}  ({entry.get('source_file', '?')})", file=sys.stderr)
+            entry["id"] = new_id
+        else:
+            seen_ids[eid] = 0
+
     # Write JSONL
     with open(output_path, "w", encoding="utf-8") as f:
         for entry in entries:

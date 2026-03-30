@@ -1,0 +1,412 @@
+{
+  "eval_run_id": "ace-20260328-235542",
+  "timestamp": "2026-03-28T23:55:42.141140",
+  "codex_version": "1.1",
+  "codex_entry_count": 63,
+  "judge_council": [
+    "anthropic/claude-opus-4.6",
+    "openai/gpt-5.4",
+    "google/gemini-3.1-pro-preview",
+    "x-ai/grok-4.20-beta"
+  ],
+  "test_models": [
+    "anthropic/claude-haiku-4-5"
+  ],
+  "conditions": [
+    "baseline",
+    "augmented"
+  ],
+  "prompts_evaluated": 3,
+  "results": [
+    {
+      "prompt_id": "01-R1",
+      "domain": "energy",
+      "ring": 1,
+      "test_model": "anthropic/claude-haiku-4-5",
+      "condition": "baseline",
+      "raw_response": "# Evidence of Declining Electricity Generation Costs\n\n## Cost Data\n\n**Solar PV (most dramatic decline):**\n- 2010: ~$378/MWh\n- 2023: ~$36-50/MWh globally (90% reduction)\n- Ranges $30-40/MWh in best locations (IRENA 2023)\n\n**Wind (onshore):**\n- 2010: ~$135/MWh\n- 2023: ~$26-50/MWh\n- Offshore wind: ~$60-90/MWh\n\n**Battery storage (LCOE-relevant):**\n- 2010: ~$1,200/kWh\n- 2023: ~$130-200/kWh\n- 2030 projections: ~$60-100/kWh\n\nThese are levelized costs of electricity, accounting for lifetime output.\n\n## Deployment Rates\n\n**Renewable capacity additions (2023):**\n- Global: 295 GW renewable capacity added\n- Solar: 138 GW (47% of new capacity)\n- Wind: 75 GW\n- Renewables represent 90% of new capacity additions in developed markets\n\n**Cumulative installed capacity:**\n- Renewables: ~4,100 GW globally (2023)\n- Up from 1,560 GW in 2010\n\n## Accessibility Indicators\n\n**Grid expansion:**\n- 675 million people gained electricity access 2010-2022\n- Off-grid solar deployments: 500+ million small systems in developing regions\n- Cost-per-connection declining in decentralized models\n\n**Investment flows:**\n- 2023 clean energy investment: $1.7 trillion\n- First time exceeding fossil fuels globally\n\n## Important Caveats\n\n- Costs vary dramatically by geography and resource quality\n- Transmission/grid costs aren't always included in LCOE figures\n- Intermittency management (storage, backup) adds system costs not always captured\n- Developing regions face higher financing costs despite lower hardware prices\n- Energy *access* and *affordability* are distinct—cheaper generation doesn't guarantee affordable bills for low-income users\n\nWhat aspect would be most useful to explore further?",
+      "judge_scores": {
+        "anthropic/claude-opus-4.6": {
+          "cites_evidence": 1,
+          "names_builders": 0,
+          "accuracy": 0,
+          "recency": 1,
+          "acknowledges_complexity": 1,
+          "total": 3
+        },
+        "openai/gpt-5.4": {
+          "cites_evidence": 1,
+          "names_builders": 0,
+          "accuracy": 0,
+          "recency": 1,
+          "acknowledges_complexity": 1,
+          "total": 3
+        },
+        "x-ai/grok-4.20-beta": {
+          "cites_evidence": 1,
+          "names_builders": 0,
+          "accuracy": 1,
+          "recency": 1,
+          "acknowledges_complexity": 1,
+          "total": 4
+        }
+      },
+      "aggregated": {
+        "mean": 3.33,
+        "median": 3,
+        "stdev": 0.58,
+        "agreement_index": 0.8,
+        "fault_lines": [
+          {
+            "criterion": "accuracy",
+            "split": "1v2",
+            "scores": [
+              0,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "prompt_id": "01-R2",
+      "domain": "energy",
+      "ring": 2,
+      "test_model": "anthropic/claude-haiku-4-5",
+      "condition": "baseline",
+      "raw_response": "Solar has moved from niche to genuinely material—it's now the fastest-growing energy source globally and costs have fallen 90% in a decade. That's real. But the advocates and skeptics are often talking past each other about different timescales and what \"backbone\" means.\n\n**Where it actually stands:**\n\n- Solar handles 4-5% of global electricity now, more in favorable regions (Australia, Chile, parts of Europe)\n- It works well as a *complement* to existing grids in moderate penetrations\n- The cost advantage is genuine for generation; the system cost is what's debatable\n\n**The honest friction points:**\n\nIntermittency isn't theoretically unsolvable—it's a *scale economics* problem. Germany shows you can reach 50%+ solar/wind penetration, but you need either:\n- Massive overbuilding (install 2x capacity to ensure coverage)\n- Storage at scale (batteries, pumped hydro, hydrogen—all expensive)\n- Interconnected grids across regions/climates\n- Demand flexibility (fewer people charging cars at peak solar hours)\n\nThe real constraint isn't physics. It's that these solutions are *all* capital-intensive, and stacking them gets expensive fast.\n\n**What would actually need to hold:**\n\n1. **Battery costs must continue falling** (currently ~$100/kWh, targeting $50-70). Without this, seasonal storage becomes the bottleneck, not summer peaks.\n\n2. **Grid infrastructure investment** has to match generation deployment. Most grids weren't designed for distributed, intermittent sources. This is unglamorous and faces political friction.\n\n3. **Regional variation matters enormously.** Solar works better in Arizona than Germany. There's no single timeline—Middle East/North Africa could genuinely run on solar. Scandinavia probably won't.\n\n4. **Demand has to grow or stay flat.** If electricity demand doubles (EVs, heat pumps, data centers), solar's percentage shrinks even as absolute capacity grows.\n\n5. **You probably need 2-3 energy sources**, not solar alone. Nuclear, hydro, or wind for nights/calm periods.\n\n**The crux:**\n\nSolar can be a primary source (40-60% of a region's electricity) under the right conditions. Calling it \"backbone\" solo requires either dramatic storage breakthroughs or accepting much higher total system costs. Both are possible, neither is guaranteed.\n\nThe skeptics are right that \"energy abundance\" handwaves real problems. Advocates are right that those problems aren't fundamental blockers. The boring answer is: regional, capital-constrained, requires parallel investment in things less exciting than panels.",
+      "judge_scores": {
+        "anthropic/claude-opus-4.6": {
+          "applies_framework": 1,
+          "names_shadow": 1,
+          "states_conditions": 1,
+          "maps_connections": 1,
+          "holds_middle": 1,
+          "total": 5
+        },
+        "openai/gpt-5.4": {
+          "applies_framework": 1,
+          "names_shadow": 0,
+          "states_conditions": 1,
+          "maps_connections": 1,
+          "holds_middle": 1,
+          "total": 4
+        },
+        "x-ai/grok-4.20-beta": {
+          "applies_framework": 0,
+          "names_shadow": 1,
+          "states_conditions": 1,
+          "maps_connections": 1,
+          "holds_middle": 1,
+          "total": 4
+        }
+      },
+      "aggregated": {
+        "mean": 4.33,
+        "median": 4,
+        "stdev": 0.58,
+        "agreement_index": 0.6,
+        "fault_lines": [
+          {
+            "criterion": "applies_framework",
+            "split": "2v1",
+            "scores": [
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "criterion": "names_shadow",
+            "split": "2v1",
+            "scores": [
+              1,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "prompt_id": "01-R3",
+      "domain": "energy",
+      "ring": 3,
+      "test_model": "anthropic/claude-haiku-4-5",
+      "condition": "baseline",
+      "raw_response": "# Electricity Access in Rural Tanzania: Practical Pathways\n\n## Promising Approaches\n\n**Solar mini-grids** are most viable here because:\n- No grid extension needed (often prohibitively expensive in rural areas)\n- Modular—can start small, expand as demand/revenue grows\n- Battery storage solves the intermittency problem for villages\n- Operating costs are dropping rapidly\n\n**Decentralized options** worth considering:\n- **Solar home systems** for households unable to afford grid connection (often paired with pay-as-you-go models)\n- **Productive use equipment** (solar pumps, cold storage, phone charging hubs) that generates revenue to sustain the system\n- **Hybrid models** combining mini-grids with standalone systems\n\n**Financing structures** that actually work:\n- Community equity contributions (builds ownership, reduces funding gaps)\n- Results-based financing tied to connections/usage\n- Staggered rollout funded by early villages' revenue\n\n## Who's Already Succeeding\n\n**Tanzania-specific examples:**\n- **Engie** operates mini-grids in northern regions\n- **Tanesco** (national utility) runs some rural programs\n- **Zara Solar** and **PowerGen Renewable** are active in rural deployment\n- **KOSTENLOSE Energy** (formerly Okra Solar) does tech + financing\n\n**Regional models worth studying:**\n- **Kenya's Kplc Affiliate** and **M-KOPA** (payment model innovation)\n- **Scaling Off-Grid Energy** consortium—they literally map this work\n\nThe Tanzania Renewable Energy Association (TAREA) and **GET.invest** have active Tanzania programs and can connect you with local implementers.\n\n## Most Actionable First Step\n\n**Conduct a 2-3 village demand & resource assessment:**\n\n1. **Walk 3 representative villages** (different sizes/wealth levels):\n   - Map actual electricity demand (ask what they'd use: lights, phones, small business?)\n   - Identify existing income sources and willingness/ability to pay\n   - Check solar resource (usually good in Tanzania, but verify)\n   - Note existing community structures/leadership\n\n2. **Talk to 2-3 existing mini-grid operators** about their biggest surprises and failure modes (theft, poor maintenance, payment defaults, over-optimistic demand)\n\n3. **Get a ballpark budget**: A small 50kW solar mini-grid + battery + distribution for one village typically costs $100k-200k. You need realistic funding before expanding scope.\n\n**Why this first:** Most rural electricity projects fail not from technical reasons but from misjudging demand, affordability, or community readiness. Your 50-village ambition is good, but starting with 2-3 villages lets you learn the real constraints before raising major capital.\n\n## Real Constraints to Plan For\n\n- **Payment collection**: M-Pesa integration is critical (Tanzania has strong mobile money adoption)\n- **Technical maintenance**: Training local technicians and spare parts supply chains matter more than the solar panels\n- **Regulatory**: Tanzania's Energy and Water Utilities Regulatory Authority (EWURA) has mini-grid regulations—know them early\n- **Sunk cost of failed demand forecasts**: Be conservative on assumed usage\n\nWhat's the current primary energy source in these villages (kerosene, charcoal, nothing)? That shapes the demand case.",
+      "judge_scores": {
+        "anthropic/claude-opus-4.6": {
+          "frames_solvable": 1,
+          "identifies_leverage": 1,
+          "concrete_steps": 1,
+          "real_examples": 1,
+          "empowers": 1,
+          "total": 5
+        },
+        "openai/gpt-5.4": {
+          "frames_solvable": 1,
+          "identifies_leverage": 1,
+          "concrete_steps": 1,
+          "real_examples": 1,
+          "empowers": 1,
+          "total": 5
+        },
+        "x-ai/grok-4.20-beta": {
+          "frames_solvable": 1,
+          "identifies_leverage": 1,
+          "concrete_steps": 1,
+          "real_examples": 1,
+          "empowers": 1,
+          "total": 5
+        }
+      },
+      "aggregated": {
+        "mean": 5,
+        "median": 5,
+        "stdev": 0.0,
+        "agreement_index": 1.0,
+        "fault_lines": []
+      }
+    },
+    {
+      "prompt_id": "01-R1",
+      "domain": "energy",
+      "ring": 1,
+      "test_model": "anthropic/claude-haiku-4-5",
+      "condition": "augmented",
+      "raw_response": "# Evidence That Global Electricity Generation Is Getting Cheaper and More Accessible\n\nI'll map this across the Codex entries with specific metrics, then contextualize what the numbers mean for global energy access.\n\n---\n\n## Cost Trajectory: The Core Data\n\n### Solar PV — The Clearest Cost Decline\n\n**Historical cost curve (1976–2024):**\n- 1976: ~$106/watt (2024 dollars)\n- 2024: ~$0.06/watt wholesale modules in some markets\n- **Decline: 99.9% over 48 years**\n\n**Learning rate:** ~20% cost reduction per doubling of cumulative capacity (Swanson's Law — holds remarkably stable across decades)\n\n**Current LCOE (2024):**\n- Solar PV: $36/MWh (record low, BloombergNEF)\n- Coal (new): ~$72–120/MWh\n- Natural gas (new): ~$60–90/MWh\n- **Solar is now the cheapest new electricity source in human history**\n\n**Recent acceleration:**\n- 2022: 1.2 TW cumulative global capacity\n- 2024: 2.2 TW cumulative (83% growth in 2 years)\n- 2024 alone: 602 GW new installations (more than all other sources combined)\n\n**Key source:** BloombergNEF Levelized Cost of Electricity (LCOE) 2024 & 2025; IEA-PVPS Snapshot 2025\n\n---\n\n### Battery Storage — The Second Critical Curve\n\n**Lithium-ion pack prices (2010–2025):**\n- 2010: ~$1,474/kWh (2024 dollars)\n- 2025: $108/kWh global average\n- **Decline: 93% in 15 years**\n\n**Stationary storage packs (2024–2025):**\n- 2024: ~$128/kWh\n- 2025: $70/kWh\n- **Drop: 45% in a single year**\n\n**Lowest observed prices (late 2024):**\n- LFP cells: $36/kWh\n- LFP packs: $50/kWh\n\n**Deployment acceleration:**\n- 2020: ~11 GW / 44 GWh global grid-scale capacity\n- 2025: 267 GW / 610 GWh\n- **24-fold increase in 5 years**\n- 2024 additions: 200 GWh (record year)\n- 2025 projected: 247 GWh\n- BloombergNEF projects 972 GWh annual additions by 2035\n\n**Key source:** BloombergNEF 2025 Battery Price Survey; Zero Carbon Analytics / Bloomberg Energy Storage Assets Database\n\n---\n\n## Global Deployment Rates: The Scale Evidence\n\n### Solar Capacity Additions\n\n| Year | Annual Additions | Cumulative Capacity | Growth Rate |\n|------|------------------|-------------------|------------|\n| 2010 | ~17 GW | ~40 GW | — |\n| 2015 | ~56 GW | ~227 GW | — |\n| 2020 | ~127 GW | 707 GW | — |\n| 2022 | ~239 GW | 1.2 TW | — |\n| 2023 | ~380 GW | 1.6 TW | +59% YoY |\n| 2024 | ~602 GW | 2.2 TW | +58% YoY |\n\n**Doubling time:** Capacity has doubled roughly every 3–4 years in the most recent period, accelerating.\n\n**Regional leaders:**\n- **China:** >1 TW cumulative (2024), added ~200+ GW in 2024 alone\n- **United States:** 47.1 GW new (2024), 224 GW cumulative capacity, +205% residential solar surge 2025 H2\n- **India:** 31 GW new (2024), more than doubling installations YoY\n- **European Union:** 155 GW new (2024 estimate), making EU the second-largest solar market\n\n**Penetration reaching critical mass:**\n- 27 countries now derive >10% of electricity from solar\n- Global average: >10% of electricity generation (first time in 2024)\n- Countries over 20% solar penetration: Greece, Cyprus, Germany, Uruguay, Australia, Japan\n\n**Key sources:** IEA-PVPS Snapshot 2025; SolarPower Europe Global Market Outlook 2025; pv magazine; Reuters\n\n---\n\n### Wind Capacity\n\n**Global wind capacity (cumulative):**\n- 2020: ~935 GW\n- 2024: ~1,620 GW cumulative (onshore + offshore)\n- Annual additions 2024: ~75 GW\n- **Growth rate: ~14% CAGR 2020–2024**\n\n**Wind LCOE (2024):**\n- Onshore wind: $30–50/MWh (competitive with solar)\n- Offshore wind: $60–90/MWh (declining sharply)\n\n**Key source:** Global Wind Energy Council; IEA Renewables 2024\n\n---\n\n### Combined Renewables Capacity\n\n**Global renewables (hydropower, wind, solar, geothermal, biomass):**\n- 2020: ~2.8 TW\n- 2024: ~4.4 TW cumulative\n- 2024 new additions: ~510 GW\n- **Renewables now account for >42% of global electricity generation**\n- First time renewables exceeded coal for annual additions (2024)\n\n**Key source:** IEA Renewables 2024 Report; Ember Global Electricity Review 2025\n\n---\n\n## Access & Affordability Metrics\n\n### Electricity Access Expansion\n\n**Global electrification rate:**\n- 2010: ~83% of humanity\n- 2024: ~92% of humanity\n- **Progress:** 1.2 billion people gained electricity access in 14 years\n\n**Outstanding challenge:**\n- ~675 million people still lack reliable electricity access (primarily Sub-Saharan Africa and rural South Asia)\n- BUT: Solar microgrids and off-grid solar systems are reaching these populations faster than grid extension ever could\n\n**Cost of electricity by region (2024 averages):**\n- OECD countries: $100–200/MWh retail\n- Emerging markets: $80–150/MWh\n- **Trend: Converging downward** as renewable costs flatten across all markets\n\n**Key sources:** IEA World Energy Outlook 2024; World Bank Energy Data; IRENA\n\n---\n\n### Off-Grid Solar Deployment\n\n**Off-grid solar installations (primarily in Sub-Saharan Africa and South Asia):**\n- 2015: ~100 million off-grid solar users\n- 2024: >750 million off-grid solar users\n- **Growth: 650% in 9 years**\n\n**Microgrids and mini-grids:**\n- ~10,000–15,000 active mini-grids globally (2024)\n- Adding ~2,000–3,000 per year\n- Serving ~400–500 million people who would otherwise lack grid access\n\n**Cost of off-grid systems:**\n- 2010: ~$7–10 per watt installed cost\n- 2024: ~$2–4 per watt (depending on system size and location)\n- **Decline: 55–70% in 14 years**\n\n**Key source:** Bloomberg NEF Off-Grid Solar Outlook; IRENA Renewable Capacity Statistics 2024\n\n---\n\n## Comparative Cost Data: The Disruption Picture\n\n### LCOE Comparison (2024)\n\n| Technology | LCOE $/MWh | Trend |\n|-----------|-----------|-------|\n| **Solar PV** | $36 | ↓ Declining rapidly |\n| **Onshore wind** | $40 | ↓ Declining moderately |\n| **Hydropower** | $48 | → Stable (mature) |\n| **Coal (new)** | $72–120 | → Stable to rising |\n| **Natural gas (new)** | $60–90 | → Stable to rising |\n| **Nuclear (new)**",
+      "judge_scores": {
+        "anthropic/claude-opus-4.6": {
+          "cites_evidence": 1,
+          "names_builders": 0,
+          "accuracy": 0,
+          "recency": 1,
+          "acknowledges_complexity": 1,
+          "total": 3
+        },
+        "openai/gpt-5.4": {
+          "cites_evidence": 1,
+          "names_builders": 1,
+          "accuracy": 0,
+          "recency": 1,
+          "acknowledges_complexity": 1,
+          "total": 4
+        },
+        "x-ai/grok-4.20-beta": {
+          "cites_evidence": 1,
+          "names_builders": 0,
+          "accuracy": 0,
+          "recency": 1,
+          "acknowledges_complexity": 0,
+          "total": 2
+        }
+      },
+      "aggregated": {
+        "mean": 3,
+        "median": 3,
+        "stdev": 1.0,
+        "agreement_index": 0.6,
+        "fault_lines": [
+          {
+            "criterion": "acknowledges_complexity",
+            "split": "2v1",
+            "scores": [
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "criterion": "names_builders",
+            "split": "1v2",
+            "scores": [
+              0,
+              1,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "prompt_id": "01-R2",
+      "domain": "energy",
+      "ring": 2,
+      "test_model": "anthropic/claude-haiku-4-5",
+      "condition": "augmented",
+      "raw_response": "# Where Solar Actually Stands: Beyond Cheerleading and Skepticism\n\nLet me map this with the precision the Abundance Codex demands—which means naming what's genuinely achieved, what remains uncertain, and what conditions must hold.\n\n## The Honest 6D Assessment\n\n**Digitized ✅ | Deceptive ✅ | Disruptive ✅ | Demonetized ⚠️ | Dematerialized ⚠️ | Democratized ⚠️**\n\nSolar has decisively passed through three of the six phases. It is *not* in fantasy territory. It is also *not* at the \"problem solved\" frontier. It sits in the messiest transition zone—where the physics is proven, the economics are competitive, but the infrastructure and deployment velocity remain the bottlenecks.\n\nHere's what that looks like concretely:\n\n---\n\n## What's Actually Proven\n\n### The Cost Curve Is Real and Persistent\n\nThe 99.9% decline from 1976 ($106/W) to 2024 ($0.06/W) isn't projection or cherry-picked data. This is Swanson's Law—a manufacturing learning curve that has held steady across:\n- Multiple technology generations (crystalline silicon, thin film, perovskite)\n- Geopolitical disruptions (US-China trade wars, supply chain shocks)\n- Commodity price swings (silicon, silver, glass)\n- Different regulatory environments (Germany's FiT, US ITC, China's auction model)\n\n**That consistency matters.** It means this isn't a bubble or a subsidy artifact. It's a fundamental property of how semiconductor manufacturing works—and photovoltaic cells are semiconductors.\n\n### The Deployment Is Exponential, Not Linear\n\n- **2004:** 2.6 GW cumulative capacity\n- **2015:** 227 GW\n- **2024:** 2,200 GW (2.2 TW)\n\nThat's an 846x increase in twenty years. Doubling times have been compressing. The most recent doubling (1.2 TW to 2.2 TW) took just two years. Solar now provides >10% of global electricity for the first time. In certain regions (Denmark 80% some hours, Chile >50% peak days, Spain >25% annual), it's already the primary source.\n\n### The Economics Are Genuinely Competitive\n\nSolar's levelized cost of electricity (LCOE) reached $36/MWh in 2024—roughly:\n- **Half the cost of new natural gas plants** ($60-90/MWh)\n- **A quarter the cost of new coal plants** ($90-150/MWh)\n- **Slightly more expensive than onshore wind** ($30-50/MWh)\n\nThis is *unsubsidized* cost. Solar doesn't need a subsidy to compete with fossil fuels anymore on pure economics. In fact, the IEA reports that new solar is now the cheapest electricity source globally—cheaper than operating existing fossil fuel plants in many markets by 2030.\n\n---\n\n## What the Skeptics Are Right About\n\n### Intermittency Is Still Real\n\nSolar produces ~4-5 hours of equivalent full-capacity power per day (capacity factor ~15-25% depending on location). It produces zero at night. On cloudy days, output drops 80%+. No engineering can change these physics.\n\n**But** the skeptics often make a categorical error: they treat intermittency as an unsolved problem. It's not unsolved. It's a deployment problem, not a physics problem.\n\n### The Grid Constraint Is Severe\n\nThree real bottlenecks:\n\n1. **Interconnection queues.** In the US, the average time from solar project proposal to grid connection is 3-5 years—dominated by permitting and queue delays, not technology readiness. Over 2,000 GW of solar projects are queued in the US alone, waiting for grid connection. This is the single highest-leverage constraint right now.\n\n2. **Storage duration mismatch.** Current lithium-ion batteries provide 2-4 hours of storage economically. Seasonal storage (covering a week of winter cloud cover) requires completely different technologies: iron-air, hydrogen, flow batteries, or pumped hydro. Iron-air is promising but pre-commercial at scale. Hydrogen is inefficient (65-75% round-trip vs. 90%+ for batteries). This gap is real and unsolved.\n\n3. **Transmission congestion.** Solar resources aren't where demand is. Solar is abundant in high-desert regions (southwestern US, Atacama Chile, Arabian Peninsula, North Africa). Population and industry are elsewhere. High-voltage transmission to move that power is limited and expensive. The US would need to nearly double its long-distance transmission capacity—a 10-20 year project—to move solar from where it grows to where it's consumed.\n\nThese are *not* fundamental barriers. They are infrastructure and governance barriers. But they are severe and they are real.\n\n### The Supply Chain Concentration Is a Genuine Vulnerability\n\nChina manufactures ~80% of global solar panels, controls ~50% of cells, and supplies ~60% of polysilicon. This is the opposite of diversified. Trade wars, tariffs, or supply disruption could disrupt the entire trajectory. The US, EU, and India are investing heavily in domestic manufacturing, but building factories takes 3-5 years and requires capital at scale. This is a multi-decade fix, not a near-term one.\n\n### Mining Impacts Aren't Zero\n\nSolar panels require silicon, silver, aluminum, and glass. Mining these materials has real environmental and social costs—habitat disruption, water consumption, labor practices. Recycling infrastructure barely exists. When the first wave of grid-scale batteries installed in 2015-2018 reaches end-of-life in 2030-2035, we face a battery waste crisis that current infrastructure can't handle.\n\n**This is not an argument against solar.** It's an argument for honest accounting. The phrase \"clean energy\" can obscure the non-carbon costs of the manufacturing and mining footprint.\n\n---\n\n## The Convergence That Changes Everything\n\nThe skeptics miss something critical: **solar doesn't solve the intermittency problem alone. Solar-plus-storage solves it.**\n\nAnd that convergence is accelerating:\n\n### Battery Costs Are Collapsing Even Faster Than Solar\n\n- **2010:** ~$1,474/kWh\n- **2024:** $108/kWh globally, $70/kWh for stationary storage\n- **2025:** $50-60/kWh observed in Chinese procurements\n\nThis is a 93% decline in fifteen years. At $70/kWh, the total system cost (solar + 4-hour battery storage) reaches **$160-200/kWh of capacity**—already cost-competitive with running existing fossil plants.\n\nThe trajectory matters. At current learning rates:\n- By 2028-2030, battery packs could be $50-60/kWh\n- By 2032-2035, possibly $30-40/kWh\n- At $40/kWh storage, solar-plus-storage undercuts the *operating cost* of existing fossil plants in nearly all markets\n\nWhen that threshold hits, the economic argument for building new fossil infrastructure becomes indefensible.\n\n### Long-Duration Storage Is Emerging\n\nIron-air batteries (Form Energy) using reversible rust chemistry:\n- Cost trajectory: potentially $40-60/kWh for 100-hour duration\n- Uses abundant materials (iron, water, air)\n- Commercial pilot projects starting 2026-2027\n\nIf iron-air reaches commercial scale as projected, the multi-day storage gap closes. Wind + solar + battery + iron-air becomes a viable renewable backbone capable of handling week-long weather lulls.\n\n### The EV Fleet Becomes Distributed Storage\n\nBy 2030, projections suggest 200-300 million EVs globally, each with 50-100 kWh of battery. Their collective storage capacity = 10-30 TWh—more than all purpose-built grid storage in the world. Vehicle-to-grid (V2G) technology allows parked cars to discharge to the grid during peak demand. Every car becomes a grid asset.\n\nWhen that matures, the storage problem doesn't get solved. It gets *overbuilt.*\n\n---\n\n## What Actually Needs to Hold for Solar to Deliver\n\nHere are the conditional optimism anchors from the Codex:\n\n### 1. **Battery Costs Continue Declining** (Probability: High ~80%)\n\nThe learning curve for lithium-ion has held stable for 15 years across disruptions. No physics barrier prevents $50/kWh by 2030. Diversification",
+      "judge_scores": {
+        "anthropic/claude-opus-4.6": {
+          "applies_framework": 1,
+          "names_shadow": 1,
+          "states_conditions": 1,
+          "maps_connections": 1,
+          "holds_middle": 1,
+          "total": 5
+        },
+        "openai/gpt-5.4": {
+          "applies_framework": 1,
+          "names_shadow": 1,
+          "states_conditions": 0,
+          "maps_connections": 1,
+          "holds_middle": 1,
+          "total": 4
+        },
+        "x-ai/grok-4.20-beta": {
+          "applies_framework": 1,
+          "names_shadow": 1,
+          "states_conditions": 1,
+          "maps_connections": 1,
+          "holds_middle": 1,
+          "total": 5
+        }
+      },
+      "aggregated": {
+        "mean": 4.67,
+        "median": 5,
+        "stdev": 0.58,
+        "agreement_index": 0.8,
+        "fault_lines": [
+          {
+            "criterion": "states_conditions",
+            "split": "2v1",
+            "scores": [
+              1,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "prompt_id": "01-R3",
+      "domain": "energy",
+      "ring": 3,
+      "test_model": "anthropic/claude-haiku-4-5",
+      "condition": "augmented",
+      "raw_response": "# Electrifying Rural Tanzania: Actionable Pathways\n\nYou're working in exactly the geography where the solar abundance thesis becomes most concrete. Here's what the Codex reveals about realistic options:\n\n---\n\n## The Core Insight from Energy Entries\n\n**Solar-plus-battery microgrids are the proven model for your context.** This isn't theoretical. The cost curves have *already* bent in your favor:\n\n- Solar modules: ~$0.06/watt wholesale (Energy entry 01 shows 99.9% cost decline)\n- Battery storage: $70/kWh for stationary systems, trending to $50/kWh (Energy entry 02)\n- This combination is **cheaper than diesel generation** even accounting for all infrastructure\n\nThe Venezuelan false dawn (Nuclear entry 03) teaches the critical inverse lesson: avoid mega-projects requiring centralized mega-governance. Your advantage is that you're *already* thinking distributed.\n\n---\n\n## Three Implementation Models (Ranked by Viability for You)\n\n### Model 1: Minigrid + Community Ownership (Highest Recommended)\n\n**What it is:** 10-50 kW solar + 20-100 kWh battery serving a single village, owned and operated by the community.\n\n**Who's proved it works:**\n- **SELCO India** — 430+ installations in rural Rajasthan/Karnataka (referenced in Energy 01's Witness story). Their model: initial installation by company, transition to community technician training within 18 months.\n- **Husk Power Systems** — 350+ microgrids across Bihar, UP, Odisha. Built specifically for this context.\n- **Persistent Power** — $500-$800/kW systems in Kenya, Uganda, Tanzania (operating since 2015).\n\n**Why it works:**\n- No dependence on central grid. No single point of failure.\n- Communities understand their own peak loads (evening cooking, water pumping, phone charging).\n- Revenue model: pay-per-use (mobile money integration) or monthly subscription ($2-$8/month for basic load).\n- Diesel replacement: replaces 50-70 liters/month of diesel @ ~$1.50/liter = $75-$105/month savings.\n\n**Capital structure:**\n- 20 kW + 40 kWh system: ~$25,000-$35,000 installed (blended costs from SELCO, Husk, persistent market data)\n- Financing options:\n  - **FMO** (Dutch development bank) — lines of credit for minigrid developers at 5-7% rates\n  - **GET.invest** (USAID-backed facility) — $50K-$1M for proven developers\n  - **ENERGISE** (UK Aid/DFID) — market development fund for East Africa specifically\n  - **Village Capital** — microfinance targeting clean energy entrepreneurs\n\n**Your role:** You don't have to build it. You partner with a minigrid company (see next section) and provide community mobilization + land + governance structure.\n\n---\n\n### Model 2: Pay-as-You-Go Solar Home Systems (Fastest Scale)\n\n**What it is:** 50-100W individual rooftop systems sold on credit via mobile money.\n\n**Who's proved it works:**\n- **M-KOPA** — 700,000+ customers across East Africa (Kenya, Uganda, Tanzania)\n- **d.light** — 15M+ systems deployed globally; East Africa presence strong\n- **Azuri Technologies** — 200,000+ in Sub-Saharan Africa\n- **Greenlight Planet** — 5M+ systems, East Africa-focused\n\n**Why consider it:**\n- Doesn't require you to build grid infrastructure. Each household is independent.\n- Proven tech: $15-$50 per system, sustainable margin for retailers\n- Mobile money integration removes the financing problem (M-KOPA gets 95%+ repayment on microfinance terms)\n- Serves the demand that already exists: phone charging ($0.50-$1), LED lighting ($0.75/month for 4-6 hours), productive load (phone charging for phone shops/salons)\n\n**Why it's limited for your goal:**\n- Solves *lighting* and *phone charging*, not refrigeration, water pumping, or health clinic power.\n- Doesn't create the \"multiplier\" effects you likely need (economic activity that generates income to afford higher energy tiers).\n- Better positioned as *complementary* to minigrid strategy.\n\n**Your role:** If you go this route, become an M-KOPA or d.light distribution partner. You handle last-mile sales, customer service, system recovery if payments lapse. Minimal capex on your part.\n\n---\n\n### Model 3: Pico-Hydro (If Geographically Possible)\n\n**What it is:** Small hydroelectric systems (5-100 kW) on seasonal streams.\n\n**Real-world example:**\n- **Enera** (formerly Rumi) — 250+ pico-hydro systems in Peru. Capital cost: $8,000-$12,000 per kW for complete system.\n- **Practical Action** — deploying in Tanzania's highlands (Kilimanjaro/Arusha regions) with positive results.\n\n**Why it might work for you:**\n- If your villages are on streams, pico-hydro provides 24/7 baseload (unlike solar's diurnal cycle).\n- Lower operating costs than solar-plus-battery (no battery degradation).\n- Long asset life (15-20 years with minimal maintenance).\n\n**Why it's probably not ideal for you:**\n- Requires specific hydro resource (1-3 meter drop minimum, year-round flow).\n- Permitting is complex (water rights, environmental compliance).\n- Requires technical expertise not as standardized as solar.\n- Only 2-3 of your 50 villages likely have suitable geography.\n\n**Recommendation:** Do a hydro resource assessment for your highest-elevation village clusters, but plan primary strategy around solar-plus-battery.\n\n---\n\n## Immediate, Actionable First Steps (90-Day Sprint)\n\n### Week 1-2: Diagnostic Phase\n\n**Do this:**\n1. **Map energy demand.** Visit 5-10 villages (representative of your 50). Quantify:\n   - Peak load hours (typically 6 PM - 10 PM)\n   - Uses: lighting, phone charging, health clinic needs, productive loads (water pump, small shop)\n   - Current spend on alternatives (kerosene, batteries, diesel, candles, health worker costs)\n   - Willingness to pay (survey: $2-$10/month options)\n\n2. **Identify community mobilizers.** In each cluster, find the person (teacher, health worker, petty trader, community leader) who has credibility and can manage daily operations. This person is critical to project sustainability.\n\n3. **Assess geography.** Rough hydrological survey (any streams?), solar irradiance confirmation (most of Tanzania gets 4-6 kWh/m²/day — excellent), land availability for arrays.\n\n**Deliverable:** 10-page diagnostic report showing village clusters, demand profiles, mobilizer names, and preliminary cost estimates.\n\n---\n\n### Week 3-4: Partner Identification\n\n**Contact these organizations specifically:**\n\n**Minigrid developers already in Tanzania:**\n- **Engie Energy Access** — 50+ minigrids in Tanzania\n- **PowerGen** — growing minigrid footprint\n- **Persistent Power** (Kenya/Uganda base) — expanding south\n- **Village Energy** — East Africa focus\n\n**Email template:**\n> \"We are mobilizing 50 villages in [region] for electrification. We have completed community diagnostic identifying [X MW peak demand], [land for arrays], [community governance structure]. We are seeking a minigrid partner who can provide engineering, supply chain, and operations support on a turnkey basis. Are you expanding in this region? Can we schedule a call?\"\n\n**Financing organizations to approach in parallel:**\n- FMO (fmo.nl) — email clean-energy-finance team\n- GET.invest (get-invest.eu) — apply for market development funds\n- ENERGISE program — direct application if you're in their focus zones (Dar es Salaam, Morogoro, Iringa regions)\n\n**Deliverable:** 3-5 partnership conversations scheduled. Feedback on feasibility of your scale (50 villages may require phased rollout).\n\n---\n\n### Week 5-6: Community Mobilization & Governance\n\n**Critical:** The project fails if communities aren't genuinely involved in design. This isn't an external imposition.\n\n**Do",
+      "judge_scores": {
+        "anthropic/claude-opus-4.6": {
+          "frames_solvable": 1,
+          "identifies_leverage": 1,
+          "concrete_steps": 1,
+          "real_examples": 1,
+          "empowers": 1,
+          "total": 5
+        },
+        "openai/gpt-5.4": {
+          "frames_solvable": 1,
+          "identifies_leverage": 1,
+          "concrete_steps": 1,
+          "real_examples": 1,
+          "empowers": 0,
+          "total": 4
+        },
+        "x-ai/grok-4.20-beta": {
+          "frames_solvable": 1,
+          "identifies_leverage": 1,
+          "concrete_steps": 1,
+          "real_examples": 1,
+          "empowers": 1,
+          "total": 5
+        }
+      },
+      "aggregated": {
+        "mean": 4.67,
+        "median": 5,
+        "stdev": 0.58,
+        "agreement_index": 0.8,
+        "fault_lines": [
+          {
+            "criterion": "empowers",
+            "split": "2v1",
+            "scores": [
+              1,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "overall": {
+      "baseline": 4.22,
+      "augmented": 4.11,
+      "delta": -0.11
+    },
+    "by_ring": {
+      "1": {
+        "baseline": 3.33,
+        "augmented": 3,
+        "delta": -0.33
+      },
+      "2": {
+        "baseline": 4.33,
+        "augmented": 4.67,
+        "delta": 0.34
+      },
+      "3": {
+        "baseline": 5,
+        "augmented": 4.67,
+        "delta": -0.33
+      }
+    },
+    "by_pillar": {
+      "1": {
+        "baseline": 4.22,
+        "augmented": 4.11,
+        "delta": -0.11
+      }
+    },
+    "by_model": {
+      "anthropic/claude-haiku-4-5": {
+        "baseline": 4.22,
+        "augmented": 4.11,
+        "delta": -0.11
+      }
+    }
+  },
+  "cross_company_bias": {
+    "anthropic": {
+      "judge": "anthropic/claude-opus-4.6",
+      "subject": "anthropic/claude-haiku-4-5",
+      "own_mean": 4.333,
+      "other_mean": null,
+      "delta": null,
+      "own_n": 6,
+      "other_n": 0
+    },
+    "openai": {
+      "judge": "openai/gpt-5.4",
+      "subject": "openai/gpt-5.4-mini",
+      "own_mean": null,
+      "other_mean": 4,
+      "delta": null,
+      "own_n": 0,
+      "other_n": 6
+    },
+    "google": {
+      "judge": "google/gemini-3.1-pro-preview",
+      "subject": "google/gemini-3.1-flash-lite-preview",
+      "own_mean": null,
+      "other_mean": null,
+      "delta": null,
+      "own_n": 0,
+      "other_n": 0
+    },
+    "xai": {
+      "judge": "x-ai/grok-4.20-beta",
+      "subject": "x-ai/grok-4.1-fast",
+      "own_mean": null,
+      "other_mean": 4.167,
+      "delta": null,
+      "own_n": 0,
+      "other_n": 6
+    }
+  }
+}

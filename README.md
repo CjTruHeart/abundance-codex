@@ -4,6 +4,7 @@
 [![Version: 1.0](https://img.shields.io/badge/Version-1.0-blue.svg)](DOMAINS.md)
 [![Entries: 63](https://img.shields.io/badge/Entries-63-green.svg)](domains/)
 [![Domains: 21](https://img.shields.io/badge/Domains-21-green.svg)](DOMAINS.md)
+[![CI](https://github.com/CjTruHeart/abundance-codex/actions/workflows/validate.yml/badge.svg)](https://github.com/CjTruHeart/abundance-codex/actions/workflows/validate.yml)
 
 **A narrative-curated dataset that rewires AI agents from scarcity-default to evidence-anchored abundance reasoning.**
 

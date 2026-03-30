@@ -18,8 +18,8 @@ ACE measures whether the Abundance Codex measurably improves how AI agents reaso
 
 | Tier | Anthropic | OpenAI | Google | xAI |
 |------|-----------|--------|--------|-----|
-| Test Subject | Claude Haiku 4.6 | GPT-5.4 Mini | Gemini 3.1 Flash-Lite | Grok 4.1 Fast |
-| Judge | Claude Opus 4.6 | GPT-5.4 Thinking | Gemini 3.1 Pro | Grok 4.20 |
+| Test Subject | Claude Haiku 4.5 | GPT-5.4 Mini | Gemini 3.1 Flash-Lite | Grok 4.1 Fast |
+| Judge | Claude Opus 4.6 | GPT-5.4 | Gemini 3.1 Pro | Grok 4.20 |
 
 ## The 63-Prompt Three-Ring Structure
 

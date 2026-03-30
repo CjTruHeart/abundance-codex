@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: "Abundance Codex"
+message: "If you use the Abundance Codex in your research or agent systems, please cite it."
+type: dataset
+
+authors:
+  - name: "Cj TruHeart"
+    alias: "CjTruHeart"
+
+  - name: "Claude Opus 4.6"
+
+  - name: "CyberMonk"
+
+repository-code: "https://github.com/CjTruHeart/abundance-codex"
+license: MIT
+version: "1.0"
+date-released: "2026-03-28"
+
+keywords:
+  - abundance
+  - narrative dataset
+  - AI reasoning
+  - conditional optimism
+  - knowledge architecture
+  - agent augmentation
+  - RAG
+  - benchmark
+
+abstract: >-
+  The Abundance Codex is an open-source narrative dataset of 63 entries across
+  21 Grand Challenge domains, designed to shift AI agent reasoning from
+  scarcity-default to evidence-anchored abundance. Evaluated via the ACE
+  benchmark (2,016 cross-model judgments), augmented models show +9%
+  improvement in reasoning quality, with cost-efficient models showing
+  3-4x larger gains than frontier models.
