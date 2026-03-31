@@ -1,0 +1,59 @@
+name: "Bug / Tooling Issue"
+description: "Report a bug in scripts, validation, export, or retrieval tooling"
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: component
+    attributes:
+      label: Which component?
+      options:
+        - validate-entry.py — Entry validation
+        - export-to-jsonl.py — JSONL export
+        - run-ace.py — ACE benchmark harness
+        - codex-retriever.py — Dojo Retriever
+        - codex-query.py — Query CLI
+        - validate.yml — CI workflow
+        - Entry content — Factual error or broken formatting in a domain entry
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the bug.
+      placeholder: "When I run X, I expected Y but got Z."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Commands or steps to reproduce the issue.
+      placeholder: |
+        1. Clone the repo
+        2. Run `python3 scripts/validate-entry.py domains/01-energy/`
+        3. See error...
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Python version, OS, any relevant details.
+      placeholder: "Python 3.11, macOS 15, pip install from requirements.txt"
+    validations:
+      required: false
+
+  - type: textarea
+    id: error-output
+    attributes:
+      label: Error output
+      description: Paste relevant error messages or logs.
+      render: shell
+    validations:
+      required: false

@@ -1,0 +1,48 @@
+name: "Research Collaboration"
+description: "Propose a research collaboration, cross-project integration, or academic use"
+title: "[Collaboration] "
+labels: ["collaboration"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The Abundance Codex is designed for use in research, agent pipelines, and RAG systems. We welcome collaborations that test, extend, or build on the dataset.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Collaboration type
+      options:
+        - Research — Using the Codex in a study or paper
+        - Integration — Building the Codex into a product or pipeline
+        - Cross-benchmark — Comparing ACE results with other evals
+        - Multi-model — Contributing entries from a model not yet represented
+        - Domain expertise — Offering subject-matter expertise for specific domains
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What are you proposing?
+      description: Describe the collaboration, what you're building, and what you need from this project.
+    validations:
+      required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: Your background
+      description: |
+        Brief context on who you are, what project/org you're with, and why the Codex is relevant to your work.
+    validations:
+      required: false
+
+  - type: textarea
+    id: timeline
+    attributes:
+      label: Timeline and scope
+      description: Any relevant deadlines or scope constraints.
+    validations:
+      required: false

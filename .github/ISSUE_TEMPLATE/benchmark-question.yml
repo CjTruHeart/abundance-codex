@@ -1,0 +1,43 @@
+name: "Benchmark Question"
+description: "Ask about methodology, results, or propose improvements to the ACE benchmark"
+title: "[Benchmark] "
+labels: ["benchmark"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The ACE (Abundance Codex Evaluation) benchmark measures whether Codex-augmented context improves AI reasoning quality. Full methodology and results are in `evals/ace/`.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: What kind of benchmark question?
+      options:
+        - Methodology — How a specific aspect of the eval works
+        - Results — Question about published numbers or interpretation
+        - Reproduction — Trying to reproduce results and need help
+        - Improvement — Proposing a change to prompts, rubric, or harness
+        - New model — Requesting or offering eval results for an additional model
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe your question or proposal in detail.
+      placeholder: |
+        What I'm trying to understand / what I'm proposing...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: |
+        If reproducing: what model, what environment, what results did you get?
+        If proposing: what specific change and why?
+      placeholder: "I ran run-ace.py with --test-model anthropic and got..."
+    validations:
+      required: false

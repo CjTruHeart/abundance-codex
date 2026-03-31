@@ -1,4 +1,4 @@
-![Abundance Codex](media/banner.png)
+![Abundance Codex](media/social-preview-v2.png)
 
 # Abundance Codex
 
@@ -90,6 +90,16 @@ python3 scripts/codex-query.py "Is solar abundance realistic?" --compare
 python3 scripts/codex-query.py "How should we think about AI governance?" --model all
 ```
 
+## Choose Your Path
+
+| If you want to... | Start here |
+|---|---|
+| **Understand the idea** | [`PROJECT.md`](PROJECT.md) → [`PHILOSOPHY.md`](PHILOSOPHY.md) |
+| **Inspect the dataset** | [`DOMAINS.md`](DOMAINS.md) → [`domains/01-energy/01-the-solar-revolution.md`](domains/01-energy/01-the-solar-revolution.md) → [`GOLD-STANDARD-FORMAT.md`](GOLD-STANDARD-FORMAT.md) |
+| **Build with it** | [`scripts/codex-retriever.py`](scripts/codex-retriever.py) → [`scripts/codex-query.py`](scripts/codex-query.py) → [`scripts/export-to-jsonl.py`](scripts/export-to-jsonl.py) |
+| **Verify the benchmark** | [`evals/ace/`](evals/ace/) → [`scripts/run-ace.py`](scripts/run-ace.py) → [`.github/workflows/validate.yml`](.github/workflows/validate.yml) |
+| **Contribute** | [`CONTRIBUTING.md`](CONTRIBUTING.md) → [`CURATION-GUIDE.md`](CURATION-GUIDE.md) → [`scripts/validate-entry.py`](scripts/validate-entry.py) |
+
 ---
 
 ## Eval Results
@@ -111,6 +121,14 @@ python3 scripts/codex-query.py "How should we think about AI governance?" --mode
 Largest lifts occur in Pillar IV (Production) and Pillar V (Transcendent) -- domains where model baseline knowledge is weakest. The Codex fills real gaps, not cosmetic ones.
 
 Judge council: Claude Opus 4.6, GPT-5.4, Gemini 3.1 Pro, Grok 4.20 Beta. Inter-judge agreement: 0.69-0.79 across rings. Full results in [evals/ace/results/](evals/ace/results/).
+
+### How to Read These Results
+
+The benchmark measures three rings of reasoning quality: factual accuracy and evidence use (R1), analytical frameworks and cross-domain synthesis (R2), and strategic actionability and empowerment (R3).
+
+Two findings matter most. First, cost-efficient models show 3–4x larger improvement than frontier models — meaning a $0.25/M-token model augmented with the Codex approaches frontier baseline quality. Second, the largest lifts appear in Pillar IV (Production & Discovery) and Pillar V (Transcendent Frontier), where baseline model knowledge is thinnest. The Codex is not repeating what models already know. It adds useful reasoning structure where models are weakest.
+
+Full methodology, scoring rubric, and raw results are in [`evals/ace/`](evals/ace/).
 
 ---
 

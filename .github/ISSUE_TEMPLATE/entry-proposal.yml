@@ -1,0 +1,117 @@
+name: "New Entry Proposal"
+description: "Propose a new Abundance Codex entry for a specific domain"
+title: "[Entry Proposal] "
+labels: ["entry-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a new entry. The Codex grows through curation, not scraping.
+        Before submitting, please read [CURATION-GUIDE.md](../CURATION-GUIDE.md) and review at least one existing entry in `domains/`.
+
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      description: Which of the 21 domains does this entry belong to?
+      options:
+        - 01-energy
+        - 02-food
+        - 03-water
+        - 04-shelter
+        - 05-health
+        - 06-environment
+        - 07-education
+        - 08-longevity
+        - 09-consciousness
+        - 10-communication
+        - 11-community
+        - 12-governance
+        - 13-security
+        - 14-transportation
+        - 15-economy
+        - 16-manufacturing
+        - 17-computation-intelligence
+        - 18-co-creative-intelligence
+        - 19-science-engineering
+        - 20-space
+        - 21-future-vision
+    validations:
+      required: true
+
+  - type: dropdown
+    id: entry-type
+    attributes:
+      label: Entry Type
+      description: What type of entry are you proposing?
+      options:
+        - origin_story — Human/community transformation
+        - breakthrough — Technology that changed what's possible
+        - trendline — Measurable scarcity decrease
+        - framework — Mental model for abundance thinking
+        - shadow — Where abundance thinking fails or harms
+        - false_dawn — Abundance promised but not delivered
+        - builder_profile — Portrait of an abundance builder
+        - contrast — Before/after comparison
+        - paradigm_seed — Single sentence that cracks an assumption
+        - star_trek_spec — Domain in the target civilization
+        - grand_challenge — Comprehensive domain mapping
+    validations:
+      required: true
+
+  - type: textarea
+    id: raw-spark
+    attributes:
+      label: Raw Spark
+      description: |
+        What's the abundance signal? A trendline, a builder, a breakthrough, a shadow, a question.
+        Don't structure it yet — just capture the signal.
+      placeholder: "In 2024, the cost of X dropped below Y for the first time, meaning..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: one-line-essence
+    attributes:
+      label: One-Line Essence (draft)
+      description: |
+        A single sentence that shifts perspective. Test: could an agent use this line alone to decide whether to surface this entry?
+      placeholder: "The thing we thought was scarce turns out to be..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Key Evidence
+      description: |
+        At least 2-3 verifiable claims with sources. Include year, institution, and specific numbers where possible.
+      placeholder: |
+        - [Claim]: [Source, Year]
+        - [Claim]: [Source, Year]
+    validations:
+      required: true
+
+  - type: textarea
+    id: shadow
+    attributes:
+      label: Shadow Check
+      description: |
+        Every abundance claim carries its shadow. What could go wrong? Who gets left behind? What's the transition cost?
+      placeholder: "This frame breaks down when... The populations most at risk are..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: I have read CURATION-GUIDE.md
+          required: true
+        - label: I have read at least one existing entry in domains/
+          required: true
+        - label: My evidence anchors are verifiable (not invented)
+          required: true
+        - label: My shadow check names real costs, not just "more research needed"
+          required: true
