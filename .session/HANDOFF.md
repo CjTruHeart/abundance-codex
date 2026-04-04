@@ -1,67 +1,99 @@
 # Session Handoff
-**Date**: 2026-04-03
-**Session Scope**: Ingested 3 new community domain entries (builder_profile, contrast, framework) from PDFs, validated, exported JSONL, and pushed to main — bringing community to 6/6 and the repo to 96 total entries.
+**Date**: 2026-04-04
+**Session Scope**: Completed the final 3 batch ingestions (domains 19-21: science-engineering, space, future-vision), bringing the Abundance Codex to 126 entries with all 21 domains at 6/6 — the repo is now structurally complete.
 
 ## Completed Work
-- Extracted and wrote `domains/11-community/04-buy-nothing-builder-profile.md` (builder_profile, confidence 0.82)
-- Extracted and wrote `domains/11-community/05-suburban-isolation-vs-gift-economies.md` (contrast, confidence 0.81)
-- Extracted and wrote `domains/11-community/06-reciprocity-infrastructure-framework.md` (framework, confidence 0.83)
-- All 3 entries passed `python3 scripts/validate-entry.py` with 0 errors, 0 warnings
-- Regenerated `export/abundance-codex.jsonl` (now 96 entries, 8 dedup entries handled automatically)
-- Committed as `5efc857` and pushed to `origin/main`
+- Ingested 9 entries across 3 domains in this session (3 per domain):
+  - `domains/19-science-engineering/04-self-driving-labs-contrast.md` (contrast, 0.79)
+  - `domains/19-science-engineering/05-aspuru-guzik-acceleration-consortium.md` (builder_profile, 0.84)
+  - `domains/19-science-engineering/06-the-ai-scientist-breakthrough.md` (breakthrough, 0.82)
+  - `domains/20-space/04-microgravity-manufacturing-contrast.md` (contrast, 0.82)
+  - `domains/20-space/05-astroscale-on-orbit-servicing-builder.md` (builder_profile, 0.88)
+  - `domains/20-space/06-cislunar-industrial-commons-star-trek-spec.md` (star_trek_spec, 0.78)
+  - `domains/21-future-vision/04-from-dystopia-to-protopia.md` (contrast, 0.76)
+  - `domains/21-future-vision/05-rob-hopkins-transition-movement.md` (builder_profile, 0.79)
+  - `domains/21-future-vision/06-the-protopian-turn.md` (trendline, 0.81)
+- All 9 entries passed validation with 0 errors, 0 warnings
+- JSONL export regenerated after each batch (final: 126 entries, 11 dedup entries handled)
+- 3 commits pushed to `origin/main`: `c03b40e`, `34c9d0a`, `c7cde04`
 
 ## Patterns Established
-- **Framework entry_type density matrix**: Phases 3-4-5 only (no Phase 1 or 2), 4 council voices (Oracle/Critic/Sensei/Builder — no Witness), 15 required sections, min 2 evidence anchors. This was the first framework entry ingested and confirmed working through validation.
-- **PDF triage**: Not all PDFs in the batch folder are entries — `grok_report.pdf` was a prompt/recommendation doc. Always check for YAML frontmatter before treating a PDF as an entry. When a PDF is not an entry, report it transparently and ask the user for direction.
-- **`grok_report-4.pdf` as overflow**: The Desktop folder can contain more than 3 PDFs. The user may direct you to substitute a later-numbered PDF when one in the batch is invalid.
-- **Canonical council emojis**: Always enforce on ingest: 🔮 Oracle, 🗡️ Critic, 🙏 Sensei, 🔨 Builder, 🌍 Witness. PDFs from Grok sometimes use non-canonical emoji variants.
-- **Co-author YAML fields**: Always ensure these 3 fields exist in frontmatter (PDFs sometimes only have them in the Governance body text): `co_author_model: "Super Grok"`, `co_author_human: "Cj TruHeart"`, `co_creative_partner: "CyberMonk"`.
+- **Trendline density matrix confirmed**: Phase 1/3/4 only (no Phase 2 or 5), Oracle/Critic/Builder only (no Sensei or Witness), min 5 evidence anchors, 14 required sections. First trendline entry validated cleanly.
+- **Star Trek Spec entry type**: Full 5-phase Shift Arc + all 5 council voices. Visionary capstone format — sits at the end of a domain's arc to synthesize prior entries into a future-state specification.
+- **Breakthrough entry type**: Similar structure to builder_profile but focused on a specific technical advance rather than an organization/person.
+- **Cross-domain entry referencing**: Later entries (04-06) explicitly reference earlier entries (01-03) in their Connections sections, forming narrative arcs within each domain.
+- **Dedup count grew**: JSONL export dedup list expanded from 8 to 11 known entries across the final batches.
 
 ## Unresolved Tensions
-- **Memory file staleness**: `project_codex_batch_workflow.md` still says "90 total entries across 21 domains" and "9 domains at 6 entries each." Now 96 entries and 11 domains at 6. Not yet updated — user hasn't explicitly requested it.
-- **Dedup count stability**: The JSONL export handles 8 known dedup entries. As the repo grows, this number may change and should be monitored.
-- **No `.gitignore` for `.session/`**: This handoff file will be tracked by git. Decide whether `.session/` should be ignored or committed as project history.
+- **Memory file stale**: `project_codex_batch_workflow.md` still references earlier entry counts and domain completion status. Should be updated to reflect 126 entries, all 21 domains at 6/6, and workflow complete.
+- **README badge stale**: Entry count badge in README.md still shows an older number. Noted in prior sessions but never explicitly requested by user.
+- **`.session/` tracking**: This directory is git-tracked. No decision made on whether it should be `.gitignore`d or kept as project history.
+- **Composite witness characters**: Several entries use composite/illustrative witness stories (e.g., "Sarah W.", "Maria L.") rather than real named individuals. These are clearly labeled as illustrative but the pattern should be consistent across the Codex.
 
 ## Next Session Scope
-1. **Domain 12: Governance** — next in sequence, currently at 3/6 entries. Expect 3 PDFs to bring it to 6.
-2. **Domain 13: Security** — after governance, also at 3/6.
-3. **Domains 14-21** all at 3/6 — 10 remaining domains need 3 entries each (30 entries total to reach 126).
-4. Consider updating the memory file with current repo state once the next batch lands.
+1. **Codex completion housekeeping**: Update memory file, README badge, and any stale metadata now that all 126 entries are landed
+2. **Cross-domain integrity audit**: Verify all Connections references between entries resolve correctly (e.g., entry 06 referencing entry 05 in same domain)
+3. **Domain-level index files**: Consider generating per-domain README or index files summarizing each domain's 6-entry arc
+4. **Quality pass**: Review evidence anchor freshness, confidence calibration consistency across all 126 entries
+5. **Architecture documentation**: Update ARCHITECTURE.md if it exists, or create project documentation reflecting the complete 21-domain, 126-entry structure
 
 ## Key File States
 | File | State | Notes |
 |------|-------|-------|
-| `domains/11-community/04-buy-nothing-builder-profile.md` | New | builder_profile, 5 evidence anchors, 5 domain connections |
-| `domains/11-community/05-suburban-isolation-vs-gift-economies.md` | New | contrast, 5 evidence anchors, 5 domain connections |
-| `domains/11-community/06-reciprocity-infrastructure-framework.md` | New | framework, 5 evidence anchors, 5 domain connections |
-| `export/abundance-codex.jsonl` | Modified | 96 lines, regenerated after new entries |
-| `scripts/validate-entry.py` | Unchanged | Used for validation, working correctly |
-| `scripts/export-to-jsonl.py` | Unchanged | Used for JSONL export, working correctly |
+| `domains/19-science-engineering/04-06` | New (3 files) | contrast + builder_profile + breakthrough |
+| `domains/20-space/04-06` | New (3 files) | contrast + builder_profile + star_trek_spec |
+| `domains/21-future-vision/04-06` | New (3 files) | contrast + builder_profile + trendline |
+| `export/abundance-codex.jsonl` | Modified | 126 lines, 11 dedup entries handled |
+| `scripts/validate-entry.py` | Unchanged | All density matrices working correctly |
+| `scripts/export-to-jsonl.py` | Unchanged | Dedup handling stable |
 
 ## Context Worth Preserving
 
-### Repo State Snapshot (post-session)
-- **96 total entries** across 21 domains
-- **11 domains at 6/6**: energy, food, water, shelter, health, environment, education, longevity, consciousness, communication, community
-- **10 domains at 3/6**: governance, security, transportation, economy, manufacturing, computation-intelligence, co-creative-intelligence, science-engineering, space, future-vision
-- Clean working tree on `main`, fully pushed
+### Repo State — COMPLETE
+- **126 total entries** across 21 domains — **all 21 domains at 6/6**
+- Clean working tree on `main`, fully pushed to `origin`
+- This is the structural completion milestone for the Abundance Codex
 
-### Entry Type Knowledge Gained
-- **framework** is a distinct entry_type with its own density matrix: no Phase 1/2 in the Shift Arc, no Witness voice in The Council. This was confirmed through both the PDF content (Grok correctly omits these) and the validator (passes with 15 required sections). Future framework entries should follow this same pattern.
-- The 3 community entries form a tight narrative arc: Buy Nothing as the concrete builder (04), suburban isolation as the before/after contrast (05), and the Reciprocity Infrastructure Framework as the installable model (06). Cross-references between them are explicit in the Connections sections.
+### Entry Type Density Matrices (full catalog now confirmed through validation)
+| Type | Phases | Council Voices | Min Anchors | Sections |
+|------|--------|----------------|-------------|----------|
+| contrast | 1-5 | All 5 | 3 | 6 |
+| builder_profile | 1-5 | All 5 | 2 | 19 |
+| trendline | 1, 3, 4 | Oracle, Critic, Builder | 5 | 14 |
+| framework | 3, 4, 5 | Oracle, Critic, Sensei, Builder | 2 | 15 |
+| star_trek_spec | 1-5 | All 5 | (similar to builder_profile) | — |
+| breakthrough | 1-5 | All 5 | (similar to builder_profile) | — |
 
-### Cross-Domain Connections in This Batch
-All 3 community entries share heavy connections to:
-- **Economy** (challenges transactional market norms, strength 0.75-0.85)
-- **Environment** (waste diversion via sharing loops, strength 0.85-0.9)
-- **Health** (Roseto effect / loneliness reduction, strength 0.7-0.8)
+### Future-Vision Domain Arc (completed this session)
+The 6-entry arc for future-vision forms a complete narrative:
+1. **01-the-star-trek-specification** — the destination (what protopian abundance looks like)
+2. **02-narrative-infrastructure** — the mechanism (how stories build futures)
+3. **03-the-imagination-deficit** — the shadow (what blocks us)
+4. **04-from-dystopia-to-protopia** — the contrast (the cultural pivot in progress)
+5. **05-rob-hopkins-transition-movement** — the builder (who is doing it at scale)
+6. **06-the-protopian-turn** — the trendline (proof the turn is measurable and accelerating)
 
-The framework entry (06) uniquely connects to **governance** (bottom-up coordination, 0.7) and **consciousness** (steward-giver identity shift, 0.75), while the contrast entry (05) uniquely connects to **transportation** (reduced car-dependent errands, 0.6).
+### Space Domain Arc (completed this session)
+1. **01-02** — Reusable launch (access layer)
+2. **03** — Orbital debris crisis (the shadow)
+3. **04** — Microgravity manufacturing (the product layer)
+4. **05** — Astroscale on-orbit servicing (the sustainability layer)
+5. **06** — Cislunar Industrial Commons (the star_trek_spec synthesis)
 
-### Evidence Anchor Patterns
-All 3 entries cite the same core Buy Nothing metrics (14M members, 2.6M items/month, 162k tons waste diverted). These are April 2026 verified figures from buynothingproject.org. The contrast entry adds Surgeon General loneliness data (2023) and American Time Use Survey socializing decline data (2025). Confidence levels range 0.78-0.95 across anchors.
+### Cross-Domain Connection Density
+The final 9 entries reveal heavy cross-domain threading:
+- **Future-vision ↔ Community**: strength 0.7-0.85 across all 3 new entries (community rehearsal as the engine of protopian practice)
+- **Space ↔ Manufacturing**: strength 0.8-0.9 (microgravity factories depend on clean orbits from servicing)
+- **Space ↔ Economy**: strength 0.75-0.85 (cislunar supply chains as multi-trillion-dollar new markets)
+- **Science-engineering ↔ Co-creative-intelligence**: strong convergence (AI-driven discovery labs)
 
-### Voice Calibration
-- Grok's PDF output uses slightly different emoji for council members — always normalize on ingest
-- Grok's YAML sometimes omits the 3 co-author fields from frontmatter while including them only in the Governance body section — always hoist them into frontmatter
-- Grok correctly structures framework entries with Phases 3-4-5 only and omits the Witness voice — no correction needed on those structural choices
+### Voice and Formatting Calibration
+- **Canonical council emojis** (enforced on every ingest): 🔮 Oracle, 🗡️ Critic, 🙏 Sensei, 🔨 Builder, 🌍 Witness
+- **Co-author YAML triad** (always in frontmatter): `co_author_model: "Super Grok"`, `co_author_human: "Cj TruHeart"`, `co_creative_partner: "CyberMonk"`
+- Grok PDFs consistently use non-canonical emojis — always normalize
+- Grok PDFs sometimes omit co-author fields from frontmatter — always hoist from Governance body text
+- `codex_version: "1.1"` is the current ontology version across all entries
+- Confidence scores range 0.68-0.95 across evidence anchors; entry-level confidence ranges 0.76-0.88
+
+### JSONL Export Dedup Entries (11 known)
+The export script handles 11 entries with ID collisions across domains. This is a known structural artifact — different domains can share the same base ID when co-authored in the same session. The script deduplicates automatically but the count should be monitored if new entries are added.
