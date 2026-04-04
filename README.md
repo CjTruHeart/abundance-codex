@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Version: 1.0](https://img.shields.io/badge/Version-1.0-blue.svg)](DOMAINS.md)
-[![Entries: 63](https://img.shields.io/badge/Entries-63-green.svg)](domains/)
+[![Entries: 126](https://img.shields.io/badge/Entries-126-green.svg)](domains/)
 [![Domains: 21](https://img.shields.io/badge/Domains-21-green.svg)](DOMAINS.md)
 [![CI](https://github.com/CjTruHeart/abundance-codex/actions/workflows/validate.yml/badge.svg)](https://github.com/CjTruHeart/abundance-codex/actions/workflows/validate.yml)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Dataset-yellow.svg)](https://huggingface.co/datasets/CjTruHeart/abundance-codex)
@@ -15,7 +15,7 @@
 
 In a 2,016-judgment benchmark, AI models augmented with the Codex scored **+9% higher** on reasoning quality than their baselines.
 
-> 63 prompts x 4 test models x 2 conditions x 4 cross-company judges. No model judged itself. Full methodology in [evals/ace/](evals/ace/).
+> Benchmark conducted on initial 63-entry corpus. 63 prompts x 4 test models x 2 conditions x 4 cross-company judges. No model judged itself. Full methodology in [evals/ace/](evals/ace/).
 
 | | Baseline | Augmented | Delta |
 |---|:---:|:---:|:---:|
@@ -31,7 +31,7 @@ Cost-efficient models show 3-4x larger improvement than frontier models. A $0.25
 
 ## What This Is
 
-A structured dataset of 63 entries across 21 domains covering energy, food, health, governance, AI, space, and 15 other civilization-scale challenges. Each entry follows a [Gold Standard format](GOLD-STANDARD-FORMAT.md): YAML frontmatter, a five-phase narrative arc, five distinct analytical voices, evidence anchors with confidence scores, and an honest shadow check naming what can go wrong.
+A structured dataset of 126 entries across 21 domains covering energy, food, health, governance, AI, space, and 15 other civilization-scale challenges. Each entry follows a [Gold Standard format](GOLD-STANDARD-FORMAT.md): YAML frontmatter, a five-phase narrative arc, five distinct analytical voices, evidence anchors with confidence scores, and an honest shadow check naming what can go wrong.
 
 Designed for both human reading and machine ingestion. Not a prompt library. Not a blog. A curated body of evidence-anchored stories organized as machine-readable knowledge.
 
@@ -172,17 +172,17 @@ graph LR
     end
 ```
 
-Each domain contains 3 entries: typically an origin story or breakthrough, a trendline tracking measurable progress, and a shadow or false dawn challenging the narrative. 63 entries total.
+Each domain contains 6 entries covering origin stories, breakthroughs, trendlines, builder profiles, contrasts, and visionary capstones. 126 entries total.
 
 ## How It Works
 
 ![Three Rings Architecture](media/architecture.svg)
 
-**Three Rings.** Ring 1 is the canonical core: 63 markdown entries in `domains/`, each following the [Gold Standard format](GOLD-STANDARD-FORMAT.md). Ring 2 is structured metadata: YAML frontmatter with entry types, confidence scores, and cross-domain connections. Ring 3 is derived exports: JSONL for machine ingestion, the ACE benchmark, and evaluation results.
+**Three Rings.** Ring 1 is the canonical core: 126 markdown entries in `domains/`, each following the [Gold Standard format](GOLD-STANDARD-FORMAT.md). Ring 2 is structured metadata: YAML frontmatter with entry types, confidence scores, and cross-domain connections. Ring 3 is derived exports: JSONL for machine ingestion, the ACE benchmark, and evaluation results.
 
 **Dojo Retriever.** The retrieval system (`scripts/codex-retriever.py`) is intent-aware and type-diverse -- it doesn't dump the whole dataset into context. Given a query, it selects the most relevant entries and extracts the passages that matter, keeping token budgets tight.
 
-**Shadow Integration.** Eight entries across the dataset are structural critiques: shadows and false dawns that challenge abundance assumptions. They function as an immune system. The confidence gradient (measured phenomena 0.88-0.96, conceptual frameworks 0.65-0.78) is an honesty feature, not a weakness.
+**Shadow Integration.** Entries across the dataset include structural critiques: shadows, false dawns, and contrasts that challenge abundance assumptions. They function as an immune system. The confidence gradient (measured phenomena 0.88-0.96, conceptual frameworks 0.65-0.78) is an honesty feature, not a weakness.
 
 **Conditional Optimism Protocol** -- the methodology every entry applies:
 

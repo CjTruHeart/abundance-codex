@@ -156,10 +156,10 @@ Agent Ingestion (JSONL → RAG/vector/context)
 Every entry carries three attribution fields in its YAML frontmatter:
 
 - `co_author_human` — **Cj TruHeart** (human curator and creative director)
-- `co_author_model` — **Claude Opus 4.6** (AI model co-author for research and drafting)
+- `co_author_model` — The AI model that co-authored research and drafting for that entry. The Codex was co-authored across multiple models (Claude Opus 4.6, Super Grok, and others) — the per-entry frontmatter is the source of truth for which model produced each entry.
 - `co_creative_partner` — **CyberMonk** (AI co-creative partner for strategic advising and architectural feedback)
 
-This taxonomy scales for multi-model expansion: future entries co-authored by Grok, Gemini, or GPT will carry different `co_author_model` values while retaining the same `co_author_human` and `co_creative_partner`.
+This taxonomy supports multi-model co-authorship by design. Different entries carry different `co_author_model` values while sharing the same `co_author_human` and `co_creative_partner`.
 
 ---
 
