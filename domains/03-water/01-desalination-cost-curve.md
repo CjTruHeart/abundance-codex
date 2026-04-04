@@ -211,7 +211,7 @@ Amina's summary in her report, translated from Swahili: "The ocean was always ne
 
 ## Connections
 
-- **Depends on:** Energy (01-energy/01-solar-revolution) — desalination's cost future is directly coupled to the solar cost curve. As solar approaches near-zero marginal cost, the energy component of desalination (40-50% of OPEX) collapses. This is the Codex's strongest cross-domain dependency.
+- **Depends on:** Energy (01-energy/01-the-solar-revolution) — desalination's cost future is directly coupled to the solar cost curve. As solar approaches near-zero marginal cost, the energy component of desalination (40-50% of OPEX) collapses. This is the Codex's strongest cross-domain dependency.
 - **Supports:** Health domain entries — clean water is the single largest intervention for reducing child mortality from waterborne disease. Food domain entries — desalinated water enables agriculture in arid coastal regions.
 - **Challenges:** Environment domain entries — brine discharge creates marine ecosystem damage that must be addressed; energy intensity carries carbon footprint until renewable-powered desal becomes standard.
 - **Builds toward:** Star Trek spec for water — clean, abundant water available to every human on Earth, independent of geography, climate, or political boundaries.

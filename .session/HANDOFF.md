@@ -1,9 +1,21 @@
 # Session Handoff
 **Date**: 2026-04-04
-**Session Scope**: Completed the final 3 batch ingestions (domains 19-21: science-engineering, space, future-vision), bringing the Abundance Codex to 126 entries with all 21 domains at 6/6 — the repo is now structurally complete.
+**Session Scope**: Metadata truth-up + cross-domain integrity audit. Updated README/ARCHITECTURE to reflect 126-entry completion. Fixed 8 broken cross-domain references. Logged 9 duplicate entry IDs as known structural artifact.
 
-## Completed Work
-- Ingested 9 entries across 3 domains in this session (3 per domain):
+## Completed Work (This Session)
+- README.md: Updated all structural counts from 63 → 126/21. Added "Benchmark conducted on initial 63-entry corpus" note to eval section. Updated entry-per-domain description from 3 to 6.
+- ARCHITECTURE.md: Updated co_author_model field to document multi-model co-authorship (Claude Opus 4.6, Super Grok) instead of hardcoding a single model.
+- Fixed 8 broken Connections references across 7 entry files:
+  - 2 wrong ac-ID date prefixes in economy/06 (20260328 → 20260327)
+  - 3 wrong solar entry slugs in energy/02, water/01, water/02 (01-solar-revolution → 01-the-solar-revolution)
+  - 1 wrong entry number in longevity/06 (04-life-biosciences → 05-life-biosciences)
+  - 1 truncated slug in community/06 (05-suburban-isolation-contrast → 05-suburban-isolation-vs-gift-economies)
+  - 1 truncated slug in science-engineering/06 (05-alan-aspuru-guzik → 05-alan-aspuru-guzik-acceleration-consortium)
+- Memory file updated to reflect 126/21 complete state.
+- Cross-domain integrity audit: 126 entries audited, ~159+ explicit references, 0 broken refs after fixes.
+
+## Prior Session Work (2026-04-04, earlier session)
+- Ingested 9 entries across 3 domains in prior session (3 per domain):
   - `domains/19-science-engineering/04-self-driving-labs-contrast.md` (contrast, 0.79)
   - `domains/19-science-engineering/05-aspuru-guzik-acceleration-consortium.md` (builder_profile, 0.84)
   - `domains/19-science-engineering/06-the-ai-scientist-breakthrough.md` (breakthrough, 0.82)
@@ -25,17 +37,14 @@
 - **Dedup count grew**: JSONL export dedup list expanded from 8 to 11 known entries across the final batches.
 
 ## Unresolved Tensions
-- **Memory file stale**: `project_codex_batch_workflow.md` still references earlier entry counts and domain completion status. Should be updated to reflect 126 entries, all 21 domains at 6/6, and workflow complete.
-- **README badge stale**: Entry count badge in README.md still shows an older number. Noted in prior sessions but never explicitly requested by user.
-- **`.session/` tracking**: This directory is git-tracked. No decision made on whether it should be `.gitignore`d or kept as project history.
-- **Composite witness characters**: Several entries use composite/illustrative witness stories (e.g., "Sarah W.", "Maria L.") rather than real named individuals. These are clearly labeled as illustrative but the pattern should be consistent across the Codex.
+- **Composite witness characters**: Several entries use composite/illustrative witness stories (e.g., "Sarah W.", "Maria L.") rather than real named individuals. These are clearly labeled as illustrative but the pattern should be consistent across the Codex. Deferred to a future quality-pass session.
+- **9 duplicate entry IDs across domains**: The ID generation scheme (`ac-YYYYMMDD-XXXX`) uses date + short suffix without encoding the domain, so entries in different domains created on the same date with the same entry-type suffix collide. Affected IDs: `ac-20260327-e01a` (education/01, security/01, economy/01), `ac-20260327-m01a` (consciousness/01, communication/01, manufacturing/01), `ac-20260327-e02a` (education/02, economy/02), `ac-20260327-c02a` (communication/02, computation/02), `ac-20260327-c03a` (consciousness/03, computation/03), `ac-20260327-d02a` (governance/02, science-engineering/02), `ac-20260403-e04a` (energy/04, economy/04), `ac-20260403-e05a` (energy/05, economy/05), `ac-20260403-e06a` (energy/06, economy/06). JSONL export dedup handles this at export time (11 dedup entries), but any system referencing entries by ac-ID alone will hit ambiguity. Future options: (a) add domain prefix to ID scheme, (b) regenerate colliding IDs, (c) accept as known artifact and rely on domain+slug for unique addressing.
 
 ## Next Session Scope
-1. **Codex completion housekeeping**: Update memory file, README badge, and any stale metadata now that all 126 entries are landed
-2. **Cross-domain integrity audit**: Verify all Connections references between entries resolve correctly (e.g., entry 06 referencing entry 05 in same domain)
-3. **Domain-level index files**: Consider generating per-domain README or index files summarizing each domain's 6-entry arc
-4. **Quality pass**: Review evidence anchor freshness, confidence calibration consistency across all 126 entries
-5. **Architecture documentation**: Update ARCHITECTURE.md if it exists, or create project documentation reflecting the complete 21-domain, 126-entry structure
+1. **Domain-level index files**: Generate per-domain README or index files summarizing each domain's 6-entry arc
+2. **Quality pass**: Review evidence anchor freshness, confidence calibration consistency across all 126 entries, composite witness consistency
+3. **Duplicate ID resolution**: Decide on and implement a fix for the 9 colliding ac-IDs (see Unresolved Tensions)
+4. **ACE benchmark re-run**: Consider re-running the ACE benchmark on the full 126-entry corpus to update eval results
 
 ## Key File States
 | File | State | Notes |

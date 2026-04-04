@@ -94,8 +94,8 @@ The inner shift required is from "I must own/control the customer relationship a
 
 ## Connections
 
-- **Supports:** ac-20260328-e01a (unbanked revolution), ac-20260403-e04a (M-Pesa/UPI contrast), ac-20260403-e05a (Nilekani builder_profile)
-- **Challenges:** ac-20260328-e03a (inequality engine shadow) — open rails reduce capture risk
+- **Supports:** ac-20260327-e01a (unbanked revolution), ac-20260403-e04a (M-Pesa/UPI contrast), ac-20260403-e05a (Nilekani builder_profile)
+- **Challenges:** ac-20260327-e03a (inequality engine shadow) — open rails reduce capture risk
 - **Builds toward:** Star Trek spec — programmable post-scarcity economy
 - **Cross-domain leverage:** Feeds governance (new regulatory models), computation-intelligence (AI on rails), community (broad economic agency)
 

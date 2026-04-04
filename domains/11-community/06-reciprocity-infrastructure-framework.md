@@ -111,7 +111,7 @@ The framework is being built today by the Buy Nothing Project (nonprofit backbon
 
 ## Connections
 
-- **Supports:** 04-buy-nothing-builder-profile & 05-suburban-isolation-contrast (turns construction and contrast into installable model)
+- **Supports:** 04-buy-nothing-builder-profile & 05-suburban-isolation-vs-gift-economies (turns construction and contrast into installable model)
 - **Challenges:** 03-tribalism-shadow (adds permeability protocols to mitigate fortress logic)
 - **Builds toward:** Future grand_challenge mapping of community pillar and star_trek_spec on post-scarcity belonging
 - **Cross-domain leverage:** Ripples into environment (waste), economy (anti-rivalrous value), health (Roseto effect), governance (bottom-up coordination)

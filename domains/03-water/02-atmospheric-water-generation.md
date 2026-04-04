@@ -205,7 +205,7 @@ She is one story. But in the Navajo Nation alone, roughly 30% of households lack
 - **Supports:** Health (point-of-use clean water eliminates waterborne disease vector), Community (water access enables settlement in remote areas)
 - **Challenges:** Economy (disrupts traditional water hauling and bottled water industries in deployment areas)
 - **Builds toward:** Star Trek spec for water — clean, unlimited water available to every human regardless of geography, generated locally from ambient resources
-- **Cross-domain leverage:** AWG's viability is tightly coupled to the solar energy revolution (see `01-energy/01-solar-revolution.md`). As solar electricity approaches near-zero marginal cost, the energy input for AWG — historically the dominant cost factor — collapses. AWG also depends critically on frontier materials science (MOFs, reticular chemistry) and advanced manufacturing capacity for sorbent materials. The 2025 Nobel Prize for MOFs signals that the foundational science has matured; the question is now manufacturing and deployment.
+- **Cross-domain leverage:** AWG's viability is tightly coupled to the solar energy revolution (see `01-energy/01-the-solar-revolution.md`). As solar electricity approaches near-zero marginal cost, the energy input for AWG — historically the dominant cost factor — collapses. AWG also depends critically on frontier materials science (MOFs, reticular chemistry) and advanced manufacturing capacity for sorbent materials. The 2025 Nobel Prize for MOFs signals that the foundational science has matured; the question is now manufacturing and deployment.
 
 ---
 

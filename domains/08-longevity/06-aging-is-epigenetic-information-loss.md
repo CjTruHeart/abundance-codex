@@ -74,7 +74,7 @@ The inner shift required is releasing the identity "I am a victim of time's deca
 
 ## Connections
 
-- **Supports:** 01-aging-as-engineering (mechanisms), 04-life-biosciences-builder (clinical translation).
+- **Supports:** 01-aging-as-engineering (mechanisms), 05-life-biosciences-builder (clinical translation).
 - **Challenges:** 03-immortality-grift-shadow (grounds hype in information science).
 - **Builds toward:** Future grand_challenge longevity and star_trek_spec healthspan entries.
 - **Cross-domain leverage:** Enables proactive health, accelerates science-engineering discovery, depends on computation for pattern restoration.

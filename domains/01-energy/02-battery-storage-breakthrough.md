@@ -213,7 +213,7 @@ Elena's summary: "Before, when the power goes out, we are alone in the dark and 
 
 ## Connections
 
-- **Completes:** 01-energy/01-solar-revolution — Solar provides the fuel, storage provides the dispatch. Together they constitute the energy abundance thesis. The solar entry's Oracle section identified "solar plus battery storage" as "the convergence that matters most." This entry IS that convergence.
+- **Completes:** 01-energy/01-the-solar-revolution — Solar provides the fuel, storage provides the dispatch. Together they constitute the energy abundance thesis. The solar entry's Oracle section identified "solar plus battery storage" as "the convergence that matters most." This entry IS that convergence.
 - **Supports:** Environment domain (storage eliminates fossil fuel backup, completing decarbonization). Water domain (24/7 clean power enables round-the-clock desalination — the energy-water nexus from 03-water/01 completes here). Transportation domain (EV batteries as distributed grid storage).
 - **Challenges:** Economy domain — fossil fuel peaker plants, gas pipeline investments, and utility business models face stranded asset risk.
 - **Builds toward:** Star Trek spec for energy — clean, limitless, dispatchable energy available to every human, anywhere, anytime.

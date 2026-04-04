@@ -116,7 +116,7 @@ In early 2026, UBC Computer Science Professor Jeff Clune (lead author on the Nat
 
 ## Connections
 
-- **Supports:** 04-from-manual-to-self-driving-labs & 05-alan-aspuru-guzik (cognitive layer completes the physical automation loop)
+- **Supports:** 04-from-manual-to-self-driving-labs & 05-alan-aspuru-guzik-acceleration-consortium (cognitive layer completes the physical automation loop)
 - **Challenges:** 03-the-replication-crisis (offers structured reproducibility but introduces new hallucination vectors)
 - **Builds toward:** Star Trek-level instantaneous scientific discovery
 - **Cross-domain leverage:** Converges computation-intelligence; produces accelerated progress in health, manufacturing, energy, and environment
