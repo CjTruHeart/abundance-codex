@@ -1,5 +1,5 @@
 ---
-id: "ac-20260403-e05a"
+id: "ac-20260403-fd68"
 entry_type: "builder_profile"
 domain: "economy"
 domain_connections:
@@ -21,6 +21,7 @@ domain_connections:
     note: "DPI has dramatically expanded economic agency for women, rural populations, and small merchants"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-04"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"

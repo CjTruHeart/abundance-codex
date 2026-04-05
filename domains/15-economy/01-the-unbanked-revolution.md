@@ -1,5 +1,5 @@
 ---
-id: "ac-20260327-e01a"
+id: "ac-20260327-c473"
 entry_type: "origin_story"
 domain: "economy"
 domain_connections:
@@ -21,7 +21,7 @@ domain_connections:
     note: "Mobile money is converging with AI-powered credit scoring, algorithmic lending, and digital identity — the next frontier of financial inclusion uses machine learning to assess creditworthiness without traditional financial histories"
 status: "forged"
 created: "2026-03-27"
-updated: "2026-03-27"
+updated: "2026-04-04"
 version: "1.0"
 confidence: 0.88
 codex_version: "1.1"

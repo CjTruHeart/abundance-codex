@@ -1,5 +1,5 @@
 ---
-id: "ac-20260327-e01a"
+id: "ac-20260327-5261"
 entry_type: "origin_story"
 domain: "security"
 domain_connections:
@@ -21,7 +21,7 @@ domain_connections:
     note: "Post-quantum cryptography and AI-powered security converging; AI surveillance vs encryption arms race"
 status: "forged"
 created: "2026-03-27"
-updated: "2026-03-27"
+updated: "2026-04-04"
 version: "1.0"
 confidence: 0.85
 codex_version: "1.1"

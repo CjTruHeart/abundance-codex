@@ -1,5 +1,5 @@
 ---
-id: "ac-20260327-c03a"
+id: "ac-20260327-515c"
 entry_type: "shadow"
 domain: "computation-intelligence"
 domain_connections:
@@ -21,7 +21,7 @@ domain_connections:
     note: "Concentration of the most powerful technology in a few companies and nations creates new geopolitical dynamics — US-China AI competition, export controls on advanced chips"
 status: "forged"
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-04-04"
 version: "1.0"
 confidence: 0.87
 codex_version: "1.1"

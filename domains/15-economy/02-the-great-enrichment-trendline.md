@@ -1,5 +1,5 @@
 ---
-id: "ac-20260327-e02a"
+id: "ac-20260327-cbdb"
 entry_type: "trendline"
 domain: "economy"
 domain_connections:
@@ -21,7 +21,7 @@ domain_connections:
     note: "The enrichment was powered partly by environmental extraction — fossil fuels, deforestation, industrial pollution. Prosperity's abundance came at environmental cost."
 status: "forged"
 created: "2026-03-27"
-updated: "2026-03-27"
+updated: "2026-04-04"
 version: "1.0"
 confidence: 0.92
 codex_version: "1.1"

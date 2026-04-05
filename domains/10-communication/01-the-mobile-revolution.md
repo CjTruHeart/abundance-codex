@@ -1,5 +1,5 @@
 ---
-id: "ac-20260327-m01a"
+id: "ac-20260327-5c31"
 entry_type: "origin_story"
 domain: "communication"
 domain_connections:
@@ -25,7 +25,7 @@ domain_connections:
     note: "Mobile towers need electricity; communication infrastructure depends on energy abundance"
 status: "forged"
 created: "2026-03-27"
-updated: "2026-03-27"
+updated: "2026-04-04"
 version: "1.0"
 confidence: 0.90
 codex_version: "1.1"

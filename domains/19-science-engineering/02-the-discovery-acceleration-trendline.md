@@ -1,5 +1,5 @@
 ---
-id: "ac-20260327-d02a"
+id: "ac-20260327-5707"
 entry_type: "trendline"
 domain: "science-engineering"
 domain_connections:
@@ -21,7 +21,7 @@ domain_connections:
     note: "Computational materials discovery (GNoME), advanced materials, additive manufacturing — manufacturing abundance is partly a function of discovery speed"
 status: "forged"
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-04-04"
 version: "1.0"
 confidence: 0.85
 codex_version: "1.1"

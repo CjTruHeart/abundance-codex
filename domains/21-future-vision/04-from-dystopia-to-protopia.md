@@ -165,4 +165,6 @@ In Totnes, England, in 2019, Transition Town participant Sarah W. stood in the c
 
 The spark was the explicit gap between the three existing future-vision entries: destination + mechanism + obstacle, but no clear lived contrast showing the pivot in process. Super Grok prompt emphasis on contrast as primary strength made this the highest-leverage next piece.
 
+The Witness story (Sarah W.) is a composite drawn from documented solarpunk community storytelling practices and Transition Town "future rehearsal" circles in Totnes and similar communities. The core narrative follows documented cases of participatory story-writing workshops shifting individual civic behavior. Individual details are illustrative, not biographical.
+
 </details>

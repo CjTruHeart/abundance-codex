@@ -164,4 +164,6 @@ Carlos A., a 19-year-old from Ohio treated in March 2025 at Nationwide Children'
 
 Clinical trial results, FDA approval announcements, ICER cost-effectiveness reports, Vertex quarterly updates (Q1 2026), patient stories from treated individuals, and the lived experience of families who watched loved ones go from crisis calendars to planning futures. Primary mechanism: CRISPR editing of BCL11A to reactivate fetal hemoglobin.
 
+The Witness story (Carlos A.) is a composite drawn from documented Casgevy and Lyfgenia patient experiences reported by Vertex Pharmaceuticals, Nationwide Children's Hospital, and published clinical trial narratives. Individual details are illustrative, not biographical.
+
 </details>

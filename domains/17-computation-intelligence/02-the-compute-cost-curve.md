@@ -1,5 +1,5 @@
 ---
-id: "ac-20260327-c02a"
+id: "ac-20260327-e0f3"
 entry_type: "trendline"
 domain: "computation-intelligence"
 domain_connections:
@@ -25,7 +25,7 @@ domain_connections:
     note: "Computational materials discovery, generative design, and digital fabrication all depend on cheap abundant compute"
 status: "forged"
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-04-04"
 version: "1.0"
 confidence: 0.94
 codex_version: "1.1"

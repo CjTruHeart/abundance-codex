@@ -1,5 +1,5 @@
 ---
-id: "ac-20260403-e06a"
+id: "ac-20260403-c417"
 entry_type: "paradigm_seed"
 domain: "economy"
 domain_connections:
@@ -17,6 +17,7 @@ domain_connections:
     note: "Ubiquitous mobile + digital identity form the physical layer for economic rails"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-04"
 version: "1.0"
 confidence: 0.78
 codex_version: "1.1"

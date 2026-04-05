@@ -1,5 +1,5 @@
 ---
-id: "ac-20260327-m01a"
+id: "ac-20260327-118e"
 entry_type: "origin_story"
 domain: "manufacturing"
 domain_connections:
@@ -21,7 +21,7 @@ domain_connections:
     note: "Makerspaces are community spaces — the maker movement's social infrastructure produces belonging and collaborative capacity alongside physical objects"
 status: "forged"
 created: "2026-03-27"
-updated: "2026-03-28"
+updated: "2026-04-04"
 version: "1.0"
 confidence: 0.83
 codex_version: "1.1"

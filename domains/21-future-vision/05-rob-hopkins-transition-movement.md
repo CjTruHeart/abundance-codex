@@ -163,4 +163,6 @@ In Totnes in 2019, longtime resident and Transition participant Maria L. joined 
 
 The spark came from the explicit gap after the dystopia-to-protopia contrast: we needed a living builder actively constructing the new narrative at scale. Rob Hopkins and the Transition Movement provided the clearest, most documented, and most synergistic example. Data pulled from robhopkins.net, transitionnetwork.org, and recent 2025–2026 coverage.
 
+The Witness story (Maria L.) is a composite drawn from documented Transition Town participant experiences reported by the Transition Network, Rob Hopkins' published works, and community impact evaluations. Individual details are illustrative, not biographical.
+
 </details>
