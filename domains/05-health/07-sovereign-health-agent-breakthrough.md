@@ -1,5 +1,5 @@
 ---
-id: "ac-20260406-sh07"
+id: "ac-20260406-hsa7"
 entry_type: "breakthrough"
 domain: "health"
 domain_connections:
