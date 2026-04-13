@@ -26,7 +26,7 @@ version: "1.0"
 confidence: 0.76
 codex_version: "1.1"
 tags: ["modular-construction", "prefabricated-housing", "construction-productivity", "factory-built", "industrialization", "6Ds", "shelter-abundance"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -66,13 +66,13 @@ The pattern is identical to every other 6D exponential: early pilots look expens
 ### 🗡️ The Critic — Shadow Keeper
 Factory-built abundance is not automatic. Up-front factory capital costs are high; without scale they remain a 10-15% premium in some segments. Transport logistics limit module size in dense urban areas. Building codes and trade-union resistance can block adoption for years — exactly as they slowed earlier prefab waves. Worker displacement is real: the traditional construction workforce (often 100% on-site labor) shrinks dramatically when 80% of the work moves to factories. In developing nations, the risk is that cheap factory imports undercut local jobs without building domestic manufacturing capacity. Environmental gains can be overstated if factories run on dirty grids or if long-distance shipping offsets waste savings. Most critically, factory methods still require land, zoning reform, and financing — none of which are solved by manufacturing alone. If governance capture occurs (incumbent builders or unions blocking codes), the abundance signal stalls exactly as it did after the 1970s prefab boom.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The deepest shift required is identity-level: the builder must release the craftsman-as-artist self-image and adopt the industrial engineer mindset. Homeowners must release the "my home is a unique hand-crafted legacy" story and embrace "my home is a high-performance, upgradeable industrial product that appreciates in value because of quality, not scarcity." Communities must release NIMBY protectionism rooted in fear of change. This is the same inner transition every industry has made — from blacksmiths to auto assembly lines. The discipline is humility before the learning curve: test, iterate, standardize, then customize. The freedom that follows is exponential supply.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 What is being built today: volumetric modular (entire rooms shipped), panelized systems, and hybrid 3D-printed + factory components. Leading players include Sekisui House (Japan), Fading West and Dvele (U.S.), and numerous European firms. Technical readiness: factory lines already produce finished homes with MEP, insulation, and finishes installed; on-site assembly is crane-and-connect in days. Bottlenecks remain permitting (modules must be pre-approved), transportation (oversize loads), and last-mile site work (foundations, utilities). Japan's model shows the learning-curve path: 50+ years of iteration produced earthquake-resistant, customizable, energy-efficient homes that often resell at a premium. U.S. and global capacity is ramping — $50B+ VC/PE flowed into construction tech 2020-2022 — but still <5% market share in most Western nations. Leverage point now: policy that treats factory output as code-compliant by default and creates demand signals (public procurement, tax credits) to guarantee volume and de-risk factories.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 In 2025, the Ramirez family in Colorado lost their home to wildfire. Within weeks Fading West delivered a factory-built replacement home — fully finished, energy-efficient, and move-in ready in a fraction of traditional rebuild time. Maria Ramirez described standing in the factory watching her future kitchen being assembled with robotic precision, then watching the modules arrive on trucks and click together on their new foundation. "It wasn't just a house," she said. "It was proof that we didn't have to wait years to feel safe and whole again." The home came with integrated solar readiness and cost significantly less than comparable site-built reconstruction. One family, one moment — the scarcity frame of "it takes forever and costs everything" visibly shattered.
 
 ---

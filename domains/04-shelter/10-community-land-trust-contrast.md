@@ -25,7 +25,7 @@ updated: "2026-04-06"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "Chat GPT - Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["community-land-trust", "shared-equity", "permanent-affordability", "housing", "shelter", "stewardship"]
@@ -99,7 +99,7 @@ There is another tension: resale restrictions are philosophically sound for perm
 
 The falsifiability edge is clear. If CLTs cannot preserve meaningful homeowner wealth, cannot maintain long-term stewardship quality, or remain too marginal to protect significant numbers of homes in rising markets, then the abundance claim weakens. A model that stays admirable but tiny is not yet a civilization lever.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift here is severe because it asks people to loosen their grip on one of America's deepest stories: *my house must also be my lottery ticket.*
 
@@ -107,7 +107,7 @@ That story did not appear from nowhere. For many families, especially those excl
 
 CLTs ask for a different posture — less like grabbing, more like stance. Stable footing. Enough equity to build strength. Enough permanence to keep the line open behind you. In martial terms, this is the move from frantic striking to structure: not chasing every opening, but holding position so the whole exchange changes.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 On the ground, the mechanism is straightforward but demanding. Grounded Solutions describes the core architecture clearly: the buyer purchases the house, not the land; the land is leased through a long-term renewable ground lease, often 99 years; and resale restrictions preserve affordability in perpetuity. Governance typically balances residents, community members, and public representatives.
 
@@ -115,7 +115,7 @@ The current frontier is not proving that CLTs can work. It is building the enabl
 
 Builders closest to leverage now are organizations like Proud Ground and local CLTs such as Lexington Community Land Trust that pair permanent affordability with concrete governance, eligibility systems, homebuyer education, and long-term stewardship. The bottleneck is not imagination. It is disciplined replication.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 Less than two months after moving into her Proud Ground home, McKenna showed visitors her home office. Her diplomas and certifications were framed on the wall. She said the stability of homeownership had already helped her reach another milestone: a work promotion and salary increase. It is a small scene, but that is the point. Shelter abundance does not always announce itself with skyline renderings. Sometimes it appears as a desk, a door that holds, and the nervous system settling enough for a person to take the next step in her life.
 

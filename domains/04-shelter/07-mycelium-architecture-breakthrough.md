@@ -25,10 +25,11 @@ domain_connections:
     note: "Genetic sequencing of fungal strains and precision-engineered biological cultivation represent applied biodesign science."
 status: "forged"
 created: "2026-04-06"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.75
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["breakthrough", "shelter", "mycelium", "bio-fabrication", "carbon-sequestration", "materials-science", "6Ds"]
@@ -69,13 +70,13 @@ We are witnessing the dematerialization of the physical supply chain through the
 ### 🗡️ The Critic — Shadow Keeper
 Do not confuse biological cultivation with socioeconomic equity. While you praise the elimination of concrete, look at the shadow cast by commodifying agricultural waste. Previously, corn stover and hemp hurd were cheap byproducts used by local, lower-income farmers for livestock bedding or soil replenishment. By suddenly generating massive commercial demand for this substrate to "grow" modular housing for affluent eco-communities, we risk spiking the cost of agricultural byproducts, actively harming subsistence farmers. Furthermore, large-scale commercial bio-fabrication is incredibly vulnerable. A single outbreak of rogue *Trichoderma* mold in a sterile facility can wipe out thousands of structural panels in a day. You are trading the predictable brittleness of the global supply chain for the unpredictable volatility of microbiology.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 Consider the energy of the space that holds you. A room built of steel and concrete is a monument to force; it is matter subdued by fire and heavy machinery. When you inhabit a structure that was grown — a matrix of life that reached out, connected, and bound itself together in darkness — your relationship with the enclosure changes. You are not hiding behind a dead barrier; you are resting within an organic extension of the earth's natural cycle. It teaches the mind that true resilience does not require rigidity or extraction, but merely the right conditions for natural expansion.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 The engineering tolerances are what make this viable, not the environmental philosophy. We are using a 70/30 mix of hemp hurd and *Trametes versicolor* mycelium. Once packed into the aerated thermo-molds, the network colonizes the substrate in exactly 120 hours. We bake it at 200°F for two hours to terminate the organism and flash-cure the chitin bonds. The resulting bio-composite has an R-value of roughly 3.0 per inch, effectively matching extruded polystyrene, but with vastly superior acoustic dampening. More importantly, it naturally achieves a Class A fire rating without a single drop of toxic, carcinogenic flame retardants. We are not just matching legacy materials; on a strict thermal and safety level, we are outperforming them.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 **Composite based on documented patterns in agricultural bio-fabrication pilot programs.**
 
 David Miller. Lancaster County, Pennsylvania, 2026. "For three generations, my family burned the excess corn stover in the fields after the harvest. It was just a nuisance, a hurdle before the next planting. When the bio-fab startup approached us, I thought it was a joke. They wanted to buy our field trash to make houses. Six months later, I walked into their incubation warehouse down in the valley. It smelled like the deep woods after a spring rain — earthy, dense, and alive. They handed me a solid, heavy wall panel, cleanly cut and ready for a framing track. I recognized the husks from my own south field suspended inside the white webbing. I realized right then that we weren't just farmers anymore. We were growing the walls of the new town."

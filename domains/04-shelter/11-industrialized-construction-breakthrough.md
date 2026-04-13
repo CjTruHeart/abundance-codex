@@ -29,7 +29,7 @@ updated: "2026-04-06"
 version: "1.0"
 confidence: 0.79
 codex_version: "1.1"
-co_author_model: "Chat GPT - Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["industrialized-construction", "modular", "prefabrication", "net-zero", "resilience", "affordable-housing", "factory-built"]
@@ -85,13 +85,13 @@ There is also a moral risk. If industrialized housing becomes shorthand for "che
 
 The falsifiability edge is clean: if industrialized construction cannot repeatedly lower delivery time, total ownership burden, or energy waste in real occupied projects, then the abundance claim weakens sharply.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift is from romantic chaos to disciplined compassion. There is honor in craft, but there is also ego in insisting every problem must be solved under maximum site friction. The Sensei's lesson is not to discard craft. It is to stop confusing avoidable disorder with authenticity.
 
 In martial terms, this is the move from wild effort to trained form. A fighter who improvises every exchange burns energy fast. A fighter with structure conserves force and lands cleanly. Shelter abundance demands that same maturity: repeat what should be repeated, customize what truly matters, and stop wasting families' money on preventable inefficiency.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 NREL's industrialized construction work is the clearest public build signal in this lane. The lab is testing modular units, simulation, airtightness, moisture behavior, advanced controls, and design-for-manufacturing workflows with a straightforward aim: affordable, grid-efficient, net-zero energy buildings delivered more reliably.
 
@@ -99,7 +99,7 @@ The iUnit work makes the idea tangible. NREL's reporting describes a 380-square-
 
 The builders closest to leverage now are the teams that can align design, code approval, logistics, finance, workforce training, and building-performance measurement into one delivery chain.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 A renter — composite, but grounded in documented modular affordable-housing patterns — stands in a small apartment on a hot afternoon and notices what her old homes never gave her: quiet walls, steady air, and a utility bill that does not arrive like a punch.
 

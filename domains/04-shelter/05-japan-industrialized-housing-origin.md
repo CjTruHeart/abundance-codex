@@ -26,7 +26,7 @@ version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
 tags: ["japan-prefab", "industrialized-housing", "sekisui-house", "post-war-abundance", "ZEH", "earthquake-resilient", "factory-built-origin"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -66,13 +66,13 @@ Japan's origin story is the clearest historical 6D proof for shelter: Digitized 
 ### 🗡️ The Critic — Shadow Keeper
 Japan's success carries real shadows. The early "scrap-and-build" cycle (homes demolished after ~30 years) reflected rapid depreciation incentives and cultural norms — only recently shifting toward longevity. High upfront factory capital favors large incumbents, potentially limiting smaller innovators. In a shrinking population, demand for new homes has softened, showing that industrialization alone does not solve demographic or land-use constraints. Rural vs. urban divides persist; not every region benefits equally. Environmental gains depend on grid decarbonization and material sourcing. If other nations import the model without domestic manufacturing capacity, they risk dependency. The Critic notes that Japan's abundance required deliberate post-war industrial policy — it did not emerge spontaneously.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift Japan models is profound: builders release the lone craftsman identity and become orchestrators of industrial systems — precision, iteration, and service over heroic on-site labor. Homeowners release the romance of "unique hand-built legacy" and embrace performance-engineered, upgradeable homes that appreciate because of quality and resilience, not artificial scarcity. Society releases NIMBY resistance to "factory homes" and recognizes them as superior in safety and efficiency. This identity transition — trained through decades of practice, policy, and cultural adaptation — turns scarcity fear into abundance confidence. The discipline is standardization with customization; the freedom is homes that protect families across generations and disasters.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Japan's builders (Sekisui House, Daiwa House, Misawa, Toyota Home) operate true industrialized systems: automated factories with robotics, precision component assembly, and integrated supply chains. Current readiness: fully mature, code-compliant, high-volume production delivering earthquake-resistant, ZEH-ready homes in weeks from factory to site. Bottlenecks historically included early material costs and cultural perception; today they are regulatory alignment for exports and scaling circular materials. Sekisui's factories exemplify the learning curve — decades of iteration produced homes with documented superior performance and maintenance programs up to 60 years. Leverage point now: policy that guarantees volume (public procurement, seismic retrofit incentives) while opening codes to international factory standards. Japan built the playbook; the rest of the world is now copying the hardware.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 In 2011, after the Tohoku earthquake and tsunami, a family in Miyagi Prefecture moved into a newly delivered Sekisui House prefab replacement home. The father, who had lost everything in the disaster, stood inside the factory-finished structure — walls engineered to Seismic Grade 3, solar-ready, and climate-controlled from day one — and felt the difference immediately. "It wasn't just rebuilt," he later shared. "It was stronger, more efficient, and ready for whatever comes next. For the first time, our home felt like it was built to protect our future." One family, one factory-delivered home, one moment where post-disaster scarcity visibly gave way to engineered abundance.
 
 ---

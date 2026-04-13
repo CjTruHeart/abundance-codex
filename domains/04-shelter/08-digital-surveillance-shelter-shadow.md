@@ -25,10 +25,11 @@ domain_connections:
     note: "Data-subsidized housing can create two-tier communities divided by surveillance acceptance versus privacy privilege."
 status: "forged"
 created: "2026-04-06"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.80
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["shadow", "shelter", "surveillance", "privacy", "smart-home", "data-extraction", "biometrics", "6Ds"]
@@ -69,13 +70,13 @@ Value always seeks a substrate. When advanced robotics and materials science dem
 ### 🗡️ The Critic — Shadow Keeper
 You applaud yourselves for eliminating the housing crisis because nobody is sleeping on the concrete anymore. But look at the architecture of your "free" housing. You have not liberated the underclass; you have simply engineered a more efficient way to farm them. When a subsidized smart-apartment dynamically restricts an occupant's HVAC usage because their health-data stream is not generating enough secondary market revenue this month, you have not achieved abundance — you have achieved high-tech feudalism. You are creating a bifurcated world where the rich buy "dumb," cryptographically silent homes built with dead materials to ensure their privacy, while the working class is forced into hyper-efficient, glowing pods that monitor their REM sleep to pay the rent.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The mind cannot fully rest when it knows it is being measured. The evolutionary purpose of a den, a cave, or a home is to provide a boundary where the nervous system can completely disengage from the threat of the external environment. If the walls of your sanctuary are actively parsing your pupil dilation and breathing rate, your somatic intelligence will remain in a state of low-level, permanent vigilance. You are solving the exposure of the physical body to the weather, but you are stripping away the protective layer of the psyche. A sanctuary is only a sanctuary if you have the power to close its eyes.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Do not confuse engineering necessity with malice. To achieve the thermodynamic efficiencies required to house ten billion people without boiling the planet, the habitat *must* be intelligent. The HVAC systems need predictive load balancing; the walls need to know when you are in the room to optimize the thermal mass; the water reclamation system needs to analyze the greywater output. We had to embed roughly 400 micro-sensors per square meter to make the math work for a zero-emission grid. The vulnerability is not the hardware itself; it is the legacy corporate architecture routing that telemetry back to a centralized cloud server instead of processing it locally on an air-gapped server in the basement.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 **Composite based on documented patterns in smart-home data privacy reporting and IoT surveillance research.**
 
 Elias Thorne. The Neo-Seattle Corporate Arcology, 2028. "I lost my legacy apartment when the regional banks collapsed. The Arcology offered a subsidized pod. No deposit, no monthly rent, just a digital signature on a data-yield agreement. At first, it felt like magic. The lights matched my circadian rhythm, the temperature was always perfect. But then the targeted ads started showing up on the communal screens outside my door, predicting exactly what I was feeling based on my pacing habits inside my room. Last week, I received a warning message on my mirror: my 'data vitality score' was too low because I had been spending too much time reading physical books quietly instead of engaging with the interactive, monetizable wall-screens. They threatened to throttle my hot water if I didn't increase my measurable digital engagement. I'm safe from the rain, but I have never felt more exposed."

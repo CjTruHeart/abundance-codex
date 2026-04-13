@@ -29,7 +29,7 @@ updated: "2026-04-06"
 version: "1.0"
 confidence: 0.78
 codex_version: "1.1"
-co_author_model: "gpt-5-4-thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["participatory-slum-upgrading", "incremental-housing", "tenure-security", "community-led-development", "informal-settlements", "sites-and-services"]
@@ -121,7 +121,7 @@ And then there is the capture problem. Upgrading a settlement can raise land val
 
 The falsifiability edge is sharp. If participatory upgrading repeatedly fails to secure tenure, reduce hazard, improve basic services, and preserve residents' access to livelihood networks, then it is not an abundance lever. It is only a softer story about managed precarity.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift required here is one of respect.
 
@@ -135,7 +135,7 @@ In martial terms, this is the shift from forcing the throw to feeling the balanc
 
 The scarcity belief that must be released is this: *real housing arrives only when the poor are moved into a system designed entirely by others.* Once that belief softens, a more disciplined truth appears: shelter abundance often grows by upgrading the ground people already know how to stand on.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 What is actually being built in this lane is not just housing. It is a process stack.
 
@@ -145,7 +145,7 @@ UN-Habitat's PSUP makes the stack even broader: shelter, sanitation, water, wast
 
 The real bottlenecks are predictable: land politics, slow regularization, underfunded trunk infrastructure, weak data, elite capture, inconsistent participation quality, and finance that does not fit the cash-flow reality of the poorest households. None of those are minor. But they are implementation bottlenecks, not evidence that the model is false.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 A woman stands in a lane that used to flood and points to the spot where dirty water once sat for days after heavy rain. Now the lane drains. The walkway is paved. The children still run through the same neighborhood, still know the same neighbors, still sleep close enough to grandparents and work and school that life has not been torn apart to make room for "improvement."
 

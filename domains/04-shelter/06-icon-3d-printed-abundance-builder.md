@@ -26,7 +26,7 @@ version: "1.0"
 confidence: 0.81
 codex_version: "1.1"
 tags: ["3d-printing", "icon-build", "additive-construction", "housing-abundance", "robotics-in-construction", "crisis-response", "wolf-ranch"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -66,13 +66,13 @@ ICON sits at the exact Disruptive-to-Demonetized inflection of the 6D curve for 
 ### 🗡️ The Critic — Shadow Keeper
 Abundance via 3D printing is not yet universal. High upfront capital for printers and material R&D keeps early costs elevated in some segments. Scalability in dense urban cores remains unproven (current projects are suburban or rural-friendly). Workforce displacement is real: traditional framers and trades face reduced demand unless retrained for printer operation and finishing. In developing regions, dependency on imported printers and proprietary mixes could recreate extraction dynamics. Environmental claims must be scrutinized — Lavacrete's carbon footprint depends on the binder chemistry and grid powering the robots. Most critically, if incumbent construction interests or overly cautious building codes capture the regulatory process, the technology plateaus at niche status rather than becoming the new baseline. The Critic demands honest measurement: if total delivered cost (including land, utilities, and finishing) does not decline on a clear learning curve by 2030, the abundance narrative weakens.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift ICON demands is profound: builders must release the "I hammer, I nail, I control every board" identity and adopt the mindset of a systems orchestrator who designs, programs, and oversees robotic creation. Homeowners must release the romance of "hand-crafted uniqueness" and embrace "precision-engineered, upgradeable, resilient performance." Communities must release NIMBY fear of "experimental" tech and recognize printed homes as more durable and consistent than many site-built alternatives. This is the same identity release every industrial revolution required — from blacksmith to assembly-line worker. The discipline is trust in the learning curve; the freedom is exponential supply that finally matches human need.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 ICON is executing at industrial speed. Core technology: large-format gantry printers extrude proprietary Lavacrete concrete layer-by-layer; walls are printed in hours to days, then finished conventionally. Current readiness: fully permitted, code-compliant homes at community scale (Wolf Ranch 100 homes complete/sold; Mueller and Canyon Club advancing in 2025-2026). Bottlenecks include printer capital cost, finishing trades (plumbing, electrical, roofing still conventional), and last-mile permitting variability. The Titan system (2026 rollout) removes rails, enables multi-story, and targets dramatic labor reduction. Leverage points now: public-private partnerships for disaster recovery and affordable housing that guarantee printer utilization; open standards for printed structures to accelerate code adoption; and integration of supply-chain partners for materials and finishing. ICON is not theorizing abundance — it is printing it, one neighborhood at a time.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 In 2025, a family that had lived for years in Community First! Village in Austin moved into one of the 104 ICON-printed homes built specifically for people exiting chronic homelessness. The father, who had spent decades in unstable shelter situations, stood in the completed home — walls printed in precise, flowing concrete curves that felt both futuristic and deeply solid — and told the ICON team he finally had a place that felt permanent. "It was built by robots, but it feels like it was built for me," he said. One man, one printed home, one moment where the scarcity story of "there's never enough housing for people like me" visibly cracked and a new reality took shape.
 
 ---
