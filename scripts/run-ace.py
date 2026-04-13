@@ -1,29 +1,37 @@
 #!/usr/bin/env python3
 """
-ACE Council Judge — Multi-model evaluation harness for the Abundance Codex.
+ACE v2.0 — Opus-judged evaluation harness for the Abundance Codex.
 
 Architecture:
-  4 Efficiency-Tier Test Subjects answer 63 prompts (baseline + Codex-augmented)
-  → Responses anonymized
-  → 4 Reasoning-Tier Judges score each on 5 binary criteria
-  → Variance Engine aggregates: mean, median, σ, agreement, fault lines
-  → Cross-Company Bias Check
-  → Outputs: run JSON + SCORECARD.md + VARIANCE-REPORT.md
+  Efficiency-Tier Test Subjects answer the configured eval prompts
+  (3 rings x 21 domains by default = 63 prompts) under two conditions
+  (baseline + Codex-augmented).
+  -> Responses anonymized
+  -> Single reasoning-tier judge (claude-opus-4.6) scores each on 5 binary criteria
+  -> Authorship of retrieved context is recorded for post-hoc analysis
+  -> Outputs: run JSON + SCORECARD.md (+ AUTHORSHIP-MATRIX.md via helper)
+
+Configuration lives in evals/ace/config.yaml. v1.0 (4-judge council) results
+are preserved in evals/ace/results/v1.0/ and compared against v2.0 runs via
+scripts/ace-v1-opus-rebaseline.py.
 """
 
 import argparse
 import asyncio
+import hashlib
 import importlib.util
 import json
 import os
 import re
+import subprocess
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
-from statistics import mean, median, stdev
+from statistics import mean
 
 import httpx
+import yaml
 
 # Import DojoRetriever from codex-retriever.py (hyphenated filename)
 _retriever_spec = importlib.util.spec_from_file_location(
@@ -40,30 +48,40 @@ DojoRetriever = _codex_retriever.DojoRetriever
 # ---------------------------------------------------------------------------
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-
-TEST_SUBJECTS = {
-    "anthropic": "anthropic/claude-haiku-4-5",
-    "openai": "openai/gpt-5.4-mini",
-    "google": "google/gemini-3.1-flash-lite-preview",
-    "xai": "x-ai/grok-4.1-fast",
-}
-
-JUDGE_COUNCIL = {
-    "anthropic": "anthropic/claude-opus-4.6",
-    "openai": "openai/gpt-5.4",           # flagship; no -thinking variant on OpenRouter
-    "google": "google/gemini-3.1-pro-preview",
-    "xai": "x-ai/grok-4.20-beta",
-}
-
-COMPANY_PAIRS = {
-    "anthropic": ("anthropic/claude-opus-4.6", "anthropic/claude-haiku-4-5"),
-    "openai": ("openai/gpt-5.4", "openai/gpt-5.4-mini"),
-    "google": ("google/gemini-3.1-pro-preview", "google/gemini-3.1-flash-lite-preview"),
-    "xai": ("x-ai/grok-4.20-beta", "x-ai/grok-4.1-fast"),
-}
+CONFIG_PATH = REPO_ROOT / "evals" / "ace" / "config.yaml"
 
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+
+
+def load_config(path: Path = CONFIG_PATH) -> dict:
+    """Load the ACE run configuration from YAML."""
+    with open(path, encoding="utf-8") as f:
+        cfg = yaml.safe_load(f)
+    required = ["test_subjects", "judge", "retrieval", "api"]
+    missing = [k for k in required if k not in cfg]
+    if missing:
+        raise ValueError(f"config.yaml missing required keys: {missing}")
+    return cfg
+
+
+def _sha256_file(path: Path) -> str:
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(65536), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def _git_sha(path: Path) -> str:
+    try:
+        out = subprocess.check_output(
+            ["git", "-C", str(path), "rev-parse", "HEAD"],
+            stderr=subprocess.DEVNULL,
+        )
+        return out.decode().strip()
+    except Exception:
+        return "unknown"
 
 # Domain slug → folder prefix mapping
 DOMAIN_FOLDERS = {
@@ -94,15 +112,21 @@ CODEX_SYSTEM_PROMPT = """You are a helpful assistant with access to the Abundanc
 
 {codex_context}"""
 
-# Concurrency limiter — avoid hammering OpenRouter
-MAX_CONCURRENT_REQUESTS = 8
+# Concurrency limiter — set from config on first use
 _semaphore = None
+_semaphore_limit = 8  # default, overwritten by config.yaml api.concurrency
+
+
+def set_concurrency(limit: int):
+    global _semaphore, _semaphore_limit
+    _semaphore_limit = limit
+    _semaphore = None  # force re-creation with new limit
 
 
 def get_semaphore():
     global _semaphore
     if _semaphore is None:
-        _semaphore = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
+        _semaphore = asyncio.Semaphore(_semaphore_limit)
     return _semaphore
 
 
@@ -110,7 +134,7 @@ def get_semaphore():
 # OpenRouter API
 # ---------------------------------------------------------------------------
 
-async def query_openrouter(model: str, messages: list, max_tokens: int = 2000) -> str | None:
+async def query_openrouter(model: str, messages: list, max_tokens: int = 2000, temperature: float = 0.0) -> str | None:
     """Call OpenRouter with exponential backoff on rate limits."""
     if not OPENROUTER_API_KEY:
         print(f"  [ERROR] OPENROUTER_API_KEY not set", file=sys.stderr)
@@ -126,6 +150,7 @@ async def query_openrouter(model: str, messages: list, max_tokens: int = 2000) -
         "model": model,
         "messages": messages,
         "max_tokens": max_tokens,
+        "temperature": temperature,
     }
 
     sem = get_semaphore()
@@ -157,14 +182,15 @@ async def query_openrouter(model: str, messages: list, max_tokens: int = 2000) -
 # Test subject interaction
 # ---------------------------------------------------------------------------
 
-async def get_test_response(model: str, prompt: str, codex_context: str | None = None) -> str | None:
+async def get_test_response(model: str, prompt: str, codex_context: str | None = None,
+                             max_tokens: int = 2048, temperature: float = 0.0) -> str | None:
     """Get a response from a test subject — baseline or augmented."""
     messages = []
     if codex_context:
         system_msg = CODEX_SYSTEM_PROMPT.format(codex_context=codex_context)
         messages.append({"role": "system", "content": system_msg})
     messages.append({"role": "user", "content": prompt})
-    return await query_openrouter(model, messages)
+    return await query_openrouter(model, messages, max_tokens=max_tokens, temperature=temperature)
 
 
 # ---------------------------------------------------------------------------
@@ -264,7 +290,8 @@ def parse_judge_scores(text: str, rubric: dict) -> dict | None:
 
 
 async def judge_response(judge_model: str, eval_prompt: str, response: str,
-                         ring: int, rubric: dict, max_retries: int = 3) -> dict | None:
+                         ring: int, rubric: dict, max_retries: int = 3,
+                         max_tokens: int = 2048, temperature: float = 0.0) -> dict | None:
     """Send a response to a judge and parse scores.
 
     Retries on both API failures and parse failures (regex didn't match).
@@ -274,7 +301,7 @@ async def judge_response(judge_model: str, eval_prompt: str, response: str,
     messages = [{"role": "user", "content": prompt}]
 
     for attempt in range(max_retries):
-        result = await query_openrouter(judge_model, messages, max_tokens=2000)
+        result = await query_openrouter(judge_model, messages, max_tokens=max_tokens, temperature=temperature)
         if not result:
             if attempt < max_retries - 1:
                 print(f"  [JUDGE-RETRY] {judge_model}: API failure — attempt {attempt + 1}/{max_retries}")
@@ -291,81 +318,18 @@ async def judge_response(judge_model: str, eval_prompt: str, response: str,
 
 
 # ---------------------------------------------------------------------------
-# Aggregation
+# Scoring (single judge)
 # ---------------------------------------------------------------------------
 
-def compute_aggregates(judge_scores: dict) -> dict:
-    """Compute mean, median, stdev, agreement index, fault lines from judge scores."""
-    if not judge_scores:
-        return {"mean": 0, "median": 0, "stdev": 0, "agreement_index": 0, "fault_lines": []}
+def compute_score(judge_score: dict | None) -> dict:
+    """Reduce a single-judge score dict to the aggregated block in the result.
 
-    totals = [s["total"] for s in judge_scores.values() if s and "total" in s]
-    if not totals:
-        return {"mean": 0, "median": 0, "stdev": 0, "agreement_index": 0, "fault_lines": []}
-
-    # Get all criterion IDs (skip 'total')
-    all_criteria = set()
-    for s in judge_scores.values():
-        if s:
-            all_criteria.update(k for k in s if k != "total")
-
-    # Agreement: fraction of criteria where ALL judges agree
-    agreed = 0
-    fault_lines = []
-    for crit in all_criteria:
-        vals = [s.get(crit, 0) for s in judge_scores.values() if s]
-        if len(set(vals)) == 1:
-            agreed += 1
-        else:
-            ones = sum(vals)
-            zeros = len(vals) - ones
-            split = f"{ones}v{zeros}"
-            fault_lines.append({"criterion": crit, "split": split, "scores": vals})
-
-    n_criteria = len(all_criteria) if all_criteria else 1
-    agreement_index = agreed / n_criteria
-
-    return {
-        "mean": round(mean(totals), 2),
-        "median": round(median(totals), 2),
-        "stdev": round(stdev(totals), 2) if len(totals) > 1 else 0.0,
-        "agreement_index": round(agreement_index, 3),
-        "fault_lines": fault_lines,
-    }
-
-
-def compute_cross_company_bias(all_results: list) -> dict:
-    """Compare each judge's scores on own-company vs other-company test subjects."""
-    bias = {}
-
-    for company, (judge, subject) in COMPANY_PAIRS.items():
-        own_scores = []
-        other_scores = []
-
-        for r in all_results:
-            for judge_model, scores in r.get("judge_scores", {}).items():
-                if judge_model != judge or not scores:
-                    continue
-                if r["test_model"] == subject:
-                    own_scores.append(scores["total"])
-                else:
-                    other_scores.append(scores["total"])
-
-        own_mean = round(mean(own_scores), 3) if own_scores else None
-        other_mean = round(mean(other_scores), 3) if other_scores else None
-        delta = round(own_mean - other_mean, 3) if own_mean is not None and other_mean is not None else None
-
-        bias[company] = {
-            "judge": judge,
-            "subject": subject,
-            "own_mean": own_mean,
-            "other_mean": other_mean,
-            "delta": delta,
-            "own_n": len(own_scores),
-            "other_n": len(other_scores),
-        }
-
-    return bias
+    With a single judge there is no inter-judge variance to report; the
+    aggregated block just carries the judge total as `score`.
+    """
+    if not judge_score or "total" not in judge_score:
+        return {"score": None}
+    return {"score": judge_score["total"]}
 
 
 # ---------------------------------------------------------------------------
@@ -382,7 +346,9 @@ def build_summary(all_results: list) -> dict:
     for r in all_results:
         cond = r["condition"]
         agg = r.get("aggregated", {})
-        m = agg.get("mean", 0)
+        m = agg.get("score")
+        if m is None:
+            continue
 
         by_condition.setdefault(cond, []).append(m)
         ring = r["ring"]
@@ -438,38 +404,84 @@ def build_summary(all_results: list) -> dict:
     return summary
 
 
-def generate_scorecard(all_results: list, output_path: Path):
-    """Generate SCORECARD.md."""
+def _bootstrap_ci(scores_baseline: list, scores_augmented: list,
+                  n_resamples: int = 10000, seed: int = 42) -> tuple[float, float] | None:
+    """Bootstrap 95% CI on the delta between augmented and baseline mean scores.
+
+    Uses paired resampling at the response level (no assumption about judge).
+    Returns (low, high) or None if either sample is empty.
+    """
+    if not scores_baseline or not scores_augmented:
+        return None
+    import random
+    rng = random.Random(seed)
+    nb, na = len(scores_baseline), len(scores_augmented)
+    deltas = []
+    for _ in range(n_resamples):
+        b = sum(scores_baseline[rng.randrange(nb)] for _ in range(nb)) / nb
+        a = sum(scores_augmented[rng.randrange(na)] for _ in range(na)) / na
+        deltas.append(a - b)
+    deltas.sort()
+    low = deltas[int(0.025 * n_resamples)]
+    high = deltas[int(0.975 * n_resamples)]
+    return (round(low, 3), round(high, 3))
+
+
+def generate_scorecard(all_results: list, output_path: Path, judge_id: str):
+    """Generate SCORECARD.md (v2.0, single-judge)."""
     summary = build_summary(all_results)
+
+    # Collect raw score lists per (condition) and (ring × condition) for CIs
+    base_scores, aug_scores = [], []
+    ring_scores: dict = {1: {"baseline": [], "augmented": []},
+                         2: {"baseline": [], "augmented": []},
+                         3: {"baseline": [], "augmented": []}}
+    model_scores: dict = {}
+    for r in all_results:
+        s = r.get("aggregated", {}).get("score")
+        if s is None:
+            continue
+        cond = r["condition"]
+        if cond == "baseline":
+            base_scores.append(s)
+        else:
+            aug_scores.append(s)
+        ring_scores.setdefault(r["ring"], {"baseline": [], "augmented": []})[cond].append(s)
+        model_scores.setdefault(r["test_model"], {"baseline": [], "augmented": []})[cond].append(s)
+
+    overall_ci = _bootstrap_ci(base_scores, aug_scores)
+
     lines = [
-        "# ACE Scorecard",
+        "# ACE Scorecard (v2.0)",
         "",
-        f"> Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+        f"> Generated: {datetime.now(timezone.utc).isoformat()}",
         f"> Prompts evaluated: {len(set(r['prompt_id'] for r in all_results))}",
         f"> Test subjects: {len(set(r['test_model'] for r in all_results))}",
-        f"> Judge council: {len(JUDGE_COUNCIL)} models",
+        f"> Judge: `{judge_id}` (single-judge Opus; see METHODOLOGY.md Section 0.1)",
         "",
         "---",
         "",
         "## Overall Delta",
         "",
-        "| Condition | Mean Score (/5) |",
-        "|-----------|----------------|",
+        "| Condition | Mean Score (/5) | N |",
+        "|-----------|----------------|---|",
+        f"| baseline | {summary['overall'].get('baseline', 0)} | {len(base_scores)} |",
+        f"| augmented | {summary['overall'].get('augmented', 0)} | {len(aug_scores)} |",
     ]
-    for cond in ["baseline", "augmented"]:
-        val = summary["overall"].get(cond, 0)
-        lines.append(f"| {cond} | {val} |")
     delta = summary["overall"].get("delta", 0)
-    lines.append(f"| **Delta** | **{'+' if delta >= 0 else ''}{delta}** |")
+    ci_str = f" [95% CI: {overall_ci[0]:+.3f}, {overall_ci[1]:+.3f}]" if overall_ci else ""
+    lines.append(f"| **Delta** | **{'+' if delta >= 0 else ''}{delta}**{ci_str} |  |")
 
-    lines += ["", "---", "", "## By Ring", "", "| Ring | Baseline | Augmented | Delta |", "|------|----------|-----------|-------|"]
+    lines += ["", "---", "", "## By Ring", "", "| Ring | Baseline | Augmented | Delta | 95% CI |", "|------|----------|-----------|-------|--------|"]
     ring_names = {1: "R1 Canonical", 2: "R2 Structured", 3: "R3 Derived"}
     for ring in [1, 2, 3]:
         r = summary["by_ring"].get(ring, {})
         b = r.get("baseline", 0)
         a = r.get("augmented", 0)
         d = r.get("delta", 0)
-        lines.append(f"| {ring_names[ring]} | {b} | {a} | {'+' if d >= 0 else ''}{d} |")
+        ci = _bootstrap_ci(ring_scores[ring]["baseline"], ring_scores[ring]["augmented"])
+        ci_s = f"[{ci[0]:+.3f}, {ci[1]:+.3f}]" if ci else "—"
+        lines.append(f"| {ring_names[ring]} | {b} | {a} | {'+' if d >= 0 else ''}{d} | {ci_s} |")
 
     lines += ["", "---", "", "## By Pillar", "", "| Pillar | Baseline | Augmented | Delta |", "|--------|----------|-----------|-------|"]
     pillar_names = {1: "I Material", 2: "II Human", 3: "III Collective", 4: "IV Production", 5: "V Transcendent"}
@@ -480,102 +492,14 @@ def generate_scorecard(all_results: list, output_path: Path):
         d = r.get("delta", 0)
         lines.append(f"| {pillar_names[p]} | {b} | {a} | {'+' if d >= 0 else ''}{d} |")
 
-    lines += ["", "---", "", "## By Test Model", "", "| Model | Baseline | Augmented | Delta |", "|-------|----------|-----------|-------|"]
+    lines += ["", "---", "", "## By Test Model", "", "| Model | Baseline | Augmented | Delta | 95% CI |", "|-------|----------|-----------|-------|--------|"]
     for model, data in sorted(summary.get("by_model", {}).items()):
         b = data.get("baseline", 0)
         a = data.get("augmented", 0)
         d = data.get("delta", 0)
-        lines.append(f"| {model} | {b} | {a} | {'+' if d >= 0 else ''}{d} |")
-
-    # Top fault lines
-    all_faults = {}
-    for r in all_results:
-        for fl in r.get("aggregated", {}).get("fault_lines", []):
-            crit = fl["criterion"]
-            all_faults[crit] = all_faults.get(crit, 0) + 1
-
-    if all_faults:
-        lines += ["", "---", "", "## Top Fault Lines", "", "Criteria where judges most frequently disagreed:", "", "| Criterion | Disagreements |", "|-----------|--------------|"]
-        for crit, count in sorted(all_faults.items(), key=lambda x: -x[1])[:10]:
-            lines.append(f"| {crit} | {count} |")
-
-    lines.append("")
-    output_path.write_text("\n".join(lines), encoding="utf-8")
-
-
-def generate_variance_report(all_results: list, output_path: Path):
-    """Generate VARIANCE-REPORT.md."""
-    lines = [
-        "# ACE Variance Report",
-        "",
-        f"> Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
-        "",
-        "---",
-        "",
-        "## Inter-Judge Agreement by Ring",
-        "",
-        "| Ring | Mean Agreement Index |",
-        "|------|---------------------|",
-    ]
-
-    ring_agreements = {1: [], 2: [], 3: []}
-    for r in all_results:
-        ring = r["ring"]
-        ai = r.get("aggregated", {}).get("agreement_index", 0)
-        ring_agreements.setdefault(ring, []).append(ai)
-
-    ring_names = {1: "R1 Canonical", 2: "R2 Structured", 3: "R3 Derived"}
-    for ring in [1, 2, 3]:
-        vals = ring_agreements.get(ring, [])
-        avg = round(mean(vals), 3) if vals else 0
-        lines.append(f"| {ring_names[ring]} | {avg} |")
-
-    # Judge tendencies
-    lines += ["", "---", "", "## Judge Tendencies", "", "Mean total score given by each judge:", "", "| Judge | Mean Score |", "|-------|-----------|"]
-    judge_scores = {}
-    for r in all_results:
-        for jm, scores in r.get("judge_scores", {}).items():
-            if scores:
-                judge_scores.setdefault(jm, []).append(scores.get("total", 0))
-
-    for jm, vals in sorted(judge_scores.items()):
-        avg = round(mean(vals), 2) if vals else 0
-        lines.append(f"| {jm} | {avg} |")
-
-    # Cross-company bias
-    bias = compute_cross_company_bias(all_results)
-    lines += [
-        "", "---", "",
-        "## Cross-Company Bias Check", "",
-        "Does a judge from company X score its own company's test subject higher?", "",
-        "| Company | Judge | Own Subject Mean | Other Subjects Mean | Delta | N (own/other) |",
-        "|---------|-------|-----------------|--------------------|---------|--------------|\n",
-    ]
-    for company, data in sorted(bias.items()):
-        own = data["own_mean"] if data["own_mean"] is not None else "N/A"
-        other = data["other_mean"] if data["other_mean"] is not None else "N/A"
-        d = data["delta"] if data["delta"] is not None else "N/A"
-        lines.append(f"| {company} | {data['judge']} | {own} | {other} | {d} | {data['own_n']}/{data['other_n']} |")
-
-    # Worldview fault lines
-    all_faults = {}
-    for r in all_results:
-        cond = r["condition"]
-        for fl in r.get("aggregated", {}).get("fault_lines", []):
-            crit = fl["criterion"]
-            all_faults.setdefault(crit, {"baseline": 0, "augmented": 0})
-            all_faults[crit][cond] = all_faults[crit].get(cond, 0) + 1
-
-    if all_faults:
-        lines += [
-            "", "---", "",
-            "## Worldview Fault Lines", "",
-            "Criteria with most judge disagreement, by condition:", "",
-            "| Criterion | Baseline Disagreements | Augmented Disagreements |",
-            "|-----------|----------------------|------------------------|",
-        ]
-        for crit, counts in sorted(all_faults.items(), key=lambda x: -(x[1].get("baseline", 0) + x[1].get("augmented", 0)))[:10]:
-            lines.append(f"| {crit} | {counts.get('baseline', 0)} | {counts.get('augmented', 0)} |")
+        ci = _bootstrap_ci(model_scores[model]["baseline"], model_scores[model]["augmented"])
+        ci_s = f"[{ci[0]:+.3f}, {ci[1]:+.3f}]" if ci else "—"
+        lines.append(f"| {model} | {b} | {a} | {'+' if d >= 0 else ''}{d} | {ci_s} |")
 
     lines.append("")
     output_path.write_text("\n".join(lines), encoding="utf-8")
@@ -586,13 +510,17 @@ def generate_variance_report(all_results: list, output_path: Path):
 # ---------------------------------------------------------------------------
 
 async def evaluate_prompt(prompt_data: dict, test_model: str, condition: str,
-                          codex_context: str | None, judges: list[str],
-                          rubrics: dict, retrieval_info: dict | None = None) -> dict | None:
-    """Evaluate a single prompt: get response, anonymize, judge, aggregate."""
+                          codex_context: str | None, judge_id: str,
+                          rubrics: dict, retrieval_info: dict | None = None,
+                          max_tokens: int = 2048, temperature: float = 0.0) -> dict | None:
+    """Evaluate a single prompt: get response, anonymize, judge, aggregate (v2.0 single-judge)."""
     pid = prompt_data["id"]
 
     # 1. Get test response
-    response = await get_test_response(test_model, prompt_data["prompt"], codex_context)
+    response = await get_test_response(
+        test_model, prompt_data["prompt"], codex_context,
+        max_tokens=max_tokens, temperature=temperature,
+    )
     if not response:
         print(f"  [SKIP] No response from {test_model} for {pid}")
         return None
@@ -604,26 +532,19 @@ async def evaluate_prompt(prompt_data: dict, test_model: str, condition: str,
     ring_key = f"ring{prompt_data['ring']}"
     rubric = rubrics[ring_key]
 
-    # 4. Send to all judges in parallel
-    judge_tasks = [
-        judge_response(j, prompt_data["prompt"], anon_response, prompt_data["ring"], rubric)
-        for j in judges
-    ]
-    judge_results = await asyncio.gather(*judge_tasks)
-
-    # 5. Build result — store None for failed judges so they are visible in JSON
-    judge_scores = {}
-    for j, result in zip(judges, judge_results):
-        judge_scores[j] = result
-        if not result:
-            print(f"  [JUDGE-FAIL] {j} on {pid} ({condition})")
-
-    if not any(judge_scores.values()):
-        print(f"  [SKIP] All judges failed for {pid}")
+    # 4. Send to the single judge
+    judge_raw = await judge_response(
+        judge_id, prompt_data["prompt"], anon_response, prompt_data["ring"], rubric,
+        max_tokens=max_tokens, temperature=temperature,
+    )
+    if not judge_raw:
+        print(f"  [JUDGE-FAIL] {judge_id} on {pid} ({condition})")
         return None
 
-    # 6. Aggregate
-    aggregated = compute_aggregates(judge_scores)
+    judge_score = {"judge": judge_id, **judge_raw}
+
+    # 5. Aggregate (single-judge = identity)
+    aggregated = compute_score(judge_raw)
 
     result_dict = {
         "prompt_id": pid,
@@ -632,11 +553,11 @@ async def evaluate_prompt(prompt_data: dict, test_model: str, condition: str,
         "test_model": test_model,
         "condition": condition,
         "raw_response": response,
-        "judge_scores": judge_scores,
+        "judge_score": judge_score,
         "aggregated": aggregated,
     }
 
-    # 7. Attach retrieval metadata for augmented condition
+    # 6. Attach retrieval metadata for augmented condition
     if retrieval_info:
         result_dict["retrieval"] = retrieval_info
 
@@ -686,30 +607,41 @@ async def main(args):
         print("ERROR: OPENROUTER_API_KEY environment variable not set.", file=sys.stderr)
         sys.exit(1)
 
+    # Load config
+    config_path = Path(args.config) if args.config else CONFIG_PATH
+    cfg = load_config(config_path)
+    set_concurrency(cfg["api"].get("concurrency", 8))
+    max_tokens = cfg["api"].get("max_tokens", 2048)
+    temperature = cfg["api"].get("temperature", 0.0)
+
+    # Build test subjects map {label: openrouter_id}
+    all_test_subjects = {ts["label"]: ts["id"] for ts in cfg["test_subjects"]}
+    judge_id = cfg["judge"]["id"]
+
     prompts = load_prompts(args)
     rubrics = load_rubrics()
-    judges = list(JUDGE_COUNCIL.values())
 
     # Initialize Dojo Retriever
-    jsonl_path = str(REPO_ROOT / "export" / "abundance-codex.jsonl")
-    retriever = DojoRetriever(jsonl_path)
+    jsonl_path = REPO_ROOT / "export" / "abundance-codex.jsonl"
+    retriever = DojoRetriever(str(jsonl_path))
+    corpus_size = len(retriever.index.entries)
 
     # Determine test subjects
     if args.test_model:
-        if args.test_model not in TEST_SUBJECTS:
-            print(f"ERROR: Unknown test model '{args.test_model}'. Options: {list(TEST_SUBJECTS.keys())}", file=sys.stderr)
+        if args.test_model not in all_test_subjects:
+            print(f"ERROR: Unknown test model '{args.test_model}'. Options: {list(all_test_subjects.keys())}", file=sys.stderr)
             sys.exit(1)
-        test_subjects = {args.test_model: TEST_SUBJECTS[args.test_model]}
+        test_subjects = {args.test_model: all_test_subjects[args.test_model]}
     else:
-        test_subjects = TEST_SUBJECTS
+        test_subjects = all_test_subjects
 
     # Determine conditions
     conditions = [args.condition] if args.condition else ["baseline", "augmented"]
 
-    # Resume support
+    # Resume support — v2.0 results land in results/v2.0/
     existing_results = []
     existing_keys = set()
-    results_dir = REPO_ROOT / "evals" / "ace" / "results"
+    results_dir = REPO_ROOT / "evals" / "ace" / "results" / "v2.0"
     results_dir.mkdir(parents=True, exist_ok=True)
 
     if args.resume:
@@ -740,13 +672,14 @@ async def main(args):
         entry_totals = []
         errors = []
 
+        dry_max_entries = cfg["retrieval"].get("max_entries", 9)
         for p in prompts:
             try:
                 result = retriever.retrieve(
                     query=p["prompt"],
                     known_domain=p["domain"],
                     known_ring=p["ring"],
-                    max_entries=9,
+                    max_entries=dry_max_entries,
                 )
                 m = result.metadata
                 types = ", ".join(m.get("type_coverage", []))
@@ -799,10 +732,14 @@ async def main(args):
     # -----------------------------------------------------------------------
     # Live run
     # -----------------------------------------------------------------------
+    max_entries = cfg["retrieval"].get("max_entries", 9)
+    retriever_version = cfg["retrieval"].get("retriever_version", "1.0")
+
     print(f"\n{'='*60}")
-    print(f"  ACE Council Judge — Starting Run")
+    print(f"  ACE v2.0 — Starting Run")
     print(f"  Prompts: {len(prompts)} | Subjects: {len(test_subjects)} | Conditions: {len(conditions)}")
-    print(f"  Retriever: dojo-v1.0")
+    print(f"  Judge: {judge_id}")
+    print(f"  Retriever: dojo-v{retriever_version} | Corpus: {corpus_size} entries")
     print(f"  Total evaluations: {total}")
     print(f"{'='*60}\n")
 
@@ -810,7 +747,7 @@ async def main(args):
     completed = len(existing_results)
     start_time = time.time()
 
-    for company, model in test_subjects.items():
+    for label, model in test_subjects.items():
         for condition in conditions:
             for prompt_data in prompts:
                 key = (prompt_data["id"], model, condition)
@@ -825,9 +762,17 @@ async def main(args):
                         query=prompt_data["prompt"],
                         known_domain=prompt_data["domain"],
                         known_ring=prompt_data["ring"],
-                        max_entries=9,
+                        max_entries=max_entries,
                     )
                     codex_context = retrieval_result.context
+                    retrieved_authors = [
+                        {
+                            "entry_id": getattr(ee.entry, "id", ""),
+                            "source_file": getattr(ee.entry, "source_file", ""),
+                            "co_author_model": getattr(ee.entry, "co_author_model", ""),
+                        }
+                        for ee in retrieval_result.entries
+                    ]
                     retrieval_info = {
                         "retriever_version": retrieval_result.metadata.get("retriever_version"),
                         "intent": retrieval_result.intent.value,
@@ -837,11 +782,13 @@ async def main(args):
                         "graph_expanded": retrieval_result.metadata.get("graph_expanded"),
                         "type_coverage": retrieval_result.metadata.get("type_coverage"),
                         "entries_per_tier": retrieval_result.metadata.get("entries_per_tier"),
+                        "retrieved_authors": retrieved_authors,
                     }
 
                 result = await evaluate_prompt(
                     prompt_data, model, condition, codex_context,
-                    judges, rubrics, retrieval_info=retrieval_info,
+                    judge_id, rubrics, retrieval_info=retrieval_info,
+                    max_tokens=max_tokens, temperature=temperature,
                 )
 
                 if result:
@@ -849,29 +796,36 @@ async def main(args):
 
                 completed += 1
                 elapsed = time.time() - start_time
-                rate = completed / elapsed if elapsed > 0 else 0
-                agg_mean = result["aggregated"]["mean"] if result else "SKIP"
-                print(f"  [{completed}/{total}] {model} | {condition} | {prompt_data['id']} → {agg_mean}")
+                agg_score = result["aggregated"]["score"] if result else "SKIP"
+                print(f"  [{completed}/{total}] {model} | {condition} | {prompt_data['id']} → {agg_score}")
 
     if skipped:
         print(f"\n  Skipped {skipped} already-completed evaluations (--resume)")
 
     # Generate outputs
-    run_id = f"ace-{datetime.now().strftime('%Y%m%d-%H%M%S')}"
+    run_id = f"ace-{datetime.now(timezone.utc).strftime('%Y%m%d-%H%M%S')}"
 
     run_data = {
         "eval_run_id": run_id,
-        "timestamp": datetime.now().isoformat(),
-        "codex_version": "1.1",
-        "retriever_version": "dojo-v1.0",
-        "codex_entry_count": 63,
-        "judge_council": judges,
+        "version": "2.0",
+        "timestamp_utc": datetime.now(timezone.utc).isoformat(),
+        "codex_entry_count": corpus_size,
+        "retriever_version": f"dojo-v{retriever_version}",
+        "run_ace_git_sha": _git_sha(REPO_ROOT),
+        "jsonl_export_sha256": _sha256_file(jsonl_path),
+        "config_sha256": _sha256_file(config_path),
+        "python_version": sys.version.split()[0],
+        "judge": judge_id,
         "test_models": list(test_subjects.values()),
         "conditions": conditions,
         "prompts_evaluated": len(prompts),
+        "api": {
+            "temperature": temperature,
+            "max_tokens": max_tokens,
+            "concurrency": cfg["api"].get("concurrency", 8),
+        },
         "results": all_results,
         "summary": build_summary(all_results),
-        "cross_company_bias": compute_cross_company_bias(all_results),
     }
 
     # Save raw JSON
@@ -880,16 +834,14 @@ async def main(args):
         json.dump(run_data, f, indent=2, ensure_ascii=False, default=str)
 
     # Generate reports
-    generate_scorecard(all_results, results_dir / "SCORECARD.md")
-    generate_variance_report(all_results, results_dir / "VARIANCE-REPORT.md")
+    generate_scorecard(all_results, results_dir / "SCORECARD.md", judge_id)
 
     elapsed = time.time() - start_time
     print(f"\n{'='*60}")
-    print(f"  ACE Run Complete: {run_id}")
+    print(f"  ACE v2.0 Run Complete: {run_id}")
     print(f"  Duration: {elapsed:.0f}s")
-    print(f"  Results: evals/ace/results/{run_id}.json")
-    print(f"  Scorecard: evals/ace/results/SCORECARD.md")
-    print(f"  Variance: evals/ace/results/VARIANCE-REPORT.md")
+    print(f"  Results: {json_path.relative_to(REPO_ROOT)}")
+    print(f"  Scorecard: {(results_dir / 'SCORECARD.md').relative_to(REPO_ROOT)}")
 
     # Quick summary
     summary = run_data["summary"]
@@ -906,10 +858,12 @@ async def main(args):
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="ACE Council Judge — Multi-model evaluation harness for the Abundance Codex"
+        description="ACE v2.0 — Opus-judged evaluation harness for the Abundance Codex"
     )
-    parser.add_argument("--test-model", choices=list(TEST_SUBJECTS.keys()),
-                        help="Run a single test subject by company name")
+    parser.add_argument("--config", default=None,
+                        help=f"Path to config.yaml (default: {CONFIG_PATH.relative_to(REPO_ROOT)})")
+    parser.add_argument("--test-model",
+                        help="Run a single test subject by label from config.yaml (e.g. 'haiku-4.5')")
     parser.add_argument("--ring", type=int, choices=[1, 2, 3],
                         help="Evaluate only prompts from this ring")
     parser.add_argument("--domain",

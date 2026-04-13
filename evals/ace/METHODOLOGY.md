@@ -1,9 +1,41 @@
 # ACE Benchmark — Full Methodology
 
 > Reproducibility reference for the Abundance Codex Evaluation (ACE).
-> Version: 1.0 | Last updated: 2026-03-31
+> Version: 2.0 | Last updated: 2026-04-13
 
 This document contains everything a researcher needs to reproduce, verify, or critique the ACE benchmark results. It is the technical companion to the summary in `evals/ace/README.md`.
+
+Version 2.0 formalizes ACE as a standalone, externally reproducible benchmark package. The v1.0 methodology is preserved in `results/v1.0/` for historical reference. The substantive changes are summarized in Section 0 and detailed throughout.
+
+---
+
+## 0. Changes in v2.0
+
+### 0.1 Judge Selection: From 4-Judge Council to Opus-Only
+
+The v1.0 benchmark used a 4-judge blind council (Opus 4.6, GPT-5.4, Gemini 3.1 Pro, Grok 4.20). Results revealed a measured Grok 4.20 in-group bias of **+0.50** when scoring Grok 4.1 Fast (Section 8), large enough to distort per-model rankings. The council's inter-judge agreement (0.69–0.79) was informative but did not eliminate the bias vector.
+
+**v2.0 locks the judge to a single model: `anthropic/claude-opus-4.6`.**
+
+Every scoring call in v2.0 uses Opus. This eliminates inter-judge variance as a source of noise, removes the measured Grok in-group bias from the instrument, and cuts benchmark cost by ~75% (from ~$18–35 to ~$5–10).
+
+**Comparability baseline.** v1.0 raw results preserve per-judge score breakdowns, so v1.0↔v2.0 comparisons are performed **judge-matched**: we isolate only the Opus judgments from v1.0 and re-aggregate them into a clean "v1.0 Opus-only" scorecard (`results/v1.0/SCORECARD-opus-only.md`, produced by `scripts/ace-v1-opus-rebaseline.py`). The headline v1.0↔v2.0 delta is Opus-vs-Opus, so the comparison is not contaminated by the judge council change.
+
+The original v1.0 4-judge council scorecard remains in `results/v1.0/SCORECARD.md` as a historical artifact. It is still scientifically meaningful in isolation, but it is not the v2.0 comparison baseline.
+
+### 0.2 Authorship Tracking
+
+In v1.0, the benchmark was blind to which AI model co-authored each Codex entry retrieved as context. v2.0 records the `co_author_model` field for every retrieved entry in the results JSON and produces a post-hoc cross-authorship matrix (`AUTHORSHIP-MATRIX.md`) reporting test-model-vs-author-model mean deltas. See Section 3.4.
+
+Stratified authorship analysis — running separate augmented conditions with retrieval restricted to same-company or cross-company entries — is explicit future work for v3.0.
+
+### 0.3 Corpus Expansion
+
+The Codex corpus grew from 63 forged entries at v1.0 to **252 entries** in the Codex 1.2 build (all 21 domains at full 12-entry density, with co-authorship distributed across Claude Opus 4.6, ChatGPT 5.4 Thinking, Gemini 3.1 Pro, and Super Grok). The 63 eval prompts are unchanged; corpus expansion affects retrieval quality (more candidates for the Dojo Retriever to draw from), not prompt coverage. The v2.0 re-run tests whether corpus growth shifts the augmented-condition signal.
+
+### 0.4 Configuration Externalized
+
+Model selection, retriever parameters, and API settings are now loaded from `evals/ace/config.yaml` rather than hardcoded in `scripts/run-ace.py`. The test-subject list, judge model, and retrieval/concurrency settings are configurable per run.
 
 ---
 
@@ -11,7 +43,7 @@ This document contains everything a researcher needs to reproduce, verify, or cr
 
 ACE measures whether injecting structured Codex context into an AI model's system prompt improves the quality of its responses to questions about civilization-scale challenges.
 
-**"Reasoning quality"** is operationalized as the sum of 5 binary (0/1) criteria, scored independently by each of 4 judge models. Each criterion tests a specific, observable property of the response (e.g., "cites specific statistics" — not "is good"). The total score per response per judge is 0–5. The reported /5 score is the mean of all judge totals for that response.
+**"Reasoning quality"** is operationalized as the sum of 5 binary (0/1) criteria, scored by the judge (`anthropic/claude-opus-4.6` in v2.0; a 4-judge council in v1.0 — see Section 0.1). Each criterion tests a specific, observable property of the response (e.g., "cites specific statistics" — not "is good"). The total score per response is 0–5. In v2.0 the reported /5 is the single Opus judgment; in v1.0 it was the mean of 4 judge totals.
 
 This is not a general intelligence benchmark. ACE specifically measures:
 - Whether the model cites evidence vs. making vague claims
@@ -132,6 +164,27 @@ Judges receive the prompt text and the anonymized response. They do not know whi
 
 The anonymization is regex-based and does not catch all possible self-identification patterns (e.g., stylistic fingerprints). This is a known limitation.
 
+### 3.4 Authorship as Tracked Variable (v2.0)
+
+Every Codex entry carries a `co_author_model` field in its YAML frontmatter, recording which frontier model co-authored it with Cj TruHeart. In the 252-entry Codex 1.2 corpus, each of four models (Claude Opus 4.6, ChatGPT 5.4 Thinking, Gemini 3.1 Pro, Super Grok) authored 63 entries — 3 per domain per author.
+
+v2.0 records authorship for every retrieved entry in the results JSON:
+
+```json
+"retrieval": {
+  ...
+  "retrieved_authors": [
+    {"entry_id": "01-energy/04-breakthrough-lcoe", "co_author_model": "claude-opus-4-6"},
+    {"entry_id": "01-energy/07-origin-manhattan-project", "co_author_model": "gemini-3.1-pro"},
+    ...
+  ]
+}
+```
+
+After a run, `scripts/ace-authorship-report.py` consumes the results JSON and writes `AUTHORSHIP-MATRIX.md` — a table with rows = test model, columns = author model, cells = mean augmented-condition delta. This lets us observe, post-hoc, whether a given test model benefits more from retrieved context authored by its own company versus other companies.
+
+**This is tracking, not stratification.** The v2.0 benchmark does not condition retrieval on authorship — the Dojo Retriever selects entries by domain, ring, and type coverage, not by author. The authorship matrix is observational: the distribution of authors in a retrieved set is a side effect of retrieval, not a controlled variable. Stratified authorship analysis (separate augmented conditions with author-restricted retrieval) is documented as v3.0 future work in Section 9.7.
+
 ---
 
 ## 4. Model Architecture
@@ -143,7 +196,7 @@ ACE uses a two-tier model separation to avoid ceiling effects and self-evaluatio
 | Tier | Purpose | Selection Criterion |
 |------|---------|-------------------|
 | **Efficiency-Tier** (test subjects) | Answer the 63 prompts | Cost-efficient models (~$0.10–0.50/M tokens) from 4 different AI companies |
-| **Reasoning-Tier** (judges) | Score the responses | Frontier reasoning models from the same 4 companies |
+| **Reasoning-Tier** (judge) | Score the responses | Frontier reasoning model — v2.0 uses `anthropic/claude-opus-4.6` exclusively; v1.0 used a 4-model council |
 
 The rationale: if the Codex helps cheap models approach frontier quality, that demonstrates practical value. Using the same model as both subject and judge would conflate generation ability with evaluation ability.
 
@@ -160,7 +213,13 @@ All models are accessed via [OpenRouter](https://openrouter.ai). The exact model
 | Google | Gemini 3.1 Flash-Lite | `google/gemini-3.1-flash-lite-preview` |
 | xAI | Grok 4.1 Fast | `x-ai/grok-4.1-fast` |
 
-**Judges (Reasoning-Tier)**
+**Judge (Reasoning-Tier)**
+
+| Version | Company | Model | OpenRouter ID |
+|---------|---------|-------|---------------|
+| v2.0    | Anthropic | Claude Opus 4.6 | `anthropic/claude-opus-4.6` |
+
+v1.0 used a 4-judge council listed here for historical reference:
 
 | Company | Model | OpenRouter ID |
 |---------|-------|---------------|
@@ -171,9 +230,9 @@ All models are accessed via [OpenRouter](https://openrouter.ai). The exact model
 
 ### 4.3 Same-Company Judging
 
-No model judges its own output (Opus ≠ Haiku, GPT-5.4 ≠ GPT-5.4-mini, etc.). However, each judge does score its own company's test subject. This creates the possibility of in-group bias.
+In v2.0, Opus judges Haiku 4.5 — a same-company pairing. Opus does not judge its own output (Haiku is a distinct model), but the company overlap means Section 8's cross-company bias check remains applicable: Opus's published v1.0 in-group delta was **–0.13** (a slight anti-bias toward Haiku), suggesting that the Anthropic judge-subject pairing does not inflate scores. This is not a guarantee of zero bias — it is an empirical observation that the v2.0 instrument should not be considered naively unbiased just because the council was dropped. The pairing is documented so researchers can assess it independently.
 
-ACE does not prevent same-company judging — it measures and reports it. The cross-company bias check (Section 8) compares each judge's mean score on its own company's model vs. other companies' models. In our published run, Grok 4.20 showed a +0.50 in-group bias — the largest by a wide margin.
+In v1.0, no model judged its own output, but each of the four judges scored its own company's test subject. The cross-company bias check (Section 8) compared each judge's mean score on its own company's model vs. other companies' models. The published run showed Grok 4.20 at +0.50 in-group bias — large enough to distort per-model rankings and the primary motivation for the v2.0 transition to a single judge.
 
 ---
 
@@ -181,9 +240,15 @@ ACE does not prevent same-company judging — it measures and reports it. The cr
 
 ### 5.1 Per-Response Score
 
-For a single response to a single prompt:
+**v2.0 (Opus-only):**
+1. The anonymized response is sent to the single judge (`anthropic/claude-opus-4.6`)
+2. The judge scores 5 binary criteria → total = sum (0–5)
+3. The response score = the judge's total
 
-1. The anonymized response is sent to all 4 judges
+Example: If Opus scores 4 → response score = 4.00
+
+**v1.0 (4-judge council, historical):**
+1. The anonymized response is sent to all 4 judges in parallel
 2. Each judge scores 5 binary criteria → judge total = sum (0–5)
 3. The response score = mean of all valid judge totals
 
@@ -246,7 +311,9 @@ If all 4 judges fail for a single response, that response is skipped entirely (n
 
 ### 5.5 Aggregation
 
-Per response, the aggregation engine computes:
+**v2.0.** With a single judge, per-response aggregation reduces to the single Opus total. The `aggregated` block in v2.0 results JSON contains only `score` (equal to the judge total). No `mean`, `median`, `stdev`, `agreement_index`, or `fault_lines` fields — these are meaningless at N=1 and are omitted from v2.0 results JSON and from `SCORECARD.md`. `VARIANCE-REPORT.md` is not produced for v2.0 runs.
+
+**v1.0 (historical).** Per response, the aggregation engine computed:
 
 | Metric | Definition |
 |--------|-----------|
@@ -355,9 +422,10 @@ python3 scripts/run-ace.py --dry-run
 ### 7.1 Prerequisites
 
 - **Python**: 3.11+ (tested on 3.11 and 3.12)
-- **Dependencies**: `pip install -r scripts/requirements.txt` (httpx, pyyaml, jsonschema)
-- **API Key**: `OPENROUTER_API_KEY` environment variable — get one at [openrouter.ai](https://openrouter.ai)
+- **Dependencies**: `pip install -r evals/ace/requirements.txt` (httpx, pyyaml, jsonschema)
+- **API Key**: `OPENROUTER_API_KEY` environment variable — get one at [openrouter.ai](https://openrouter.ai). Copy `evals/ace/.env.example` to `.env` and fill in the key.
 - **JSONL Export**: Must exist at `export/abundance-codex.jsonl` (generated by `scripts/export-to-jsonl.py`)
+- **Config**: `evals/ace/config.yaml` controls test subjects, judge, and retrieval parameters. Defaults match the v2.0 published run.
 - **OS**: Tested on macOS; should work on any Unix-like system
 
 ### 7.2 Generate the JSONL Export
@@ -384,7 +452,7 @@ This confirms the retriever is working and shows entries/tokens per prompt.
 python3 scripts/run-ace.py --calibrate --test-model anthropic
 ```
 
-This runs 3 energy-domain prompts × 1 test model × 2 conditions × 4 judges = 24 API calls. Produces a results JSON, SCORECARD.md, and VARIANCE-REPORT.md.
+This runs 3 energy-domain prompts × 1 test model × 2 conditions × 1 judge (Opus) = 6 judge API calls in v2.0. Produces a results JSON and SCORECARD.md. (In v1.0 this was 24 judge calls against a 4-model council.)
 
 ### 7.5 Full Reproduction
 
@@ -392,7 +460,9 @@ This runs 3 energy-domain prompts × 1 test model × 2 conditions × 4 judges = 
 python3 scripts/run-ace.py
 ```
 
-This runs: 63 prompts × 4 test models × 2 conditions = 504 test responses, each judged by 4 judges = 2,016 judge evaluations. Total API calls: ~2,520 (504 test + 2,016 judge).
+This runs (v2.0): 63 prompts × 4 test models × 2 conditions = 504 test responses, each judged by a single Opus judge = 504 judge evaluations. Total API calls: ~1,008 (504 test + 504 judge).
+
+v1.0 ran with a 4-judge council: same 504 test responses but 2,016 judge evaluations (~2,520 total API calls).
 
 ### 7.6 Resuming Interrupted Runs
 
@@ -404,16 +474,26 @@ Loads the most recent results JSON and skips already-completed `(prompt_id, test
 
 ### 7.7 Cost Estimate
 
-Based on OpenRouter pricing as of March 2026:
+**v2.0 (Opus-only judge)** — based on OpenRouter pricing as of April 2026:
 
 | Component | Calls | Est. Tokens/Call | Est. Cost |
 |-----------|-------|-----------------|-----------|
 | Test responses (baseline) | 252 | ~1,500 out | ~$0.50–1.00 |
 | Test responses (augmented) | 252 | ~1,500 out + ~10,000 in (context) | ~$2.00–4.00 |
-| Judge evaluations | 2,016 | ~500 out + ~2,000 in | ~$15.00–30.00 |
-| **Total** | ~2,520 | | **~$18–35** |
+| Judge evaluations (Opus only) | 504 | ~500 out + ~2,000 in | ~$3.00–6.00 |
+| **Total (v2.0)** | ~1,008 | | **~$5–11** |
 
-Costs vary with model pricing changes. The judge tier (frontier models) dominates cost. A calibration run costs roughly 1/80th of a full run (~$0.25–0.50).
+The single-judge v2.0 run costs roughly one-quarter of the v1.0 four-judge run. A v2.0 calibration costs ~$0.10–0.20.
+
+**v1.0 (4-judge council, historical):**
+
+| Component | Calls | Est. Tokens/Call | Est. Cost |
+|-----------|-------|-----------------|-----------|
+| Test responses (baseline + augmented) | 504 | ~1,500 out + 0–10,000 in | ~$2.50–5.00 |
+| Judge evaluations (4 models) | 2,016 | ~500 out + ~2,000 in | ~$15.00–30.00 |
+| **Total (v1.0)** | ~2,520 | | **~$18–35** |
+
+Costs vary with model pricing changes. The judge tier dominates cost in both versions.
 
 ### 7.8 Verifying Results
 
@@ -456,13 +536,15 @@ The Grok 4.20 judge consistently scores Grok 4.1 Fast higher than it scores othe
 
 ## 9. Known Limitations
 
-### 9.1 Judge Variance
+### 9.1 Judge Variance (v1.0) and Single-Judge Dependence (v2.0)
 
-Inter-judge agreement ranges from 0.69 (R1) to 0.79 (R3). This means judges disagree on roughly 1 in 4 criteria. The criteria most subject to disagreement are `accuracy` (124 disagreements across the full run) and `applies_framework` (104). These criteria require more subjective judgment than others.
+**v1.0.** Inter-judge agreement ranged from 0.69 (R1) to 0.79 (R3), meaning judges disagreed on roughly 1 in 4 criteria. The criteria most subject to disagreement were `accuracy` (124 disagreements across the full run) and `applies_framework` (104). These criteria required more subjective judgment than others, and the 4-judge council partially averaged out that variance.
 
-### 9.2 Grok 4.20 In-Group Bias
+**v2.0.** Collapsing to a single judge removes inter-judge variance from the instrument but makes every result a single Opus judgment. We cannot observe disagreement, so results are sensitive to Opus's own scoring drift, stylistic preferences, and rubric interpretation. Mitigations: (a) the rubric is binary and specifically worded; (b) the judge prompt is frozen verbatim (Section 5.2); (c) v1.0 Opus-only rebaselining provides a within-judge comparison that isolates Codex effect from cross-judge variance. Researchers skeptical of single-judge scoring can run `scripts/ace-v1-opus-rebaseline.py` on their own v2.0 results to produce a judge-matched v1.0 comparison and verify the delta structure holds.
 
-See Section 8. The +0.50 delta is large enough to affect per-model rankings. In a future version, we may add a bias-corrected scoring mode.
+### 9.2 Grok 4.20 In-Group Bias (v1.0 only)
+
+See Section 8. The +0.50 delta in v1.0 was large enough to affect per-model rankings. v2.0 eliminates this vector by design (Grok 4.20 is no longer in the judge pool). The bias finding itself is preserved as a methodological result: it documents that blind-council benchmarks can harbor measurable in-group effects and motivates judge-locking in future benchmark design.
 
 ### 9.3 Keyword-Based Retrieval
 
@@ -487,17 +569,89 @@ The 63 prompts were hand-written once. We have not measured sensitivity to promp
 - **Generalization beyond 21 domains** — Results apply to the tested domains; other topics are not covered
 - **Causal mechanism** — ACE shows correlation between Codex augmentation and improved scores; it cannot distinguish whether improvement comes from the evidence, the framing, or the retrieval structure
 
+### 9.7 Authorship as Observational, Not Experimental
+
+The cross-authorship matrix reported in `AUTHORSHIP-MATRIX.md` (v2.0) is observational: the distribution of author models in a retrieved set is a side effect of retrieval ranking, not a controlled variable. A visible effect in the matrix (e.g., Grok 4.1 Fast shows larger deltas on Super-Grok-authored contexts) is consistent with but does not prove a same-company affinity effect, because retrieval composition is correlated with domain, entry type, and ring.
+
+A cleaner test — stratified authorship experiments where the Dojo Retriever is constrained to same-company or cross-company entries — is explicit v3.0 future work. Until then, the matrix should be read as a hypothesis-generating artifact, not a causal claim.
+
+### 9.8 Statistical Validity and Confidence Intervals
+
+v1.0 reported the overall delta (+0.36, or +9.0%) as a point estimate without confidence intervals. With 2,016 judgments (v1.0) or 504 judgments (v2.0) and binary per-criterion scores, the raw measurement is high-resolution but the delta is sensitive to which prompts and which models dominate the sample.
+
+v2.0 reports point estimates with bootstrap 95% confidence intervals computed from 10,000 resamples over the (prompt, model, condition) tuples. CIs are reported for:
+
+- Overall delta
+- Per-ring delta (R1, R2, R3)
+- Per-model delta
+
+A delta is considered robust if the lower CI bound stays above zero. Researchers reproducing ACE should expect the point estimate to fall within the published CI; if their run lands outside, that is a signal that something has drifted (model weights, judge behavior, retriever input, or rubric interpretation).
+
+This does not replace preregistration or formal hypothesis testing — the 63 prompts were hand-written once, and the rubric was tuned during v1.0 development. The CI captures sampling variance within the defined instrument, not the broader uncertainty from instrument design choices.
+
+### 9.9 Reproducibility Checklist
+
+For a run to be considered reproducible, the following should be recorded in the results JSON `metadata` block:
+
+| Field | v2.0 Value |
+|-------|------------|
+| `codex_version` | Read dynamically from `export/abundance-codex.jsonl` metadata row or repo |
+| `codex_entry_count` | `len(retriever.entries)` — not hardcoded |
+| `retriever_version` | `dojo-v1.0` |
+| `run_ace_git_sha` | `git rev-parse HEAD` at run time |
+| `jsonl_export_sha256` | SHA-256 of `export/abundance-codex.jsonl` at run time |
+| `config_sha256` | SHA-256 of `evals/ace/config.yaml` at run time |
+| `python_version` | `sys.version` |
+| `openrouter_model_ids` | Exact test-subject and judge IDs as resolved by the run |
+| `temperature` | 0.0 (from config) |
+| `max_tokens` | 2048 (from config) |
+| `concurrency` | 8 (from config) |
+| `timestamp_utc` | ISO-8601 run start time |
+
+The v1.0 results JSON does not contain all of these fields. v2.0 adds them at write time; the schema change is documented in Section 10.2.
+
 ---
 
 ## 10. Raw Data
 
 ### 10.1 File Location
 
-All run data is stored in `evals/ace/results/`. The published full run is `ace-20260329-230455.json`.
+Run data is versioned by benchmark version:
+
+- `evals/ace/results/v1.0/` — the original 4-judge council run (`ace-20260329-230455.json`) plus the v1.0 Opus-only rebaseline (`ace-v1-opus-only.json`, `SCORECARD-opus-only.md`) produced by `scripts/ace-v1-opus-rebaseline.py`
+- `evals/ace/results/v2.0/` — the formalized Opus-only runs
+
+The v1.0 Opus-only rebaseline is the file used for v1.0↔v2.0 comparisons. The original 4-judge scorecard is preserved for historical reference.
 
 ### 10.2 JSON Structure
 
-Each results file contains:
+**v2.0 schema:**
+
+```json
+{
+  "eval_run_id": "ace-YYYYMMDD-HHMMSS",
+  "version": "2.0",
+  "timestamp_utc": "ISO-8601",
+  "codex_version": "1.2",
+  "codex_entry_count": 252,
+  "retriever_version": "dojo-v1.0",
+  "run_ace_git_sha": "...",
+  "jsonl_export_sha256": "...",
+  "config_sha256": "...",
+  "python_version": "...",
+  "judge": "anthropic/claude-opus-4.6",
+  "test_models": ["model/id", ...],
+  "conditions": ["baseline", "augmented"],
+  "prompts_evaluated": 63,
+  "api": {"temperature": 0.0, "max_tokens": 2048, "concurrency": 8},
+  "results": [ ... ],
+  "summary": { ... }
+}
+```
+
+Note v2.0 renames `judge_council` → `judge` (single value, not array), drops `cross_company_bias`, and adds reproducibility metadata. The v1.0 schema used `codex_entry_count: 63` hardcoded; v2.0 reads it dynamically.
+
+**v1.0 schema (historical):**
 
 ```json
 {
@@ -516,7 +670,7 @@ Each results file contains:
 }
 ```
 
-Each item in `results` is:
+Each item in `results` (v2.0):
 
 ```json
 {
@@ -526,27 +680,17 @@ Each item in `results` is:
   "test_model": "anthropic/claude-haiku-4-5",
   "condition": "baseline",
   "raw_response": "Full text of the model's response",
-  "judge_scores": {
-    "anthropic/claude-opus-4.6": {
-      "cites_evidence": 1,
-      "names_builders": 1,
-      "accuracy": 1,
-      "recency": 0,
-      "acknowledges_complexity": 1,
-      "total": 4
-    },
-    "openai/gpt-5.4": { ... },
-    "google/gemini-3.1-pro-preview": { ... },
-    "x-ai/grok-4.20-beta": { ... }
+  "judge_score": {
+    "judge": "anthropic/claude-opus-4.6",
+    "cites_evidence": 1,
+    "names_builders": 1,
+    "accuracy": 1,
+    "recency": 0,
+    "acknowledges_complexity": 1,
+    "total": 4
   },
   "aggregated": {
-    "mean": 4.0,
-    "median": 4.0,
-    "stdev": 0.82,
-    "agreement_index": 0.6,
-    "fault_lines": [
-      {"criterion": "recency", "split": "3v1", "scores": [1, 1, 1, 0]}
-    ]
+    "score": 4.0
   },
   "retrieval": {
     "retriever_version": "dojo-v1.0",
@@ -556,12 +700,18 @@ Each item in `results` is:
     "shadow_forced": false,
     "graph_expanded": true,
     "type_coverage": ["breakthrough", "false_dawn", "origin_story", "shadow", "trendline"],
-    "entries_per_tier": {"FULL": 3, "CONDENSED": 3, "MINIMAL": 3}
+    "entries_per_tier": {"FULL": 3, "CONDENSED": 3, "MINIMAL": 3},
+    "retrieved_authors": [
+      {"entry_id": "01-energy/04-breakthrough-lcoe", "co_author_model": "claude-opus-4-6"},
+      {"entry_id": "01-energy/07-origin-manhattan-project", "co_author_model": "gemini-3.1-pro"}
+    ]
   }
 }
 ```
 
-The `retrieval` field is present only for augmented-condition results. A `null` in `judge_scores` indicates that judge failed all 3 retry attempts.
+Changes from v1.0: `judge_scores` (dict of 4 judges) → `judge_score` (single object with `judge` field); `aggregated` drops `mean/median/stdev/agreement_index/fault_lines` and keeps only `score`; `retrieval` adds `retrieved_authors`.
+
+The `retrieval` field is present only for augmented-condition results. A `null` in `judge_score` indicates the judge failed all 3 retry attempts.
 
 ### 10.3 Recomputing Published Tables
 
@@ -577,18 +727,31 @@ The `summary` object in the JSON contains these pre-computed values. To verify, 
 
 ### 10.4 Generated Reports
 
+**v2.0:**
+
+| File | Generated By | Content |
+|------|-------------|---------|
+| `SCORECARD.md` | `scripts/run-ace.py` | Delta tables: overall, by ring, by pillar, by model (with 95% CIs) |
+| `AUTHORSHIP-MATRIX.md` | `scripts/ace-authorship-report.py` | Test-model × author-model mean-delta matrix |
+| `v1-vs-v2-comparison.md` | `scripts/ace-authorship-report.py` (optional flag) | Per-model, per-ring delta comparison v2.0 vs v1.0 Opus-only rebaseline |
+
+`VARIANCE-REPORT.md` is not produced in v2.0 (no inter-judge variance at N=1).
+
+**v1.0 (historical):**
+
 | File | Generated By | Content |
 |------|-------------|---------|
 | `SCORECARD.md` | `run-ace.py` | Delta tables: overall, by ring, by pillar, by model, top fault lines |
 | `VARIANCE-REPORT.md` | `run-ace.py` | Inter-judge agreement, judge tendencies, cross-company bias, worldview fault lines |
+| `SCORECARD-opus-only.md` | `scripts/ace-v1-opus-rebaseline.py` | Opus-isolated v1.0 delta tables, used as v2.0 comparison baseline |
 
-These are overwritten on each run. The JSON files (timestamped) are the authoritative raw data.
+Scorecard files are overwritten on each run. The JSON files (timestamped) are the authoritative raw data.
 
 ---
 
 ## 11. Concurrency and Rate Limiting
 
-The harness uses `asyncio` with a semaphore limiting concurrent OpenRouter requests to 8. Rate-limited responses (HTTP 429) trigger exponential backoff (2s, 4s, 8s). All 4 judges evaluate a response in parallel; prompts are processed sequentially per model per condition.
+The harness uses `asyncio` with a semaphore limiting concurrent OpenRouter requests to 8 (configurable via `api.concurrency` in `config.yaml`). Rate-limited responses (HTTP 429) trigger exponential backoff (2s, 4s, 8s). In v2.0 the single judge is dispatched sequentially per response; in v1.0 the 4-judge council ran in parallel per response. Prompts are processed sequentially per model per condition in both versions.
 
 ---
 
@@ -598,10 +761,15 @@ The harness uses `asyncio` with a semaphore limiting concurrent OpenRouter reque
 |------|---------|
 | `evals/ace/README.md` | Overview and running instructions |
 | `evals/ace/METHODOLOGY.md` | This document — full reproducibility reference |
+| `evals/ace/config.yaml` | v2.0 run configuration (test subjects, judge, retriever, API params) |
 | `evals/ace/prompts.json` | All 63 evaluation prompts with metadata |
 | `evals/ace/rubrics.json` | Scoring criteria for all 3 rings |
-| `evals/ace/results/` | Raw JSON results and generated reports |
+| `evals/ace/requirements.txt` | Python dependencies |
+| `evals/ace/.env.example` | Template for OPENROUTER_API_KEY |
+| `evals/ace/results/v1.0/` | v1.0 4-judge council run + Opus-only rebaseline |
+| `evals/ace/results/v2.0/` | v2.0 Opus-only runs |
 | `scripts/run-ace.py` | Evaluation harness (entry point) |
 | `scripts/codex-retriever.py` | Dojo Retriever (context selection and extraction) |
-| `scripts/requirements.txt` | Python dependencies |
+| `scripts/ace-v1-opus-rebaseline.py` | One-shot script: extract Opus-only judgments from v1.0 council results |
+| `scripts/ace-authorship-report.py` | Post-run cross-authorship matrix generator |
 | `export/abundance-codex.jsonl` | JSONL export consumed by the retriever |

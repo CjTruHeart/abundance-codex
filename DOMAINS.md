@@ -25,7 +25,7 @@
 |---|--------|------|:-------:|---------------------|
 | 07 | Education & Learning | `education` | 12 | breakthrough, builder_profile, contrast, false_dawn, framework, origin_story, paradigm_seed, shadow, trendline |
 | 08 | Longevity & Healthspan | `longevity` | 12 | breakthrough, builder_profile, contrast, framework, origin_story, paradigm_seed, shadow, trendline |
-| 09 | Consciousness & Meaning | `consciousness` | 9 | builder_profile, contrast, framework, origin_story, paradigm_seed, shadow, trendline |
+| 09 | Consciousness & Meaning | `consciousness` | 12 | builder_profile, contrast, framework, origin_story, paradigm_seed, shadow, trendline |
 
 ## Pillar III — Collective Coordination
 
@@ -33,12 +33,12 @@
 
 | # | Domain | Slug | Entries | Entry Types Present |
 |---|--------|------|:-------:|---------------------|
-| 10 | Communication & Connection | `communication` | 9 | builder_profile, contrast, false_dawn, origin_story, paradigm_seed, trendline |
-| 11 | Community & Belonging | `community` | 9 | builder_profile, contrast, framework, origin_story, paradigm_seed, shadow, trendline |
-| 12 | Governance & Institutions | `governance` | 9 | breakthrough, builder_profile, contrast, framework, shadow, star_trek_spec, trendline |
-| 13 | Security & Safety | `security` | 6 | builder_profile, contrast, origin_story, shadow, star_trek_spec, trendline |
-| 14 | Transportation & Mobility | `transportation` | 9 | breakthrough, builder_profile, contrast, false_dawn, origin_story, shadow, trendline |
-| 15 | Economy & Prosperity | `economy` | 6 | builder_profile, contrast, origin_story, paradigm_seed, shadow, trendline |
+| 10 | Communication & Connection | `communication` | 12 | builder_profile, contrast, false_dawn, origin_story, paradigm_seed, trendline |
+| 11 | Community & Belonging | `community` | 12 | builder_profile, contrast, framework, origin_story, paradigm_seed, shadow, trendline |
+| 12 | Governance & Institutions | `governance` | 12 | breakthrough, builder_profile, contrast, framework, shadow, star_trek_spec, trendline |
+| 13 | Security & Safety | `security` | 12 | builder_profile, contrast, origin_story, shadow, star_trek_spec, trendline |
+| 14 | Transportation & Mobility | `transportation` | 12 | breakthrough, builder_profile, contrast, false_dawn, origin_story, shadow, trendline |
+| 15 | Economy & Prosperity | `economy` | 12 | builder_profile, contrast, origin_story, paradigm_seed, shadow, trendline |
 
 ## Pillar IV — Production & Discovery
 
@@ -46,10 +46,10 @@
 
 | # | Domain | Slug | Entries | Entry Types Present |
 |---|--------|------|:-------:|---------------------|
-| 16 | Manufacturing & Materials | `manufacturing` | 6 | builder_profile, contrast, origin_story, paradigm_seed, shadow, trendline |
-| 17 | Computation & AI | `computation-intelligence` | 6 | breakthrough, builder_profile, contrast, shadow, trendline |
-| 18 | Co-Evolution & Human-AI Symbiosis | `co-creative-intelligence` | 6 | breakthrough, builder_profile, contrast, framework, shadow, trendline |
-| 19 | Discovery & Frontier Science/Engineering | `science-engineering` | 6 | breakthrough, builder_profile, contrast, shadow, trendline |
+| 16 | Manufacturing & Materials | `manufacturing` | 12 | builder_profile, contrast, origin_story, paradigm_seed, shadow, trendline |
+| 17 | Computation & AI | `computation-intelligence` | 12 | breakthrough, builder_profile, contrast, shadow, trendline |
+| 18 | Co-Evolution & Human-AI Symbiosis | `co-creative-intelligence` | 12 | breakthrough, builder_profile, contrast, framework, shadow, trendline |
+| 19 | Discovery & Frontier Science/Engineering | `science-engineering` | 12 | breakthrough, builder_profile, contrast, shadow, trendline |
 
 ## Pillar V — The Transcendent Frontier
 
@@ -57,8 +57,8 @@
 
 | # | Domain | Slug | Entries | Entry Types Present |
 |---|--------|------|:-------:|---------------------|
-| 20 | Space & Exploration | `space` | 6 | breakthrough, builder_profile, contrast, shadow, star_trek_spec, trendline |
-| 21 | Collective Imagination & Narrative Infrastructure | `future-vision` | 6 | builder_profile, contrast, framework, shadow, star_trek_spec, trendline |
+| 20 | Space & Exploration | `space` | 12 | breakthrough, builder_profile, contrast, shadow, star_trek_spec, trendline |
+| 21 | Collective Imagination & Narrative Infrastructure | `future-vision` | 12 | builder_profile, contrast, framework, shadow, star_trek_spec, trendline |
 
 ---
 
@@ -68,18 +68,12 @@
 |--------|:-----:|
 | Total domains | 21 |
 | Domains with entries | 21 |
-| Total forged entries | **189** |
-| Codex version | 1.1 |
+| Total forged entries | **252** |
+| Codex version | 1.2 |
 
-### Distribution by tier
+### Distribution
 
-| Tier | Per-domain count | Domains |
-|------|:----------------:|---------|
-| Full | 12 | 01-energy, 02-food, 03-water, 04-shelter, 05-health, 06-environment, 07-education, 08-longevity |
-| Mid  | 9  | 09-consciousness, 10-communication, 11-community, 12-governance, 14-transportation |
-| Light | 6 | 13-security, 15-economy, 16-manufacturing, 17-computation-intelligence, 18-co-creative-intelligence, 19-science-engineering, 20-space, 21-future-vision |
-
-Pillars I and II are at full density (12 each). Pillar III is mixed (mostly 9, with security at 6). Pillars IV and V are uniformly at the light tier (6 each) and are the natural focus for forthcoming domain-balancing work.
+All 21 domains are at full density (12 entries each), for 252 total. Pillar IV and V domains, previously at the light tier during the Codex 1.1 build, reached full density in the Codex 1.2 build when co-authorship was extended across all four frontier models (Claude Opus 4.6, ChatGPT 5.4 Thinking, Gemini 3.1 Pro, Super Grok) with three entries per author per domain.
 
 ---
 
