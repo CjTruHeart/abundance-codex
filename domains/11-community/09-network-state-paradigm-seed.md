@@ -17,11 +17,12 @@ domain_connections:
     note: "The map of the future is drawn by network latency and encryption rather than mountain ranges"
 status: "seed"
 created: "2026-04-10"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.65
 codex_version: "1.1"
 tags: ["network-state", "cloud-community", "post-geographic", "cryptographic-citizenship", "paradigm-seed"]
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -68,7 +69,7 @@ The map of the future is drawn by network latency, not mountain ranges. Every pr
 
 An elegant theory for digital elites who can casually ignore the fact that food, water, and bullets are stubbornly physical. Every "network state" experiment to date has either depended on the protection of an existing nation-state, exported its inconvenient costs to local populations who never opted in, or quietly dissolved when the funding rounds ended. The seductive language of "forking society" obscures who actually pays the cost of the fork — typically the geographically rooted, the technically illiterate, and the indigenous communities whose land becomes the substrate for someone else's experiment.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The cloud provides the rules; the earth provides the roots. You must eventually plant the seed in the dirt. The identity to release is the romantic fantasy that any sufficiently elegant protocol can replace the slow, embodied work of sharing physical space with people you did not choose. Network protocols can reduce friction. They cannot synthesize the trust that accumulates only when humans are obliged to keep encountering one another over years.
 

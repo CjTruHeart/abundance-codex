@@ -25,11 +25,12 @@ domain_connections:
     note: "Decentralized MRV (measurement, reporting, verification) channels capital directly to ecological stewards"
 status: "forged"
 created: "2026-04-10"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.78
 codex_version: "1.1"
 tags: ["dao", "network-state", "quadratic-funding", "gitcoin", "decentralized-governance", "public-goods", "cryptographic-coordination"]
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -76,15 +77,15 @@ The physical map is rapidly transitioning into a secondary interface. The primar
 
 This "cloud-first" sovereignty severely risks establishing an exclusionary digital plutocracy. By decoupling wealth generation and governance from physical geography, these networks extract elite talent and capital from local municipalities, leaving those without advanced digital literacy or cryptographic access trapped in decaying, underfunded physical jurisdictions. Quadratic funding's mathematical elegance is also vulnerable to sybil attacks, coordinated identity farming, and capture by well-resourced collusion rings. The romance of "permissionless participation" papers over a brutal new hierarchy organized around bandwidth, hardware wallets, and English-language Discord fluency. If the legacy state retreats while the cryptographic state remains gated, the result is not abundance — it is two parallel scarcities, one physical and one digital.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Do not confuse the efficiency of the network with the depth of the connection. A shared ledger mathematically guarantees execution, but it does not guarantee empathy. The identity to release is the belief that good coordination is the same as good community. True abundance requires the digital consensus to eventually touch the earth, where humans must still bear the friction of looking one another in the eye, holding disagreement without exiting, and tending to the slow work of repair. Use the tools, but do not mistake the rails for the relationships they carry.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 We deploy governance exactly like we deploy software code. We extract open-source modules for dispute resolution, treasury management, and sybil-resistant voting; compile them into a community stack; and launch the network. When the economic protocol stabilizes, we reverse-engineer the physical territory — pop-up cities, co-living houses, regional grant programs. The current frontier is not the smart contract layer; it is the bridging infrastructure: identity proofs that respect privacy, dispute resolution that touches physical assets without summoning state police, and treasury risk management that survives a multi-year bear market. The bottleneck is not technology. It is sustained human stewardship of the protocols we already have.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from Gitcoin's Shamba Network case studies and decentralized MRV deployments in East Africa.**
 

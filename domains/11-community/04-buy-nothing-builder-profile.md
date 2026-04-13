@@ -25,11 +25,12 @@ domain_connections:
     note: "Generosity practice rewires scarcity mindset into abundance awareness at the daily level"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
 tags: ["buy-nothing", "gift-economy", "hyperlocal-sharing", "mutual-aid", "community-infrastructure", "reciprocity", "third-places"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -69,13 +70,13 @@ The Buy Nothing Project sits at the convergence of three exponential curves: the
 ### 🗡️ The Critic — Shadow Keeper
 The Critic must name the shadows. First, selection bias: early adopters are often middle-class, educated, and digitally comfortable; lower-income or non-English-speaking neighborhoods remain underrepresented. Second, governance capture risk — some groups have seen power struggles over moderation, leading to splintering or exclusion. Third, performative generosity: a public post about giving can become social capital signaling rather than genuine reciprocity. Transition pain is real — shifting from "mine" to "ours" triggers status anxiety and free-rider fears. Falsifiability edge: if longitudinal studies show no net reduction in loneliness or consumption after 24 months of participation, or if groups devolve into marketplaces with hidden fees, the narrative collapses. This is not toxic positivity; it is a tested, scalable model with known limitations.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift demanded is from *consumer* identity to *steward-giver* identity. The scarcity-era belief — "my worth is what I own and what I can acquire" — must be released. The practice is daily: notice what you no longer need, post it without expectation, receive with gratitude. This trains the nervous system in co-regulation and abundance. What is lost is the illusion of self-sufficiency; what is gained is the felt sense of being held by a web of reciprocal care. Transformation is not an epiphany — it is trained through repeated small acts of giving and receiving.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Liesl Clark and Rebecca Rockefeller launched the project in 2013 as a local experiment; it is now a global network supported by a small nonprofit backbone and thousands of volunteer local admins. Technical readiness: mature (dedicated iOS/Android app released post-2022, version 3.0.12 as of March 2026 with private communities and improved notifications). Bottlenecks: volunteer burnout in large groups, platform dependency, and scaling equitable access in underserved areas. Manufacturing learning curve does not apply (it is social infrastructure), but adoption curve is steep and predictable — groups reach critical mass within weeks once seeded. Leverage points now: (1) local admins using the free Buy Nothing Academy training, (2) integration with municipal waste-reduction programs, (3) hybrid online/offline events that deepen in-person ties. Closest builders: the volunteer admin network and the app development team iterating on features that keep the focus on real neighbors, not engagement metrics.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 Maria Gonzalez, a 34-year-old single mother in a Seattle suburb, posted her broken stroller in her local Buy Nothing group in early 2024. Within 40 minutes a neighbor she had never met — retired teacher Ellen Park — replied: "I have one in my garage that my grandkids outgrew. Come get it tomorrow." Maria walked two blocks the next afternoon. Ellen handed her the stroller, already wiped down, with a small bag of snacks for Maria's toddler. They stood on the porch talking for twenty minutes about childcare costs and the weather. For the first time in eighteen months Maria felt seen as more than a transaction. She later posted: "I didn't just get a stroller. I got a neighbor." (Composite based on documented patterns in Buy Nothing member stories and official impact reports; names changed for privacy.)
 
 ---

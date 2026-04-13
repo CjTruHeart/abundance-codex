@@ -25,11 +25,12 @@ domain_connections:
     note: "Shifts scarcity identity to steward-giver identity through repeated small acts"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.83
 codex_version: "1.1"
 tags: ["framework", "reciprocity", "third-places", "gift-economy", "anti-rivalrous", "belonging-infrastructure", "permeable-community"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -63,10 +64,10 @@ The Reciprocity Infrastructure Framework rides three converging exponentials: th
 ### 🗡️ The Critic — Shadow Keeper
 The Critic names the risks without flinching. Reciprocity frameworks do not magically dissolve tribalism — early groups still show selection bias toward middle-class, digitally comfortable participants; lower-income, non-English-speaking, or mobility-limited households are often excluded. Governance capture is real: volunteer admins burn out, moderation disputes fracture groups, and performative generosity can become status signaling. Transition pain is structural — shifting from "my property, my privacy" to "our neighborhood, our stuff" triggers real status anxiety and free-rider fears. Falsifiability edge: if longitudinal studies (24+ months) show no net improvement in trust or loneliness metrics, or if groups devolve into de-facto marketplaces with hidden fees, the framework narrative collapses. This is tested infrastructure with known failure modes — not guaranteed utopia.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift demanded is from consumer-homeowner identity to steward-giver identity. The scarcity-era belief — "my worth is what I own and protect" — must be released. What is lost is the illusion of total self-sufficiency; what is gained is the nervous-system relief of being known, needed, and held in a web of reciprocal care. The practice is concrete and trainable: notice surplus today, post or offer it without strings, receive the next offer with explicit gratitude, steward the loop by checking in later. Transformation is not an epiphany — it is trained in ten-minute porch handovers and weekly third-place meetups. The warrior who grips the sword too tightly cannot adapt; the neighbor who grips "mine" too tightly cannot belong.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 The framework is being built today by the Buy Nothing Project (nonprofit backbone + volunteer admin network + dedicated app v3.0+ as of April 2026), the global third-place revival (Oldenburg-inspired municipal programs in Seattle, Melbourne, Copenhagen), and hundreds of hyper-local tool libraries and mutual-aid pods. Technical readiness: mature at neighborhood scale. Bottlenecks: volunteer admin burnout, equitable onboarding in underserved areas, and policy support for physical third places. Adoption curve is steep and predictable — critical mass within weeks once seeded. Leverage points now: (1) free Buy Nothing Academy training for local admins, (2) integration with city waste-reduction and loneliness initiatives, (3) hybrid online/offline events that deepen in-person ties. Closest builders: the volunteer steward networks and the small app/development teams keeping the focus on real reciprocity, not engagement metrics.
 
 ---
