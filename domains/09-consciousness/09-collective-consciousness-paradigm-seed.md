@@ -21,7 +21,7 @@ updated: "2026-04-07"
 version: "1.0"
 confidence: 0.72
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["collective-consciousness", "quantum-fluid", "group-coherence", "shared-subjectivity", "meditation", "bio-sync", "paradigm-seed"]
@@ -69,15 +69,15 @@ The illusion of the isolated ego is mathematically collapsing. The future of coo
 
 A beautiful thought, but "collective resonance" is dangerously close to the erasure of the eccentric individual. If everyone is fluid, who protects the sovereign, necessary friction of the dissenting mind? We risk replacing algorithmic conformity with biological groupthink. The history of "collective consciousness" movements includes cults, mob dynamics, and the suppression of difference. Any framework that valorizes synchronization must fiercely protect the right to desynchronize.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 You are not the wave. You are the water. Stop fighting the ocean to prove you exist. The deepest resistance to shared subjectivity is not intellectual — it is the terror of losing the boundaries that feel like selfhood. But the boundary was never the truth of you. The boundary was the survival strategy. When you are safe enough to soften it, you discover that connection was never something you had to build. It was something you had to stop blocking.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 We are no longer building communication apps; we are building global bio-sync protocols. Using localized biometric feedback, we can measure the coherence of vagal tone across thousands of distributed users in real time, mapping the exact moments when a community achieves hydrodynamical flow. The engineering frontier is clear: HRV-based coherence measurement, distributed bio-feedback networks, and open-source synchronization protocols that allow communities to track and cultivate collective states without centralized control.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented experiential reports from large-scale group meditation and coherence research programs.**
 

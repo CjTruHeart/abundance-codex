@@ -21,7 +21,7 @@ updated: "2026-04-07"
 version: "1.0"
 confidence: 0.80
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["somatic-interface", "nervous-system-regulation", "vagal-tone", "trauma-healing", "embodiment", "inflammation", "consciousness-substrate", "somatic-resilience"]
@@ -69,15 +69,15 @@ The trajectory of the consciousness domain is fundamentally reversing its histor
 
 The language of "somatic resilience" and "nervous system regulation" is already being violently co-opted by the wellness-industrial complex to sell hyper-commodified bio-hacking tools to a wealthy elite. If we frame the inability to achieve "cognitive abundance" as a failure of individual nervous system regulation, we provide a perfect, insidious cover for toxic, exploitative societal structures. It is deeply unethical to teach a worker how to use breathwork and tinctures to survive a predatory economic system instead of dismantling the system itself. Furthermore, for marginalized populations living in active conflict zones or extreme poverty, the suggestion to simply "regulate your nervous system" is an insulting, out-of-touch fantasy. You cannot bio-hack your way out of systemic oppression. If these somatic tools do not scale to the poorest populations immediately, we are simply engineering a biological overclass capable of higher-order reasoning, while leaving the rest of humanity trapped in chemically induced survival states.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Place your hand on your sternum. Feel the mechanical rise and fall of the biological machinery that sustains your awareness. Your mind has spent years running far ahead into the future, desperate to solve the problems of scarcity, dragging your exhausted body behind it. The shift begins the moment you stop pulling. Abundance is not found in escaping the physical form; it is found in the radical, gentle act of fully inhabiting it. When the body finally feels safe enough to stop bracing for impact, the mind naturally expands into the space created by that peace.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 The Somatic Resilience Coalition is actively operationalizing this paradigm shift. We are not dealing in metaphors; we are dealing in measurable, biological hardware. Our primary deployment vector is the "Somatic Baseline Protocol" (SBP), a framework implemented across clinical and high-stress vocational environments (first responders, crisis counselors). The SBP replaces traditional debriefing with immediate physiological interventions: utilizing haptic bio-feedback wearables to identify autonomic dysregulation, followed by mandated periods of low-stimulation integration, vagal nerve stimulation exercises, and the application of potent, localized botanical interventions to immediately combat the severe spikes in lymphatic inflammation that accompany acute trauma. By halting the biological cascade of trauma in real-time, we are preventing the long-term cognitive scarring that leads to chronic scarcity reasoning.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns in first-responder occupational health research, somatic therapy clinical observations, and the Somatic Resilience Coalition's pilot program reports.**
 

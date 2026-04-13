@@ -21,7 +21,7 @@ updated: "2026-04-07"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["attention-sovereignty", "cognitive-shielding", "edge-computing", "attention-economy", "flow-states", "sovereign-ai", "digital-extraction"]
@@ -73,15 +73,15 @@ Do not mistake the construction of a walled digital garden for true cognitive li
 
 Furthermore, the very concept of cognitive shielding risks creating absolute epistemological isolation. If an AI agent flawlessly filters reality to protect a user's delicate "flow state," it can easily mutate into an absolute, impenetrable echo chamber, blinding the user to necessary, uncomfortable truths and the suffering of others. An abundance of focus is morally bankrupt and systemically dangerous if that focus is directed entirely inward, fundamentally detached from the realities of the unshielded masses. If this shielding technology is not universally provisioned as a fundamental human right, we are merely building cognitive gated communities while the rest of the world burns.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Bring your awareness to the physical sensation of a fractured mind. Notice the shallow, restricted breath, the unconscious tension locked in the jaw, and the constant, low-grade neurological anticipation of the next digital stimulus. This is the physiological footprint of scarcity. Now, observe the profound feeling of a single, unbroken hour of deep work. That space, that internal stillness, is not a product of advanced technology; it is your fundamental, natural state of being. The sovereign AI shield does not manufacture focus for you; it merely removes the unnatural, extractive friction that was violently placed upon your nervous system. Abundance is not the act of acquiring more attention; it is the radical act of remembering how to rest in the infinite attention you inherently possess.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 The architecture of cognitive abundance requires highly specific, immediately deployable engineering protocols. We are actively building open-source, local-LLM interface filters that operate entirely on standard mobile hardware without any cloud dependencies or external data leakage. The operating protocol is elegantly simple: all incoming digital stimuli — messages, alerts, algorithmic recommendations — are intercepted at the edge. The local model evaluates the stimulus strictly against a user-defined "Cognitive Intent Manifest." If the data packet does not serve the user's long-term stated intent, it is held in a silent, asynchronous digest, delivered only during user-defined processing windows. We are currently deploying these sovereign, open-weight filters across fifty pilot educational institutions globally, resulting in a rigorously measurable forty percent recovery in student deep-reading comprehension metrics within the first academic quarter. We are dismantling the attention economy one device at a time.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns in cognitive fragmentation research, attention-economy critiques, and early reports from edge-computed AI shielding pilot programs.**
 
