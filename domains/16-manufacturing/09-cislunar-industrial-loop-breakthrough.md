@@ -25,7 +25,7 @@ updated: "2026-04-11"
 version: "1.0"
 confidence: 0.74
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["manufacturing", "breakthrough", "isru", "cislunar", "space-manufacturing", "regolith", "orbital-industry"]
@@ -109,13 +109,13 @@ Fourth: diversion of attention. Investment in cislunar industry is investment *n
 
 Falsifiability edge: if reusable heavy lift fails to reach its cost targets or debris events force a launch pause, the cislunar economic case collapses back to research missions.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Every great civilization has been defined by its frontier, and every frontier has been where new social contracts are written. Space is the frontier where humanity decides whether to repeat the extractive patterns of prior expansions, or to architect something wiser.
 
 The practice is reverence without romance. The Moon is not a new Earth to conquer — it is a tool we can use, carefully, to return Earth to itself. Discipline: every space-industry decision should be evaluated against whether it enables biosphere recovery, or just displaces the damage further away.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Active builders include SpaceX (Starship-class lift), Intuitive Machines and Astrobotic (commercial lunar landers), Varda Space Industries (orbital manufacturing), Axiom Space (commercial orbital platforms), Blue Origin (New Glenn, lunar lander), ispace (lunar logistics), and NASA's CLPS and Artemis programs anchoring demand.
 
@@ -123,7 +123,7 @@ Current state: commercial lunar landings are happening (Intuitive Machines, Febr
 
 Bottlenecks: orbital refueling, autonomous robotics in lunar conditions, closed-loop life support (for crewed operations), regulatory regimes for lunar resource extraction. Leverage point: **Moon-to-LEO logistics is physically easier than Earth-to-LEO**, which means once the first lunar extraction-and-lift stack exists, the economics cascade.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from Varda W-1 mission reporting and Intuitive Machines IM-1 lunar landing coverage.**
 

@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.79
 codex_version: "1.1"
-co_author_model: "GPT-5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["manufacturing", "origin_story", "synthetic-biology", "biomanufacturing", "cell-free", "carbon-recycling", "bioeconomy"]
@@ -152,7 +152,7 @@ So the Sensei's instruction is this: do not sell this future as moral superiorit
 
 A martial artist does not cling to one technique because it once worked. He studies the changing distance. Manufacturing is at changing distance now. The industries that survive will not be the ones that strike hardest. They will be the ones that adapt their stance first.
 
-### 🔨 The Builder -- Ground Truth
+### 🔧 The Builder -- Ground Truth
 
 Here is the grounded build map.
 

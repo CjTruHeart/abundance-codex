@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.77
 codex_version: "1.1"
-co_author_model: "GPT-5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["manufacturing", "breakthrough", "swarm-robotics", "autonomous-manufacturing", "reconfigurable-factory", "multi-robot-planning", "aerospace", "assembly"]
@@ -125,7 +125,7 @@ For leaders, the scarcity belief that must be released is this: control only exi
 
 For workers, the emotional transition is equally important. Many people do not fear robots because they hate innovation. They fear erasure. The right invitation is not, "Stop worrying." It is, "Help shape the system you may one day supervise, maintain, teach, secure, and improve." Abundance becomes believable when human dignity survives the redesign.
 
-### 🔨 The Builder -- Ground Truth
+### 🔧 The Builder -- Ground Truth
 
 Here is the ground truth: autonomous swarm manufacturing is emerging, not mature.
 

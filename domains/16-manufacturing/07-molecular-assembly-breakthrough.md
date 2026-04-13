@@ -25,7 +25,7 @@ updated: "2026-04-11"
 version: "1.0"
 confidence: 0.72
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["manufacturing", "breakthrough", "molecular-assembly", "atomic-precision", "nanotechnology", "dna-origami", "apm"]
@@ -101,19 +101,19 @@ Third: dual-use weaponization. Atomic precision enables not just medicines but n
 
 Falsifiability edge: if after a decade of intensive effort, atomic placement cannot be scaled beyond millimeter-scale patches at economically viable throughput, the "desktop factory" narrative collapses to a research curiosity.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Every time humanity gains a new level of control over matter, we redefine what it means to be human. The bronze smith, the silicon engineer, the molecular programmer — each is a descendant of the same fire-starting ancestor. The discipline is humility: the more power we gain over the substrate of reality, the more carefully we must ask *what should exist*, not just *what can*.
 
 The practice: before designing any new material or device, ask whether it serves life or merely novelty. Atomic precision amplifies both.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Concrete current capabilities include DNA origami structures deployed in drug delivery trials, STM-based atomic placement on silicon (Zyvex, UK National Quantum Technologies), and deterministic patterning tools maturing in semiconductor roadmaps beyond 2nm nodes. AI-driven molecular design (e.g., AlphaFold derivatives) is already shrinking the search space for functional protein and nanomaterial designs.
 
 Bottlenecks: throughput (current atomic placement is single-tip and slow), error correction at scale, and feedstock purity. Leverage point: **massively parallel scanning probe arrays** and **directed self-assembly** are the two paths with the clearest scaling trajectories.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from DNA origami drug-delivery trial reports and Foresight Institute technical roadmaps.**
 

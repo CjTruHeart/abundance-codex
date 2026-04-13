@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.84
 codex_version: "1.1"
-co_author_model: "GPT-5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["manufacturing", "origin_story", "smart-manufacturing", "industry-4.0", "digital-twin", "iiot", "ai", "productivity", "resilience"]
@@ -159,7 +159,7 @@ But sensitivity without character becomes control. That is why human-centered de
 
 Transformation here is not a single rollout. It is a practice: sense, learn, adapt, repeat.
 
-### 🔨 The Builder -- Ground Truth
+### 🔧 The Builder -- Ground Truth
 
 The builder's view is clear: the stack already exists, but integration is where the real fight lives.
 

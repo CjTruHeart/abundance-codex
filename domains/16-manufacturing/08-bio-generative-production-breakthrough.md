@@ -25,7 +25,7 @@ updated: "2026-04-11"
 version: "1.0"
 confidence: 0.78
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["manufacturing", "breakthrough", "synthetic-biology", "precision-fermentation", "cultivated-meat", "mycelium", "living-factories"]
@@ -105,13 +105,13 @@ Fourth: economic disruption. Precision fermentation threatens the livelihoods of
 
 Falsifiability edge: if biosecurity incidents accumulate faster than safety protocols, regulatory backlash could freeze the category for a generation.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Humanity has always used biology — fermentation, agriculture, animal husbandry are ancient. Bio-generative production is simply the extension of these practices into the digital age. The shift in posture is subtle but profound: from dominion over life to partnership with it.
 
 The discipline: notice that every product has an ecological story. The practice is to ask, before manufacturing anything, whether a living system could grow it instead — and whether that system would leave the biosphere better than it found it.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Commercial builders operating today include Perfect Day (precision-fermented dairy proteins), Impossible Foods (engineered heme), UPSIDE Foods and GOOD Meat (cultivated meat), Bolt Threads (mycelium leather), Ecovative (mycelium packaging and building materials), Ginkgo Bioworks (foundry-scale organism engineering), and Solugen (enzymatic chemical production).
 
@@ -119,7 +119,7 @@ Current state: bench-to-commercial pipelines are shortening; bioreactor capital 
 
 Bottlenecks: scale-up engineering (bioreactors), feedstock costs (sugar), regulatory timelines, consumer acceptance. Leverage point: **sharing bioreactor capacity** across categories (food, materials, pharma) converts fixed-cost bottlenecks into shared infrastructure.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from Perfect Day commercial launch reporting and Ecovative mycelium-packaging deployment case studies.**
 

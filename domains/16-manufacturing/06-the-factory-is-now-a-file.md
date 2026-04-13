@@ -17,10 +17,11 @@ domain_connections:
     note: "Undermines minimum-order-quantity economics and centralized capital requirements"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.88
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["paradigm-seed", "digital-fabrication", "permissionless-production", "factory-as-file", "manufacturing-literacy", "on-demand-economy"]
@@ -52,7 +53,7 @@ This seed sits at the absolute center of the 6D curve: fully digitized (the file
 
 The frame-crack is powerful but incomplete. Not every material or geometry is yet printable at desktop scale. Critical mineral supply chains still underpin the filaments, powders, and resins. Who gets left behind? Communities whose entire economic identity was tied to large-scale subtractive factories if they cannot pivot to digital literacy fast enough. Falsifiability edge: if file-based production remains a niche hobby rather than scaling into meaningful industrial throughput, the seed remains aspirational rather than structural.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The deepest release is the identity "I am not allowed to make things." Scarcity trained us to wait for permission from distant capital and experts. Abundance demands we claim stewardship of the file — to design, iterate, share, and repair. This is not abstract philosophy; it is daily practice: see a broken part, open the file, fix it yourself. The inner shift is from consumer to co-creator, trained one print at a time.
 

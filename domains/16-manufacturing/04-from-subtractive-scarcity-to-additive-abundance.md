@@ -21,10 +21,11 @@ domain_connections:
     note: "Some high-precision additive processes remain energy-intensive even as overall material efficiency improves"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["additive-manufacturing", "subtractive-vs-additive", "digital-fabrication", "near-net-shape", "mass-customization", "material-efficiency", "on-demand-production"]
@@ -72,15 +73,15 @@ Additive manufacturing sits at the convergence of two exponentials: computation-
 
 The contrast is real, but incomplete. High-precision additive processes can still be energy-intensive. Material libraries remain narrower than traditional alloys. Scalability for ultra-high-volume consumer goods (smartphones, cars) is not yet economical at the billions scale. Supply chains for metal powders and resins are themselves extractive. Who gets left behind? Traditional machinists and tool-and-die makers whose skills are suddenly obsolete unless they retrain. Transition pain includes stranded subtractive capital and the risk that cheap desktop printers flood markets with low-quality, non-recyclable parts. Falsifiability edge: if global material extraction continues rising faster than additive adoption, the abundance claim collapses.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The deepest shift is identity. Subtractive manufacturing trained three generations to see themselves as passive consumers of standardized goods. Additive manufacturing demands we become active co-creators. The scarcity-frame belief "I can only have what someone else decides to mass-produce" must be released. The new practice is iterative: design, print, test, refine — embodied feedback loops instead of linear approval chains. This is not an epiphany; it is a trained discipline of digital craftsmanship.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Prusa Research (Czech Republic) ships tens of thousands of open-source machines monthly and released the MK4 and CORE One upgrades that doubled print speeds. Bambu Lab (China) has driven consumer high-speed adoption. Industrial leaders — GE Aviation, Relativity Space (3D-printed rockets), and large-format construction printers — are moving from prototypes to certified production. Bottlenecks remain: consistent powder quality, post-processing automation, and regulatory certification for new materials. Leverage point today: any engineer or startup can upload a design to on-demand platforms and receive functional parts in days, not months.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 In 2025, aerospace engineer Maria Chen at a mid-sized U.S. supplier needed a custom heat-exchanger prototype with internal channels that no CNC mill could reach without 87% material waste and 14-week lead time. Using generative design software and a metal powder-bed printer, she uploaded the file on a Monday and held the optimized, 40% lighter part in her hands by Thursday — printed in Inconel 718 with zero tooling. The part passed pressure testing on the first iteration. Maria later told her team, "For the first time I felt like the material worked *for* me instead of against me." (Composite based on documented patterns in additive aerospace case studies; specific names anonymized for operational sensitivity.)
 

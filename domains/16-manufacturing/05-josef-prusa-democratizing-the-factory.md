@@ -21,10 +21,11 @@ domain_connections:
     note: "Community-driven iteration + AI-assisted design accelerates hardware evolution"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.84
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["josef-prusa", "prusa-research", "open-source-hardware", "desktop-3d-printing", "democratized-manufacturing", "local-production", "corexy-evolution"]
@@ -72,15 +73,15 @@ Průša sits at the convergence of computation-intelligence (PrusaSlicer, firmwa
 
 The abundance is real, but the path is jagged. In 2025 Josef Průša publicly declared "open hardware desktop 3D printing is dead," citing Chinese state-backed competition, aggressive patenting, and closed-source rivals that captured market share through speed and ecosystem lock-in. Prusa responded with the CORE One under a more restricted "Open Community License," and in March 2026 laid off nearly 25% of developers to restore margins. Who gets left behind? Early open-source purists who feel betrayed, and small competitors crushed by scale. Transition pain includes the tension between survival and the original RepRap ethos. Falsifiability edge: if Prusa's localization efforts fail to reduce net global material throughput, the democratized-manufacturing claim weakens.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Průša's deepest teaching is the release of the "I am only a consumer" identity. Scarcity thinking tells us factories are for corporations; abundance thinking says the factory is wherever you place a printer. The inner shift required is from passive receipt to active stewardship — learning to iterate, repair, and share rather than discard and repurchase. This is not a one-time epiphany but a daily practice of digital craftsmanship and community accountability.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Prusa Research runs the largest known 3D-printer farm (700+ machines) to test and iterate every design before release. The CORE One (launched late 2024) is a fully enclosed CoreXY system with active chamber heating to 55 °C, 30% smaller footprint than the enclosed MK4S, and 15-20% faster prints. US manufacturing in Delaware (started 2024) uses the same equipment as Prague for true local production. Bottlenecks remain: filament material consistency, multi-material reliability (INDX upgrade slated for 2026), and navigating the competitive pressure that forced partial closure of designs. Leverage point today: any individual or small business can order a CORE One kit, assemble it in hours, and begin producing functional parts the same day.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 In 2025, rural mechanic Elena Vargas in rural Portugal needed a replacement gear for an aging agricultural pump — lead time from the original manufacturer: 8 weeks and EUR180 shipping. Using her Prusa CORE One she downloaded the open CAD file, generated a reinforced version with topology optimization, and printed it in PETG in under 90 minutes for EUR1.20 in filament. The part has now run 14 months without failure. Elena posted the modified file back to Printables.com, where it has been downloaded 4,700 times. She later told a local makerspace, "For the first time I fixed something without waiting for permission from a factory 2,000 km away." (Composite based on documented patterns from Prusa user stories and Printables community data, 2024-2025.)
 
