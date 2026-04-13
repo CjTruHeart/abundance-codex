@@ -29,7 +29,7 @@ updated: "2026-04-07"
 version: "1.0"
 confidence: 0.8
 codex_version: "1.1"
-co_author_model: "Chat GPT 5.4 - Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["precision-longevity", "aging-clocks", "biological-age", "machine-learning", "healthspan", "preventive-medicine"]
@@ -129,7 +129,7 @@ Then comes the privacy trap. Precision longevity loves dense personal data — g
 
 And finally, there is hype. The field's enemies are not only skeptics. They are premature certainty, premium pricing, and the temptation to sell clocks as fate. A biological-age score should not become the phrenology of the 21st century.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift here is from fatalism to feedback.
 
@@ -143,7 +143,7 @@ What identity must be trained? The practitioner. Someone who can receive signals
 
 AI can widen perception. It cannot replace judgment, courage, or daily practice.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 What is actually being built?
 
@@ -155,7 +155,7 @@ Third, the intervention-testing stack. When a clock is good enough, it becomes a
 
 Current readiness: promising in research, selectively useful in translational settings, not yet standard care. The biggest near-term leverage points are rigorous validation, transparency, uncertainty reporting, diverse training data, and integration into prevention rather than consumer mystique.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 Elena is a composite based on documented patterns in wearable- and clinic-based aging research.
 

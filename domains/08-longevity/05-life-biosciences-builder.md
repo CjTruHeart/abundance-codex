@@ -21,11 +21,12 @@ domain_connections:
     note: "Scalable viral vector production required for clinical deployment"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
 tags: ["longevity", "builder_profile", "epigenetic-reprogramming", "clinical-trials", "geroscience", "david-sinclair", "healthspan"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -65,13 +66,13 @@ Life Biosciences sits at the disruptive-to-demonetized inflection of the 6D curv
 ### 🗡️ The Critic — Shadow Keeper
 The Critic notes the transition pain: early therapies will be expensive and initially limited to specific indications (e.g., eye disease), leaving most patients behind until scale arrives. Who gets left behind: uninsured populations and regions without advanced ophthalmic infrastructure. Governance capture risk is real — patent thickets or high pricing could delay equitable access. Distortion risk: media hype turning "first human trial" into premature immortality claims (echoing entry 03). Falsifiability edge: if ER-100 fails to show functional vision improvement or triggers immune responses/cancer in humans, the reprogramming narrative takes a major hit. This is structural progress, not performative wellness.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift demanded is releasing the identity "I am a victim of inevitable aging." Scarcity-frame beliefs — "doctors fix symptoms, not root causes" or "old age is natural and graceful" — once provided psychological safety. The new practice is stewardship of programmable biology: measurement, intervention, and disciplined hope. Compassion for the fear of the unknown (what if we live too long?) must accompany the discipline of supporting clinical translation. Transformation is trained daily — through evidence consumption, advocacy, and personal healthspan habits — not a one-time revelation.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Life Biosciences is the builder in the clinic today. Founded on Sinclair's Information Theory of Aging, the company has optimized partial OSK reprogramming for safety (inducible expression, tissue-specific delivery). Bottlenecks: viral vector manufacturing scale, long-term safety data, and expansion beyond ophthalmology. Leverage points now: public support for accelerated geroscience regulatory pathways (like TAME-style trials) and open datasets for epigenetic clock validation. First scalable wins will come from the ongoing Phase 1 (safety, tolerability, visual function) and planned expansion to liver disease. This is not lab theater — it is real patients, real vectors, real timelines.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 Maria Gonzalez, a 72-year-old retired teacher from Boston with advanced open-angle glaucoma, became one of the first participants in ER-100's Phase 1 trial in March 2026. Her biological age markers had outpaced her chronological age; vision loss had already forced her to stop reading to her grandchildren. Weeks after the intravitreal injection, she reported measurable improvements in visual fields during follow-up tests. In her own words: "I felt the clock inside my eyes slow down — not magic, but science finally catching up to what my body was asking for." One woman, one targeted tissue, one moment where reprogramming moved from theory to lived experience.
 
 ---

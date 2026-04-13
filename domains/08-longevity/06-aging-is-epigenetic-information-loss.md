@@ -17,11 +17,12 @@ domain_connections:
     note: "Machine learning decodes and restores epigenetic patterns"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.72
 codex_version: "1.1"
 tags: ["longevity", "paradigm_seed", "epigenetic-information", "information-theory-of-aging", "david-sinclair", "reprogramming"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -49,7 +50,7 @@ The epigenetic-information-loss model (Sinclair's Information Theory of Aging) s
 ### 🗡️ The Critic — Shadow Keeper
 The Critic warns: if the information-loss model is oversold, it becomes the next wellness grift (see entry 03). Who gets left behind: populations without access to advanced diagnostics or therapies while epigenetic tests become luxury wellness tools. Falsifiability edge: if partial reprogramming fails to restore function in diverse human cohorts or triggers oncogenic drift, the model must be revised or abandoned. This is not yet proven structural abundance — it is a powerful but still-emerging hypothesis.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift required is releasing the identity "I am a victim of time's decay." The scarcity-frame belief that aging is natural and graceful once provided comfort; the new practice is stewardship of your epigenetic software — daily habits become code maintenance, not coping. Compassion for what is lost (the simplicity of inevitability) must walk beside disciplined measurement and intervention. Transformation is trained, not triggered.
 
 ---

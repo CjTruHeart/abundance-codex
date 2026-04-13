@@ -25,7 +25,7 @@ updated: "2026-04-06"
 version: "1.0"
 confidence: 0.80
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["builder-profile", "longevity", "south-florida", "capital-nexus", "longevity-clinics", "biotech", "ecosystem", "healthspan", "miami"]
@@ -73,15 +73,15 @@ Physical geography remains destiny, even in a digital world. The emergence of th
 
 The concentration of this capability in South Florida is creating the most visceral wealth-health divide in human history. The "longevity clinics" proliferating across Miami and Orlando are preventative executive health facilities explicitly designed for top performers and the ultra-wealthy. While billions of dollars fund AI-driven diagnostics and regenerative cellular therapies, the local working-class populations are being aggressively priced out of the region by the very capital influx funding these miracles. We are constructing a geographically fenced paradise of extended healthspan, surrounded by the rotting infrastructure of standard, reactive public healthcare.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Observe how your environment shapes your biological destiny. For decades, society accepted that we build cities to facilitate commerce, to extract labor, and to manage decline. What shifts within the human spirit when a city's primary economic engine is the extension and optimization of life itself? The realization that we can intentionally curate physical spaces that nurture abundance, rather than extract it, is the true awakening.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Look at the literal blueprints. We are building the infrastructure of prolonged life brick by brick. You have the UF Health Institute on Aging establishing the academic foundation. You have Longeveron, an actual clinical-stage biotech firm in Miami, developing the regenerative cellular therapies. You have OpenEvidence building the medical AI tools. This is not a philosophy; it is a supply chain. By physically clustering the regulatory, financial, and clinical components, we collapse the timeline from discovery to deployment by decades.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns in biotech funding cycles, clinical-stage company operations in South Florida, and the capital migration to Miami's health-tech corridor.**
 

@@ -29,7 +29,7 @@ updated: "2026-04-07"
 version: "1.0"
 confidence: 0.79
 codex_version: "1.1"
-co_author_model: "Chat GPT 5.4 - Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["blue-zones", "longevity", "healthspan", "social-connection", "purpose", "plant-forward", "age-friendly"]
@@ -140,7 +140,7 @@ The third risk is class blindness. Telling people to "live like a Blue Zone" whi
 
 And finally, Blue Zones can be misread as anti-medicine. They are not. Ecological longevity does not replace medicine; it changes the baseline on which medicine operates. The mature view is both/and: strong social and environmental foundations plus competent clinical care.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift here is from hacking life to tending life.
 
@@ -158,7 +158,7 @@ This is not a call to passivity. It is a call to train differently. Cook differe
 
 The deepest lesson is humility: you do not merely extend your own life. You participate in conditions that help life extend.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 What is actually buildable right now?
 
@@ -170,7 +170,7 @@ The highest-leverage build zones are mundane: zoning that supports daily errands
 
 The bottleneck is not finding one longevity miracle. It is coordinating across domains. Public health, planning, food retail, family policy, and community organizations usually work in separate silos. Blue Zones-style abundance requires them to spar together instead of training alone.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 María is a composite drawn from documented patterns in Nicoya and age-friendly community reporting.
 

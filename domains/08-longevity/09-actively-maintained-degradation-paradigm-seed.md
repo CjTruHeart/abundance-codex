@@ -21,7 +21,7 @@ updated: "2026-04-06"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["paradigm-seed", "longevity", "epigenetic-reprogramming", "actively-maintained-degradation", "information-theory", "partial-reprogramming", "aging"]
@@ -69,15 +69,15 @@ The hardware is fine. The code is just looping errors. When you digitize biology
 
 Who holds the administrative privileges to the human operating system? If we do not democratize the patch, we engineer a speciation event based on net worth. Reducing complex biology to mere "software" encourages reckless, under-regulated biohacking and false hope. The populations lacking access to foundational genomic sequencing and specialized diagnostic infrastructure will be left behind entirely.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Stop identifying with the decay. You are not a deteriorating object; you are an actively updating process. The deepest resistance to this paradigm is not scientific — it is existential. Humanity has built entire meaning systems around the inevitability of decline. Releasing that identity is the hardest reprogramming of all.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 We are not looking for magic; we are deploying artificial intelligence to map the epigenome and clear the memory leak. The engineering translation is precise: AI models analyze the multidimensional noise patterns of aged cells, identify safe targets for transient reprogramming, and guide non-integrating mRNA delivery to reset the corrupted instructions without triggering oncogenesis.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns in patient experiences with regenerative diagnostics and the psychological shift from terminal to treatable framing.**
 

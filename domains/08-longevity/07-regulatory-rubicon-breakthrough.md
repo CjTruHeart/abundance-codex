@@ -25,7 +25,7 @@ updated: "2026-04-06"
 version: "1.0"
 confidence: 0.88
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["breakthrough", "longevity", "epigenetic-reprogramming", "fda", "clinical-trials", "in-vivo", "er-100", "life-biosciences", "healthspan"]
@@ -73,15 +73,15 @@ Mark early 2026 as the inflection point. By granting clearance for human trials 
 
 Do not mistake regulatory clearance for immediate democratization. When ER-100 or its successors clear Phase 3 trials, who exactly do you think is getting the first doses? It will not be the underinsured working class. The initial rollout of in vivo epigenetic reprogramming will be astronomically expensive, heavily gated, and likely administered first in concierge longevity clinics in hubs like South Florida, which are already rapidly consolidating health-tech resources. The immediate consequence of this breakthrough is the terrifying risk of biological stratification. We are curing the biology of aging before we have cured the economics of healthcare access, virtually guaranteeing a transition period where the wealthy buy decades of extended healthspan while the poor continue to rust.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Consider the psychological weight you have carried your entire life — the absolute certainty that your body will eventually betray you. What happens to human ambition, to long-term planning, and to our relationship with the earth when the timeline of a human life is no longer a rigid, terrifying countdown? We must learn to untether our identity from the inevitability of our decay.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 The engineering here is meticulous. You do not get FDA clearance for gene therapy on vibes. This required years of integrating advanced computational models to decode cellular resilience — the exact kind of AI modeling currently being pioneered by researchers at Altos Labs to prevent cellular drift. It required building new delivery platforms to ensure the transcription factors only activated in the targeted optic tissues. The ecosystem is scaling right now. This is a supply chain problem now, not a science fiction problem.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns in clinical trial coordination for regenerative therapies and patient experiences in early-stage gene therapy trials.**
 

@@ -17,11 +17,12 @@ domain_connections:
     note: "Machine learning accelerates clock development and therapy optimization"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.78
 codex_version: "1.1"
 tags: ["longevity", "contrast", "biological-age", "epigenetic-clock", "healthspan", "reprogramming", "geroscience"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -61,13 +62,13 @@ The survival-curve rectangularization of the 20th century (entry 02) was the dec
 ### 🗡️ The Critic — Shadow Keeper
 The contrast is real, but the transition is uneven. Who gets left behind: low-income populations and Global South regions where even basic metabolic care remains scarce, while epigenetic tests and reprogramming trials cluster in high-income countries. Transition pain is severe — pension systems, eldercare infrastructure, and labor markets built for 65-and-done will buckle under 20-30 extra healthy years. Distortion risk is high: clocks could become wellness hype tools (see entry 03 grift) or justify ageism in employment. Falsifiability edge: if reprogramming triggers cancer or clocks fail to predict real-world outcomes in diverse populations, the narrative collapses. This is not yet democratized abundance — it is concentrated capability.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift required is releasing the identity "I am my chronological age." Scarcity-frame beliefs — "aging gracefully means accepting decline," "retirement is the reward for a life of work" — kept us safe in a mortal world. The new practice is stewardship of a programmable body: daily habits become training, not coping. Compassion for what is lost (the simplicity of inevitability) must accompany the discipline of measurement and intervention. Transformation is not an epiphany; it is trained vitality — one biomarker, one decision, one reframe at a time.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Real builders are in the clinic: Life Biosciences (ER-100 IND cleared 2025, Phase 1/2 eye restoration trials 2026), Retro Biosciences (AI-optimized partial reprogramming), Unity Biotechnology and Rubedo Life Sciences (senolytics for osteoarthritis and fibrosis). Veterinary proof: Loyal's LOY-002 (FDA technical sections accepted, STAY trial 1,300 dogs). Bottlenecks: manufacturing scale for viral vectors, regulatory pathways for "aging" as an indication (TAME-style trials still underfunded), and supply-chain concentration. Leverage point today: support public funding for geroscience trials and open-source clock validation datasets. First scalable wins will likely come through metabolic drugs (GLP-1s showing geroprotective effects) and senolytics repurposed from oncology.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 Dr. Elena Rivera, a 68-year-old retired physician in Barcelona, had watched her patients' final decades erode under the old paradigm. In 2025 she enrolled in an early epigenetic reprogramming pilot (Life Biosciences eye trial). Before treatment, her biological age read 71; chronological 68. Post-treatment, clocks showed 62. She describes the moment she read her grandchildren's faces without glasses for the first time in years — not just vision restored, but the felt sense that her body was no longer running on default decline software. "I used to prescribe pills for symptoms," she said. "Now I'm living the proof that we can rewrite the code."
 
 ---

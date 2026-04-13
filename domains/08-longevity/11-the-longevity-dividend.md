@@ -29,7 +29,7 @@ updated: "2026-04-07"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "Chat GPT 5.4 - Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["longevity-dividend", "healthy-ageing", "older-workers", "lifelong-learning", "prevention", "age-friendly-jobs"]
@@ -117,7 +117,7 @@ Third, a crude policy reading would simply raise retirement ages and call that a
 
 The falsifiability edge is clear: if longer lives continue to produce mostly more years of illness, or if institutions fail to convert added years into healthier, more meaningful participation, then the dividend thesis weakens. The abundance claim only holds where adaptation is real.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift required by the longevity dividend is a release from expiration thinking.
 
@@ -131,7 +131,7 @@ What identity must be trained? The adaptive elder, the second-apprenticeship wor
 
 In martial terms, this is the difference between a school that retires every practitioner after their first black belt and one that understands mastery deepens with age, adaptation, and transmission. The dividend is not merely more time. It is better use of time when wisdom is allowed to stay in the room.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 What is actually buildable now?
 
