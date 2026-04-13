@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.85
 codex_version: "1.1"
-co_author_model: "GPT-5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["governance", "framework", "commons", "polycentric", "ostrom", "collective-action", "community-management"]
@@ -123,7 +123,7 @@ And formal recognition can be double-edged. States often "recognize" community g
 
 The falsifiability edge is clear: if communities with real rule-making authority, meaningful monitoring capacity, and legally protected organizing rights consistently underperform comparable state or market arrangements across contexts, then the abundance claim weakens sharply. The framework survives only if the conditions actually matter.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift demanded by this framework is the release of the control reflex.
 
@@ -137,7 +137,7 @@ For local communities, the required shift is equally demanding. Freedom to self-
 
 The scarcity belief that must be released is this: "If we share power, we lose order." Polycentric governance reveals a tougher truth: sometimes shared power is the only form of order that can actually hold. But it only holds when people accept that participation is not a vibe. It is a practice.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 On the ground, polycentric commons governance is built from protocols, not poetry.
 

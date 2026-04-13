@@ -21,10 +21,11 @@ domain_connections:
     note: "Reduces polarization that fuels disinformation and societal instability"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.87
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["citizens-assembly", "sortition", "deliberative-democracy", "ireland", "8th-amendment", "climate-action", "legitimacy"]
@@ -72,15 +73,15 @@ Ireland sits at the leading edge of the global deliberative wave (700+ assemblie
 
 Sortition is not immune to distortion. Self-selection bias can still skew participation despite random invitation; facilitation quality varies; recommendations remain advisory unless parliament binds itself. Ireland's success benefited from small size, high education, and existential pressure on abortion. In larger, lower-trust polities the same process can be captured by well-funded lobbies or ignored when inconvenient. The Critic flags the risk of "deliberative theater" — symbolic assemblies that legitimize pre-decided outcomes. Without institutional commitment to act on consensus, the model collapses back into scarcity.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Citizens must release the spectator identity ("they decide, I complain") and step into co-responsibility. Politicians must surrender monopoly on expertise and embrace vulnerability — publishing raw evidence, livestreaming sessions, accepting that ordinary citizens can reach wiser conclusions. The inner shift is from "my tribe wins" to "we discern together." This is trained through repeated small acts of listening across difference; no epiphany shortcuts the practice.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 The Citizens' Assembly secretariat (independent of parliament) handled random selection via Red C polling, expert curation, and facilitation. Two assemblies ran 2016–2018 with full public livestreams and reports. Outputs translated directly: abortion → Thirty-sixth Amendment referendum; climate → cross-party Oireachtas committee → 2019 Climate Action Plan and 2021 legislation. Bottlenecks today: scaling facilitation talent and binding mechanisms. The stack is replicable — open-source facilitation guides and OECD principles now exist. Ireland has exported the model; 2025 saw new assemblies in multiple EU states.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 Mary, a 62-year-old rural farmer and mother of three from County Mayo, was randomly selected for the 2017 Climate Assembly. She entered skeptical — climate talk felt distant from silage and diesel costs. After hearing scientists, farmers, and youth activists in small groups, she helped draft the recommendation on agricultural emissions pricing with fairness safeguards for family farms. When the final vote hit 80%+, Mary told the room she had changed her mind on carbon taxes. "I thought it was punishment," she said. "Now I see it as investment in our children's land." Her story mirrored thousands who moved from polarization to ownership.
 

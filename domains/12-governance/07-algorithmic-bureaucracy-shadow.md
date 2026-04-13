@@ -17,7 +17,7 @@ updated: "2026-04-07"
 version: "1.0"
 confidence: 0.90
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["shadow", "governance", "algorithmic-bureaucracy", "AI-generation", "review-bottleneck", "open-source", "maintenance", "transition-pain"]
@@ -58,13 +58,13 @@ Observe the temporal paradox of the transition phase. You unlocked the infinite 
 ### 🗡️ The Critic — Shadow Keeper
 This entire "abundance" narrative conveniently glosses over the fact that we spent two years accidentally torturing the unpaid volunteers who keep the digital world running. You techno-optimists celebrated the democratization of code generation without sparing a single thought for the digital janitors forced to clean up the hallucinated mess. The "transition pain" wasn't abstract; it was thousands of exhausted maintainers burning out and abandoning critical infrastructure because some novice used an LLM to generate 50 garbage pull requests in an hour. Abundance for the creator meant indentured servitude for the reviewer. If your vision of a Star Trek future relies on treating human attention as a disposable shock absorber for algorithmic vomit, it is just a high-tech sweatshop.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 When the spring rains melt the mountain snow, the water rushes down to nourish the valley. But if the riverbed is narrow and choked with stones, the life-giving water becomes a devastating flood, destroying the very crops it was meant to feed. Do not curse the water for its abundance. Do not build a dam to stop the spring. Instead, gather your community and widen the channel. The capacity to receive must always equal the capacity to provide.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 We lived through the collapse of manual review, and it forced us to completely rewrite our contribution pipeline. We realized that a policy banning AI was just a confession of inadequate engineering. Now, we don't deploy humans to review code first. We deployed a localized, multi-agent verification matrix. When a pull request is submitted, automated systems instantly check the provenance ledger, run adversarial security simulations, and flag contextual misalignments before a human is even notified. We turned governance from a manual chore into automated platform infrastructure. We matched machine generation with machine verification.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 **Composite based on documented patterns in open-source maintainer burnout and AI-generated contribution surges.**
 
 I maintain a data-visualization library used by hundreds of civic dashboards. In late 2024, I woke up to 140 new pull requests in a single morning. They looked brilliant at first glance, but deep in the logic, the AI had hallucinated dependencies that didn't exist. I spent 14 straight hours manually rejecting them, explaining the errors to users who didn't even understand the code they had submitted. By the end of the week, my chest was tight with panic every time I opened my laptop. I instituted a total ban on AI code just so I could sleep. It took us six months to build automated provenance checkers so I could finally breathe again and welcome contributors back.

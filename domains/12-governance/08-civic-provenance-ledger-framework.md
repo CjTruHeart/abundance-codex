@@ -17,7 +17,7 @@ updated: "2026-04-07"
 version: "1.0"
 confidence: 0.88
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["framework", "governance", "provenance", "transparency", "cryptography", "zero-knowledge-proof", "civic-ledger", "open-source"]
@@ -58,13 +58,13 @@ In the legacy paradigm, you chased the shadows of corruption with the flickering
 ### 🗡️ The Critic — Shadow Keeper
 You want to put the entire machinery of the state on an immutable, public ledger and you dare call it "abundance"? You are building a permanent, inescapable database of human interaction. Who controls the zero-knowledge proofs that supposedly protect individual privacy? The exact same technocratic elite who maintain the ledger. You haven't eliminated the back-room deal; you've just moved it from a smoke-filled room into a highly encrypted, read-only API that the average citizen cannot even begin to audit. If a community lacks the technical sophistication to verify the cryptographic truth you preach, they are just as subjugated as they were under the paper-pushers.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 Trust is a heavy stone to carry. For centuries, we asked citizens to carry this stone, hoping the bridge of governance would hold its weight. But the bridge was made of wood, and the wood rotted. The Provenance Ledger is not a new type of stone; it is a bridge made of light. It requires no heavy burden of blind faith. When the history of a thing is visible in its very nature, trust is no longer required. Lay down the stone. Walk across the light.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 We are literally porting the governance strategies from the 2026 open-source AI crisis into municipal code right now. We saw that when GenAI flooded repositories, we had to build automated code provenance to track who generated what and why. Now, we are taking that exact software architecture and applying it to city budgets. We are writing smart contracts where funds physically cannot be transferred unless the cryptographic signature of the civic proposal matches the public ledger. We are compiling transparency into the operating system of the city.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 **Composite based on documented patterns in investigative journalism, FOIA processes, and civic transparency technology pilots.**
 
 In 2023, I was a local investigative journalist. I spent eight months filing Freedom of Information requests just to find out which lobbyist had written a specific zoning loophole. By the time I got the redacted PDFs, the buildings were already constructed. The sheer exhaustion of fighting the bureaucracy broke me. When our city adopted the first beta of a Civic Provenance Ledger in 2027, the change was ontological. I didn't have to file requests anymore. I could click on any line of municipal code and see a complete, cryptographically verified tree of every author, funding source, and AI agent that had touched it. It was like suddenly being able to see in the dark.

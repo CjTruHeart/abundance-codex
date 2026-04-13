@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "GPT-5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["governance", "trendline", "citizens-assemblies", "sortition", "deliberation", "democratic-innovation", "trust", "climate-governance", "participation"]
@@ -99,7 +99,7 @@ The third danger is institutional isolation. The 2021 Global Assembly showed bot
 
 So this trendline should not be read as "democracy is fixed." It should be read as "we now have stronger tools for democratic repair, but only if they are tied to commitments, accountability, and durable rules."
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Here is what is actually being built.
 

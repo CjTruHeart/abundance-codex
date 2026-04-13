@@ -25,10 +25,11 @@ domain_connections:
     note: "This governance model unlocks safe multi-planetary and post-scarcity expansion"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.72
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["star-trek-spec", "consent-based-governance", "collective-intelligence", "planetary-coordination", "alignment-assemblies", "zero-coercion", "liquid-democracy"]
@@ -76,15 +77,15 @@ The 6D curve for governance is complete: Digitized (open data + blockchain-verif
 
 Even in the target civilization, shadows persist. Consent at planetary scale can still be gamed by super-coherent AI agents or highly organized interest clusters. The "tyranny of structurelessness" risk remains: without ongoing governance of the governance layer itself, new forms of capture can emerge (algorithmic, attention-based, or synthetic). Not every being will choose participation; voluntary opt-out must be honored without penalty, yet non-participation cannot block urgent species-level decisions. The Critic flags the hardest truth: zero-coercion is aspirational; edge cases (existential threats, non-consenting actors) will still require carefully bounded enforcement mechanisms. Success depends on perpetual vigilance over the protocol stack.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift required is from "I am a subject of power" to "I am a node in the wisdom network." Citizens release the scarcity identity of voter-or-spectator and train daily in radical listening, informed consent, and ego-dissolution during deliberation. Leaders release control and embrace radical transparency as the only stable operating mode. The practice is lifelong: every disagreement becomes data; every change of mind becomes a feature, not a flaw. Transformation is not an event — it is the continuous cultivation of discernment at planetary scale.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 The stack is already under construction: Estonia's X-Road + Taiwan's vTaiwan/Pol.is + Ireland's Citizens' Assembly protocols + Anthropic/OpenAI-style Alignment Assemblies + emerging open-source liquid-democracy platforms. By 2026 the modular components (verifiable identity, simulation engines, consensus algorithms, consent ledgers) exist in prototype. Bottlenecks are cultural (training billions in deliberative literacy) and institutional (binding mechanisms beyond advisory). The 2030s roadmap: federated planetary governance testbeds on Earth, then Mars/Luna outposts. Builders today are civic-tech alliances, alignment researchers, and constitutional technologists.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 In 2047, Aisha — a 17-year-old climate refugee from what was once Bangladesh — sat in a neural-linked Alignment Assembly with 8.2 billion other minds (plus synthetic participants). She proposed a refinement to the global carbon-capture allocation formula based on her lived experience of sea-level rise. The AI-mediated deliberation surfaced her statement into the rough-consensus cluster within 43 seconds. It received 94.7% cross-cultural agreement. Aisha watched the policy fork deploy across the planetary grid in real time. For the first time she felt the species as one body making a single wise decision. She later said, "I didn't vote. I became part of the decision."
 
