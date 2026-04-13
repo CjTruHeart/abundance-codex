@@ -15,7 +15,7 @@
       "enum": [
         "origin_story", "breakthrough", "builder_profile", "trendline",
         "contrast", "framework", "paradigm_seed", "shadow",
-        "star_trek_spec", "grand_challenge", "false_dawn"
+        "star_trek_spec", "grand_challenge", "false_dawn", "council_synthesis"
       ]
     },
     "domain": {

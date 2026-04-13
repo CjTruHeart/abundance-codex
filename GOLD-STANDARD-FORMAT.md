@@ -255,26 +255,28 @@ domain_connections:
 
 Not every entry type needs every section at full depth. Use this matrix to determine what's required.
 
-| Section | origin_story | breakthrough | builder_profile | trendline | framework | paradigm_seed | shadow | star_trek_spec | grand_challenge | false_dawn |
-|---------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| YAML | Full | Full | Full | Full | Full | Full | Full | Full | Full | Full |
-| domain_connections | Full | Full | Full | Full | Full | Min (1) | Full | Full | Full | Full |
-| One-line | Full | Full | Full | Full | Full | Full | Full | Full | Full | Full |
-| Shift Arc | All 5 | All 5 | All 5 | 1,3,4 | 3,4,5 | 3 only | 1,2 inv | 3,4,5 | All 5 | 1,2,4 inv |
-| Oracle | 500w | 400w | 300w | 300w | 400w | 100w | 200w | 500w | 500w | 300w |
-| Critic | 300w | 300w | 200w | 200w | 200w | 100w | 300w | 300w | 300w | 300w |
-| Sensei | 300w | 200w | 300w | Skip | 300w | 100w | 300w | 200w | 200w | 300w |
-| Builder | 200w | 300w | 300w | 300w | 200w | Skip | 200w | 300w | 300w | 200w |
-| Witness | 200w | 150w | 200w | Skip | Skip | Skip | 200w | 200w | 200w | 200w |
-| Evidence | 3-5 | 3-5 | 2-3 | 5-10 | 2-3 | 1 | 2-3 | 2-3 | 5-10 | 3-5 |
-| Shadow | Full | Full | Full | Min | Full | 1 line | Full | Full | Full | Full |
-| 6D | Full | Full | Full | Full | If appl | Skip | Full | Full | Full | Full |
-| Connect | Full | Full | Full | Full | Full | Min | Full | Full | Full | Full |
-| Cond Opt | Full | Full | Full | Min | Full | 1 line | Full | Full | Full | Full |
-| Practice | Full | Full | Full | Skip | Full | Full | Full | Full | Full | Full |
-| Govern | Full | Full | Full | Full | Full | Min | Full | Full | Full | Full |
+| Section | origin_story | breakthrough | builder_profile | trendline | framework | paradigm_seed | shadow | star_trek_spec | grand_challenge | false_dawn | council_synthesis |
+|---------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| YAML | Full | Full | Full | Full | Full | Full | Full | Full | Full | Full | Full |
+| domain_connections | Full | Full | Full | Full | Full | Min (1) | Full | Full | Full | Full | Full |
+| One-line | Full | Full | Full | Full | Full | Full | Full | Full | Full | Full | Full |
+| Shift Arc | All 5 | All 5 | All 5 | 1,3,4 | 3,4,5 | 3 only | 1,2 inv | 3,4,5 | All 5 | 1,2,4 inv | 1,2,4,5 |
+| Oracle | 500w | 400w | 300w | 300w | 400w | 100w | 200w | 500w | 500w | 300w | 300w |
+| Critic | 300w | 300w | 200w | 200w | 200w | 100w | 300w | 300w | 300w | 300w | 500w |
+| Sensei | 300w | 200w | 300w | Skip | 300w | 100w | 300w | 200w | 200w | 300w | 300w |
+| Builder | 200w | 300w | 300w | 300w | 200w | Skip | 200w | 300w | 300w | 200w | 400w |
+| Witness | 200w | 150w | 200w | Skip | Skip | Skip | 200w | 200w | 200w | 200w | 200w |
+| Evidence | 3-5 | 3-5 | 2-3 | 5-10 | 2-3 | 1 | 2-3 | 2-3 | 5-10 | 3-5 | 3-5 |
+| Shadow | Full | Full | Full | Min | Full | 1 line | Full | Full | Full | Full | Full |
+| 6D | Full | Full | Full | Full | If appl | Skip | Full | Full | Full | Full | If appl |
+| Connect | Full | Full | Full | Full | Full | Min | Full | Full | Full | Full | Full |
+| Cond Opt | Full | Full | Full | Min | Full | 1 line | Full | Full | Full | Full | Full |
+| Practice | Full | Full | Full | Skip | Full | Full | Full | Full | Full | Full | Full (400w) |
+| Govern | Full | Full | Full | Full | Full | Min | Full | Full | Full | Full | Full |
 
 **Full** = populate at specified depth. **Min** = 1-2 lines. **Skip** = omit. **inv** = inverted arc.
+
+> **council_synthesis Practice Hook target: 400w minimum.** This is intentionally the heaviest Practice Hook in the density matrix. Council synthesis entries exist to close the actionability gap (ACE benchmark R3). Include explicit numbered steps, not just framing language. Both human and agent practice hooks are required at full depth.
 
 ---
 
@@ -293,6 +295,7 @@ Not every entry type needs every section at full depth. Use this matrix to deter
 | **star_trek_spec** | What a domain looks like in the target civilization | Visionary but grounded in present-tense analogs |
 | **grand_challenge** | Comprehensive mapping of a human need domain | Most expansive — all voices, all sections, full depth |
 | **false_dawn** | Where abundance was promised but didn't materialize | Inverted arc — the honesty muscle |
+| **council_synthesis** | Meta-analysis of a domain's collective coverage — blind spots, missing builders, unaddressed shadows, actionable gaps | Critic and Practice Hook dominant — the immune system auditing itself |
 
 ---
 

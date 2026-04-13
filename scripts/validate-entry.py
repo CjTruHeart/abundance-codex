@@ -152,6 +152,15 @@ DENSITY_MATRIX = {
         ],
         "min_evidence": 3,
     },
+    "council_synthesis": {
+        "required": [
+            "one_line_essence", "shift_arc", "phase_1", "phase_2", "phase_4", "phase_5",
+            "oracle", "critic", "sensei", "builder", "witness",
+            "evidence_anchors", "shadow_check", "6d_position", "connections",
+            "conditional_optimism", "practice_hook", "governance",
+        ],
+        "min_evidence": 3,
+    },
 }
 
 
