@@ -25,10 +25,11 @@ domain_connections:
     note: "When processing shifts to automated pipelines, world-class pathology insights reach any clinic capable of shipping a biopsy."
 status: "forged"
 created: "2026-04-06"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.80
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["breakthrough", "health", "spatial-transcriptomics", "CODEX", "pathology", "single-cell", "HuBMAP", "6Ds"]
@@ -69,13 +70,13 @@ The word "idiopathic" is about to be erased from the medical dictionary. When we
 ### 🗡️ The Critic — Shadow Keeper
 Do not confuse a map with a cure. Unprecedented resolution may lead to the "incidentaloma" effect scaled to the cellular level — the over-treatment of benign, localized anomalies that the body's immune system would have naturally resolved, causing unnecessary anxiety and medical intervention. Furthermore, if the computational power required to render these single-cell maps remains centralized in elite research hospitals, we will create a dystopia of biological redlining. The wealthy will receive deterministic, single-cell precision; the marginalized will still be subjected to macroscopic guesswork and probabilistic pharmacology. A map without universal access is just a monument to inequality.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 In our rush to digitize the microscopic, we must remember that the human is more than an aggregate of indexed cells. The map provides the coordinates of the suffering, but it is not the territory of the soul. A perfect cellular atlas cannot tell you why a patient is afraid, what their grandmother's death meant to them, or how their community shapes their willingness to seek care. Use this profound resolution to heal, but do not lose sight of the whole being. The finest map in the world is useless if the cartographer forgets that the landscape is alive.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 We bypassed optical limitations by using DNA-conjugated antibodies to iteratively stain, image, and wash tissue sections in automated cycles. We are tracking CD3, CD20, and cytokeratin simultaneously to map the exact battlefield between a tumor and the host immune system. A single spatial transcriptomic scan generates terabytes of high-dimensional data. The challenge now is purely computational: building the pipelines to process this data at the edge, close to the clinic, rather than requiring round-trips to centralized cloud infrastructure. HuBMAP's open-source reference datasets are the critical public good — they provide the baseline against which any local biopsy can be compared.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 **Composite based on documented patterns in multiplexed tissue imaging clinical research and autoimmune diagnostics.**
 
 Elena Vasquez. Boston, Massachusetts, 2026. "For three years, my autoimmune muscle degradation was a mystery. They labeled it 'idiopathic inflammatory myopathy' and put me on broad-spectrum steroids that ravaged my body — moon face, brittle bones, constant infections — just hoping to hit the target. It wasn't until a research clinic ran a multiplexed imaging scan on a tiny biopsy, mapping the exact myofiber states and localized endomysium markers, that they found the specific rogue immune cluster driving the destruction. They switched my medication to target just those cells. Within six weeks, I could climb stairs again. I got my life back not from a new drug, but from a better map."

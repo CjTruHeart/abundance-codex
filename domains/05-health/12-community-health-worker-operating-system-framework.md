@@ -29,7 +29,7 @@ updated: "2026-04-06"
 version: "1.0"
 confidence: 0.85
 codex_version: "1.1"
-co_author_model: "Chat GPT - Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["community-health-workers", "task-shifting", "primary-care", "delivery-systems", "health-abundance", "last-mile-care"]
@@ -126,7 +126,7 @@ Who gets left behind? Usually the same people already carrying the heaviest load
 
 The falsifiability edge is clear. If CHW programs do not improve coverage, referral completion, continuity, or outcomes under real conditions — or if gains vanish once donor enthusiasm fades — then the abundance claim is weak. If the "solution" only works by overburdening women with invisible labor, it is not abundance. It is cost transfer.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 This framework asks institutions to release a very old ego: the belief that care is only real when it is delivered from the top of the pyramid downward.
 
@@ -144,7 +144,7 @@ For communities, there is another inner shift: moving from passive receipt of ca
 
 The lesson is simple. Scarcity says, "Only the rare expert can help." Disciplined abundance says, "Teach the right move to the right people, support them well, and the circle of care widens."
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 From a builder's perspective, the core design principle is this: **task-shift only what can be standardized, supervised, supplied, and escalated**.
 
@@ -163,7 +163,7 @@ Programs break when referral hospitals are too far away, when stockouts become c
 
 What can be built now is not a vague "community health initiative." What can be built now is a disciplined frontline care layer that lowers missed care, catches deterioration earlier, and moves specialist time toward the cases that truly require it.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns in community health worker programs, Ethiopia's Health Extension Program field reports, and WHO workforce analyses.**
 

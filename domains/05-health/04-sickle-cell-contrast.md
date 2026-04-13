@@ -25,11 +25,12 @@ domain_connections:
     note: "Proven platform for one-time genetic cures opens pipeline for beta-thalassemia, other monogenic diseases"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.76
 codex_version: "1.1"
 tags: ["CRISPR", "gene-editing", "sickle-cell-disease", "curative-therapy", "precision-medicine", "6Ds", "one-time-cure", "Casgevy"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -69,13 +70,13 @@ CRISPR cell therapy sits in the Disruptive phase of the 6Ds. Gene sequencing (Di
 ### 🗡️ The Critic — Shadow Keeper
 This abundance is real for the patients who receive it, but the $2.2M price tag and complex ex-vivo process create immediate exclusion. In the United States, insurance battles and hospital capacity limit access; globally, the disease burden is overwhelmingly in low- and middle-income countries where the therapy is currently unavailable. Transition pain includes myeloablative conditioning (chemotherapy) with short-term fertility and infection risks. Incumbents in chronic-care pharma have little incentive to accelerate price erosion. Falsifiability edge: if long-term durability fails (e.g., edited cells lose potency after 10+ years) or secondary malignancies rise, the narrative collapses. This is not yet democratized abundance — it is elite abundance.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 Patients must release the identity of "sick person who manages pain" and step into "person whose body now works as designed." Families that built entire life rhythms around crisis planning must relearn normalcy. Physicians shift from lifelong symptom managers to one-time intervention specialists. The inner work is surrendering the scarcity story that "my body betrays me" for the abundance story that "my body can be edited once and healed permanently." That identity release is the hardest and most necessary part of the cure.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Vertex and CRISPR Therapeutics are scaling manufacturing at dedicated facilities; as of Q1 2026, more than a dozen U.S. and European treatment centers are active, with early expansion into the Middle East. The process — apheresis, CRISPR editing, expansion, infusion — still requires specialized GMP suites and takes months per patient. Bottlenecks remain cell-collection capacity and conditioning regimens. In vivo (direct-to-body) CRISPR delivery is in the pipeline and could dramatically simplify scaling. Real builders are the manufacturing engineers, regulatory teams, and community hematologists training to deliver this therapy equitably.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 Carlos A., a 19-year-old from Ohio treated in March 2025 at Nationwide Children's Hospital, had lived with SCD since infancy — hundreds of pain crises, missed school, constant fear of stroke. Three months after his Casgevy infusion he told his care team, "I wake up and nothing hurts. I can plan a future instead of planning around pain." For the first time he is considering college without worrying about hospitalizations. One young man, one edited genome, one life no longer defined by sickle cell.
 
 ---

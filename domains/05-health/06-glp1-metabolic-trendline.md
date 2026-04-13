@@ -25,11 +25,12 @@ domain_connections:
     note: "Potential downstream reduction in food-system demand from lower caloric intake at population scale"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.84
 codex_version: "1.1"
 tags: ["GLP-1", "tirzepatide", "semaglutide", "retatrutide", "incretin", "metabolic-health", "obesity", "T2D-remission", "trendline", "6Ds", "cardiometabolic"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -63,7 +64,7 @@ This trendline sits firmly in the Disruptive-to-Demonetized transition of the 6D
 ### 🗡️ The Critic — Shadow Keeper
 The abundance is real but fragile and uneven. Real-world persistence at 6-12 months hovers around 60%, and discontinuation quickly erases cardiovascular and weight benefits. Access remains skewed toward high-income countries and insured populations; the $1,000+/month price tag excludes billions. Transition pain includes gastrointestinal side effects, muscle loss if not paired with resistance training, and the psychological whiplash of "easy" weight loss followed by regain. Falsifiability edge: if long-term data (beyond 3-5 years) show diminishing returns, tolerance, or unexpected safety signals (e.g., rising osteoporosis/gout risk in some cohorts), the "reversible metabolic disease" narrative weakens. This is not yet democratized abundance — it is pharma-mediated abundance that still depends on continuous supply chains and payment systems.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Eli Lilly (tirzepatide/Mounjaro/Zepbound), Novo Nordisk (semaglutide/Ozempic/Wegovy), and emerging players are scaling production at unprecedented speed while racing toward oral and ultra-long-acting formulations. Phase 3 readouts for retatrutide and orforglipron (oral small-molecule) are landing in 2025-2026; real-world manufacturing learning curves are steep. Bottlenecks remain supply (especially in 2024-2025) and patient support infrastructure for adherence and lifestyle integration. Builders are the medicinal chemists, manufacturing engineers, and health-system pharmacists turning peptides into population-scale tools. The next leverage point is combination therapies with exercise mimetics or muscle-sparing agents to make the reset durable.
 
 ---

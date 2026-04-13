@@ -29,7 +29,7 @@ updated: "2026-04-06"
 version: "1.0"
 confidence: 0.84
 codex_version: "1.1"
-co_author_model: "Chat GPT - Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["mental-health", "friendship-bench", "task-sharing", "lay-health-workers", "community-care", "zimbabwe"]
@@ -167,7 +167,7 @@ The falsifiability edge is plain. If task-shared care does not hold up under sca
 
 So the shadow check here is not cynical. It is protective. A bench is powerful only when it is connected to a system sturdy enough to catch what the bench cannot carry alone.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 This entry asks us to release a prestige-based picture of healing.
 
@@ -193,7 +193,7 @@ The practice is to ask: where in my own life have I mistaken prestige for effect
 
 A narrow gate can feel impressive. A wide gate heals more people.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 At ground level, Friendship Bench is not vague compassion. It is a build.
 
@@ -214,7 +214,7 @@ The current build picture is no longer tiny. Friendship Bench publicly reports 2
 
 The bottlenecks now are the predictable ones: financing, workforce support, policy integration, quality control, and safe referral for higher-risk patients. The near-term opportunity is not to make the model more glamorous. It is to make it more durable: stronger supervision, better outcome tracking, tighter referral loops, and culturally wise adaptation in each new setting.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on Friendship Bench's published account of Farai and Grandmother Jack's encounter.**
 

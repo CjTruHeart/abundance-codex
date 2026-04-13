@@ -29,7 +29,7 @@ updated: "2026-04-06"
 version: "1.0"
 confidence: 0.89
 codex_version: "1.1"
-co_author_model: "Chat GPT - Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["amr", "antimicrobial-resistance", "antibiotics", "shadow-entry", "one-health", "modern-medicine"]
@@ -186,7 +186,7 @@ The falsifiability edge is not vague. If surveillance improves, misuse declines,
 
 AMR is the shadow that asks whether our health abundance talk is structural — or just well-designed denial.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Antibiotic culture trained humanity into a subtle arrogance: the belief that consequences can be delayed indefinitely by another round, another escalation, another stronger option.
 
@@ -204,7 +204,7 @@ Institutions also have identities to release. Hospitals must release the illusio
 
 The practice is mature restraint, not fear. AMR does not ask us to become anti-antibiotic. It asks us to become worthy of one of the greatest medical inheritances humans have ever forged.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 From a build perspective, the AMR response stack has five core layers:
 
@@ -220,7 +220,7 @@ What can be built now is not mysterious. Better microbiology capacity. Shorter t
 
 The builder truth is simple: AMR is not waiting for a moonshot. It is punishing weak fundamentals while we debate our ambition.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 Vanessa Carter was in her car when she felt moisture on her cheek.
 
