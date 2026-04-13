@@ -176,4 +176,6 @@ Elena, a school teacher in Chandler (Phoenix metro), sold her 2018 sedan in Janu
 
 Synthesis of Waymo Phoenix deployment data, Seattle/Phoenix census trends on car-free households, NABSA micromobility reports, Eno Center VMT analysis, and the lived-experience contrast from prior ownership-to-access and Waymo entries. The origin_story format provides the human-scale emotional arc the domain needed next.
 
+The Witness story (Elena) is a composite drawn from documented patterns in transportation: phoenix — the access city. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

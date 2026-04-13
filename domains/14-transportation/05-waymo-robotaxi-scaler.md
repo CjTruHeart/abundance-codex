@@ -176,4 +176,6 @@ Jamal, a rideshare driver in Atlanta turned early robotaxi user, sold his person
 
 Real-time 2026 deployment data on Waymo scaling (10 cities, 500k weekly rides, 170M+ rider-only miles) combined with the ownership-to-access contrast from entry 04. The builder_profile format was the natural next step to move from abstract shift to concrete organizational reality.
 
+The Witness story (Jamal) is a composite drawn from documented patterns in transportation: waymo — the robotaxi scaler. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

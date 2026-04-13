@@ -157,4 +157,6 @@ Dr. Elena Rivera, a 68-year-old retired physician in Barcelona, had watched her 
 
 Synthesized from existing Codex entries (01, 02, 03), 2023-2025 Hallmarks updates, Horvath clock literature, Life Biosciences/Retro/Altos trial announcements (2025-2026), and healthspan gap data. Contrast structure chosen to sharpen the measurable shift without duplicating prior entries.
 
+The Witness story (Elena Rivera) is a composite drawn from documented patterns in longevity: biological age vs chronological age — the clock we can finally reset. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

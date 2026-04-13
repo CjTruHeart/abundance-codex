@@ -119,4 +119,6 @@ Examine your organization's definition of "waste." Identify one resource stream 
 
 Forged during Abundance Codex v2.0 expansion sprint. Entry co-created with Gemini 3.1 Pro as part of multi-model dataset enrichment across 21 Grand Challenge domains.
 
+The Witness story uses an unnamed first-person narrator ('the Mahachai plant operator') as a composite drawn from documented industrial water treatment operations in Southeast Asia.
+
 </details>

@@ -170,4 +170,6 @@ In a remote Rajasthan village, 2017: Ramesh, a marginal farmer previously locked
 
 The three original entries plus the freshly forged M-Pesa/UPI contrast created a perfect foundation. Nilekani's 2026 activity (Finternet pilots, Voice AI advocacy, global DPI export) landed as the precise living proof that the open-rail model is not static history but an active construction project. This builder_profile was forged to give the Codex a concrete "who is doing it now" anchor that turns abstract rails into replicable human practice.
 
+The Witness story (Ramesh) is a composite drawn from documented patterns in economy & prosperity: nandan nilekani — architect of digital public infrastructure for abundance. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

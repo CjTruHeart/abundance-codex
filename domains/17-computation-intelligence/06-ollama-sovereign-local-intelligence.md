@@ -168,4 +168,6 @@ In a rural clinic outside Kisumu, Kenya, in February 2026, community health work
 
 Synthesized from the original three domain entries (GPU Revolution, Compute Cost Curve, Compute Oligarchy) + the previously proposed inference-abundance contrast and Hugging Face builder_profile. Fresh 2026 data drawn from Ollama GitHub, official blog (OpenClaw, MLX, multimodal), and independent analyses (52M downloads, GGUF ecosystem). Builder_profile type chosen as the perfect next step to show who is actively building the sovereign execution layer that makes inference abundance real and private.
 
+The Witness story (Achieng Omondi) is a composite drawn from documented patterns in computation & ai: ollama — sovereign local intelligence for everyone. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

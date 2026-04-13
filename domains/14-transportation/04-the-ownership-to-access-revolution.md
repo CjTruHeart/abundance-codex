@@ -176,4 +176,6 @@ Maria, a single mother in Phoenix, sold her 12-year-old sedan in 2025 after Waym
 
 Synthesis of existing Codex EV and safety entries + real-time 2025–2026 deployment data from Waymo and micromobility operators + AAA ownership cost studies + urban land-use research. The contrast frame emerged naturally as the missing narrative bridge.
 
+The Witness story (Maria) is a composite drawn from documented patterns in transportation: the ownership-to-access revolution. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

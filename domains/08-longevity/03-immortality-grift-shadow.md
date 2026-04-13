@@ -211,4 +211,6 @@ Marcus didn't stop caring about his health. He kept exercising, kept sleeping we
 
 Bryan Johnson's $2M/year "Don't Die" protocol as the visible face of a longevity landscape distorted by wealth, ego, and spectacle. Three distortion patterns: (1) the supplement grift — $4.5B+ market built on preclinical evidence, exemplified by the GSK/Sirtris $720M write-off; (2) biohacking as class performance — longevity as luxury brand, contrasted with the TAME trial's funding struggles; (3) transhumanist escapism — speculative frontiers crowding out proven interventions. Counter-narrative: Blue Zones, exercise meta-analyses, and the evidence hierarchy showing that the most effective longevity interventions are free, boring, and proven. The shadow pattern: genuine scientific frontier colonized by commercial spectacle, making the populations who need longevity most invisible in the discourse. Inspired by the recurring Codex pattern of abundance frontiers captured by extraction logic (cf. Green Revolution shadow in food, carbon offset shadow in environment).
 
+The Witness story (Marcus) is a composite drawn from documented patterns in longevity: the immortality grift. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

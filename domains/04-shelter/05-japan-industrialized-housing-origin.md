@@ -162,4 +162,6 @@ In 2011, after the Tohoku earthquake and tsunami, a family in Miyagi Prefecture 
 
 Synthesis of Japan's post-war prefab history, sustained 13-15% market share, Sekisui House ZEH leadership (95-96% in 2025), quality/resale advantages, and 6D maturity. Chosen as next best unique entry because it provides the historical national-scale origin that grounds the recent contrast and ICON builder_profile in proven, decades-long success — closing the loop on shelter's industrialization pathway.
 
+The Witness story (the Miyagi family) is a composite drawn from documented patterns in shelter: japan's post-war industrialization — the first national origin of factory-built abundance. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

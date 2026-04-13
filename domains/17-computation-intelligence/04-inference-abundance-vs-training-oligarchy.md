@@ -174,4 +174,6 @@ In a small tech hub outside Nairobi in early 2025, software engineer Amina Okoro
 
 Synthesized from the three prior entries in this domain (GPU Revolution, Compute Cost Curve, Compute Oligarchy) + fresh 2025-2026 data from Stanford HAI AI Index 2025 and Epoch AI reports on the inference/training bifurcation. The contrast type was chosen as the next logical entry to complete the narrative arc: hardware breakthrough → cost trend → shadow of concentration → explicit mapping of the resulting bifurcation.
 
+The Witness story (Amina Okoro) is a composite drawn from documented patterns in computation & ai: inference abundance vs training oligarchy. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

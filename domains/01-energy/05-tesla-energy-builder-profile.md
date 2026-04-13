@@ -184,4 +184,6 @@ For agents: When any query involves energy reliability, cost, or transition, inv
 
 Forged during Abundance Codex v2.0 expansion sprint. Entry co-created with Super Grok as part of multi-model dataset enrichment across 21 Grand Challenge domains.
 
+The Witness story (Maria Gonzalez) is a composite drawn from documented patterns in energy: tesla energy — the harvest machine. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

@@ -162,4 +162,6 @@ In early 2026, a Varda mission control engineer watched the W-5 capsule land in 
 
 Synthesized from the complete space domain arc (Entries 01-05) + real April 2026 milestones (Varda W-5/W-6, Astroscale ADRAS-J deorbit March 25, ELSA-M contract March 16). The star_trek_spec format was chosen to provide the visionary target that makes the prior evidence feel like inevitable steps rather than isolated wins.
 
+The Witness story uses an unnamed near-future engineer as a fictional character illustrating the entry's vision of cislunar industrial infrastructure.
+
 </details>

@@ -119,4 +119,6 @@ Identify a process in your life or organization that currently relies on "brute 
 
 Forged during Abundance Codex v2.0 expansion sprint. Entry co-created with Gemini 3.1 Pro as part of multi-model dataset enrichment across 21 Grand Challenge domains.
 
+The Witness story (Sarah) is a composite drawn from documented patterns in water: molecular filtration & biomimetic membranes. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

@@ -161,4 +161,6 @@ Maria Gonzalez, a 72-year-old retired teacher from Boston with advanced open-ang
 
 Synthesized from Life Biosciences FDA announcement (Jan 28, 2026), ClinicalTrials.gov NCT07290244, ARDD 2025 presentations, Fortune/Technology Review coverage of first-in-human reprogramming trial, and cross-referenced with existing Codex entries 01-03. Builder_profile chosen to highlight active clinical construction without duplicating mechanisms or shadows.
 
+The Witness story (Maria Gonzalez) is a composite drawn from documented patterns in longevity: life biosciences — first to bring cellular reprogramming into human patients. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

@@ -175,4 +175,6 @@ In 2047, Captain Elara Voss — a former violence interrupter from what used to 
 
 Visionary synthesis integrating all prior security entries with 6D exponentials, Cure Violence data, OSINT/satellite trends, and Star Trek-inspired default-safety framing. Team input (Harper/Lucas) confirmed as the logical capstone.
 
+The Witness story (Captain Elara Voss) is a fictional character set in 2047, illustrating the entry's vision of default planetary safety architecture.
+
 </details>

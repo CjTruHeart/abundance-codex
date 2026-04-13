@@ -168,4 +168,6 @@ In a small apartment in Lagos, Nigeria, in late 2025, software developer Tunde A
 
 Synthesized from the three existing entries in this domain (GPU Revolution breakthrough, Compute Cost Curve trendline, Compute Oligarchy shadow) plus the previously proposed inference-abundance contrast. Real 2025-2026 data drawn from Hugging Face's public State of Open Source AI reports, Stanford HAI AI Index 2025, and Epoch AI analyses. Builder_profile type chosen as the next logical step to show who is actively constructing the abundant inference layer in public view.
 
+The Witness story (Tunde Adebayo) is a composite drawn from documented patterns in computation & ai: hugging face — the global commons for intelligence. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

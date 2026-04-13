@@ -160,4 +160,6 @@ Amina, a 14-year-old girl in a crowded public school in Lagos, Nigeria, had fall
 
 Synthesized from Khan Academy 2025–2026 deployment metrics, Sal Khan's public writings and interviews on mastery learning, the 2025 PNAS AI-tutoring study, and direct narrative continuation from the preceding 2-sigma contrast entry. Focus was on humanizing the builder while grounding every claim in verifiable progress.
 
+The Witness story (Amina) is a composite drawn from documented patterns in education: sal khan and khanmigo — scaling the personal tutor. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

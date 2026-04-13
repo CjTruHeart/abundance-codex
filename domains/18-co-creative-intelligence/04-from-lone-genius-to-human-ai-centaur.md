@@ -169,4 +169,6 @@ Maria, a nonprofit grant writer in 2025, spent three years drafting proposals th
 
 Synthesized from MIT/Harvard/Microsoft field experiments, BCG/Harvard "Jagged Frontier" study (Randazzo et al.), GitHub Copilot research, Upwork Human+Agent Productivity Index, doctoral writing studies, and Anthropic/McKinsey/OpenAI Enterprise deployment data. Contrast type chosen to map the explicit bifurcation between lone-genius scarcity and centaur abundance models of cognitive production.
 
+The Witness story (Maria) is a composite drawn from documented patterns in co-creative intelligence: from the lone genius to the human-ai centaur. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

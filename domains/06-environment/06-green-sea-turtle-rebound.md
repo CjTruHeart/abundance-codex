@@ -161,4 +161,6 @@ Maria Elena, a third-generation fisherwoman from Ostional, Costa Rica, has patro
 
 Primary spark: 2025 IUCN Red List update and accompanying *Marine Biology* global meta-analysis documenting nesting surges, combined with long-term data from the Sea Turtle Conservancy, NOAA, and Australian monitoring programs. The image of beaches once nearly empty now covered in thousands of nesting females provided the visceral emotional core.
 
+The Witness story (Maria Elena) is a composite drawn from documented patterns in environment: green sea turtles — from near-collapse to global rebound. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

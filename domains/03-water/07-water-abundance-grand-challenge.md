@@ -145,4 +145,6 @@ To accelerate the transition to water abundance, individuals must actively champ
 
 Forged during Abundance Codex v2.0 expansion sprint. Entry co-created with Gemini 3.1 Pro as part of multi-model dataset enrichment across 21 Grand Challenge domains.
 
+The Witness story (Elias) is a composite drawn from documented patterns in water: the decoupling of hydration from weather. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

@@ -163,4 +163,6 @@ Sarah, a mid-career marketing manager at a mid-sized nonprofit in 2025, had spen
 
 Synthesized from BCG/Harvard "Jagged Frontier" field study (Randazzo et al., 2024), Mollick's Wharton classroom experiments, "One Useful Thing" Substack documentation, *Co-Intelligence* (Penguin Random House, April 2024), 2025 prompt-engineering paper, and public deployment data from organizations applying Mollick's four rules. Builder_profile type chosen to map who is actively constructing the practice layer of co-creative intelligence abundance.
 
+The Witness story (Sarah) is a composite drawn from documented patterns in co-creative intelligence: ethan mollick — architect of practical co-intelligence. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

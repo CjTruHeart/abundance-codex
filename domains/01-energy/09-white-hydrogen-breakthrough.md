@@ -123,4 +123,6 @@ The realization of a white hydrogen economy is highly conditional upon executing
 
 Forged during Abundance Codex v2.0 expansion sprint. Entry co-created with Gemini 3.1 Pro as part of multi-model dataset enrichment across 21 Grand Challenge domains.
 
+The Witness story (Aris) is a composite drawn from documented patterns in energy: white hydrogen — earth's new fuel. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

@@ -134,4 +134,6 @@ To accelerate this transition, individuals must actively shift their diets to "e
 
 Forged during Abundance Codex v2.0 expansion sprint. Entry co-created with Gemini 3.1 Pro as part of multi-model dataset enrichment across 21 Grand Challenge domains.
 
+The Witness story (Elias) is a composite drawn from documented patterns in food: regenerative ocean farming — the blue harvest. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

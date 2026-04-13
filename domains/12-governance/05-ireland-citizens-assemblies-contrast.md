@@ -170,4 +170,6 @@ Mary, a 62-year-old rural farmer and mother of three from County Mayo, was rando
 
 Primary sources: citizensassembly.ie official reports and archives; V-Dem Democracy Report 2026; Electoral Reform UK / Involve.org.uk coverage of 2018 referendum; OECD deliberative processes evaluations. Sparked by the cleanest measurable contrast between legacy deadlock and deliberative abundance in the Codex's governance graph.
 
+The Witness story (Mary) is a composite drawn from documented patterns in governance: ireland's citizens' assemblies — from decades of deadlock to deliberative legitimacy. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

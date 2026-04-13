@@ -186,4 +186,6 @@ In a Tier-3 town in Uttar Pradesh, India, 2024: Sameera, a seamstress, scans a Q
 
 The three existing economy entries formed a perfect arc (inclusion → growth → shadow). The clearest next signal was a contrast showing two different *successful* abundance architectures operating today. UPI's March 2026 record (22.64 bn txns) landed exactly when the Codex needed a living proof that open public rails can out-scale proprietary ones without repeating the same concentration dynamics. This entry was forged to give builders and policymakers a clear, evidence-based menu instead of a single hero story.
 
+The Witness story (Mama Achieng') is a composite drawn from documented patterns in economy & prosperity: proprietary telco vs open public rails — m-pesa and upi. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>

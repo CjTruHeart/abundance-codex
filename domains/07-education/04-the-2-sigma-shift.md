@@ -162,4 +162,6 @@ Maria, a ninth-grader in a rural Philippine public school, used to dread math cl
 
 Synthesized from Bloom 1984 paper, Khan Academy/Khanmigo deployment data (2025), recent ITS meta-reviews, and direct contrast against the three prior education entries. The goal was to make the pedagogical phase shift visceral and evidence-anchored without repeating the narrative already told in the origin_story.
 
+The Witness story (Maria) is a composite drawn from documented patterns in education: from bell curve to bloom curve. Core narrative elements are grounded in sources cited in the Evidence Anchors table.
+
 </details>
