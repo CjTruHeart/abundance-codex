@@ -30,7 +30,7 @@ version: "1.0"
 confidence: 0.78
 codex_version: "1.1"
 tags: ["precision-fermentation", "dairy-protein", "livestock-contrast", "second-domestication", "exponential-protein"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -70,13 +70,13 @@ The dairy contrast sits at the heart of the 6D exponential curve. Livestock prod
 ### 🗡️ The Critic — Shadow Keeper
 This shift is not frictionless. Traditional dairy regions (e.g., parts of India, EU, US Midwest) face stranded assets and job losses — millions of smallholders and workers whose identity and livelihood tie to cows. Transition pain is real: without deliberate retraining or income support, rural economies could fracture. Some LCAs show variability depending on allocation methods and energy sources; if fermenters run on coal-heavy grids, gains shrink. Incumbents may lobby for barriers or capture subsidies. Who gets left behind: marginal dairy farmers in water-stressed or low-tech regions without access to new biotech value chains. Distortion risk: techno-optimism that ignores power concentration in a few fermentation giants. Falsifiability edge: if scaled facilities fail to achieve projected cost curves or if regulatory capture blocks adoption, the abundance signal stalls. What this is NOT: a magic wand that instantly erases all hunger or makes every farmer a winner overnight.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift required is from "steward of the herd" to "steward of the code." Farmers who once measured success by herd size must release the identity of "animal keeper" and embrace "system designer." Consumers must drop the scarcity belief that "real dairy must come from a cow" and accept abundance that is kinder to animals and land. The warrior practice: train daily gratitude for the old system's service while courageously testing the new. Organizations clinging to legacy models will suffer; those that retrain people and repurpose land will thrive. Transformation is not theoretical — it is practiced one decision, one farm conversion, one product reformulation at a time.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Perfect Day is the clearest builder today. Founded 2014/2016, it achieved GRAS status in 2020 and commercial products in ice cream and nutrition by 2022. Its Gujarat facility (Bharuch district, JV with Zydus) targets H2 2026 start and 2027 ramp-up, designed for commercial profitability from day one. Other players (e.g., those producing casein, ovalbumin) are scaling pilots. Bottlenecks remain: bioreactor capex, feedstock optimization (ideally waste sugars), and regulatory harmonization. Technical readiness is high — lab-to-pilot proven; the learning curve is now manufacturing-scale. Leverage point today: integrate fermented whey into existing dairy lines to accelerate market pull.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 In rural Gujarat, dairy farmer Ramesh Patel (composite based on documented patterns from Indian smallholder transitions reported in agribusiness coverage) once managed 12 cows on shrinking pasture, battling feed costs that consumed 60% of income and monsoons that ruined fodder. In 2025 he began supplying milk to a cooperative now piloting Perfect Day's fermented whey blends. For the first time he saw a path: sell land back to rewilding projects, train on bioreactor maintenance through a new state program, and earn steady income from a local fermentation hub instead of volatile milk prices. One evening, tasting a perfectly creamy yogurt made without his cows, he told his wife, "The land can rest now — and so can we." The scarcity weight lifted; abundance felt personal.
 
 ---
@@ -166,3 +166,12 @@ In rural Gujarat, dairy farmer Ramesh Patel (composite based on documented patte
 - **Counter-sources:** Studies showing allocation sensitivity in LCAs or higher impacts if energy is not renewable
 - **Review after:** 2027-04-03 (post-India facility data)
 - **Ontology version:** codex-v1.1
+
+---
+
+<details>
+<summary>Raw Spark</summary>
+
+Forged during Abundance Codex v2.0 expansion sprint. Entry co-created with Super Grok as part of multi-model dataset enrichment across 21 Grand Challenge domains.
+
+</details>

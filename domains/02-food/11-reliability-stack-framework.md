@@ -29,6 +29,7 @@ updated: "2026-04-04"
 version: "1.0"
 confidence: 0.81
 codex_version: "1.1"
+co_author_model: "chatgpt-5.4-thinking"
 tags: ["framework", "food-system", "nutrition", "resilience", "portfolio-thinking", "crop-diversity", "alternative-protein"]
 ---
 
@@ -99,7 +100,7 @@ The falsifiability edge is merciless. If a layered food system does not reduce t
 
 The extraction test is also simple: who owns the strains, the seed, the data, the processing capacity, the standards? If the answer is "a handful of firms," then the stack is brittle no matter how futuristic it sounds.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 Food is difficult because it is never only fuel.
 
 People will surrender old phones faster than old foods, because food is tied to mother tongue, grief, class, memory, religion, survival, and belonging. So when a new food technology appears, the argument on the surface is often about taste or safety, but the deeper argument is about identity. Who are we if the meal changes? What happens to the stories carried by land, herd, kitchen, and season?
@@ -114,7 +115,7 @@ There is also grief here. Some livelihoods will change. Some familiar systems wi
 
 The discipline is this: before reacting to a food innovation, ask which layer it serves. Then ask whether you are defending nourishment, or merely familiarity.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Build the stack with redundancy, not slogans.
 
 **Layer 1: Staple reliability.** This still depends on field crops, seed systems, irrigation where sensible, storage, and public research. CGIAR and IRRI are not relics; they are core infrastructure for climate-resilient cereals, legumes, and farmer-facing breeding pipelines.

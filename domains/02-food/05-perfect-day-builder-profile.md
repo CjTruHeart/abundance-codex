@@ -26,7 +26,7 @@ version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
 tags: ["perfect-day", "precision-fermentation", "dairy-protein", "builder-profile", "synthetic-biology", "second-domestication"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -66,13 +66,13 @@ Perfect Day sits squarely in the disruptive-to-demonetized phase of the 6D curve
 ### 🗡️ The Critic — Shadow Keeper
 Scaling is never frictionless. Traditional dairy regions — especially smallholders in India and the US Midwest — face job displacement and identity loss if retraining and land-repurposing programs lag. The Gujarat facility is a bright spot, but not every dairy community will have equivalent transition support. Incumbents may lobby for regulatory hurdles or capture subsidies. LCAs depend on renewable energy grids; coal-heavy regions see diminished gains. Who gets left behind: marginal farmers without access to new biotech value chains or retraining. Distortion risk: "tech solves everything" narratives that ignore cultural attachment to traditional dairy. Falsifiability edge: if the Gujarat plant (or future facilities) misses cost curves or faces sustained consumer/regulatory backlash, the abundance signal weakens. What this is NOT: an automatic win for every dairy worker or a replacement for all animal agriculture without deliberate policy.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift demanded is from "steward of the herd" to "steward of the code." Farmers and cooperatives must release the generational identity tied to livestock and embrace the role of system designers and fermenter operators. Consumers must drop the scarcity belief that "real dairy comes only from a cow." The warrior practice: honor the old system's service while courageously testing the new — one product reformulation, one farm partnership, one retraining cohort at a time. Organizations that cling to legacy models will suffer; those that retrain people and repurpose land will thrive. Transformation is practiced daily, not declared.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Perfect Day is the clearest active builder. Founded 2014 by Ryan Pandya and Perumal Gandhi, it achieved GRAS status, commercial products, and multiple FDA approvals. Its current US and global capacity is sold out; demand outpaces supply. The flagship Gujarat facility (Bharuch district, 50:50 JV with Zydus Lifesciences, Sterling Biotech) is a full commercial-scale plant — not a pilot — designed for long-term reliability and instant profitability at launch. Bottlenecks remain: bioreactor capex, feedstock optimization (ideally waste sugars), and global regulatory harmonization. Technical readiness is high; the learning curve is now manufacturing-scale. Leverage points today: B2B partnerships with major dairy brands and cooperatives to accelerate market pull while supporting worker transitions.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 Ryan Pandya, co-founder and CEO, still recalls the exact moment in 2014 when the idea crystallized: standing in a field, looking at a cow and realizing the inefficiency. Years of engineering, investor skepticism, and technical setbacks followed. By late 2025, with the Gujarat facility on track, he described the feeling as "the first time the vision felt inevitable." For one smallholder dairy family in Gujarat (composite drawn from documented patterns in Indian agribusiness reporting), the same moment arrived differently: watching a cooperative pilot blend fermented whey into local yogurt and realizing their land could rest while their income stabilized through new biotech roles. The scarcity weight of endless feed costs and monsoons lifted; abundance became personal.
 
 ---
@@ -162,3 +162,12 @@ Ryan Pandya, co-founder and CEO, still recalls the exact moment in 2014 when the
 - **Counter-sources:** Reports on allocation sensitivity in LCAs or slower-than-expected scaling in other fermentation players
 - **Review after:** 2027-04-03 (post-Gujarat ramp data)
 - **Ontology version:** codex-v1.1
+
+---
+
+<details>
+<summary>Raw Spark</summary>
+
+Forged during Abundance Codex v2.0 expansion sprint. Entry co-created with Super Grok as part of multi-model dataset enrichment across 21 Grand Challenge domains.
+
+</details>

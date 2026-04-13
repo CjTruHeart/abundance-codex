@@ -26,7 +26,7 @@ version: "1.0"
 confidence: 0.81
 codex_version: "1.1"
 tags: ["precision-fermentation", "cost-curve", "learning-curve", "alternative-protein", "dairy-proteins", "exponential-trendline"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -60,13 +60,13 @@ This trendline is textbook 6D exponential behavior. Precision fermentation is fu
 ### 🗡️ The Critic — Shadow Keeper
 Exponential curves do not guarantee equitable outcomes. Capital-intensive bioreactors favor well-funded players; if IP concentration or energy access remains uneven, new scarcity may replace the old. Smallholder dairy and livestock communities face real economic displacement if retraining lags. Who gets left behind: rural economies in regions without policy support for transition. Distortion risk: cherry-picking early pilot data while ignoring full-system energy or feedstock dependencies. Falsifiability edge: if actual facility data post-2027 shows learning-curve flattening or sustained higher costs than projected, the abundance signal weakens. What this is NOT: automatic proof that every traditional protein system will vanish without friction or policy intervention.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift is from "protein comes from animals" to "protein comes from code." This is not merely technological — it is an identity transformation for farmers, cooperatives, and consumers. The warrior practice: honor the old system's service while courageously testing the new. Organizations that cling to legacy models will suffer; those that retrain people and repurpose land will thrive. Transformation is practiced daily — one product swap, one farm conversion, one retraining cohort at a time.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Perfect Day's Gujarat facility (H2 2026 start, 2027 ramp) is the clearest on-ramp to commercial scale, designed for profitability from day one. Multiple players (Remilk, Imagindairy, New Culture, etc.) are moving from pilot to multi-thousand-tonne plants. Bottlenecks today: bioreactor capex and consistent low-cost feedstocks (ideally waste sugars). The learning curve is now being proven at manufacturing scale. Leverage point right now: B2B integration into existing dairy lines to accelerate volume doublings and cost declines.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 A food scientist in Pune, India tracks the price of precision-fermented whey protein isolate on her procurement dashboard. In 2023 it cost 8× bovine whey. By mid-2025 it was 3×. Her latest quote for 2027 delivery from the Gujarat facility: 1.2×. "When I started, colleagues laughed at the price sheets," she says. "Now they're placing orders." One data point on a spreadsheet. One learning curve proving itself. One future arriving faster than anyone planned.
 
 ---
@@ -157,3 +157,12 @@ A food scientist in Pune, India tracks the price of precision-fermented whey pro
 - **Counter-sources:** Reports noting variance in dairy-protein subset sizing or slower realized CAGRs in early commercial plants
 - **Review after:** 2027-04-03 (post-Gujarat and peer facility data)
 - **Ontology version:** codex-v1.1
+
+---
+
+<details>
+<summary>Raw Spark</summary>
+
+Forged during Abundance Codex v2.0 expansion sprint. Entry co-created with Super Grok as part of multi-model dataset enrichment across 21 Grand Challenge domains.
+
+</details>

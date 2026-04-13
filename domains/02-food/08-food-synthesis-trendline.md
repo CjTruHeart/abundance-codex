@@ -17,11 +17,12 @@ domain_connections:
     note: "Demonetization of protein triggers severe devaluation of global agricultural land assets, forcing radical restructuring of rural economies."
 status: "forged"
 created: "2026-04-04"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.88
 codex_version: "1.1"
 tags: ["trendline", "precision-fermentation", "single-cell-protein", "hydrogenotrophs", "solar-foods", "protein-synthesis"]
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -57,13 +58,13 @@ The disruption of bulk protein is not an agricultural shift; it is a thermodynam
 ### 🗡️ The Critic
 The data driving this trendline conveniently obscures the terrifying risk of intellectual property consolidation. If legacy agricultural monopolies are simply replaced by a handful of biotech conglomerates holding the exclusive patents on hyper-efficient hydrogenotrophic strains, we have not achieved abundance; we have engineered an impenetrable era of IP feudalism. Furthermore, this "food from air" requires massive, continuous baseload electricity. If the global energy grid is not comprehensively decarbonized, scaling these bioreactors simply shifts the environmental burden from terrestrial deforestation to fossil-fuel combustion. Finally, the triumphant narrative of "freeing up 3.3 billion hectares" ignores the socio-economic devastation awaiting the global south. When bulk soy and livestock feed markets collapse against the sheer economic gravity of single-cell proteins, millions of rural livelihoods will evaporate overnight without a dedicated transition architecture.
 
-### 🙏 The Sensei
+### 🧘 The Sensei
 The deepest friction in adopting single-cell proteins is the profound psychological uncanny valley it creates within the human mind. For our entire evolutionary history, sustenance has required a direct, visceral transaction with the earth: the breaking of soil, the reliance on weather, the sacrifice of animal life. To suddenly derive our biological building blocks from invisible microbes fed by electricity and air feels, to the uninitiated, intensely unnatural. The transformation required here is learning to revere the microscopic just as we revere the macroscopic. We must evolve our definition of "natural" to realize that a stainless-steel bioreactor preserving the rainforest is fundamentally more harmonious with the earth than a "traditional" pasture built on the ashes of a destroyed ecosystem.
 
-### 🔨 The Builder
+### 🔧 The Builder
 The trendline is entirely dependent on relentless scale-up and brutal operational execution. We are moving from conceptual data to concrete steel. Solar Foods' Factory 01 is operational, achieving critical design capacities of 160 tons annually with an energy efficiency (O2/CO2) of 2.7, and is set to optimize to 230 tons by 2026. The immediate focus is scaling to Factory 02 in Lappeenranta, Finland, targeting an initial 6,400 tons by 2028 with a modular pathway to 12,800 tons. In parallel, the B2B feed sector is accelerating; the single-cell protein market hit US$195 million in 2024 and is projected to reach US$420 million by 2031. Builders must ruthlessly focus on securing regulatory approvals (like Solein's US GRAS status in 2024\) and navigating the multi-year CapEx fundraising required to build these fermentation hubs alongside renewable energy grids.
 
-### 🌍 The Witness
+### 👁️ The Witness
 I always thought "food from air" would taste like a sterile laboratory experiment. When I visited the Fico pop-up in Singapore in late 2023, I was deeply skeptical of the Solein Chocolate Gelato. I expected a metallic aftertaste or a chalky texture—the typical hallmarks of early plant-based substitutes. But as the gelato melted on my tongue, there was absolutely nothing to betray its origin. It was rich, creamy, and entirely neutral in its base profile, letting the chocolate completely dominate the palate. I sat looking out at the heavy, humid Singapore skyline, eating a dessert made from the very carbon dioxide in the air around me. It was the first time the abstract promise of "climate technology" felt intimate, delicious, and utterly normal.
 
 ## Evidence Anchors
@@ -117,3 +118,12 @@ To accelerate this transition, individuals and organizations must actively deman
 * **source_type:** Institutional Data and Frontier Research (FAO, OECD, WHO, Solar Foods, GreenWave, emerging industry publications).
 * **evidence_quality:** Emerging. Anchored in verified institutional frameworks, operational metrics, and emerging commercial data.
 * **last_verified:** 2026-04-04
+
+---
+
+<details>
+<summary>Raw Spark</summary>
+
+Forged during Abundance Codex v2.0 expansion sprint. Entry co-created with Gemini 3.1 Pro as part of multi-model dataset enrichment across 21 Grand Challenge domains.
+
+</details>

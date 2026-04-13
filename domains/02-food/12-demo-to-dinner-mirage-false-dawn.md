@@ -25,9 +25,11 @@ domain_connections:
     note: "Land and water savings can be offset by energy intensity or upstream impacts if climate claims outrun reality."
 status: "forged"
 created: "2026-04-04"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.83
 codex_version: "1.1"
+co_author_model: "chatgpt-5.4-thinking"
 tags: ["false-dawn", "food-tech", "vertical-farming", "cultivated-meat", "unit-economics"]
 ---
 
@@ -80,7 +82,7 @@ Name the transition pain honestly. Some sectors will die. Some founders will dis
 
 Falsifiability edge: this entry fails if controlled-environment food and cultivated meat consistently clear five bars at once within the next decade—mass-market pricing, fair labor, low-carbon energy, regulatory durability, and repeatable production at commercial scale. If they do, the false dawn becomes an early stumble, not a structural warning. Until then, the burden of proof belongs to the claimants, not the skeptics.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner trap here is not greed alone. It is impatience disguised as vision.
 
 People want to skip grief. They want to leap from a broken food system to a clean one without sitting in the slow disciplines that real nourishment demands. Soil takes time. Trust takes time. Industrial retraining takes time. Biological scale-up takes time. So the mind reaches for spectacle. The futuristic object becomes a psychological narcotic: if it looks advanced enough, maybe we do not have to face how much coordination, humility, and repair this transition actually requires.
@@ -91,7 +93,7 @@ So what identity must be released? The savior identity. The founder who needs to
 
 This does not mean becoming timid. It means becoming exact. Mature abundance is emotionally strong enough to say, "Not yet." Not because the dream is wrong, but because lying about timing weakens the very future we claim to serve. The disciplined builder does not confuse a sparring win with mastery. The disciplined civilization does not confuse an elegant demo with a feeding system.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Here is the ground truth filter: where the product is high-value, the crop cycle is fast, the quality premium is real, and the energy or bioprocess cost can be carried, the model may work. That is why the survivors are narrowing, not broadening. Plenty restructured around premium strawberries. AeroFarms reached profitability by focusing on microgreens after bankruptcy. In other words, the sector is moving away from "replace agriculture" and toward "win a specific lane."
 
 That is a healthy correction.
@@ -102,7 +104,7 @@ What should be built now? Shared pilot infrastructure. Public-interest scale-up 
 
 The abundance move is not to stop building. It is to stop calling a prototype a civilization.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 On November 8, 2021, "Nora"—the pseudonym used by a former AppHarvest worker in reporting by Austyn Gaffney—sat down for lunch after a morning of clipping and trussing tomato vines that rose almost four stories above her in Morehead, Kentucky. Word moved through the canteen before the senator arrived: the Spanish-speaking contract workers had to be gone.
 
 She watched them gather their things and leave on white buses.
