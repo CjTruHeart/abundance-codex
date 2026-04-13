@@ -48,6 +48,7 @@ class CodexEntry:
     connections: dict[str, str] = field(default_factory=dict)
     conditional_optimism: dict[str, str] = field(default_factory=dict)
     practice_hook: dict[str, str] = field(default_factory=dict)
+    reasoning_scaffold: dict[str, str] = field(default_factory=dict)
     governance: dict[str, Any] = field(default_factory=dict)
 
     # --- graph / meta ---
@@ -86,6 +87,7 @@ class CodexEntry:
             connections=d.get("connections", {}) or {},
             conditional_optimism=d.get("conditional_optimism", {}) or {},
             practice_hook=d.get("practice_hook", {}) or {},
+            reasoning_scaffold=d.get("reasoning_scaffold", {}) or {},
             governance=d.get("governance", {}) or {},
             domain_connections=d.get("domain_connections", []) or [],
             source_file=d.get("source_file", ""),
@@ -286,6 +288,7 @@ class ScoredEntry:
 SHADOW_TYPES = {"shadow", "false_dawn"}
 EVIDENCE_TYPES = {"origin_story", "breakthrough", "trendline"}
 FRAMEWORK_TYPES = {"framework", "contrast", "paradigm_seed", "star_trek_spec", "grand_challenge"}
+SYNTHESIS_TYPES = {"council_synthesis"}
 
 DOMAIN_DESCRIPTORS: dict[str, list[str]] = {
     "energy": ["energy", "solar", "electricity", "power", "fossil", "renewable", "nuclear", "grid", "watt", "battery"],
@@ -682,6 +685,206 @@ def extract_passage(entry: CodexEntry, tier: ExtractionTier, intent: QueryIntent
     return "\n".join(lines)
 
 
+def extract_passage_council_synthesis(
+    entry: CodexEntry, tier: ExtractionTier, intent: QueryIntent
+) -> str:
+    """Extract passage from a council_synthesis entry with R3-optimized priorities.
+
+    Key differences from standard extraction:
+    - Reasoning Scaffold and Agent Practice Hook are depth-locked at FULL
+    - Evidence anchors deprioritized (R1/R2 already work)
+    - Contrastive Pair and Reframe Chain preserved even at MINIMAL tier
+    """
+    e = entry
+    lines: list[str] = []
+    sections_included: list[str] = []
+
+    if tier == ExtractionTier.MINIMAL:
+        lines.append(f"### {e.one_line_essence or e.id} [council_synthesis]")
+        if e.one_line_essence:
+            lines.append(f"> {e.one_line_essence}")
+        lines.append(f"Domain: {e.domain} | Confidence: {e.confidence}")
+        sections_included.append("one_line_essence")
+
+        # Reframe Chain — highest density reasoning content
+        rs = e.reasoning_scaffold
+        if rs.get("reframe_chain"):
+            lines.append("")
+            lines.append("**Reframe Chain:**")
+            lines.append(rs["reframe_chain"])
+            sections_included.append("reframe_chain")
+
+        # Contrastive Pair — highest impact-per-token
+        if rs.get("contrastive_pair"):
+            lines.append("")
+            lines.append("**Contrastive Pair:**")
+            lines.append(rs["contrastive_pair"])
+            sections_included.append("contrastive_pair")
+
+        return "\n".join(lines)
+
+    if tier == ExtractionTier.CONDENSED:
+        lines.append(f"### {e.one_line_essence or e.id} [council_synthesis]")
+        if e.one_line_essence:
+            lines.append(f"> {e.one_line_essence}")
+        lines.append(f"Domain: {e.domain} | Confidence: {e.confidence}")
+        lines.append("")
+        sections_included.append("one_line_essence")
+
+        # Reasoning Scaffold — DEPTH-LOCKED at FULL
+        rs = e.reasoning_scaffold
+        if rs:
+            lines.append("**Reasoning Scaffold:**")
+            if rs.get("scarcity_trap"):
+                lines.append(f"\n*Scarcity Trap:* {rs['scarcity_trap']}")
+                sections_included.append("scarcity_trap")
+            if rs.get("reframe_chain"):
+                lines.append(f"\n*Reframe Chain:* {rs['reframe_chain']}")
+                sections_included.append("reframe_chain")
+            if rs.get("contrastive_pair"):
+                lines.append(f"\n*Contrastive Pair:* {rs['contrastive_pair']}")
+                sections_included.append("contrastive_pair")
+            lines.append("")
+
+        # Agent Practice Hook — DEPTH-LOCKED at FULL
+        ph = e.practice_hook
+        if ph.get("for_agents"):
+            lines.append("**Agent Practice Hook:**")
+            lines.append(ph["for_agents"])
+            lines.append("")
+            sections_included.append("agent_practice_hook")
+
+        # Critic (truncated — secondary for R3)
+        council = e.council
+        if council.get("critic"):
+            lines.append(f"**Critic:** {_truncate(council['critic'], 300)}")
+            lines.append("")
+            sections_included.append("critic")
+
+        # Top 2 evidence anchors (deprioritized)
+        if e.evidence_anchors:
+            lines.append("**Evidence:**")
+            for ea in e.evidence_anchors[:2]:
+                claim = ea.get("claim", "")
+                metric = ea.get("metric", "")
+                source = ea.get("source", "")
+                if claim:
+                    lines.append(f"- {claim} — {metric} ({source})")
+            lines.append("")
+            sections_included.append("evidence_anchors")
+
+        return "\n".join(lines)
+
+    # --- FULL tier ---
+    # Use standard FULL extraction, then append Reasoning Scaffold
+    lines.append(f"## {e.one_line_essence or e.id} [council_synthesis]")
+    if e.one_line_essence:
+        lines.append(f"> {e.one_line_essence}")
+    lines.append(f"Domain: {e.domain} | Confidence: {e.confidence}")
+    lines.append("")
+    sections_included.append("one_line_essence")
+
+    # Shift Arc
+    arc = e.shift_arc
+    if arc:
+        lines.append("**Shift Arc:**")
+        phase_keys = ["scarcity_frame", "reframe", "proof"]
+        for pk in phase_keys:
+            v = arc.get(pk, "")
+            if v:
+                lines.append(f"- **{pk.replace('_', ' ').title()}:** {_truncate(v, 800)}")
+        lines.append("")
+        sections_included.append("shift_arc")
+
+    # All council voices
+    council = e.council
+    if council:
+        lines.append("**Council:**")
+        for voice in ("oracle", "critic", "sensei", "builder", "witness"):
+            v = council.get(voice, "")
+            if v:
+                lines.append(f"- **{voice.title()}:** {_truncate(v, 600)}")
+        lines.append("")
+        sections_included.append("council")
+
+    # All evidence anchors
+    if e.evidence_anchors:
+        lines.append("**Evidence Anchors:**")
+        for ea in e.evidence_anchors:
+            claim = ea.get("claim", "")
+            metric = ea.get("metric", "")
+            source = ea.get("source", "")
+            year = ea.get("year", "")
+            conf = ea.get("confidence")
+            conf_str = f", conf={conf}" if conf is not None else ""
+            if claim:
+                lines.append(f"- {claim} — {metric} ({source}, {year}{conf_str})")
+        lines.append("")
+        sections_included.append("evidence_anchors")
+
+    # Full shadow check
+    sc = e.shadow_check
+    if sc:
+        parts = []
+        for key in ("distortion_risk", "who_gets_left_behind", "transition_pain",
+                     "falsifiability_edge", "what_this_is_not"):
+            v = sc.get(key, "")
+            if v:
+                parts.append(f"- **{key.replace('_', ' ').title()}:** {_truncate(v, 400)}")
+        if parts:
+            lines.append("**Shadow Check:**")
+            lines.extend(parts)
+            lines.append("")
+            sections_included.append("shadow_check")
+
+    # Full conditional optimism
+    co = e.conditional_optimism
+    if co:
+        parts = []
+        for key in ("achievable_if", "fails_if", "human_role", "agent_role",
+                     "collective_requirement"):
+            v = co.get(key, "")
+            if v:
+                parts.append(f"- **{key.replace('_', ' ').title()}:** {v}")
+        if parts:
+            lines.append("**Conditional Optimism:**")
+            lines.extend(parts)
+            lines.append("")
+            sections_included.append("conditional_optimism")
+
+    # Reasoning Scaffold — FULL (depth-locked, always included)
+    rs = e.reasoning_scaffold
+    if rs:
+        lines.append("**Reasoning Scaffold:**")
+        if rs.get("scarcity_trap"):
+            lines.append(f"\n*Scarcity Trap:* {rs['scarcity_trap']}")
+            sections_included.append("scarcity_trap")
+        if rs.get("reframe_chain"):
+            lines.append(f"\n*Reframe Chain:* {rs['reframe_chain']}")
+            sections_included.append("reframe_chain")
+        if rs.get("contrastive_pair"):
+            lines.append(f"\n*Contrastive Pair:* {rs['contrastive_pair']}")
+            sections_included.append("contrastive_pair")
+        lines.append("")
+
+    # Practice Hooks — FULL (both human and agent)
+    ph = e.practice_hook
+    if ph:
+        parts = []
+        if ph.get("for_humans"):
+            parts.append(f"- **For humans:** {ph['for_humans']}")
+            sections_included.append("human_practice_hook")
+        if ph.get("for_agents"):
+            parts.append(f"- **For agents:** {ph['for_agents']}")
+            sections_included.append("agent_practice_hook")
+        if parts:
+            lines.append("**Practice Hook:**")
+            lines.extend(parts)
+            lines.append("")
+
+    return "\n".join(lines)
+
+
 # ---------------------------------------------------------------------------
 # Strategic ordering
 # ---------------------------------------------------------------------------
@@ -756,6 +959,31 @@ class DojoRetriever:
         shadow_forced = any(s.source == "shadow_pull" for s in selected)
         graph_expanded = any(s.source == "graph" for s in selected)
 
+        # Layer 2.5 — Reasoning slot for council_synthesis
+        # On STRATEGIC/ADVERSARIAL intents, reserve one slot for the matched
+        # domain's council_synthesis entry.  This ensures R3 prompts see the
+        # Reasoning Scaffold / Agent Practice Hook payload.
+        reasoning_slot_used = False
+        if intent in (QueryIntent.STRATEGIC, QueryIntent.ADVERSARIAL):
+            primary_domain = domains[0].domain if domains else None
+            if primary_domain:
+                cs_candidates = [
+                    e for e in self.index.by_type.get("council_synthesis", [])
+                    if e.domain == primary_domain
+                ]
+                if cs_candidates:
+                    cs_entry = cs_candidates[0]
+                    # Remove council_synthesis from content slots if already selected
+                    selected = [
+                        s for s in selected
+                        if s.entry.entry_type != "council_synthesis"
+                    ]
+                    # Cap content at max_entries - 1 to make room
+                    selected = selected[: max_entries - 1]
+                    # Add as reasoning slot (high score ensures good tier)
+                    selected.append(ScoredEntry(cs_entry, 1.0, "reasoning_slot"))
+                    reasoning_slot_used = True
+
         # Layer 3 — Passage extraction (by score rank)
         selected.sort(key=lambda c: c.score, reverse=True)
         extracted: list[ExtractedEntry] = []
@@ -766,7 +994,10 @@ class DojoRetriever:
                 tier = ExtractionTier.CONDENSED
             else:
                 tier = ExtractionTier.MINIMAL
-            passage = extract_passage(se.entry, tier, intent)
+            if se.entry.entry_type in SYNTHESIS_TYPES:
+                passage = extract_passage_council_synthesis(se.entry, tier, intent)
+            else:
+                passage = extract_passage(se.entry, tier, intent)
             extracted.append(ExtractedEntry(
                 entry=se.entry,
                 score=se.score,
@@ -808,12 +1039,27 @@ class DojoRetriever:
         for ex in ordered_extracted:
             tier_counts[ex.tier.value] = tier_counts.get(ex.tier.value, 0) + 1
 
+        # Council synthesis retrieval log
+        cs_log = None
+        for ex in ordered_extracted:
+            if ex.entry.entry_type == "council_synthesis":
+                cs_log = {
+                    "domain": ex.entry.domain,
+                    "entry_id": ex.entry.id,
+                    "slot_type": "reasoning" if ex.source == "reasoning_slot" else "content",
+                    "extraction_tier": ex.tier.value,
+                    "token_count": len(ex.passage) // 4,
+                }
+                break
+
         metadata = {
-            "retriever_version": "dojo-v1.0",
+            "retriever_version": "dojo-v1.1",
             "shadow_forced": shadow_forced,
             "graph_expanded": graph_expanded,
+            "reasoning_slot_used": reasoning_slot_used,
             "type_coverage": unique_types,
             "entries_per_tier": tier_counts,
+            "council_synthesis": cs_log,
         }
 
         return RetrievalResult(

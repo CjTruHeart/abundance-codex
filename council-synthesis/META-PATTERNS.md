@@ -43,7 +43,7 @@ Cross-pillar convergence patterns observed during council synthesis forging. Eac
 
 **Failure mode:** Format gap — the right *topics* are present but delivered as diagnosis rather than prescription. The entries know what matters but are structurally unable to teach anyone how to act on it.
 
-**R3 sub-prediction:** Council synthesis entries for Pillar II domains should show the largest R3 improvement (+0.4 to +0.7), because the analytical substrate already exists at high quality (highest ACE delta +0.64) — the entries only need protocol overlays, decision trees, and triage frameworks to convert diagnosis into actionable guidance. The format gap is more tractable than the content gap because the knowledge is already present.
+**R3 sub-prediction:** Council synthesis entries for Pillar II domains should show a meaningful R3 improvement (+0.2 to +0.4), because the analytical substrate already exists at high quality (highest ACE delta +0.64) — the entries only need protocol overlays, decision trees, and triage frameworks to convert diagnosis into actionable guidance. The format gap is more tractable than the content gap because the knowledge is already present. (Revised from +0.4 to +0.7 — ceiling effect on 5-point scale constrains maximum delta for already-high-scoring pillars.)
 
 ---
 

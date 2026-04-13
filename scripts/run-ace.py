@@ -16,6 +16,8 @@ are preserved in evals/ace/results/v1.0/ and compared against v2.0 runs via
 scripts/ace-v1-opus-rebaseline.py.
 """
 
+from __future__ import annotations
+
 import argparse
 import asyncio
 import hashlib
@@ -659,10 +661,10 @@ async def main(args):
     if args.dry_run:
         print(f"\n{'='*72}")
         print(f"  ACE DRY RUN — Retrieval Preview (no API calls)")
-        print(f"  Prompts: {len(prompts)} | Retriever: dojo-v1.0")
+        print(f"  Prompts: {len(prompts)} | Retriever: dojo-v1.1")
         print(f"{'='*72}\n")
 
-        header = f"{'ID':<8} {'Domain':<28} {'Ring':>4} {'Intent':<12} {'Entries':>7} {'Tokens':>7} {'Shadow?':<8} {'Types'}"
+        header = f"{'ID':<8} {'Domain':<28} {'Ring':>4} {'Intent':<12} {'Entries':>7} {'Tokens':>7} {'Shadow?':<8} {'CS Slot':<10} {'Types'}"
         print(header)
         print("-" * len(header))
 
@@ -671,6 +673,10 @@ async def main(args):
         graph_count = 0
         entry_totals = []
         errors = []
+        # Council synthesis tracking per ring
+        cs_ring_stats = {1: {"selected": 0, "reasoning": 0, "content": 0, "tokens": []},
+                         2: {"selected": 0, "reasoning": 0, "content": 0, "tokens": []},
+                         3: {"selected": 0, "reasoning": 0, "content": 0, "tokens": []}}
 
         dry_max_entries = cfg["retrieval"].get("max_entries", 9)
         for p in prompts:
@@ -688,10 +694,24 @@ async def main(args):
                 n_entries = len(result.entries)
                 tokens = result.token_estimate
 
+                # Council synthesis slot info
+                cs_info = m.get("council_synthesis")
+                cs_label = ""
+                if cs_info:
+                    cs_label = cs_info.get("slot_type", "?")
+                    ring = p["ring"]
+                    if ring in cs_ring_stats:
+                        cs_ring_stats[ring]["selected"] += 1
+                        cs_ring_stats[ring]["tokens"].append(cs_info.get("token_count", 0))
+                        if cs_info.get("slot_type") == "reasoning":
+                            cs_ring_stats[ring]["reasoning"] += 1
+                        else:
+                            cs_ring_stats[ring]["content"] += 1
+
                 print(
                     f"{p['id']:<8} {p['domain']:<28} {p['ring']:>4} "
                     f"{result.intent.value:<12} {n_entries:>7} {tokens:>7} "
-                    f"{'YES' if shadow else 'no':<8} {types}"
+                    f"{'YES' if shadow else 'no':<8} {cs_label or '-':<10} {types}"
                 )
 
                 token_totals.append(tokens)
@@ -722,6 +742,18 @@ async def main(args):
                 print(f"  ⚠ Over 25k tokens: {len(over_budget)} prompts")
             else:
                 print(f"  All token estimates under 25,000")
+        # Council synthesis per-ring summary
+        print(f"\n  Council Synthesis Retrieval:")
+        print(f"  {'Ring':<6} {'Prompts':>8} {'CS Selected':>12} {'Reasoning':>10} {'Content':>8} {'Avg Tokens':>11}")
+        print(f"  {'-'*57}")
+        for ring in (1, 2, 3):
+            s = cs_ring_stats[ring]
+            avg_tok = mean(s["tokens"]) if s["tokens"] else 0
+            print(
+                f"  R{ring:<5} {21:>8} {s['selected']:>12} "
+                f"{s['reasoning']:>10} {s['content']:>8} {avg_tok:>11.0f}"
+            )
+
         if errors:
             print(f"\n  ERRORS ({len(errors)}):")
             for pid, err in errors:

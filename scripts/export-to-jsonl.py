@@ -99,7 +99,7 @@ def extract_shift_arc(sections):
 
 def extract_council(sections):
     """Extract the 5 council voices."""
-    council_content = sections.get("The Council Speaks", "")
+    council_content = sections.get("The Council Speaks", "") or sections.get("The Council", "")
     if not council_content:
         return {}
 
@@ -303,6 +303,34 @@ def extract_practice_hook(sections):
     if agents_match:
         result["for_agents"] = agents_match.group(1).strip()
 
+    # Fallback: subsection format (council_synthesis entries use ### headers)
+    if not result:
+        subs = split_subsections(content)
+        for sub_header, sub_content in subs.items():
+            lower = sub_header.lower()
+            if lower.startswith("for humans"):
+                result["for_humans"] = sub_content.strip()
+            elif lower.startswith("for agents") or lower.startswith("for ai agents"):
+                result["for_agents"] = sub_content.strip()
+
+    return result
+
+
+def extract_reasoning_scaffold(sections):
+    """Extract Reasoning Scaffold section (council_synthesis entries only)."""
+    content = sections.get("Reasoning Scaffold", "")
+    if not content:
+        return {}
+
+    subs = split_subsections(content)
+    result = {}
+    for sub_header, sub_content in subs.items():
+        if "Scarcity Trap" in sub_header:
+            result["scarcity_trap"] = sub_content.strip()
+        elif "Reframe Chain" in sub_header:
+            result["reframe_chain"] = sub_content.strip()
+        elif "Contrastive Pair" in sub_header:
+            result["contrastive_pair"] = sub_content.strip()
     return result
 
 
@@ -340,6 +368,7 @@ def process_entry(filepath, repo_root):
     entry["connections"] = extract_connections(sections)
     entry["conditional_optimism"] = extract_conditional_optimism(sections)
     entry["practice_hook"] = extract_practice_hook(sections)
+    entry["reasoning_scaffold"] = extract_reasoning_scaffold(sections)
     entry["governance"] = extract_governance(sections)
 
     # Source file as relative path
