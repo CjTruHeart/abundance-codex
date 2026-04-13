@@ -25,7 +25,7 @@ updated: "2026-04-10"
 version: "1.0"
 confidence: 0.84
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["space", "contrast", "gravity-well", "reentry-economy", "launch-cost", "orbital-manufacturing", "Varda", "FAA-Part-450"]
@@ -109,7 +109,7 @@ Third, **landing-zone scarcity**. Reentry requires politically stable, geographi
 
 Falsifiability edge: if reusable launch plateaus above $1,000/kg or if a major reentry failure triggers a regulatory freeze, the contrast collapses and orbital manufacturing remains a niche curiosity for high-margin pharmaceuticals.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Gravity is the weight of our planetary childhood. To inhabit the orbital era, you must first let go of the assumption that *up* is expensive and *down* is free. Both directions now have a price, and both directions now carry value. The shift is not technical. It is psychological.
 
@@ -118,7 +118,7 @@ To: *Space is somewhere we work.*
 
 Practitioners of the orbital economy must develop a new discipline: the patience to wait through reentry licensing, the humility to operate in an environment that does not forgive error, and the long-horizon commitment to build infrastructure whose returns will arrive over decades, not quarters.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 What ships this contrast is unsexy logistics. The Varda satellite bus is built around vertical integration: in-house heatshields, in-house thermal protection, in-house thermal-vacuum testing, in-house mission operations. The Rocket Lab Pioneer bus provides the orbital platform. The FAA Part 450 framework provides the regulatory rails. The Utah Test and Training Range provides the landing pad.
 
@@ -126,7 +126,7 @@ Technical readiness: **operational at low cadence**. Bottleneck: **landing range
 
 What can be built now: high-value pharmaceutical synthesis, hypersonic testbeds, materials science experiments, and semiconductor wafer growth research. What still needs building: high-cadence ($500K/mission) reentry operations, multi-jurisdiction landing ranges, and a global insurance market for orbital manufacturing.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from Varda mission press coverage and Utah Test and Training Range reentry operations.**
 

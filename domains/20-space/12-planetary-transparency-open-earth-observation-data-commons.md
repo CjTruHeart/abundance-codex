@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.87
 codex_version: "1.1"
-co_author_model: "GPT-5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["space", "trendline", "earth-observation", "open-data", "public-good", "planetary-transparency", "remote-sensing", "copernicus", "landsat"]
@@ -144,7 +144,7 @@ Who gets left behind? Smallholder farmers without analytic intermediaries. Local
 
 The abundance claim holds only if the commons is protected from enclosure at the layer above the pixel: tooling, interpretation, and institutional power.
 
-### 🔨 The Builder -- Ground Truth
+### 🔧 The Builder -- Ground Truth
 
 The build is already underway, which is why this entry belongs in the Codex as a trendline rather than a speculative seed.
 

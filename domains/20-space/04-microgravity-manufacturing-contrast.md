@@ -21,10 +21,11 @@ domain_connections:
     note: "Requires sustainable re-entry and debris-mitigation practices to avoid worsening the orbital commons crisis"
 status: "forged"
 created: "2026-04-04"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["space", "microgravity", "in-space-manufacturing", "contrast", "orbital-economy", "pharma", "semiconductors", "Varda", "Space-Forge"]
@@ -69,13 +70,13 @@ The pattern is identical to every prior domain the Codex tracks: once access cos
 ### 🗡️ The Critic — Shadow Keeper
 This abundance carries real extraction and transition risks. Re-entry capsules add to orbital debris if not designed for reliable deorbit (directly relevant to Entry 03). High-value orbital products could concentrate power in the hands of a few well-capitalized players rather than democratize broadly. The governance vacuum that allows debris proliferation also applies to orbital manufacturing licensing and liability. Transition pain includes job displacement in terrestrial specialty chemical and crystal-growth industries. Falsifiability edge: if reusable capsule costs do not continue declining and if regulatory capture prevents new entrants, the market stays niche instead of exponential. This is NOT "space will make everything better automatically" — it is conditional on sustainable practices and equitable access to the new factories.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift required is from "Earth is the only factory floor" to "Earth is one node in a solar system supply chain." Organizations and nations must release the scarcity identity of "we control our supply chains because they are terrestrial." This demands new identities: the orbital industrialist, the microgravity materials scientist, the in-space logistics coordinator. The hardest release is the belief that physical production must happen where humans live. Practice: regularly ask "What part of our current process is a gravity artifact?" and redesign accordingly.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Varda Space Industries (founded 2020) leads with five missions completed by late 2025 and its own bus + capsule architecture operational. Space Forge (UK) achieved plasma generation on ForgeStar-1 in Dec 2025. Redwire operates permanent commercial manufacturing platforms on the ISS and is expanding free-flying capabilities. Bottlenecks remain: reliable, low-cost re-entry heat shields, autonomous docking/refueling for longer missions, and regulatory clarity on orbital IP and liability. Leverage point today: any company with a high-value crystallization or crystal-growth problem can book a Varda or Space Forge mission rather than wait for ISS slots. Timelines: multiple missions per year already; dedicated orbital factories probable by 2028-2030.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 Delian Asparouhov, co-founder of Varda, watched the W-1 capsule land in Utah in February 2024 — the first commercial spacecraft to return manufactured pharmaceuticals from orbit to U.S. soil. In that moment the abstract promise of microgravity manufacturing became a physical vial of ritonavir crystals grown without gravity's distortions. For the team that had iterated through failures, regulatory hurdles, and the physics of re-entry, it was the instant the scarcity frame cracked: gravity was no longer the final boss of material science.
 
 ---

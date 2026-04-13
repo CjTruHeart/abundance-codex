@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "GPT-5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["space-traffic-management", "tracss", "orbital-debris", "ssa", "standards", "commons-governance", "space", "framework"]
@@ -101,7 +101,7 @@ For institutions, the identity that must loosen is control through opacity. The 
 
 The practice here is simple and difficult: stop equating freedom with the absence of rules. In a crowded orbital environment, freedom increasingly depends on shared discipline. The black belt of a civilization is not raw power. It is controlled power in shared space.
 
-### 🔨 The Builder -- Ground Truth
+### 🔧 The Builder -- Ground Truth
 
 What is actually being built is now concrete enough to name.
 

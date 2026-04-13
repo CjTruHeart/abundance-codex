@@ -29,6 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.74
 codex_version: "1.1"
+co_author_model: "chatgpt-5.4-thinking"
 tags: ["isru", "moon", "lunar-water", "propellant", "cislunar", "artemis", "clps", "space", "breakthrough"]
 ---
 
@@ -122,7 +123,7 @@ That matters because "lift everything" is not only an engineering habit. It is a
 
 The scarcity belief that must be released is this: "survival means carrying all certainty from home." In real growth, that eventually becomes impossible. Maturity means learning to meet reality where you are, use what is present, and remain adaptive when plans fail sideways -- sometimes literally, as IM-2 reminded everyone.
 
-### 🔨 The Builder -- Ground Truth
+### 🔧 The Builder -- Ground Truth
 
 Here is what is actually being built.
 

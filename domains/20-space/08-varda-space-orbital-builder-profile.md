@@ -25,7 +25,7 @@ updated: "2026-04-10"
 version: "1.0"
 confidence: 0.83
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["space", "builder-profile", "Varda", "Will-Bruey", "Delian-Asparouhov", "orbital-manufacturing", "reentry", "vertical-integration"]
@@ -110,7 +110,7 @@ Fourth, **labor displacement**. Vertically integrated orbital pharmaceutical syn
 
 Falsifiability edge: if the per-mission cost cannot be driven below $1M within five years, or if a reentry failure triggers a multi-year regulatory freeze, the business model collapses and orbital manufacturing remains a niche curiosity.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 What Bruey and Asparouhov demonstrated is not technical brilliance alone. It is the willingness to commit to a vision that the rest of the industry treated as a thought experiment — and to do so before the unit economics had been proven.
 
@@ -121,7 +121,7 @@ To: *I build the markets that do not yet exist.*
 
 This requires an unusual blend of patience (regulatory cycles take years) and urgency (the launch cost window is open *now*). It also requires the humility to know that you are building infrastructure your customers do not yet know how to use.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Varda's stack is the textbook for the reentry economy:
 
@@ -138,7 +138,7 @@ Bottleneck: **reentry licensing throughput and landing range capacity**, not tec
 
 What can be built now: high-value pharmaceutical synthesis, hypersonic testbeds, and materials science experiments. What still needs building: monthly cadence, multi-jurisdiction landing rights, and a global insurance market for orbital production.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from Varda hiring announcements and El Segundo facility press coverage.**
 

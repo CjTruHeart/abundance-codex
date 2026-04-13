@@ -21,10 +21,11 @@ domain_connections:
     note: "Dual-use RPO tech raises governance questions around orbital proximity operations"
 status: "forged"
 created: "2026-04-04"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.88
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["space", "debris-removal", "on-orbit-servicing", "builder-profile", "astroscale", "rendezvous-proximity-operations", "sustainability", "ELSA-M", "ADRAS-J"]
@@ -69,13 +70,13 @@ This is the classic 6D transition seen in every domain the Codex tracks. Cheap a
 ### 🗡️ The Critic — Shadow Keeper
 Even commercial success carries risks. Dual-use RPO technology can be weaponized for inspection or interference with adversary satellites. High capital intensity means only a handful of well-funded players may control orbital servicing infrastructure, creating new monopolies. Transition pain includes regulatory lag — liability for failed capture attempts or collisions during proximity ops is still unclear. Who gets left behind: nations without space-faring capability or capital to participate in the new service layer. Falsifiability edge: if ADRAS-J2 or ELSA-M fail to capture and deorbit their targets cleanly, investor confidence and regulatory support could collapse. This is NOT automatic cleanup — it is conditional on governance keeping pace with commercial capability.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift demanded is from "space as frontier to conquer" to "space as commons to steward." Founders, engineers, and policymakers must release the scarcity-era identity of "my satellite, my orbit, my problem ends at end-of-life." Nobu Okada's own journey — from IT entrepreneur to space-sustainability pioneer — models this: he had to let go of short-term profit metrics and embrace a multi-decade, multi-generational responsibility. The practice is daily: treat every new satellite design as temporary infrastructure that must be handed back responsibly. Transformation is trained through interface standards, insurance models, and international norms that reward circular design.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Astroscale (founded 2013 by Nobu Okada, ~600 employees across Japan, UK, US, Israel) is executing at commercial speed. ADRAS-J (launched Feb 2024) proved autonomous rendezvous to 15 m on unprepared debris. ELSA-M is in flight-model assembly with Isar Aerospace launch contract signed March 2026. Astroscale U.S. is building the first hydrazine refueler for USSF GEO ops (summer 2026 launch). Bottlenecks remain: standardized client interfaces on new satellites, regulatory clarity on multi-client removal, and supply-chain scaling for robotic arms. Leverage point today: satellite manufacturers can integrate Astroscale docking plates now — the service layer is live and growing. Timelines: multiple commercial removals per year probable by 2028-2030.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 On March 25, 2026, Nobu Okada watched telemetry from ADRAS-J confirm the start of controlled deorbit after 293 days of flawless proximity operations around a piece of space junk that had orbited since 2009. In that moment the founder who had bet his career on turning debris into a solvable, profitable problem felt the scarcity frame crack: the orbit that had been a graveyard for two decades was now being cleaned by a private spacecraft he had built. For the team in Tokyo mission control it was not abstract policy — it was a live satellite they had designed, launched, and were now responsibly retiring.
 
 ---

@@ -21,7 +21,7 @@ updated: "2026-04-10"
 version: "1.0"
 confidence: 0.65
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["space", "paradigm-seed", "orbital-debris", "Kessler-syndrome", "ISAM", "OSAM", "circular-economy", "feedstock"]
@@ -77,7 +77,7 @@ Fourth, **the Kessler scenario is real and time-pressured**. If we wait for salv
 
 Falsifiability edge: if non-cooperative capture cannot be demonstrated at affordable cost within ten years, this reframe collapses into a thought experiment and the conventional de-orbit frame must take precedence.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 What you call garbage is simply a resource for which you have not yet found a use. The vacuum does not destroy. It preserves. Every object in orbit is exactly where it was placed, and exactly what it was made of, waiting for a use case to find it.
 
