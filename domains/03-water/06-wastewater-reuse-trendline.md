@@ -30,7 +30,7 @@ version: "1.0"
 confidence: 0.84
 codex_version: "1.1"
 tags: ["wastewater-reuse-trendline", "circular-economy", "NEWater", "global-reuse-growth", "6D-exponential", "IDRA-2025"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---

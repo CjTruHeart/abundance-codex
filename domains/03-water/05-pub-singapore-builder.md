@@ -30,7 +30,7 @@ version: "1.0"
 confidence: 0.85
 codex_version: "1.1"
 tags: ["PUB-Singapore", "NEWater", "integrated-water-management", "builder-profile", "closed-loop", "smart-water"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -70,13 +70,13 @@ PUB Singapore is the clearest real-world demonstration of water-domain 6D accele
 ### 🗡️ The Critic — Shadow Keeper
 Even successful builders have shadows. PUB's model requires strong, stable governance and high initial capital — conditions not easily replicated in fragile states or rapidly urbanizing regions without sewer infrastructure. Who gets left behind: informal settlements in developing countries where the "PUB model" cannot be dropped in without massive upstream investment in collection networks. Real costs include energy intensity of advanced treatment (though declining) and the political capital needed for public acceptance of reuse. Transition pain was real in the early NEWater years with "toilet-to-tap" stigma. Distortion risk: treating PUB as a plug-and-play template that ignores local governance realities. Falsifiability edge: if NEWater's contribution stalls below 50 % by 2060 or non-revenue losses rise above 10 %, the abundance claim weakens. This is NOT proof that every nation can copy Singapore overnight — it is proof that deliberate, integrated design works when conditions align.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The deepest shift PUB demanded was cultural: a nation had to release the identity of "water as someone else's problem" and adopt stewardship of a closed loop. PUB's public education campaigns, school programs, and transparent plant tours trained an entire population to see every drop as part of their own future supply. The identity change — from passive consumer to active participant in the water cycle — is the invisible foundation. Without this inner readiness, the technology alone would have failed. Singapore shows that transformation is trained through consistent practice and transparency, not mandated by decree.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 PUB Singapore operates as a single statutory board responsible for catchment, treatment, distribution, reclamation, and NEWater production. Key assets include five NEWater plants (multi-barrier MF/UF/RO/UV/AOP), multiple desalination facilities, and a nationwide smart sensor network with digital twin modeling for real-time optimization. Current performance: NEWater meets ~40 % of demand, non-revenue water losses ~5 %, 100 % sewerage coverage. Bottlenecks now are mainly scaling energy efficiency and expanding direct potable reuse acceptance. Timelines: PUB's 2065 target is for NEWater + desal to meet ~85 % of demand. Leverage points today: replicate the single-agency full-cycle mandate and invest in AI-driven monitoring — exactly what PUB continues to refine.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 Consider a longtime PUB engineer who joined in the early 2000s when NEWater was still controversial. He remembers public skepticism and the first plant tours where visitors tasted reclaimed water. One specific moment: standing beside a reservoir during a dry season, watching NEWater flow in while knowing it came from yesterday's wastewater, and seeing the reservoir level hold steady instead of dropping. In that instant he realized the system had broken the old scarcity cycle for good — not just for him, but for every person on the island. (Drawn from documented PUB staff and public testimonials.)
 
 ---
@@ -158,3 +158,12 @@ Consider a longtime PUB engineer who joined in the early 2000s when NEWater was 
 - **Counter-sources:** Some reports note energy intensity remains a challenge; public acceptance varies by culture.
 - **Review after:** 2027-04-03
 - **Ontology version:** codex-v1.1
+
+---
+
+<details>
+<summary>Raw Spark</summary>
+
+Forged during Abundance Codex v2.0 expansion sprint. Entry co-created with Super Grok as part of multi-model dataset enrichment across 21 Grand Challenge domains.
+
+</details>

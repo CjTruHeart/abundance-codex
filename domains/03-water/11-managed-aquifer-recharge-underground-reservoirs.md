@@ -29,7 +29,7 @@ updated: "2026-04-06"
 version: "1.0"
 confidence: 0.85
 codex_version: "1.1"
-co_author_model: "gpt-5.4-thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["managed-aquifer-recharge", "groundwater", "water-storage", "drought-resilience", "groundwater-replenishment", "nature-based-solution"]

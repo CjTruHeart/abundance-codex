@@ -30,7 +30,7 @@ version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
 tags: ["circular-economy", "wastewater-reuse", "NEWater", "Israel-reuse", "water-security", "multi-barrier-treatment"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -70,13 +70,13 @@ The linear-to-circular shift is the water-domain expression of the same 6D expon
 ### 🗡️ The Critic — Shadow Keeper
 Circular systems are not automatic salvation. Regions without modern sewer collection networks (rural areas, informal settlements in the Global South) risk being left behind—reuse can amplify existing inequities if collection infrastructure lags. Real costs include upfront capital for advanced treatment and lingering public "toilet-to-tap" stigma. Incumbents (traditional utilities or freshwater extractors) can capture the gains if governance favors large centralized plants over modular decentralized options. Transition pain is real: regulatory harmonization and public education campaigns take years. Distortion risk: toxic positivity that excuses continued upstream overconsumption. Falsifiability edge: if global reuse growth stalls below 7 % annually and remains under 20 % of withdrawals by 2035 despite policy momentum, the abundance claim weakens significantly. This is NOT a substitute for conservation or new-source development—it is the efficiency multiplier that makes the entire portfolio sustainable.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift is releasing the scarcity-era identity of "water as a consumable good" and embracing stewardship of a closed loop. Societies must let go of the psychological comfort of "out of sight, out of mind" disposal. The identity change—from passive consumer to active participant in the water cycle—requires disciplined practice, not sudden epiphany. Singapore's transparent public education campaigns and Israel's agricultural success stories show this transformation is trainable. Daily practice: visualize the full cycle every time you turn on a tap or flush; commit to one conservation action knowing it directly feeds the reuse loop.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 PUB Singapore's NEWater plants (multi-barrier MF/UF/RO/UV) achieve 73.5 % recovery with energy use of 0.6–0.8 kWh/m³. Israel's Shafdan and nationwide network deliver ~90 % reuse. Modular systems from multiple vendors are now deployable at city-block scale. Bottlenecks remain sewer collection in developing regions and regulatory approval for direct potable reuse. Timelines: World Bank and IDRA project high-value reuse could reach 430 million m³/day by 2040 with targeted investment. Leverage points today: retrofit existing secondary treatment plants with tertiary/advanced stages and integrate AI sensors—PUB Singapore and Israel's national water authority remain the clearest ground-truth demonstrators.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 A farmer in Israel's Negev desert (representative of thousands now irrigated by reclaimed water) once faced unreliable rainfall and expensive imported supply that limited crop choices and income. After the national reuse network expanded, the same farmer now irrigates reliably with treated municipal effluent—cleaner and more consistent than many natural sources. One specific moment: checking soil-moisture sensors fed by reclaimed supply and realizing the "waste" from distant cities had become his most dependable lifeline. (Composite drawn from documented patterns in Israeli agricultural reuse reports and PUB Singapore case studies.)
 
 ---
@@ -158,3 +158,12 @@ A farmer in Israel's Negev desert (representative of thousands now irrigated by 
 - **Counter-sources:** UNWDR 2026 and "Global Water Bankruptcy" report highlight ongoing global stress and collection gaps; public acceptance studies show regional variability.
 - **Review after:** 2027-04-03
 - **Ontology version:** codex-v1.1
+
+---
+
+<details>
+<summary>Raw Spark</summary>
+
+Forged during Abundance Codex v2.0 expansion sprint. Entry co-created with Super Grok as part of multi-model dataset enrichment across 21 Grand Challenge domains.
+
+</details>
