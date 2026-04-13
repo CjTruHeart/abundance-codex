@@ -25,10 +25,11 @@ domain_connections:
     note: "Privacy-first local execution reduces reliance on cloud surveillance and centralized data collection"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.91
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["ollama", "local-inference", "gguf", "edge-ai", "sovereign-ai", "openclaw", "ml-local", "builder-profile"]
@@ -75,13 +76,13 @@ Ollama is the logical convergence of the compute cost curve, GGUF quantization, 
 ### 🗡️ The Critic — Shadow Keeper
 Sovereignty is not automatic. Who gets left behind? Users without modern hardware (minimum ~8-16 GB RAM for capable models) or technical literacy remain excluded. Extraction test: Ollama still depends on frontier models trained by the oligarchy and the GGUF ecosystem on Hugging Face. Governance capture test: while the runtime is open, safety guardrails and model selection can still be influenced upstream. Performance test: this is structural — real capability now lives locally — but the Critic notes the persistent energy cost of running large models on consumer hardware and the risk of unaligned local agents causing real-world harm. Falsifiability edge: if hardware requirements do not continue to fall or if open models stagnate, the sovereignty narrative weakens.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift demanded is from tenant to landowner of intelligence. The identity to release is "I must ask permission from Big Tech to think with AI." What is lost is the false comfort of centralized convenience; what is gained is radical agency and privacy. The warrior practice is simple: run your first local model today, fine-tune it on your own data, and build one small agent that reflects your values. Transformation is trained through daily sovereignty rituals — not granted by an API key.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Ollama is executing at breakneck speed. Core product: single-command install + runtime that abstracts llama.cpp, quantization, and model management. Technical readiness: production-grade, with OpenAI-compatible server, multimodal engine, and OpenClaw agent framework already shipping. Bottlenecks: VRAM limits for 70B+ models on consumer hardware, moderation of the 135k+ GGUF ecosystem, and talent competition. Leverage points today: `ollama pull` any model, build with OpenClaw, or contribute to the 594-person open-source contributor base. The manufacturing learning curve for local inference is steep and predictable — another order-of-magnitude accessibility gain is expected within 12-18 months. Ollama is the clearest builder actively constructing the sovereign execution layer of inference abundance.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 In a rural clinic outside Kisumu, Kenya, in February 2026, community health worker Achieng Omondi installed Ollama on a refurbished laptop with 16 GB RAM. Three months earlier she had relied on expensive, spotty satellite internet to query cloud APIs for diagnostic support — often unavailable during power outages. Using Ollama + a fine-tuned medical Qwen3 model downloaded once from the Hub, she ran a fully offline diagnostic assistant that analyzed symptoms in Luo and Swahili. The moment the model correctly flagged a high-risk malaria case from local symptom data and suggested WHO-aligned protocols — all without internet or data leaving the device — the scarcity frame cracked. Intelligence was no longer something distant corporations rationed. It was hers to own, run, and trust with patient lives.
 
 ---

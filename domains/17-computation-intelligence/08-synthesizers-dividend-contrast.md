@@ -25,7 +25,7 @@ updated: "2026-04-10"
 version: "1.0"
 confidence: 0.83
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["contrast", "computation-intelligence", "synthesis", "ambient-intelligence", "knowledge-work", "post-recall-economy", "edge-inference"]
@@ -73,15 +73,15 @@ The architecture of human thought is undergoing its most profound restructuring 
 
 "Ambient utility" glosses over brutal physical and economic realities. The dividend is sharply class-dependent: the cognitive floor rises only for those with reliable electricity and capable hardware, and the ceiling rockets out of sight, producing a hyper-bifurcated global society. The "synthesizer's dividend" assumes a frictionless transition from information worker to context orchestrator that the displaced administrative middle class will not actually be allowed to make. Do not conflate the democratization of model weights with the democratization of economic power, political leverage, or the patience of capital markets. The transition pain will gut the administrative middle class long before it elevates them.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Breathe into the discomfort of losing the old utility. For generations, your value in the marketplace and the classroom was tied to what you could remember and how fast you could compute. It is terrifying to watch the machine instantly replicate what you spent decades mastering. Your ego will fight this obsolescence. But consider the freedom hidden inside the loss: when you no longer have to be the hard drive, you can finally become the gardener. Your worth is not your processing speed. Your worth is your humanity, your empathy, your ethical discernment, and your vision. Let the machine carry the data so you can carry the meaning.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 To construct this abundance you build for the edge. Centralized API dependency is a single point of failure and a vector for re-emerging scarcity. Build asynchronous, decentralized meshes of local models communicating via federated protocols. Optimize ruthlessly so a 7-billion-parameter reasoning engine runs in 4 GB of RAM without thermal throttling. The engineering mandate is unambiguous: shrink the footprint, maximize the context window, sever the requirement for constant cloud connectivity. Sovereign abundance is built on local hardware.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from open-source AI adoption in the Global South and from researchers running local frontier models on consumer hardware.**
 

@@ -25,7 +25,7 @@ updated: "2026-04-10"
 version: "1.0"
 confidence: 0.86
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["trendline", "computation-intelligence", "quantization", "bitnet", "mixture-of-experts", "edge-inference", "dematerialization", "energy-efficiency"]
@@ -73,7 +73,7 @@ The trajectory of every profound technology is dematerialization. The vacuum tub
 
 The abundance narrative is dangerously naïve about Jevons. Make inference 100x more efficient and the world will not use 100x less energy — it will embed AI into every sensor, ad pixel, and background process on Earth, and total demand will balloon. Worse, the "ephemeral" model still depends on the relentless extraction of rare earths to manufacture the billions of edge devices required to host it. The visible pollution of centralized data centers is being traded for the invisible, distributed toxicity of disposable smart dust, with its externalities falling — as always — on the populations nearest the mines and the e-waste dumps.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 The deployment pipeline has to be rebuilt. FP32 and even FP16 are over for edge inference. The discipline is BitLinear layers with strictly ternary weights, MoE routing so massive knowledge bases activate only the experts a query needs, and aggressive distillation from larger teachers. The engineering goal is hard-edged: if your reasoning model cannot run usefully on 2 GB of RAM under battery power, it is too heavy for the future. The unsexy truth is that 80% of the work is quantization-aware training and runtime optimization, and 20% is the architecture novelty.
 

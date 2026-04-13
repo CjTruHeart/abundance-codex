@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.83
 codex_version: "1.1"
-co_author_model: "GPT-5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["computation-intelligence", "breakthrough", "knowledge-distillation", "model-compression", "teacher-student", "edge-ai", "efficiency", "llm-compression"]
@@ -135,7 +135,7 @@ That requires discipline. You must care about calibration, not just compression 
 
 The lesson is simple: a technique becomes wisdom only when it can travel.
 
-### 🔨 The Builder -- Ground Truth
+### 🔧 The Builder -- Ground Truth
 
 Here is what is actually being built.
 

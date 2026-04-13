@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "GPT-5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["computation-intelligence", "breakthrough", "tinyml", "edge-ai", "microcontrollers", "embedded-ml", "quantization", "keyword-spotting", "on-device-inference"]
@@ -157,7 +157,7 @@ In practice, small can be disciplined. Small can be fast. Small can be private. 
 
 TinyML is not a retreat from intelligence. It is a refinement of it.
 
-### 🔨 The Builder -- Ground Truth
+### 🔧 The Builder -- Ground Truth
 
 Here is what is actually buildable now.
 

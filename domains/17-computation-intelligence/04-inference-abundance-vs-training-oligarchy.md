@@ -21,10 +21,11 @@ domain_connections:
     note: "Widespread inference capability raises new questions of accountability, misuse, and alignment at population scale"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.88
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["inference-cost", "AI-democratization", "bifurcation", "open-source-AI", "compute-economics", "edge-compute"]
@@ -77,15 +78,15 @@ This bifurcation is the natural outcome of the 6D curve meeting power-law scalin
 
 The bifurcation carries real risks. Cheap inference does not guarantee high-quality or aligned intelligence; open models can propagate biases, hallucinations, or adversarial content at scale. Who gets left behind? Regions or populations without reliable electricity, devices, or digital literacy remain excluded even from abundant inference. Transition pain is acute for creators of closed models — sunk training costs create incentives to lock down capability. Governance capture is the sharpest shadow: the same organizations controlling frontier training can shape inference guardrails, content policies, and safety layers that billions will use. Performance test: this is structural, not performative — power is genuinely shifting, but unevenly. Falsifiability edge: if open-weight models fail to close the capability gap or if inference costs plateau/reverse due to energy or regulatory bottlenecks, the abundance narrative weakens.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift required is from scarcity mindset ("AI is a limited resource I must hoard or compete for") to abundance mindset ("AI is a tool I can wield, iterate, and share"). The identity to release is the expert-as-gatekeeper — the belief that only those with massive compute deserve to shape intelligence. What is lost is the comfort of centralized authority; what is gained is personal agency and collective creativity. Transformation is practice: daily experimentation with open models, fine-tuning on personal data, building agents that reflect individual values. The warrior learns to wield the abundant sword without fear of breaking it.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Builders are already acting at both layers. Hyperscalers (OpenAI, Google, Anthropic, xAI, Meta) continue frontier training clusters costing hundreds of millions. Simultaneously, the open ecosystem — Hugging Face, EleutherAI, independent developers, and quantized model creators — ships daily improvements in inference efficiency. Edge AI frameworks, local inference engines (Ollama, LM Studio), and fine-tuning platforms lower the barrier from "need a data center" to "need a laptop." Bottlenecks remain: high-end training data curation, energy for large clusters, and talent concentration. Leverage points today: contribute to open model fine-tuning, build domain-specific agents, and support inference optimization research. The manufacturing learning curve for inference hardware is steep and predictable; the next 12-24 months will see another order-of-magnitude drop in accessible capability.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 In a small tech hub outside Nairobi in early 2025, software engineer Amina Okoro loaded a quantized 7B-parameter open-weight model onto her laptop. Three months earlier she had applied for grants to access proprietary APIs that cost more than her monthly salary. Now, using free tools from Hugging Face and local inference software, she fine-tuned the model on Swahili-language agricultural data and built a voice agent that advises smallholder farmers on crop choices, pest detection, and market prices — all offline. The moment she tested the first successful query and heard the agent respond in her mother tongue, the scarcity frame cracked: intelligence was no longer something she had to beg for from distant corporations. It was something she could own, adapt, and share.
 

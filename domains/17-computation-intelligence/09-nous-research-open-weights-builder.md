@@ -25,7 +25,7 @@ updated: "2026-04-10"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["builder-profile", "computation-intelligence", "nous-research", "open-weights", "hermes", "decentralized-training", "weight-sovereignty", "edge-inference"]
@@ -73,15 +73,15 @@ This is the transition from the era of the proprietary priest to the era of the 
 
 "Open weights" sound liberating, but the shadow is real. Distributing weights without safeguards weakens the moderation layers that prevent the worst misuses, and the burden of safety silently transfers from the lab to the downstream user — most of whom are not equipped to bear it. The "democratization" is also lopsided: as consumer GPU and RAM prices spiked through late 2025, the practical ability to run a frontier-class open model migrated from "anyone with a laptop" to "anyone with a well-equipped hobbyist rig." A corporate gatekeeper has been partially traded for a financial one. Do not mistake a permissive license for actual economic equity, and do not mistake the freedom to download for the freedom to run.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Accept the weight of your own agency. In the old frame, when a model gave a biased or harmful answer, you could blame the corporation that hosted it. In the open-weight era, you are the steward of the logic you choose to run. This is the psychological transition from user to custodian. Sit with the responsibility of hosting frontier intellect inside your own machine. It demands a new cognitive discipline — the wisdom to align tools to your own values rather than absorbing the defaults of a distant boardroom — and the humility to know that responsibility cannot be delegated to a license file.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 What actually ships this abundance is unsexy infrastructure. GGUF and EXL2 quantization formats make 70B-class models fit on a single consumer GPU. Ollama and llama.cpp make local inference one command away. Context-extension techniques like YaRN stretch the usable context window far beyond what the base checkpoint was trained on, without retraining from scratch. The engineering mandate is to keep shrinking the VRAM requirement until a frontier-class model lives comfortably in a phone, completely offline. The unsexy truth is that 80% of the work is the runtime, the quantization, and the prompt-routing plumbing — and 20% is the headline model release.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from open-weight model adoption in geoblocked regions and from researchers reporting Nous Hermes deployments in resource-constrained settings.**
 
