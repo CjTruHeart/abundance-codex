@@ -25,7 +25,7 @@ updated: "2026-04-10"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["contrast", "economy", "gdp", "gross-domestic-flourishing", "post-labor", "demonetization-of-labor", "well-being-metrics"]
@@ -73,11 +73,11 @@ The mathematical trajectory of autonomous production dictates the eventual demon
 
 You are vastly underestimating the psychological trauma of this transition. When human labor is demonetized, the cultural narrative that ties personal worth, status, and community utility to economic output collapses entirely. We face profound social transition pain, particularly among legacy demographics whose lifelong identities will be rendered obsolete. Worse: who decides what counts as "flourishing"? GDF without rigorous democratic governance becomes a mood-engineering tool wielded by whichever institution gets to write the index. The shadow here is not failure — it is technocratic capture of the meaning layer.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 We operationalize this shift by systematically removing the core limiters to human thriving: cost, awareness, and access. By driving an 85% cost reduction in localized energy storage and open-sourcing automated agriculture, we are physically building the GDF baseline. We do not wait for policy changes — we deploy the infrastructure that makes basic needs so cheap they fall out of the legacy market entirely. Once the cost floor is real, the metric debate resolves itself.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from automation-displaced workers and post-labor identity transition research.**
 

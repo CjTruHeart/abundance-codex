@@ -25,7 +25,7 @@ updated: "2026-04-10"
 version: "1.0"
 confidence: 0.78
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["paradigm-seed", "economy", "universal-basic-assets", "commons", "depin", "post-scarcity", "demonetization"]
@@ -73,15 +73,15 @@ The asymptote of technological deflation naturally terminates in the demonetizat
 
 Beware the new landlords. If the autonomous physical commons are managed by opaque algorithms or proprietary smart contracts, you have not escaped feudalism — you have replaced your human landlord with an unaccountable, monopolistic gatekeeper whose terms of service can be rewritten overnight. UBA without rigorously open governance is a faster, more efficient form of capture. Anyone without digital identity, network connectivity, or the technical literacy to interface with decentralized assets is also at risk of being algorithmically invisible.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 When you no longer have to earn your right to exist, you are finally free to discover why you exist. The deepest psychological transition is not financial but identity-level: scarcity culture wires us to equate our economic utility with our moral worth. The practice for the abundance era is to spend a single day acting as if your survival baseline were guaranteed, and notice what your mind does with the freed cognitive bandwidth.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 We are bypassing legacy utilities entirely by deploying localized atmospheric water generators, micro-grids, and 3D-printed commons hardware governed directly by open community contracts. The engineering frontier is not the generation hardware — that is rapidly commoditizing — it is the governance layer: how do you write a smart contract that distributes a finite local resource fairly without recreating bureaucratic capture? That is the actual unsolved problem.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from DePIN cooperatives and community microgrid deployments.**
 

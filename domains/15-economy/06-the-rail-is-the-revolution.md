@@ -21,7 +21,7 @@ updated: "2026-04-04"
 version: "1.0"
 confidence: 0.78
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["paradigm-seed", "open-rails", "programmable-economy", "dpi", "neutral-infrastructure", "abundance-reframe"]
@@ -53,7 +53,7 @@ Every previous infrastructure revolution followed the same pattern: proprietary 
 
 This seed can distort into naive "just add open APIs" optimism. Real capture risk remains high: governments or tech giants can still centralize the base layer or attach surveillance. Who gets left behind: populations without reliable mobile/digital identity or in jurisdictions that reject open-protocol mandates. Transition pain is acute for legacy gatekeepers whose rents disappear. Falsifiability edge: if "open" rails quietly re-monopolize or fees creep upward while exclusion persists, the paradigm fails. This is not "technology solves inequality by itself."
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift required is from "I must own/control the customer relationship and the data" to "I steward neutral infrastructure so others can create value on top." Scarcity-era identity clings to proprietary lock-in; abundance-era identity releases it and finds power in stewardship. The practice is simple: for any economic tool you use or build, run the Rail Neutrality Test — "Would this still create value if my organization disappeared tomorrow?" If the answer is no, you are still designing scarcity.
 

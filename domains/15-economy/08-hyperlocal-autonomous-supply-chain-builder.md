@@ -25,7 +25,7 @@ updated: "2026-04-10"
 version: "1.0"
 confidence: 0.84
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["builder-profile", "economy", "fab-city", "open-source-ecology", "distributed-manufacturing", "wikihouse", "supply-chain-resilience"]
@@ -73,15 +73,15 @@ The trajectory of production is inevitably pulling toward the edge of the networ
 
 The narrative of total localized self-sufficiency is a dangerous illusion that ignores modern chemistry and metallurgy. The falsifiability edge here is raw elemental inputs. A community cooperative can 3D print a tractor chassis from recycled steel, but it cannot fabricate the silicon microprocessor running the AI, nor can it locally mine the neodymium required for the electric motors. Hyper-local utopias remain strictly dependent on legacy extraction economies and globalized semiconductor supply chains. Bypassing a shipping container is not the same as bypassing the global mining industry. Anyone who claims otherwise is selling tech-romanticism.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 When you build the chair you sit on and the walls that shelter you, the psychological relationship you have with the material world transforms. The alienation of the modern consumer — who clicks a button and waits for a box to arrive — is replaced by the grounding satisfaction of craftsmanship. Reclaiming the means of production is fundamentally about reclaiming human agency. The inner shift is from "what can I buy?" to "what can I make, repair, and pass on?"
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 We are proving this on the ground. Our cooperative started with a basic $20k CNC and 3D printing setup. We took the digital files for WikiHouse and milled our own sustainable housing frames. When a part on our agricultural harvester broke, we did not wait three weeks for a proprietary replacement from overseas — we downloaded the patch, printed the component from recycled polymers, and had the machine running by the afternoon. The unsexy truth is that 80% of the work is feedstock logistics and 20% is the printer. Anyone telling you otherwise has never run a fab lab.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from Fab City pilot programs and Open Source Ecology cooperative deployments.**
 

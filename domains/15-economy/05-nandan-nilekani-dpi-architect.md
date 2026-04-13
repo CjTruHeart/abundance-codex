@@ -25,7 +25,7 @@ updated: "2026-04-04"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["nandan-nilekani", "india-stack", "digital-public-infrastructure", "finternet", "aadhaar", "upi", "tokenization", "builder-profile", "6Ds"]
@@ -73,15 +73,15 @@ Nilekani's trajectory maps the full 6D on governance-enabled rails: Digitized id
 
 No builder profile is shadow-free. Nilekani's model depends on sustained political will; a change in government priorities or regulatory capture could fragment Finternet or slow DPI exports. Who gets left behind: the remaining ~5-10 % without reliable biometrics, smartphones, or digital identity. Transition pain is concrete — informal cash handlers, traditional bureaucrats, and middlemen lose economic rents. Falsifiability edge: if UPI volumes plateau while effective fees rise, or if Finternet fails to reach material scale in 24-36 months, the "public rails first" thesis weakens. This is not "one genius fixes scarcity"; it is deliberate public-private coordination at national scale under specific political conditions.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift Nilekani embodies is from "I own the customer and the data" to "I steward neutral infrastructure so others can build." He left a highly profitable private company (Infosys) to serve public infrastructure — a warrior's release of ego for collective leverage. Builders must release the scarcity-era identity of proprietary lock-in and train the new identity of open-steward. Practice: run the "Infrastructure Neutrality Test" weekly — would my current design still function and create value if my organization vanished tomorrow? If the answer is no, the design is still scarcity-framed.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Nandan Nilekani (Infosys co-founder, UIDAI chairman 2009-2014, EkStep Foundation, NPCI advisor) + cross-ministry teams and open-source contributors. Current stage: Aadhaar/UPI mature and battle-tested at population scale; Finternet in active pilot (tokenized government securities and bank deposits under regulated entities); Voice AI prototypes live for vernacular users. Bottlenecks: cross-border regulatory harmonization for tokenized assets and talent for AI-DPI integration. The learning curve is proven and steep — zero to 22+ billion transactions/month in under a decade once identity + mobile + open APIs align. Immediate leverage point: open-source DPI toolkits are public; any mid-sized economy with political will can launch a functional stack in 12-24 months.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 In a remote Rajasthan village, 2017: Ramesh, a marginal farmer previously locked out of formal finance, received his Aadhaar card after a simple biometric scan at a local camp. That same afternoon he linked it to a zero-balance Jan Dhan account. His first fertilizer subsidy arrived via Direct Benefit Transfer — money appeared instantly, no middleman deducted a cut. For the first time he sent crop-sale proceeds to his daughter in the city through UPI on a basic phone. One man, one neutral ID, one open rail: his economic reality shifted from exclusion to agency in a single afternoon.
 

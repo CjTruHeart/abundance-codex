@@ -25,7 +25,7 @@ updated: "2026-04-04"
 version: "1.0"
 confidence: 0.84
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["UPI", "M-Pesa", "digital-public-infrastructure", "India-Stack", "leapfrog", "interoperability", "democratized-finance", "contrast", "6Ds"]
@@ -81,11 +81,11 @@ Both systems followed the 6Ds almost perfectly: Digitized value transfer → Dec
 
 Neither model is shadow-free. M-Pesa created a near-monopoly that regulators later had to claw back; consumer protection gaps and predatory lending emerged. UPI's public success depends on sustained political will — a change in government or regulatory capture could fragment the stack. Who gets left behind: the ~200 million Indians still without smartphones or Aadhaar linkage, and populations in fragile states lacking basic mobile coverage. Transition pain is real — informal cash handlers, small money-transfer agents, and traditional bank branch staff face obsolescence. Falsifiability edge: if UPI volumes plateau or if M-Pesa-style systems repeatedly require bailouts, the "abundance via rails" thesis weakens. This is not "technology solves everything"; it is "specific governance choices + infrastructure choices solve specific scarcity."
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift required is from "my institution must own the customer" to "the rail must be neutral and the customer owns the relationship." Governments must release control enough to let innovation flourish; corporations must release proprietary lock-in enough to let interoperability thrive. The identity that must change is the scarcity-era belief that value transfer is a zero-sum service to be guarded. Abundance demands a new identity: steward of open protocols rather than owner of closed platforms. Practice: leaders run the "rail neutrality test" — would your design still work if your organization disappeared tomorrow?
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 **M-Pesa builders:** Safaricom + Vodafone (Nick Hughes, Susie Lonie) + Kenyan Central Bank forbearance. Current stage: mature, expanding into credit, savings, insurance via M-Pesa super-apps. Bottleneck: regulatory harmonization across borders.
 
@@ -93,7 +93,7 @@ The inner shift required is from "my institution must own the customer" to "the 
 
 Both prove the learning curve is steep but predictable once identity + mobile + open protocols align. Leverage point today: any mid-sized economy can stand up a UPI-style stack in <18 months using open-source components.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 In a small village outside Kisumu, Kenya, 2011: Mama Achieng', a vegetable seller, used to lose two days every month traveling to the nearest bank to receive her son's Nairobi wages. One afternoon she received an SMS on her $15 feature phone — "KSh 2,500 received." She walked 200 meters to a local duka (shop) agent, withdrew cash instantly, and bought school uniforms the same day. No bus fare lost, no theft risk.
 
