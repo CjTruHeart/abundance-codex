@@ -25,10 +25,11 @@ domain_connections:
     note: "Reduced personal vehicle ownership accelerates transport decarbonization"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.79
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["origin-story", "phoenix", "robotaxi", "mobility-as-a-service", "urban-transformation", "access-over-ownership", "leapfrog"]
@@ -76,15 +77,15 @@ Phoenix sits at the leading edge of the Disruptive → Demonetized phase of the 
 
 Transition pain is real and uneven. Taxi, rideshare, and delivery drivers face income pressure as robotaxis scale. Auto dealerships, mechanics, and insurance markets built on human-driven ownership are contracting. Phoenix's low-density suburbs and rural fringes still lack full coverage, risking a two-tier mobility system. Induced demand remains a legitimate risk — cheaper rides could increase total vehicle-miles unless paired with intentional urban redesign. Incumbents may push regulatory slowdowns. Falsifiability edge: if robotaxi expansion stalls for regulatory or capital reasons and per-capita vehicle ownership rebounds, the access-city story collapses.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift is from "my car is my independence" to "reliable access is my independence." This release is not weakness; it is disciplined freedom — the martial artist who stops gripping the sword so tightly that he cannot adapt. Phoenix residents who sold their second car discovered they had been carrying an invisible tax of anxiety, maintenance, and parking searches. The practice is simple: one month of deliberate access living reveals how much mental bandwidth ownership actually consumed. The identity that must be released is the one that equates self-reliance with sole possession.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Phoenix's builders are the city planners revising parking codes, the developers building car-optional housing, and Waymo's operational teams iterating fleet management at scale. The fleet uses redundant LiDAR/radar/camera systems with over-the-air updates. Bottlenecks have shifted from technology to curb management, insurance frameworks, and last-mile integration with buses and micromobility. The leverage point is clear: cities that treat robotaxi service as essential infrastructure — allocating curb space and data-sharing agreements — accelerate the transformation fastest. Competing operators and public-private pilots are now following Phoenix's proof.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 Elena, a school teacher in Chandler (Phoenix metro), sold her 2018 sedan in January 2026 after six months of reliable Waymo service in her neighborhood. She now spends roughly $220/month on robotaxi trips instead of $680 on car payments, insurance, gas, and maintenance. Mornings she walks her daughter to the corner for a robotaxi to school while she reads lesson plans on her own ride to work. The daily background stress of parking, breakdowns, and freeway rage is gone. One ordinary Tuesday she stepped out of a Waymo, looked back at the empty driver's seat, and realized she had not missed owning a car for a single day. One person. One quiet morning in the desert sun.
 

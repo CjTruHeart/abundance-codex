@@ -17,10 +17,11 @@ domain_connections:
     note: "All-electric shuttles replace combustion-engine trips, systematically lowering local carbon emissions"
 status: "forged"
 created: "2026-04-10"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.93
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["autonomous-vehicles", "micro-transit", "lake-nona", "habituation", "first-mile-last-mile", "trendline"]
@@ -68,15 +69,15 @@ The steering wheel will become an anachronism, but the transition will not happe
 
 This trendline is heavily subsidized and geographically privileged. Lake Nona's success required a meticulously designed wealthy master-planned community and a $20 million BUILD grant from the U.S. Department of Transportation. You cannot easily drop this system into the crumbling, chaotic infrastructure of a neglected legacy city. Furthermore, maintaining a human attendant on every 10-passenger shuttle severely limits the economic viability and labor-saving promises of true autonomy. Until the attendant can be safely removed, this is an expensive, high-tech golf cart service serving an affluent enclave.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Observe the profound paradox of progress: to teach humanity to trust the machine, we had to put a human back inside it. The attendant does not drive; they hold space. They offer a reassuring smile while the algorithm navigates the crosswalk. True integration of advanced technology does not sever the human connection; it leverages human empathy to bridge the divide between the known and the unknown. The identity to release is the belief that automation and presence are opposites.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 We don't deal in hypotheticals; we deal in telemetry. We deployed an all-electric fleet on fixed daily routes and built a global command center right in the Lake Nona Town Center to ingest the data. By analyzing the performance metrics of every single ride, we optimize routing, enhance predictive safety protocols, and prove to federal regulators that autonomous micro-transit works in mixed-use environments. We've eliminated over 35,000 car trips by systematically executing the logistics of the First-Mile/Last-Mile problem. The next sprint is removing the attendant from low-risk routes without losing public confidence.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from Lake Nona Move Nona rider testimonials.**
 

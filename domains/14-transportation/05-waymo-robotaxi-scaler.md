@@ -25,10 +25,11 @@ domain_connections:
     note: "Superior safety metrics reduce road violence and emergency response burden"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.81
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["robotaxi", "autonomous-vehicles", "Waymo", "builder-profile", "unsupervised-AV", "mobility-as-a-service", "6Ds"]
@@ -76,15 +77,15 @@ Waymo's trajectory sits firmly in the Disruptive → Demonetized phase of the 6D
 
 Scaling robotaxis creates real transition pain. Millions of professional drivers face job displacement. Insurance markets built on human liability are being upended. Cities risk short-term congestion spikes before land-use reforms catch up. Regulatory capture remains possible — incumbents could slow approvals elsewhere. Rural and low-density areas may be left behind for years, creating mobility haves and have-nots. Falsifiability edge: if serious-incident rates rise or expansion stalls for more than 18 months, the scarcity frame regains credibility.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift demanded is from control to trust. The scarcity-era identity says "I must be behind the wheel to be safe and free." The abundance-era identity says "I am safer and freer when I release the wheel to a system that never gets distracted, drunk, or drowsy." This release is not passive; it is an active practice of disciplined trust — the same discipline a martial artist learns when letting go of a favored technique to master the next level. Builders and citizens alike must train the muscle of releasing outdated identity attachments.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Waymo's ground truth is relentless iteration at scale. Their fleet uses LiDAR, radar, cameras, and high-definition maps with redundant systems and remote assistance for edge cases. Every ride generates data that improves the entire fleet via over-the-air updates. Current bottlenecks are regulatory harmonization across states and last-mile integration with public transit and micromobility. The company is not waiting for national legislation — it is proving safety city-by-city and letting data drive policy. Competing builders (Tesla, Cruise, Chinese operators) are pushing different architectural bets, but Waymo remains the furthest along the unsupervised deployment curve in 2026. Leverage point: cities that fast-track curb access and data-sharing agreements will accelerate abundance fastest.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 Jamal, a rideshare driver in Atlanta turned early robotaxi user, sold his personal car in February 2026. For the first time in fifteen years he commutes to his new warehouse job without driving. He now spends the 45-minute ride reviewing inventory spreadsheets or calling his daughter at college. The anxiety of accidents, maintenance, and gas prices is gone. One evening he stepped out of a Waymo at his doorstep, looked at the empty driver seat, and realized the future had quietly arrived — not as a prototype, but as his daily ride. One person. One ordinary Tuesday.
 

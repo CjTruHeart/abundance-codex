@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "Chat GPT 5.4 - Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["transportation", "trendline", "remote-work", "telework", "hybrid-work", "virtual-mobility", "commuting", "demand-side-abundance"]

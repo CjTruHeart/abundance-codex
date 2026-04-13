@@ -25,10 +25,11 @@ domain_connections:
     note: "Shared electric fleets accelerate transport decarbonization beyond individual EV adoption"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["mobility-as-a-service", "robotaxi", "car-ownership", "autonomous-vehicles", "MaaS", "urban-mobility", "access-over-ownership", "6Ds"]
@@ -76,15 +77,15 @@ The 6D curve for autonomous shared mobility is accelerating through Disruptive �
 
 Abundance is not automatic. The transition risks stranding millions in auto-manufacturing and repair jobs, insurance markets, and fossil-fuel supply chains. Rural and low-income areas without dense robotaxi coverage could be left behind, creating a two-tier mobility system. Incumbents may lobby for protectionist regulation that slows deployment. Induced demand remains real — cheaper, easier mobility could increase total vehicle-miles traveled unless paired with smart urban planning. Falsifiability edge: if robotaxi safety data reverses or scaling stalls for regulatory/capital reasons, the ownership model regains dominance.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift required is from "my car = my freedom" to "reliable access = my freedom." This demands releasing the scarcity-era identity that equates self-reliance with sole possession. The warrior learns to travel light; the citizen learns that true mobility is not carrying your own steel but trusting the system to deliver the right tool at the right moment. The practice is deliberate: one month without a personal vehicle in a city with viable alternatives reveals how much mental and financial bandwidth ownership actually consumed.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Waymo, Cruise, and emerging Chinese operators are the ground truth. Waymo has scaled unsupervised robotaxi service across multiple U.S. cities with hundreds of thousands of paid weekly rides and superior safety metrics. Tesla's Full Self-Driving is still supervised in most markets but pushing the regulatory envelope. Micromobility companies (Lime, Bird, local operators) have deployed millions of shared e-vehicles with proven utilization curves. The bottleneck is no longer technology but regulatory harmonization, insurance frameworks, and last-mile integration. Builders who solve the policy layer capture the abundance fastest.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 Maria, a single mother in Phoenix, sold her 12-year-old sedan in 2025 after Waymo became reliable in her neighborhood. She now spends $180/month on robotaxi trips instead of $650 on car payments, insurance, and gas. Her evenings are no longer consumed by driving kids to activities; she uses the time for extra shifts or reading. For the first time in a decade she feels she has mobility without the constant background anxiety of maintenance, breakdowns, or parking tickets. One quiet evening when she realized she had not missed owning a car.
 
