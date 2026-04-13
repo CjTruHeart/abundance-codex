@@ -25,10 +25,11 @@ domain_connections:
     note: "Community-level rehearsal of better futures builds social cohesion around abundance"
 status: "forged"
 created: "2026-04-04"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.76
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["contrast", "protopia", "solarpunk", "dystopia", "narrative-shift", "futures-literacy", "imagination-deficit"]
@@ -69,13 +70,13 @@ The long arc is clear: civilizations have always been shaped by the futures they
 ### 🗡️ The Critic — Shadow Keeper
 This contrast risks becoming its own distortion: selective attention to optimistic pockets while ignoring persistent real suffering (war, inequality, ecological debt). Protopian language can sound like privileged escapism to communities still living daily scarcity. Transition pain is real — shifting cultural capital from critique-as-status to construction-as-status will leave some voices feeling silenced. Falsifiability edge: if protopian experiments demonstrably under-perform dystopian vigilance in policy outcomes over the next 15 years, the pivot thesis collapses. This is NOT a claim that dystopian fiction is bad or should be banned; it is a claim that the current *ratio* is dangerously lopsided.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift required is from "sophisticated pessimist" identity to "rigorous possibility-seer." Releasing the emotional safety of expecting the worst is as difficult as any martial-arts stance change. The practice is narrative double vision: hold the real pain of the present *and* the buildable better tomorrow simultaneously. This is not toxic positivity; it is disciplined, embodied conditional optimism — trained daily through frame detection, evidence check, shadow naming, and builder action.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 The protopian wave is already being built: Transition Network (1,000+ towns practicing local energy, food, and narrative rehearsal), solarpunk makerspaces and architectural pilots, Long Now Foundation's 10,000-year thinking, 100 Year Starship project, and open-source datasets like the Abundance Codex. Bottlenecks remain education systems still optimized for critique and governance institutions still rewarded for worst-case planning. The highest-leverage build right now is narrative infrastructure at community scale — local "future rehearsal" circles that turn abstract contrast into lived practice.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 In Totnes, England, in 2019, Transition Town participant Sarah W. stood in the community garden she helped plant and read aloud a short solarpunk story she had written with neighbors about their town in 2040. For the first time in years she described the future without the familiar tightening in her chest. The story was not utopian fantasy — it included real trade-offs and hard work — but it ended with children playing in a solar-powered, food-secure town square. Sarah later told a researcher the simple act of rehearsing that ending together changed how she voted, how she parented, and how she showed up in local council meetings. One story, one garden, one person — the protopian pivot made personal.
 
 ---

@@ -25,10 +25,11 @@ domain_connections:
     note: "Bottom-up trendlines inform policy that treats the future as a co-created construction project"
 status: "forged"
 created: "2026-04-04"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.81
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["trendline", "protopia", "futures-literacy", "solarpunk", "transition-movement", "imagination-scaling", "rehearsal-practices"]
@@ -63,7 +64,7 @@ The Protopian Turn follows the same exponential pattern visible in other 6D doma
 ### 🗡️ The Critic — Shadow Keeper
 Trendlines can mask uneven distribution. The majority of documented initiatives remain concentrated in Europe, North America, and early-adopter communities with sufficient social capital; acute-crisis regions often lack bandwidth for visioning workshops. Burnout and "hope fatigue" are real risks when rehearsal is not paired with immediate material wins. Falsifiability edge: if the number of actively updating groups and measurable local outcomes (resilience metrics, policy adoption) stagnates or declines over the next five years despite continued promotion, the "turn" thesis weakens. This is NOT a claim that narrative shift alone solves material scarcity — it is a claim that it is now a measurable, scaling counter-force to the dystopian default.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 What is actually scaling is a distributed infrastructure of imagination and local action. Transition Network reports 293 community-growing projects, 273 nature initiatives, and 166 explicit visioning/imagination efforts as of 2026. UNESCO's Futures Literacy network continues to roll out labs and masterclasses across continents, with 2026 activities including Chile's Proyecta 2050 integration and global Chair collaborations. Protopian frameworks (e.g., Monika Bielskyte's Protopia Futures) are being adapted into workshops, policy tools, and creative productions. Bottlenecks remain integration with formal governance and reaching under-resourced communities. Highest-leverage build right now: standardized, open-source "rehearsal kits" that pair visioning with measurable local metrics so the trendline can be tracked and accelerated globally.
 
 ---

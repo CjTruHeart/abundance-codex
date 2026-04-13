@@ -25,10 +25,11 @@ domain_connections:
     note: "Human-led imagination work converging with AI narrative tools for shared future blueprints"
 status: "forged"
 created: "2026-04-04"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.79
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["builder_profile", "transition-movement", "imagination", "protopia", "community-visioning", "deep-time", "futures-literacy"]
@@ -69,13 +70,13 @@ Civilizations have always been shaped by the futures they rehearsed. The Transit
 ### 🗡️ The Critic — Shadow Keeper
 This builder_profile risks romanticizing grassroots effort while underplaying structural barriers (funding, policy inertia, burnout). Not every community has the social capital or time that Totnes enjoyed in 2006; marginalized groups facing acute crises may see "imagination workshops" as tone-deaf privilege. Transition pain is real — shifting from protest culture to construction culture creates status loss for traditional activists. Falsifiability edge: if Transition groups demonstrably fail to deliver measurable resilience gains (energy descent, food security, well-being) over the next decade despite imagination work, the model weakens. This is NOT a claim that imagination alone solves everything — it is a claim that it is a necessary, previously missing ingredient.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift Hopkins models is from "sophisticated cynic" to "disciplined possibility-seer." Releasing the emotional armor of expecting disappointment is as hard as any martial-arts stance change. The practice is daily: notice when your mind defaults to collapse rehearsal, pause, and deliberately generate one vivid, grounded image of a better tomorrow. This is not toxic positivity — it is rigorous, embodied conditional optimism trained through repetition. Hopkins himself stopped flying in 2006; the discipline of aligning daily action with long-term vision is the teacher.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 What is actually being built is a global infrastructure of imagination and local action. Transition Network maintains active groups with documented projects in community growing (293), nature (273), energy (185), and visioning/imagination work (166). Hopkins' current builds include: the 2025 book and associated trainings (Hawkwood Centre weekend intensives), the Field Recordings from the Future album and 2026 live tour, and ongoing "pop-up tomorrow" experiments. Bottlenecks remain scaling beyond early-adopter communities and integrating with formal governance. Highest-leverage move right now: replicate the simple, replicable visioning formats in new bioregions while documenting measurable outcomes.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 In Totnes in 2019, longtime resident and Transition participant Maria L. joined one of Rob Hopkins' early "time-travel" workshops. She arrived skeptical — her family had lived through decades of economic decline and climate anxiety. During the exercise she described 2035: her grandchildren walking to a solar-powered school, the high street full of repair cafés and local produce, the river restored. She later told a researcher the felt shift was physical — the tightness in her chest eased for the first time in years. That single session led Maria to co-lead a community garden project that now feeds 40 households. One woman, one workshop, one garden — the protopian future became personal.
 
 ---

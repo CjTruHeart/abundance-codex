@@ -25,7 +25,7 @@ updated: "2026-04-11"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["future-vision", "contrast", "stellar-energy", "SWB", "RethinkX", "stranded-assets", "superabundance", "6D-framework"]
@@ -89,19 +89,19 @@ The deeper danger is techno-optimist distortion: assuming energy abundance autom
 
 Falsifiability edge: if battery cost curves flatten, if permitting and grid-interconnection bottlenecks prove structural rather than transitional, the "ignition point" gets pushed past the 2035 window and this paradigm reverts to a slow substitution story.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The deepest work is psychological de-capping. For millennia, the human mind has been capped by the fear of scarcity — the belief that for me to have more, you must have less. This "cave mind" is the source of our deepest traumas and competitive aggressions.
 
 The practice is abundance reasoning: the discipline of seeing a problem and immediately asking, "What exponential solution applies here?" This is the Mind of the Star — a state of being that generates more than it consumes and illuminates the path for others.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 The Stellar Energy Explorer is the blueprint. We are no longer guessing — we are modeling hourly energy demand of entire continents and matching it with SWB Superpower. The builder's task is to overbuild: deliberately install more solar and wind than "needed" for average demand, ensuring that even on cloudy, windless days the batteries are full.
 
 The waste of the old system (excess energy) is the wealth of the new system — enabling the electrolysis of hydrogen, the purification of water, and the training of large models at zero marginal cost.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from RethinkX Brazil scenario reporting and South Australia grid operator data.**
 

@@ -25,7 +25,7 @@ updated: "2026-04-11"
 version: "1.0"
 confidence: 0.81
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["future-vision", "builder-profile", "RethinkX", "Tony-Seba", "James-Arbib", "science-of-disruption", "stellar-energy", "SWB", "6D-framework"]
@@ -89,19 +89,19 @@ There is also a scoping critique: RethinkX models energy and transport superbly,
 
 Falsifiability edge: if battery learning rates collapse, or if grid-interconnection and permitting bottlenecks prove structural rather than transitional, RethinkX's headline dates slip by a decade and the "Science of Disruption" looks less like Kepler and more like enthusiastic curve-fitting.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The Sensei notices what RethinkX does for the *reader*: it gives permission to stop grieving the future. For a generation raised on climate anxiety, the emotional default has been preemptive mourning. The Seba framework doesn't erase grief, but it reframes the emotional register from *"we are running out of time"* to *"the train has already left the station, and it is a good train."*
 
 This is a subtle transformation: from dread to discipline. The discipline is to do the work of construction instead of the work of lament.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 What RethinkX ships is open-access infrastructure for strategic reasoning: the *Rethinking Energy* series, the *Rethinking Transportation* report, the *Understanding Stellar Energy* volume, and the Stellar Energy Explorer tool. These aren't opinion pieces — they are hourly-resolution models that can be inspected, contested, and forked.
 
 The builder's lesson: when you want to shift policy, don't write a manifesto; ship a model. The Stellar Energy Explorer is more persuasive than a thousand op-eds because it lets critics try their own assumptions and discover the same conclusion.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from RethinkX public briefings and investor/policy audience reporting.**
 

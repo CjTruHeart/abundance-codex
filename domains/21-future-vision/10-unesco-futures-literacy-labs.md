@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.83
 codex_version: "1.1"
-co_author_model: "GPT-5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["futures-literacy", "unesco", "anticipation", "foresight", "framework", "future-vision", "agency", "participatory"]
@@ -131,7 +131,7 @@ This is martial in the deepest sense. A rigid fighter gets broken by a changing 
 
 The practice is not to predict less because prediction is bad. The practice is to hold prediction in its proper place. Useful, limited, provisional. The deeper work is learning to perceive which future assumptions are quietly running your choices before you ever speak them aloud.
 
-### 🔨 The Builder -- Ground Truth
+### 🔧 The Builder -- Ground Truth
 
 What is actually being built here is not a gadget but a repeatable facilitation architecture.
 

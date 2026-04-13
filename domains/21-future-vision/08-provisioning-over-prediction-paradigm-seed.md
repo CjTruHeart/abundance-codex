@@ -21,7 +21,7 @@ updated: "2026-04-11"
 version: "1.0"
 confidence: 0.66
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["future-vision", "paradigm-seed", "provisioning", "design-fiction", "agency", "scenario-architecture"]
@@ -69,7 +69,7 @@ There is also an access problem: the digitized tools of provisioning — foundat
 
 Falsifiability edge: if systemic shocks (war, pandemic, climate tail risk) consistently decouple the 6 D's from real-world deployment, provisioning collapses back into hallucination and prediction remains the load-bearing verb.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift is from *fate* to *responsibility*, and it is heavier than it sounds. A world where you cannot change the future is terrifying but simple. A world where you can is terrifying and complex — because the future becomes partly your fault.
 

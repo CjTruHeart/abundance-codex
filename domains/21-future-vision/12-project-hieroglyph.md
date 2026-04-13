@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.8
 codex_version: "1.1"
-co_author_model: "GPT-5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["project-hieroglyph", "neal-stephenson", "science-fiction", "futures", "builder-profile", "storytelling", "future-vision"]
@@ -125,7 +125,7 @@ Project Hieroglyph does not ask for gullibility. It asks for disciplined re-entr
 
 The inner shift, then, is from cynicism-as-safety to rigor-with-hope. Writers must release the idea that seriousness belongs only to dark futures. Engineers must release the idea that imagination is ornamental. Citizens must release the idea that the future is authored elsewhere by hidden elites and impersonal systems. The project trains a more integrated stance: feel the constraints, but do not worship them.
 
-### 🔨 The Builder -- Ground Truth
+### 🔧 The Builder -- Ground Truth
 
 What Project Hieroglyph actually built was a collaborative apparatus.
 

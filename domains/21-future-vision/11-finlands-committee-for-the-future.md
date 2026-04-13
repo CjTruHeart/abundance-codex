@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.84
 codex_version: "1.1"
-co_author_model: "GPT-5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["finland", "committee-for-the-future", "anticipatory-governance", "parliament", "foresight", "future-vision", "builder-profile"]
@@ -123,7 +123,7 @@ In martial terms, this is the difference between flinching at the first feint an
 
 The Committee for the Future is therefore not only a governance mechanism. It is a training hall for temporal discipline. It teaches that democracy must become capable of carrying more than one horizon at a time. Not because prediction is perfect. Because responsibility is.
 
-### 🔨 The Builder -- Ground Truth
+### 🔧 The Builder -- Ground Truth
 
 What has actually been built is concrete enough to study.
 
