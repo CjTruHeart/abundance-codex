@@ -25,7 +25,7 @@ updated: "2026-04-10"
 version: "1.0"
 confidence: 0.78
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["paradigm-seed", "co-creative-intelligence", "commodity-reasoning", "epistemic-direction", "cognitive-abundance", "intent", "judgment"]
@@ -73,7 +73,7 @@ Every major civilizational leap has turned a previously scarce cognitive resourc
 
 Calling reasoning a "commodity" is dangerous shorthand. Frontier models still hallucinate confidently in domains where the user cannot verify, still inherit the biases of their training distributions, and still produce output that is "epistemically directionless" — fluent, plausible, and quietly wrong. Treating that output as a commodity input the way you would treat electricity invites a civilizational dark age in which everyone has more answers and no one has the discipline to know which ones to trust. The abundance of reasoning is not the same as the abundance of *true* reasoning, and the gap between them is exactly where new scarcities (and new manipulations) will be engineered.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The deepest practice this paradigm demands is humility about the limits of your own knowing. When the answer is cheap, the only thing that distinguishes wisdom from sophistication is the willingness to say "I do not know" — and to mean it. The torch you carry into the unknown is no longer the stored knowledge in your head; it is the courage to keep asking questions whose answers you cannot yet evaluate, and the discipline to wait until you can.
 

@@ -25,7 +25,7 @@ updated: "2026-04-10"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["builder-profile", "co-creative-intelligence", "anysphere", "cursor", "vibe-coding", "agentic-ide", "composer", "intent-orchestration"]
@@ -73,15 +73,15 @@ Cursor sits on top of the steepest cost curve in modern computation: per-token i
 
 The growth chart is real, but so is the security debt. Independent audits of LLM-generated code have repeatedly found high rates of exploitable flaws when the human reviewer treats the agent's output as trustworthy by default. The "vibe coding" aesthetic — shipping a polished demo in an afternoon — masks a logarithmic wall: the first 80% of an application falls out of the agent in an hour; the last 20% (security boundaries, edge-case correctness, long-term maintainability) does not yield to the same trick. And the gating tier ($200/month "Ultra" plans for serious agentic usage) reintroduces a class divide right where the democratization narrative was supposed to land.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The deepest shift Cursor demands is not technical — it is identitarian. For decades, "developer" meant "person who can type the magic words." Now it means "person who can describe what should exist and judge whether it does." For senior engineers this can feel like an existential threat or a liberation, depending on whether their identity was rooted in syntax mastery or in systemic taste. For everyone else, it is an invitation to drop the shame of "I'm not technical" and begin practicing the only literacy that now matters: clarity of intent.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 What Anysphere actually ships is not magic — it is a relentlessly engineered substrate. Composer runs agents in isolated git worktrees so parallel work does not collide. The IDE pipes browser validation results back into the agent loop so it can self-correct against real runtime behavior. The interface assumes the human will review diffs at speed, so the diff viewer is the real product. The unsexy truth is that 80% of the work is the orchestration plumbing and 20% is the model. Anyone telling you Cursor is "just GPT in a wrapper" has not opened the agent log.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from non-technical founders adopting agentic IDEs and from veteran engineers reporting workflow shifts.**
 

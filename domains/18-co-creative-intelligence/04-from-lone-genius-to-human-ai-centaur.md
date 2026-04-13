@@ -21,10 +21,11 @@ domain_connections:
     note: "The centaur model raises deep questions about cognition, agency, and what constitutes understanding in symbiotic systems"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.76
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["centaur", "lone-genius", "human-AI-symbiosis", "context-engineering", "co-creation", "productivity", "contrast", "augmentation"]
@@ -72,15 +73,15 @@ Historical parallels are instructive. The printing press did not replace scribes
 
 The contrast is not uniformly rosy. Productivity gains are uneven: senior/experienced workers capture most of the upside while early-career developers risk deeper deskilling (Anthropic 2026 coding study showed AI users scoring 17 percentage points lower on comprehension tests). Corporate capture is real — platforms that own the context layer can lock users into proprietary workflows. Transition pain includes cultural whiplash: organizations optimized for lone-genius or hierarchical review cycles now face incentive misalignment. Who gets left behind? Workers without access to high-quality models, without training in context engineering, or in regions with poor infrastructure. Falsifiability edge: if large-scale longitudinal studies show net cognitive decline across populations despite output gains, the centaur abundance claim collapses. This is not guaranteed abundance; it is conditional on deliberate practice and governance that keeps humans in the loop.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift required is from "I must know everything" to "I must direct what matters." Identity as solitary expert must be released; identity as masterful symbiote must be cultivated. This is dojo-level training: daily unaided practice to keep the blade sharp, followed by partnered sparring where AI is the training partner, not the replacement. The scarcity-era belief ("my value is in my stored knowledge") gives way to abundance-era truth ("my value is in my taste, judgment, and ability to frame problems"). Compassion for the discomfort is essential — many feel the same identity threat a blacksmith felt watching the forge become mechanized. The practice is simple but demanding: before every AI interaction, write the unaided version of your intent; after, compare and refine. Over time the muscle of symbiotic discernment becomes second nature.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Builders are already shipping the infrastructure. GitHub Copilot, Cursor, Claude Projects, LangChain/LlamaIndex orchestration layers, and enterprise platforms (Anthropic, OpenAI Enterprise, Microsoft Copilot) are moving context engineering from artisanal skill to productized workflow. BCG's internal experiments, McKinsey's workflow redesign playbooks, and Upwork's agentic tooling show production deployments delivering 26-70% lifts when humans stay in the judgment seat. Bottlenecks remain: context window limits (though expanding), evaluation of centaur output (harder than pure AI benchmarks), and organizational inertia. Timelines: 2026-2027 will see centaur-native IDEs and writing environments become table stakes; 2028+ will see domain-specific symbiosis platforms (legal, medical, scientific) that embed verified human oversight. The leverage point today is personal practice plus team-level workflow redesign — builders who master both move fastest.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 Maria, a nonprofit grant writer in 2025, spent three years drafting proposals the old way — solitary research, endless revisions, 40-60 hour cycles per major submission. After adopting deliberate context engineering (full organizational history, donor psychology, success criteria, and iterative loops with Claude), her first co-created proposal was accepted in 18 hours instead of six weeks. She described the turning point: "For the first time I wasn't guessing what the foundation wanted; the AI held the entire context I fed it, and I only had to steer. The output felt more 'me' than my solo drafts ever had — because I finally had bandwidth to focus on vision instead of boilerplate." Her organization's funding success rate jumped 3x within a year. Maria still does weekly unaided writing drills to keep her edge; the symbiosis amplified her, it did not replace her.
 

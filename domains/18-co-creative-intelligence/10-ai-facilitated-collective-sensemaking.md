@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.79
 codex_version: "1.1"
-co_author_model: "GPT-5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["collective-intelligence", "deliberation", "vtaiwan", "polis", "ai-facilitation", "consensus", "pluralism", "co-creative-intelligence", "framework"]
@@ -99,7 +99,7 @@ This is martial in the deepest sense. A fighter who panics at contact burns ener
 
 But no tool can complete that training for us. The technology can reveal the pattern. Human beings still have to become the kind of people who can face that pattern honestly.
 
-### 🔨 The Builder -- Ground Truth
+### 🔧 The Builder -- Ground Truth
 What exists now is a stack, not a miracle.
 
 At the input layer, systems like Polis collect short statements and participant votes. At the analysis layer, participants are grouped into opinion clusters based on voting similarity, and the system identifies representative comments and widely shared statements across groups. Importantly, the core clustering logic in Polis is grounded in vote patterns rather than natural-language magic. That matters because it keeps the main grouping mechanism more interpretable and more auditable than a pure LLM black box.

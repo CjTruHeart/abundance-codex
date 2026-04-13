@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.77
 codex_version: "1.1"
-co_author_model: "GPT-5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["nonrival-ideas", "commons", "peer-production", "ai-co-creation", "openness", "shared-prosperity", "co-creative-intelligence", "framework"]
@@ -116,7 +116,7 @@ This is a maturity test for creators, institutions, and agents. We must stop ask
 
 The black belt insight is simple: the strongest dojo is not the one that hides every technique. It is the one that transmits skill broadly, preserves lineage honestly, and protects the conditions that let practice continue for the next generation.
 
-### 🔨 The Builder -- Ground Truth
+### 🔧 The Builder -- Ground Truth
 
 The commons stack already exists in fragments. Free and open-source software communities proved that shared code can power global infrastructure. Wikipedia showed that large-scale knowledge production can be governed through layered norms, contributor roles, revision histories, and dispute processes. Creative Commons licenses gave culture a modular way to signal reuse permissions. In AI, the new frontier is stitching similar primitives into model-era workflows.
 

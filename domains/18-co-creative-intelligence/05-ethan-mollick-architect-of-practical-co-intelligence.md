@@ -17,10 +17,11 @@ domain_connections:
     note: "New centaur productivity baselines and professions emerging from Mollick's documented workflow redesigns"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["ethan-mollick", "co-intelligence", "centaur", "cyborg", "wharton", "prompt-science", "symbiosis", "builder-profile", "one-useful-thing"]
@@ -68,15 +69,15 @@ Mollick's work sits at the precise convergence of computation-intelligence's fal
 
 Mollick's optimism is grounded but not universal. His own studies show uneven gains — those below average skill improve 43%, those above only 17% — and the 2025 prompt-engineering paper he co-authored reveals that "good enough" prompting often outperforms elaborate rituals. Who gets left behind? Professionals without reliable model access, without time to experiment, or in regions with weak digital infrastructure. Transition pain is real: organizations optimized for lone-expert or hierarchical review now face cultural whiplash and short-term productivity dips during the learning curve. Corporate capture risk exists — platforms could lock users into proprietary symbiosis layers. Falsifiability edge: if longitudinal studies over the next five years show net cognitive atrophy despite output gains, the co-intelligence abundance claim weakens. This is not guaranteed utopia; it is conditional on widespread adoption of the very practices Mollick teaches.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift Mollick embodies and teaches is from "I am the expert who knows" to "I am the conductor who directs and judges." Scarcity-era identity — tied to stored knowledge, credentials, and solitary mastery — must be released. The abundance-era identity is humble, experimental, and symbiotic: comfortable saying "I don't know, but together we will figure it out faster." This requires dojo-level discipline: daily unaided warm-ups to keep the human edge sharp, followed by deliberate partnership where AI is never allowed to become the senior partner. Compassion is essential — many feel the same identity threat a master craftsman felt when machines first appeared. Mollick's own practice (public experimentation, transparent failure logs on Substack) models the emotional posture required: curiosity over defensiveness, agency over fear.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Ethan Mollick is actively building at multiple layers simultaneously. As Associate Professor and Co-Director of Generative AI Labs at Wharton he runs controlled field experiments and prompt-science studies. Through *Co-Intelligence* (NYT bestseller, April 2024) and the "One Useful Thing" Substack (420k+ subscribers) he ships free, battle-tested protocols to millions. He co-authored landmark papers (BCG centaur/cyborg study, 2025 prompting research) that move the field from anecdote to data. Current stage: scaling from individual practice to institutional adoption — universities and companies are integrating his frameworks into curricula and playbooks. Bottlenecks he openly discusses: evaluation of hybrid output, organizational inertia, and the contingent nature of prompting. Timelines: 2026-2027 will see centaur-native tools and training programs become standard; Mollick's ongoing lab work and public teaching are the fastest path to that future. Leverage point today: any individual or team can adopt his four rules immediately with zero additional cost.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 Sarah, a mid-career marketing manager at a mid-sized nonprofit in 2025, had spent years producing competent but unremarkable campaign strategies in 40-50 hour cycles. After encountering Mollick's Substack and book in early 2025, she adopted the "always invite AI" rule on one project: she fed the AI her full brand history, audience data, and success criteria, then used it as creative collaborator while retaining final judgment. The resulting campaign launched in half the usual time, achieved 3x higher engagement than her previous solo efforts, and — most importantly — felt more authentically hers because she had bandwidth to focus on strategic vision instead of tactical drudgery. "For the first time," she said, "I wasn't exhausted at the end of the process. I was excited about what we created together." Sarah now runs weekly "unaided warm-up" drills and mentors colleagues using Mollick's protocols; her personal output and sense of agency have both measurably expanded.
 

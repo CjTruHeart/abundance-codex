@@ -25,7 +25,7 @@ updated: "2026-04-10"
 version: "1.0"
 confidence: 0.83
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["contrast", "co-creative-intelligence", "vibe-coding", "agentic-ide", "syntax-labor", "intent-orchestration", "developer-experience"]
@@ -73,15 +73,15 @@ The historical pattern is unmistakable: every major leap in software abundance h
 
 The "minutes instead of months" headline hides a logarithmic wall. Agentic tools handle bounded, well-trodden problems beautifully — CRUD apps, dashboards, marketing sites — and stumble badly on the unbounded ones: novel architectures, security boundaries, performance under load, long-term maintainability. The result is a generation of "vibe-coded" applications that look polished on day one and become unmaintainable rubble on day ninety. And the people best positioned to repair the damage are the same senior engineers the abundance narrative claimed were obsolete.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The friction you feel when you sit down with an agentic IDE is not a tooling problem. It is the discovery that you did not actually know what you wanted as precisely as you thought. The tools are not making coding easy; they are making the imprecision of your own intent visible. This is uncomfortable, and it is the point. The practice is to sit with the discomfort, sharpen the intent, and notice that the new craft is not faster typing — it is clearer thinking.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 What actually works in production right now: tight scope, explicit acceptance criteria, parallel agent runs in isolated worktrees, and a human reviewer who treats every agent diff like an external pull request. What does not work: asking an agent to "build me a startup" and merging whatever it produces. The builders shipping real revenue with these tools are the ones who have internalized the review discipline. The ones generating cleanup contracts are the ones who skipped it.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from non-technical founders and senior engineers adopting agentic IDEs.**
 
