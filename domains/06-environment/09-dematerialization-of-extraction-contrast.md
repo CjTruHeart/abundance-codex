@@ -29,7 +29,7 @@ updated: "2026-04-06"
 version: "1.0"
 confidence: 0.80
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["contrast", "environment", "dematerialization", "peak-agricultural-land", "rewilding", "decoupling", "precision-agriculture", "synthetic-biology", "6Ds"]

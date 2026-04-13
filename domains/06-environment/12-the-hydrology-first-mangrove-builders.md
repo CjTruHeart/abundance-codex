@@ -25,7 +25,7 @@ updated: "2026-04-07"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "gpt-5.4-thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["mangroves", "restoration", "cbemr", "wetlands", "coastal-resilience", "builder-profile"]
@@ -101,7 +101,7 @@ Who gets left behind? Coastal communities whose labor is used for restoration wi
 
 The falsifiability edge is simple: if hydrology-first, community-based restoration does not consistently outperform photo-op planting in survival, ecological function, and livelihood durability, this narrative weakens. And if funding continues to reward counts over outcomes, the builder logic will be drowned by optics.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift required here is from domination to listening.
 
@@ -113,7 +113,7 @@ Community-based restoration also asks institutions to release another scarcity b
 
 This is the practice: before trying to add life, remove the obstruction. Before issuing the plan, listen for the system's own logic. The deepest abundance often comes not from doing more, but from finally doing the right thing in the right sequence.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Mangrove Action Project was founded in 1992 and has spent more than three decades working on mangrove conservation and restoration. Its current training materials describe CBEMR as a methodology it has pioneered since 2005, combining science, local ecological knowledge, and community participation to address the ecological and social causes of mangrove loss rather than jumping straight to planting.
 
@@ -123,7 +123,7 @@ The technical bottlenecks are clear. First, hydrology: if water flow is wrong, p
 
 What can be built now? Training pipelines, community co-management systems, restoration diagnostics, local livelihood supports, and monitoring layers that tie ecological recovery to decisions in near real time. What remains blocked is not the idea. It is the alignment of money, governance, and patience.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 In Kitangani, in Kenya's Lamu landscape, Husna Bakari had already seen what failure looked like. Mangroves had been planted before. The site still struggled. The water was wrong.
 

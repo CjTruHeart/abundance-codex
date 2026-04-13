@@ -21,11 +21,12 @@ domain_connections:
     note: "Revived salmon runs restore traditional food systems and commercial fisheries"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
 tags: ["klamath-river", "dam-removal", "salmon-recovery", "tribal-leadership", "river-restoration", "before-after", "ecosystem-rebound"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -65,13 +66,13 @@ The Klamath fits the solved-crises pattern from Entry 02: scientific evidence (f
 ### 🗡️ The Critic — Shadow Keeper
 Dam removal is not cost-free. Lost hydropower must be replaced (energy domain tension). Some sediment mobilization initially worsened turbidity. Not every dam is a candidate — many provide flood control or irrigation. Legacy contamination behind older dams can resurface. Tribal leadership was essential here; without it, projects stall. Falsifiability edge: if salmon runs do not sustain multi-generational recovery by 2028–2030, the "rapid rebound" narrative weakens.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift required is from "control the river" to "partner with the river." For a century we engineered scarcity in the name of progress. The abundance move is to release control, trust ecological intelligence, and accept that some of our grandest 20th-century infrastructure is now obsolete. That identity release — from conqueror to steward — is the same one demanded across the entire Codex.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 The Klamath River Renewal Corporation and Tribal partners executed one of the most complex environmental engineering projects ever attempted. They removed four dams, managed 20+ million cubic yards of sediment, restored 40+ miles of riverbed, and installed state-of-the-art monitoring. The project stayed on schedule and budget despite historic rain events. Bottleneck was not engineering — it was decades of legal and political negotiation now resolved.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 Barry McCovey, Yurok Fisheries Department Director, watched Chinook salmon swim past the former Iron Gate Dam site in October 2024 for the first time in his lifetime. He described seeing fish in every major tributary above Upper Klamath Lake — waters his ancestors had fished for millennia — as "a moment of cultural and ecological healing that cannot be overstated." One person, one river, one generation witnessing the return of abundance their grandparents were told was gone forever.
 
 ---

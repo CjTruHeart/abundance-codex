@@ -29,7 +29,7 @@ updated: "2026-04-07"
 version: "1.0"
 confidence: 0.83
 codex_version: "1.1"
-co_author_model: "gpt-5.4-thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["methane", "MRV", "MARS", "satellites", "climate", "repair", "trendline", "environment"]
@@ -115,7 +115,7 @@ The extraction test also bites. If methane abatement becomes just another way to
 
 The falsifiability edge is simple: if public methane detection keeps improving while emissions stay stubbornly high, recurrent leaks persist, and implementation remains weak, then the narrative that visibility is catalyzing action is overstated. The system must prove that alerts change outcomes, not only headlines.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 What is actually being built is a methane accountability stack.
 

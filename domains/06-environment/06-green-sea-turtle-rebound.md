@@ -21,11 +21,12 @@ domain_connections:
     note: "Short-term restrictions on fishing and coastal development required economic transition support"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.84
 codex_version: "1.1"
 tags: ["green-sea-turtle", "marine-recovery", "biodiversity-rebound", "ocean-conservation", "before-after", "protected-areas", "bycatch-reduction"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -65,13 +66,13 @@ This fits the solved-crises pattern of Entry 02 perfectly: science (population m
 ### 🗡️ The Critic — Shadow Keeper
 Recovery remains uneven — some Pacific subpopulations lag due to persistent illegal take and climate-driven beach erosion. Bycatch reduction is incomplete in artisanal fisheries. Short-term economic pain hit small-scale fishers and egg collectors. Falsifiability edge: if nesting numbers plateau or decline by 2035 without sustained protections, the "permanent recovery" narrative weakens. Who gets left behind? Coastal communities without adequate transition support or alternative livelihoods.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift required is from "the ocean is a pantry to be raided" to "the ocean is a living commons to be stewarded." Fishers and coastal nations must release the scarcity-era identity of maximum short-term yield and embrace long-term abundance thinking. This is the same warrior discipline demanded across the Codex: let go of the old grip so the system can breathe and return the gift tenfold.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Hundreds of organizations — from the Sea Turtle Conservancy and WWF to local cooperatives in Costa Rica, Mexico, India, and Australia — executed the work. They installed thousands of kilometers of beach fencing, trained community patrols, retrofitted fishing fleets with TEDs, and established no-take zones. Monitoring uses satellite tags, drone surveys, and standardized nest counts. The bottleneck was never technology — it was decades of political coordination and funding consistency, now largely resolved at key sites.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 Maria Elena, a third-generation fisherwoman from Ostional, Costa Rica, has patrolled the beach since 1998. In 2024 she watched more than 11,000 green turtles nest in a single arribada — the largest she had ever seen — after decades when the beach sometimes hosted only dozens. She described the sound of thousands of flippers on sand as "the ocean remembering its own name." One woman, one beach, one ancient species returning to the rhythm her grandmother once knew.
 
 ---

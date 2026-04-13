@@ -29,7 +29,7 @@ updated: "2026-04-07"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "gpt-5.4-thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["biodiversity", "eDNA", "remote-sensing", "bioacoustics", "GBIF", "BioSCape", "monitoring", "environment"]
@@ -125,7 +125,7 @@ There are also technical limits. GBIF itself notes the problem of dark taxa and 
 
 This is a real breakthrough. But it will fail the abundance test if measurement scales while protection, justice, and ecological recovery do not.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift required here is subtle but profound: we must release the identity of the conservation era that believed care and blindness were destined to travel together.
 
@@ -139,7 +139,7 @@ The scarcity belief that must be released is this: *if living systems are comple
 
 The practice is to treat observability as responsibility. The clearer the signal becomes, the less permission remains for drift, denial, and delayed action.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 What is actually being built is not one platform but an interoperable monitoring pipeline.
 
@@ -153,7 +153,7 @@ What can be built now? Better standards for eDNA publication. Shared taxonomic r
 
 What remains blocked? Capacity gaps, governance gaps, uneven infrastructure, and the hard work of converting observation into institutional response.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 In the Cape, Anabelle Cardoso stood inside one of the most biodiverse regions on Earth and described the paradox plainly: South Africa is immensely rich in life, but it is also a brutally difficult place to study with remote sensing because so many species live packed close together.
 

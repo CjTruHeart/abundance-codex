@@ -21,11 +21,12 @@ domain_connections:
     note: "Short-term livelihood disruption requires targeted compensation and alternative income programs"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.85
 codex_version: "1.1"
 tags: ["yangtze-river", "fishing-ban", "biodiversity-recovery", "policy-lever", "river-restoration", "finless-porpoise", "before-after", "large-scale-conservation"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -65,13 +66,13 @@ The Yangtze mirrors the solved-crises pattern in Entry 02 and the barrier-remova
 ### 🗡️ The Critic — Shadow Keeper
 The ban created real transition pain for roughly 300,000 professional fishers who lost their primary livelihood. Enforcement required massive state resources; illegal fishing still occurs. Recovery is early-stage — five years is not enough to confirm full multi-generational rebound or reversal of pollution legacies. Some species may need active reintroduction or habitat restoration. Falsifiability edge: if biomass and porpoise numbers plateau or decline after the ban ends in 2031 without sustained management, the "policy-alone" narrative weakens. Who gets left behind? Fishers without adequate retraining or compensation.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift demanded is from "the river is a resource to harvest" to "the river is a living system to steward." For fishers this means releasing an identity built on extraction and embracing one of guardianship or diversified livelihoods. The same identity release is required at societal scale: from viewing nature as an infinite commons to recognizing that enforced restraint creates long-term shared abundance. This is the warrior's discipline applied to ecosystems — let go of short-term grip to gain lasting flow.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 The Chinese government, Ministry of Agriculture and Rural Affairs, and scientific teams executed one of the most ambitious freshwater conservation projects ever attempted. They combined the ban with habitat upgrades, water-quality improvements, and fisher transition programs (retraining, compensation, alternative employment). Monitoring used standardized net surveys, acoustic methods, and porpoise population censuses across thousands of kilometers. The bottleneck was not science or enforcement technology — it was decades of political coordination now achieved. Early results validate the engineering of policy at watershed scale.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 Dr. Fangyuan Xiong, lead researcher on the 2026 *Science* study, stood on the banks of the Yangtze in 2023 comparing pre- and post-ban survey nets. Where once the catch was dominated by small, stressed fish, the nets now teemed with larger, healthier specimens — including species not seen in years. For local fishers who transitioned to monitoring or eco-tourism roles, the return of the finless porpoise surfacing nearby became a daily reminder that their sacrifice produced visible life. One river, one policy, thousands of lives witnessing the rebound their grandparents believed impossible.
 
 ---
