@@ -25,10 +25,11 @@ domain_connections:
     note: "Queue management, dynamic ratings, forecasting, and DER orchestration all depend on better software and AI."
 status: forged
 created: "2026-04-04"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.86
 codex_version: "1.1"
-co_author_model: "GPT 5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["shadow", "grid", "interconnection", "transmission", "transformers", "permitting", "energy-transition"]
@@ -79,7 +80,7 @@ And do not romanticize transmission buildout. A line can decarbonize the grid an
 
 The falsifiability edge is simple: if interconnection times fall sharply, withdrawal rates improve, transformer shortages ease, and grid upgrades begin keeping pace with new load and renewables, this shadow weakens. Until then, abundance without wires is branding.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner trap is hero worship.
 
 People love the visible breakthrough: the panel, the battery wall, the reactor sketch, the futuristic drill rig. They do not love substations, docket reform, queue automation, or transformer replacement. But that is precisely the identity shift required now.
@@ -88,7 +89,7 @@ Beginners worship the strike. Masters study footing, timing, and breath. The gri
 
 So the practice is humility. Stop asking only, "What new miracle can we build?" Ask, "What quiet structure must become worthy of the miracles we already have?" That is the maturity move.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 The bottleneck is measurable.
 
 Berkeley Lab's latest queue synthesis still shows roughly 2.3 TW of generation and storage seeking interconnection at the end of 2024, with recent cohorts taking more than four years from request to operation on median. DOE and NREL say the U.S. has 60–80 million distribution transformers and that about 55% are older than 33 years. Large power transformers are older, slower, and still import-dependent.
@@ -102,7 +103,7 @@ The build order is not mystical:
 4. plan generation and wires together,
 5. pay communities honestly.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 **Composite based on documented patterns in U.S. interconnection queue reporting and energy-transition journalism.**
 
 Marisol Vega kept the paper map folded in the passenger seat of her truck until the creases went white.

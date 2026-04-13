@@ -25,9 +25,11 @@ domain_connections:
     note: "Realizing the trendline requires interconnection reform, transmission buildout, and market rules that reward flexibility."
 status: "forged"
 created: "2026-04-04"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.89
 codex_version: "1.1"
+co_author_model: "chatgpt-5.4-thinking"
 tags: ["trendline", "energy", "solar", "batteries", "learning-curve", "lcoe", "investment", "grids", "6Ds"]
 ---
 
@@ -88,7 +90,7 @@ There is another distortion risk: LCOE triumphalism. Generation-cost headlines o
 
 The falsifiability edge is straightforward. If the next decade shows persistent retail price inflation, stalled grid buildout, chronic curtailment, and failure to convert capital spending into delivered reliability, then this entry is too optimistic. A cost curve without a delivery curve is not abundance. It is stranded potential.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 On the ground, the most important fact is that the engineering center of gravity has shifted from invention to deployment logistics.
 
 The hardware story is strong. Solar is mature, bankable, and globally scaled. Battery manufacturing capacity now materially exceeds annual demand, which is why prices have fallen so fast. In practical builder language, the bottleneck is no longer "Can we make enough modules and cells?" It is "Can we interconnect them, finance them, permit them, and operate them as part of a stable system?"

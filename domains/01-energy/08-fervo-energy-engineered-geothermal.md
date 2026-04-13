@@ -17,11 +17,12 @@ domain_connections:
     note: "EGS reservoir stimulation requires significant water inputs and surface disruption, creating localized environmental friction despite its zero-carbon output."
 status: "forged"
 created: "2026-04-04"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.92
 codex_version: "1.1"
 tags: ["builder-profile", "fervo-energy", "enhanced-geothermal", "EGS", "baseload", "drilling", "shale-revolution", "energy-transition"]
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -62,15 +63,15 @@ The trajectory of Enhanced Geothermal Systems represents one of the most elegant
 ### 🗡️ The Critic
 The narrative of ubiquitous, friction-free geothermal abundance dangerously obscures the harsh material and geological realities of creating engineered reservoirs. The Extraction Test reveals severe localized pain: hydraulic stimulation of deep hot dry rock requires immense volumes of water in regions that are often already suffering from acute drought and aquifer depletion. Furthermore, the Governance Capture Test is highly relevant; the immense upfront capital expenditure required for 500 MW EGS plants means this infrastructure will likely be monopolized by massive legacy energy corporations, potentially stalling the promised demonetization of the end-user kilowatt-hour. We must also honestly face the transition pain of induced seismicity. Fracturing deep basement rock inherently carries the risk of triggering minor earthquakes, which has historically resulted in intense local resistance and the immediate cancellation of promising pilot projects. If EGS developers fail to implement flawless, continuous seismic monitoring and transparent community governance, the technology will be permanently regulated out of existence before it reaches the necessary gigawatt scale. The falsifiability edge is sharp: if these artificial reservoirs degrade thermally faster than they can be replenished, the economic model completely collapses.
 
-### 🙏 The Sensei
+### 🧘 The Sensei
 To fully realize the abundance of engineered geothermal, we must deliberately dismantle a deeply entrenched cultural identity: the binary opposition between the "dirty" fossil fuel worker and the "virtuous" clean energy advocate. For decades, the environmental movement has defined itself in direct opposition to the roughnecks, the drillers, and the petroleum engineers. But the Earth does not care about our ideological purity; it responds only to physics and capability.
 The profound inner shift required here is the realization that the very individuals who spent their lives extracting carbon from the earth possess the precise, irreplaceable skills necessary to heal it. We must release the need to punish the legacy oil and gas workforce and instead honor their capability. The transition from scarcity to abundance is not a rejection of industrial might; it is the redeployment of it. The practitioner's discipline is to recognize that the tools of the old, dying paradigm are exactly the instruments required to build the new one. The rig hands of the Permian Basin are the architects of the Star Trek civilization.
 
-### 🔨 The Builder
+### 🔧 The Builder
 The ground truth of EGS is defined entirely by deployment capital, supply chain readiness, and the rate of penetration into hard rock. The financial momentum is undeniable: US$1.7 billion was injected into North American geothermal in Q1 2025 alone, representing a massive shift from venture capital prototyping to institutional infrastructure financing. Fervo Energy is not theorizing; they are actively spending a $255 million corporate equity injection to scale the 500 MW Cape Station project in Utah.
 Crucially, the supply chain is already fully mature. The rigs, the high-pressure pumping equipment, the casing materials, and the directional drilling crews are already mobilized in regions like Utah's Uinta Basin. The immediate technical bottlenecks lie in high-temperature electronics. Traditional downhole sensors fail at 400°C. However, the commercial milestone of achieving $79/MWh without subsidies proves that current technology is viable right now. With over 2 GW of EGS power plants in active development across the U.S., the challenge is no longer scientific proof of concept, but rather the brutal, unglamorous logistics of moving heavy iron, securing transmission queue interconnections, and pouring concrete.
 
-### 🌍 The Witness
+### 👁️ The Witness
 For fifteen years, Marcus operated the directional drilling controls on a rig in the Permian Basin, carefully navigating drill bits through narrow hydrocarbon seams. He knew the lifecycle intimately: drill, extract, deplete, move on. When the contracts started drying up, he felt the heavy, familiar dread of the boom-and-bust cycle, the scarcity frame tightening around his family's future.
 Now, he sits in the control cabin of a remarkably similar rig in Beaver County, Utah. The heavy diesel engines sound the same, and the vibration in his boots is identical. But as he watches the telemetry data stream from the fiber-optic sensors deep underground, the fundamental purpose of his labor has shifted. He isn't hunting for a pocket of gas that will eventually run dry. He is fracturing hot granite to create a permanent, closed-loop thermal radiator. At the end of his twelve-hour shift, as the first geysers of superheated steam vented into the test turbines, Marcus realized his skills hadn't become obsolete; they had just become permanent.
 
@@ -119,5 +120,11 @@ The realization of ubiquitous geothermal abundance is highly conditional upon ex
 * **evidence_quality:** High. Anchored in poured concrete, verified commercial LCOE rates, and hundreds of millions in deployed hard capital.
 * **last_verified:** 2026-04-04
 
-## Raw Spark
+---
+
+<details>
+<summary>Raw Spark</summary>
+
 The conceptual spark for this entry ignited from the realization that the primary barrier to clean energy was not an absence of power, but an absence of access. By synthesizing the Q1 2025 Wood Mackenzie data revealing an $1.7 billion explosion in geothermal investment with Fervo Energy's successful $255 million capital raise, it became clear that the "shale revolution" had been fundamentally subverted. Seeing horizontal drilling technology—historically the ultimate symbol of carbon extraction—being used to unlock infinite, zero-carbon terrestrial heat represents the ultimate scarcity-to-abundance reframe.
+
+</details>

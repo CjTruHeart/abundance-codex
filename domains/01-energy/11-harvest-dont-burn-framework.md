@@ -25,10 +25,11 @@ domain_connections:
     note: "When energy is built as infrastructure instead of burned as fuel, more value shifts from extraction rents to deployable systems."
 status: forged
 created: "2026-04-04"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.83
 codex_version: "1.1"
-co_author_model: "GPT 5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["framework", "energy", "flows-vs-stocks", "learning-curves", "grid", "abundance"]
@@ -104,7 +105,7 @@ The distortion risk is obvious: people hear "don't burn" and conclude that physi
 
 Its falsifiability edge is clear too. If supposedly abundant pathways do not keep driving delivered energy costs down once full system costs are counted — including storage, transmission, balancing, resilience, and materials — then the framework is overstated. If abundance shows up in slide decks but not in household bills, industrial competitiveness, reliability, or access, the story has failed.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 Scarcity teaches a certain kind of masculinity to civilizations: secure the fuel, guard the chokepoint, dominate the route, never be caught without reserves. It is an understandable psychology. When energy comes from finite stocks, survival belongs to whoever controls the storehouse.
 
 The abundance transition asks for a different identity. Not weaker. More skillful.
@@ -117,7 +118,7 @@ So the inner practice is to release the belief that resilience means hoarding. I
 
 The human task is not just to accept new technology. It is to train a new reflex: when you look at an energy system, stop asking only "What does it burn?" Start asking "What does it cultivate? What does it coordinate? What failure can it survive?" That shift is not ideology. It is maturity.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 On the ground, this framework becomes a project filter.
 
 If a pathway depends on ever-cheaper manufactured hardware, standardization, software coordination, and fast deployment cycles, it belongs closer to the abundance stack. That is why utility-scale solar, batteries, heat pumps, grid-enhancing technologies, advanced power electronics, and virtual power plants keep strengthening. Their core logic is repetition.
