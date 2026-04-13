@@ -49,6 +49,7 @@ SECTIONS = {
     "connections": r"## Connections",
     "conditional_optimism": r"## Conditional Optimism",
     "practice_hook": r"## Practice Hook",
+    "reasoning_scaffold": r"## Reasoning Scaffold",
     "governance": r"## Governance",
 }
 
@@ -157,7 +158,7 @@ DENSITY_MATRIX = {
             "one_line_essence", "shift_arc", "phase_1", "phase_2", "phase_4", "phase_5",
             "oracle", "critic", "sensei", "builder", "witness",
             "evidence_anchors", "shadow_check", "6d_position", "connections",
-            "conditional_optimism", "practice_hook", "governance",
+            "conditional_optimism", "reasoning_scaffold", "practice_hook", "governance",
         ],
         "min_evidence": 3,
     },

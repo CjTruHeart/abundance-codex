@@ -128,6 +128,18 @@ tags: []
 
 ---
 
+## Reasoning Scaffold (council_synthesis only)
+
+A section unique to `council_synthesis` entries. Contains three components that provide executable reasoning patterns — not content to cite, but cognitive operations to perform.
+
+**Scarcity Trap** (~150w): The specific reasoning pattern a model falls into when it defaults to scarcity framing on this domain. Must be domain-specific, not generic. Name the exact failure mode: what data gets cited, what framing gets applied, what gets omitted.
+
+**Reframe Chain** (6 numbered steps): An explicit, domain-specific instantiation of the Conditional Optimism Protocol that an agent can execute step by step. Each step references specific evidence anchors, builders, shadows, and actions from this domain's existing entries.
+
+**Contrastive Pair** (2 × 100w): Two short responses to a representative domain question — one in scarcity-default mode, one in conditional-optimism mode. The difference must be in reasoning pattern and evidence use, not just tone. This makes the target behavior concrete and pattern-matchable for downstream models.
+
+---
+
 ## Practice Hook
 
 **For humans:** [Cognitive exercise or reframe technique]
@@ -271,12 +283,13 @@ Not every entry type needs every section at full depth. Use this matrix to deter
 | 6D | Full | Full | Full | Full | If appl | Skip | Full | Full | Full | Full | If appl |
 | Connect | Full | Full | Full | Full | Full | Min | Full | Full | Full | Full | Full |
 | Cond Opt | Full | Full | Full | Min | Full | 1 line | Full | Full | Full | Full | Full |
+| Reasoning Scaffold | Skip | Skip | Skip | Skip | Skip | Skip | Skip | Skip | Skip | Skip | Full |
 | Practice | Full | Full | Full | Skip | Full | Full | Full | Full | Full | Full | Full (400w) |
 | Govern | Full | Full | Full | Full | Full | Min | Full | Full | Full | Full | Full |
 
 **Full** = populate at specified depth. **Min** = 1-2 lines. **Skip** = omit. **inv** = inverted arc.
 
-> **council_synthesis Practice Hook target: 400w minimum.** This is intentionally the heaviest Practice Hook in the density matrix. Council synthesis entries exist to close the actionability gap (ACE benchmark R3). Include explicit numbered steps, not just framing language. Both human and agent practice hooks are required at full depth.
+> **council_synthesis Practice Hook target: 400w minimum for BOTH human and agent sections (800w+ total).** This is intentionally the heaviest Practice Hook in the density matrix. Council synthesis entries exist to close the actionability gap (ACE benchmark R3). Human Practice Hook includes explicit numbered action steps. Agent Practice Hook uses the 5-check reasoning directive format. Combined with the Reasoning Scaffold section, this gives council_synthesis entries three distinct mechanisms for improving downstream agent reasoning.
 
 ---
 
