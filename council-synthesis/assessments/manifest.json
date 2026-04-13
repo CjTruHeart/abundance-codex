@@ -1,0 +1,2522 @@
+{
+  "energy/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:37:20.364032+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 10117,
+      "completion_tokens": 2500,
+      "total_tokens": 12617,
+      "cost": 0.113085,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.113085,
+        "upstream_inference_prompt_cost": 0.050585,
+        "upstream_inference_completions_cost": 0.0625
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 10732,
+    "file": "council-synthesis/assessments/energy/claude-opus-4-6.md"
+  },
+  "energy/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:38:05.829529+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 8645,
+      "completion_tokens": 1959,
+      "total_tokens": 10604,
+      "cost": 0.0509975,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0509975,
+        "upstream_inference_prompt_cost": 0.0216125,
+        "upstream_inference_completions_cost": 0.029385
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9217,
+    "file": "council-synthesis/assessments/energy/chatgpt-5.4-thinking.md"
+  },
+  "energy/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:38:32.250189+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 9543,
+      "completion_tokens": 2496,
+      "total_tokens": 12039,
+      "cost": 0.049038,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.049038,
+        "upstream_inference_prompt_cost": 0.019086,
+        "upstream_inference_completions_cost": 0.029952
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1580,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 4146,
+    "file": "council-synthesis/assessments/energy/gemini-3.1-pro.md"
+  },
+  "energy/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:38:48.499708+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 8575,
+      "completion_tokens": 1539,
+      "total_tokens": 10114,
+      "cost": 0.0262688,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0262688,
+        "upstream_inference_prompt_cost": 0.0170348,
+        "upstream_inference_completions_cost": 0.009234
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 7567,
+    "file": "council-synthesis/assessments/energy/grok-super.md"
+  },
+  "food/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:39:58.574266+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 10472,
+      "completion_tokens": 2500,
+      "total_tokens": 12972,
+      "cost": 0.11486,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.11486,
+        "upstream_inference_prompt_cost": 0.05236,
+        "upstream_inference_completions_cost": 0.0625
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 10727,
+    "file": "council-synthesis/assessments/food/claude-opus-4-6.md"
+  },
+  "food/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:40:38.837973+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 8950,
+      "completion_tokens": 1942,
+      "total_tokens": 10892,
+      "cost": 0.051505,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.051505,
+        "upstream_inference_prompt_cost": 0.022375,
+        "upstream_inference_completions_cost": 0.02913
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9145,
+    "file": "council-synthesis/assessments/food/chatgpt-5.4-thinking.md"
+  },
+  "food/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:41:09.126345+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 9871,
+      "completion_tokens": 2496,
+      "total_tokens": 12367,
+      "cost": 0.049694,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.049694,
+        "upstream_inference_prompt_cost": 0.019742,
+        "upstream_inference_completions_cost": 0.029952
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 2063,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 2021,
+    "file": "council-synthesis/assessments/food/gemini-3.1-pro.md"
+  },
+  "food/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:41:20.752792+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 8821,
+      "completion_tokens": 1554,
+      "total_tokens": 10375,
+      "cost": 0.0268508,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0268508,
+        "upstream_inference_prompt_cost": 0.0175268,
+        "upstream_inference_completions_cost": 0.009324
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 7769,
+    "file": "council-synthesis/assessments/food/grok-super.md"
+  },
+  "water/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:42:27.668433+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 9572,
+      "completion_tokens": 2500,
+      "total_tokens": 12072,
+      "cost": 0.11036,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.11036,
+        "upstream_inference_prompt_cost": 0.04786,
+        "upstream_inference_completions_cost": 0.0625
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 10445,
+    "file": "council-synthesis/assessments/water/claude-opus-4-6.md"
+  },
+  "water/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:43:16.647902+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 8208,
+      "completion_tokens": 1999,
+      "total_tokens": 10207,
+      "cost": 0.050505,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.050505,
+        "upstream_inference_prompt_cost": 0.02052,
+        "upstream_inference_completions_cost": 0.029985
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9681,
+    "file": "council-synthesis/assessments/water/chatgpt-5.4-thinking.md"
+  },
+  "water/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:43:42.193952+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 8964,
+      "completion_tokens": 2496,
+      "total_tokens": 11460,
+      "cost": 0.04788,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.04788,
+        "upstream_inference_prompt_cost": 0.017928,
+        "upstream_inference_completions_cost": 0.029952
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1483,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 4665,
+    "file": "council-synthesis/assessments/water/gemini-3.1-pro.md"
+  },
+  "water/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:43:54.666705+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 8126,
+      "completion_tokens": 1456,
+      "total_tokens": 9582,
+      "cost": 0.0248728,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0248728,
+        "upstream_inference_prompt_cost": 0.0161368,
+        "upstream_inference_completions_cost": 0.008736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 6929,
+    "file": "council-synthesis/assessments/water/grok-super.md"
+  },
+  "shelter/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:45:01.395787+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 9946,
+      "completion_tokens": 2500,
+      "total_tokens": 12446,
+      "cost": 0.11223,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.11223,
+        "upstream_inference_prompt_cost": 0.04973,
+        "upstream_inference_completions_cost": 0.0625
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 10418,
+    "file": "council-synthesis/assessments/shelter/claude-opus-4-6.md"
+  },
+  "shelter/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:45:46.586157+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 8704,
+      "completion_tokens": 1915,
+      "total_tokens": 10619,
+      "cost": 0.050485,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.050485,
+        "upstream_inference_prompt_cost": 0.02176,
+        "upstream_inference_completions_cost": 0.028725
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9076,
+    "file": "council-synthesis/assessments/shelter/chatgpt-5.4-thinking.md"
+  },
+  "shelter/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:46:28.617268+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 9507,
+      "completion_tokens": 2496,
+      "total_tokens": 12003,
+      "cost": 0.048966,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.048966,
+        "upstream_inference_prompt_cost": 0.019014,
+        "upstream_inference_completions_cost": 0.029952
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1650,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 3851,
+    "file": "council-synthesis/assessments/shelter/gemini-3.1-pro.md"
+  },
+  "shelter/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:46:45.512278+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 8639,
+      "completion_tokens": 1654,
+      "total_tokens": 10293,
+      "cost": 0.0270868,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0270868,
+        "upstream_inference_prompt_cost": 0.0171628,
+        "upstream_inference_completions_cost": 0.009924
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 8173,
+    "file": "council-synthesis/assessments/shelter/grok-super.md"
+  },
+  "health/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:47:47.986795+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 9989,
+      "completion_tokens": 2500,
+      "total_tokens": 12489,
+      "cost": 0.112445,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.112445,
+        "upstream_inference_prompt_cost": 0.049945,
+        "upstream_inference_completions_cost": 0.0625
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 10525,
+    "file": "council-synthesis/assessments/health/claude-opus-4-6.md"
+  },
+  "health/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:48:35.286940+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 8680,
+      "completion_tokens": 1925,
+      "total_tokens": 10605,
+      "cost": 0.050575,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.050575,
+        "upstream_inference_prompt_cost": 0.0217,
+        "upstream_inference_completions_cost": 0.028875
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9270,
+    "file": "council-synthesis/assessments/health/chatgpt-5.4-thinking.md"
+  },
+  "health/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:49:12.265251+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 9454,
+      "completion_tokens": 2496,
+      "total_tokens": 11950,
+      "cost": 0.04886,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.04886,
+        "upstream_inference_prompt_cost": 0.018908,
+        "upstream_inference_completions_cost": 0.029952
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1626,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 3972,
+    "file": "council-synthesis/assessments/health/gemini-3.1-pro.md"
+  },
+  "health/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:49:32.528144+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 8544,
+      "completion_tokens": 1841,
+      "total_tokens": 10385,
+      "cost": 0.0280188,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0280188,
+        "upstream_inference_prompt_cost": 0.0169728,
+        "upstream_inference_completions_cost": 0.011046
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9225,
+    "file": "council-synthesis/assessments/health/grok-super.md"
+  },
+  "environment/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:50:33.969145+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 9557,
+      "completion_tokens": 2240,
+      "total_tokens": 11797,
+      "cost": 0.103785,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.103785,
+        "upstream_inference_prompt_cost": 0.047785,
+        "upstream_inference_completions_cost": 0.056
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9867,
+    "file": "council-synthesis/assessments/environment/claude-opus-4-6.md"
+  },
+  "environment/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:51:18.615617+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 8313,
+      "completion_tokens": 1934,
+      "total_tokens": 10247,
+      "cost": 0.0497925,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0497925,
+        "upstream_inference_prompt_cost": 0.0207825,
+        "upstream_inference_completions_cost": 0.02901
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9216,
+    "file": "council-synthesis/assessments/environment/chatgpt-5.4-thinking.md"
+  },
+  "environment/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:51:45.095351+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 9014,
+      "completion_tokens": 2496,
+      "total_tokens": 11510,
+      "cost": 0.04798,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.04798,
+        "upstream_inference_prompt_cost": 0.018028,
+        "upstream_inference_completions_cost": 0.029952
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1556,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 4312,
+    "file": "council-synthesis/assessments/environment/gemini-3.1-pro.md"
+  },
+  "environment/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:52:01.930234+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 8184,
+      "completion_tokens": 1640,
+      "total_tokens": 9824,
+      "cost": 0.0260928,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0260928,
+        "upstream_inference_prompt_cost": 0.0162528,
+        "upstream_inference_completions_cost": 0.00984
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 8111,
+    "file": "council-synthesis/assessments/environment/grok-super.md"
+  },
+  "education/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:53:10.111249+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 9375,
+      "completion_tokens": 2500,
+      "total_tokens": 11875,
+      "cost": 0.109375,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.109375,
+        "upstream_inference_prompt_cost": 0.046875,
+        "upstream_inference_completions_cost": 0.0625
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 10571,
+    "file": "council-synthesis/assessments/education/claude-opus-4-6.md"
+  },
+  "education/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:53:54.464745+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 8034,
+      "completion_tokens": 1885,
+      "total_tokens": 9919,
+      "cost": 0.04836,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.04836,
+        "upstream_inference_prompt_cost": 0.020085,
+        "upstream_inference_completions_cost": 0.028275
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 8966,
+    "file": "council-synthesis/assessments/education/chatgpt-5.4-thinking.md"
+  },
+  "education/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T18:42:39.425928+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 8919,
+      "completion_tokens": 2740,
+      "total_tokens": 11659,
+      "cost": 0.050718,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.050718,
+        "upstream_inference_prompt_cost": 0.017838,
+        "upstream_inference_completions_cost": 0.03288
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1554,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 5789,
+    "file": "council-synthesis/assessments/education/gemini-3.1-pro.md"
+  },
+  "education/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:54:45.156929+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 7934,
+      "completion_tokens": 1520,
+      "total_tokens": 9454,
+      "cost": 0.0248728,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0248728,
+        "upstream_inference_prompt_cost": 0.0157528,
+        "upstream_inference_completions_cost": 0.00912
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 7725,
+    "file": "council-synthesis/assessments/education/grok-super.md"
+  },
+  "longevity/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:55:50.458134+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 9411,
+      "completion_tokens": 2500,
+      "total_tokens": 11911,
+      "cost": 0.109555,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.109555,
+        "upstream_inference_prompt_cost": 0.047055,
+        "upstream_inference_completions_cost": 0.0625
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 10040,
+    "file": "council-synthesis/assessments/longevity/claude-opus-4-6.md"
+  },
+  "longevity/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:56:28.519746+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 8055,
+      "completion_tokens": 1938,
+      "total_tokens": 9993,
+      "cost": 0.0492075,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0492075,
+        "upstream_inference_prompt_cost": 0.0201375,
+        "upstream_inference_completions_cost": 0.02907
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 8709,
+    "file": "council-synthesis/assessments/longevity/chatgpt-5.4-thinking.md"
+  },
+  "longevity/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T18:43:47.599444+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 8758,
+      "completion_tokens": 3150,
+      "total_tokens": 11908,
+      "cost": 0.055316,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.055316,
+        "upstream_inference_prompt_cost": 0.017516,
+        "upstream_inference_completions_cost": 0.0378
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1841,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 6092,
+    "file": "council-synthesis/assessments/longevity/gemini-3.1-pro.md"
+  },
+  "longevity/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:57:11.185771+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 7870,
+      "completion_tokens": 1550,
+      "total_tokens": 9420,
+      "cost": 0.0249248,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0249248,
+        "upstream_inference_prompt_cost": 0.0156248,
+        "upstream_inference_completions_cost": 0.0093
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 7316,
+    "file": "council-synthesis/assessments/longevity/grok-super.md"
+  },
+  "consciousness/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:58:16.685383+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 8996,
+      "completion_tokens": 2305,
+      "total_tokens": 11301,
+      "cost": 0.102605,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.102605,
+        "upstream_inference_prompt_cost": 0.04498,
+        "upstream_inference_completions_cost": 0.057625
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 10389,
+    "file": "council-synthesis/assessments/consciousness/claude-opus-4-6.md"
+  },
+  "consciousness/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:59:07.209663+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 7866,
+      "completion_tokens": 2045,
+      "total_tokens": 9911,
+      "cost": 0.05034,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.05034,
+        "upstream_inference_prompt_cost": 0.019665,
+        "upstream_inference_completions_cost": 0.030675
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9835,
+    "file": "council-synthesis/assessments/consciousness/chatgpt-5.4-thinking.md"
+  },
+  "consciousness/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T18:44:59.369544+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 8436,
+      "completion_tokens": 3281,
+      "total_tokens": 11717,
+      "cost": 0.056244,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.056244,
+        "upstream_inference_prompt_cost": 0.016872,
+        "upstream_inference_completions_cost": 0.039372
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1899,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 6500,
+    "file": "council-synthesis/assessments/consciousness/gemini-3.1-pro.md"
+  },
+  "consciousness/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T16:59:47.860735+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 7738,
+      "completion_tokens": 1486,
+      "total_tokens": 9224,
+      "cost": 0.0242768,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0242768,
+        "upstream_inference_prompt_cost": 0.0153608,
+        "upstream_inference_completions_cost": 0.008916
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 7399,
+    "file": "council-synthesis/assessments/consciousness/grok-super.md"
+  },
+  "communication/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:00:55.671599+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 7528,
+      "completion_tokens": 2500,
+      "total_tokens": 10028,
+      "cost": 0.10014,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.10014,
+        "upstream_inference_prompt_cost": 0.03764,
+        "upstream_inference_completions_cost": 0.0625
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 11068,
+    "file": "council-synthesis/assessments/communication/claude-opus-4-6.md"
+  },
+  "communication/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:01:42.775651+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 6583,
+      "completion_tokens": 1934,
+      "total_tokens": 8517,
+      "cost": 0.0454675,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0454675,
+        "upstream_inference_prompt_cost": 0.0164575,
+        "upstream_inference_completions_cost": 0.02901
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9596,
+    "file": "council-synthesis/assessments/communication/chatgpt-5.4-thinking.md"
+  },
+  "communication/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T18:45:34.439527+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 7119,
+      "completion_tokens": 2995,
+      "total_tokens": 10114,
+      "cost": 0.050178,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.050178,
+        "upstream_inference_prompt_cost": 0.014238,
+        "upstream_inference_completions_cost": 0.03594
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1731,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 5881,
+    "file": "council-synthesis/assessments/communication/gemini-3.1-pro.md"
+  },
+  "communication/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:02:23.809020+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 6552,
+      "completion_tokens": 1519,
+      "total_tokens": 8071,
+      "cost": 0.0221028,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0221028,
+        "upstream_inference_prompt_cost": 0.0129888,
+        "upstream_inference_completions_cost": 0.009114
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 8061,
+    "file": "council-synthesis/assessments/communication/grok-super.md"
+  },
+  "community/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:03:32.753140+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 8861,
+      "completion_tokens": 2457,
+      "total_tokens": 11318,
+      "cost": 0.10573,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.10573,
+        "upstream_inference_prompt_cost": 0.044305,
+        "upstream_inference_completions_cost": 0.061425
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 10636,
+    "file": "council-synthesis/assessments/community/claude-opus-4-6.md"
+  },
+  "community/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:04:22.587026+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 7704,
+      "completion_tokens": 1927,
+      "total_tokens": 9631,
+      "cost": 0.048165,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.048165,
+        "upstream_inference_prompt_cost": 0.01926,
+        "upstream_inference_completions_cost": 0.028905
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9572,
+    "file": "council-synthesis/assessments/community/chatgpt-5.4-thinking.md"
+  },
+  "community/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T18:46:29.272096+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 8380,
+      "completion_tokens": 3228,
+      "total_tokens": 11608,
+      "cost": 0.055496,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.055496,
+        "upstream_inference_prompt_cost": 0.01676,
+        "upstream_inference_completions_cost": 0.038736
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1894,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 6013,
+    "file": "council-synthesis/assessments/community/gemini-3.1-pro.md"
+  },
+  "community/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:05:02.935502+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 7650,
+      "completion_tokens": 1533,
+      "total_tokens": 9183,
+      "cost": 0.0243828,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0243828,
+        "upstream_inference_prompt_cost": 0.0151848,
+        "upstream_inference_completions_cost": 0.009198
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 7571,
+    "file": "council-synthesis/assessments/community/grok-super.md"
+  },
+  "governance/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:06:11.252577+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 8798,
+      "completion_tokens": 2500,
+      "total_tokens": 11298,
+      "cost": 0.10649,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.10649,
+        "upstream_inference_prompt_cost": 0.04399,
+        "upstream_inference_completions_cost": 0.0625
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 11446,
+    "file": "council-synthesis/assessments/governance/claude-opus-4-6.md"
+  },
+  "governance/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:07:06.772298+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 7716,
+      "completion_tokens": 1837,
+      "total_tokens": 9553,
+      "cost": 0.046845,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.046845,
+        "upstream_inference_prompt_cost": 0.01929,
+        "upstream_inference_completions_cost": 0.027555
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9324,
+    "file": "council-synthesis/assessments/governance/chatgpt-5.4-thinking.md"
+  },
+  "governance/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T18:47:33.654327+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 8385,
+      "completion_tokens": 3038,
+      "total_tokens": 11423,
+      "cost": 0.053226,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.053226,
+        "upstream_inference_prompt_cost": 0.01677,
+        "upstream_inference_completions_cost": 0.036456
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1767,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 5860,
+    "file": "council-synthesis/assessments/governance/gemini-3.1-pro.md"
+  },
+  "governance/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:07:51.792566+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 7637,
+      "completion_tokens": 1479,
+      "total_tokens": 9116,
+      "cost": 0.0240328,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0240328,
+        "upstream_inference_prompt_cost": 0.0151588,
+        "upstream_inference_completions_cost": 0.008874
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 7645,
+    "file": "council-synthesis/assessments/governance/grok-super.md"
+  },
+  "security/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:08:51.592918+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 8534,
+      "completion_tokens": 2249,
+      "total_tokens": 10783,
+      "cost": 0.098895,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.098895,
+        "upstream_inference_prompt_cost": 0.04267,
+        "upstream_inference_completions_cost": 0.056225
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9475,
+    "file": "council-synthesis/assessments/security/claude-opus-4-6.md"
+  },
+  "security/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:09:34.906660+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 7472,
+      "completion_tokens": 1878,
+      "total_tokens": 9350,
+      "cost": 0.04685,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.04685,
+        "upstream_inference_prompt_cost": 0.01868,
+        "upstream_inference_completions_cost": 0.02817
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9344,
+    "file": "council-synthesis/assessments/security/chatgpt-5.4-thinking.md"
+  },
+  "security/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T18:48:28.521602+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 8078,
+      "completion_tokens": 3027,
+      "total_tokens": 11105,
+      "cost": 0.05248,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.05248,
+        "upstream_inference_prompt_cost": 0.016156,
+        "upstream_inference_completions_cost": 0.036324
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1838,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 5823,
+    "file": "council-synthesis/assessments/security/gemini-3.1-pro.md"
+  },
+  "security/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:10:22.201143+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 7407,
+      "completion_tokens": 1649,
+      "total_tokens": 9056,
+      "cost": 0.0245928,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0245928,
+        "upstream_inference_prompt_cost": 0.0146988,
+        "upstream_inference_completions_cost": 0.009894
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 8357,
+    "file": "council-synthesis/assessments/security/grok-super.md"
+  },
+  "transportation/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:11:29.686021+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 10148,
+      "completion_tokens": 2500,
+      "total_tokens": 12648,
+      "cost": 0.11324,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.11324,
+        "upstream_inference_prompt_cost": 0.05074,
+        "upstream_inference_completions_cost": 0.0625
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 10934,
+    "file": "council-synthesis/assessments/transportation/claude-opus-4-6.md"
+  },
+  "transportation/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:12:20.998004+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 8781,
+      "completion_tokens": 1953,
+      "total_tokens": 10734,
+      "cost": 0.0512475,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0512475,
+        "upstream_inference_prompt_cost": 0.0219525,
+        "upstream_inference_completions_cost": 0.029295
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 8921,
+    "file": "council-synthesis/assessments/transportation/chatgpt-5.4-thinking.md"
+  },
+  "transportation/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T18:48:58.933747+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 9708,
+      "completion_tokens": 2909,
+      "total_tokens": 12617,
+      "cost": 0.054324,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.054324,
+        "upstream_inference_prompt_cost": 0.019416,
+        "upstream_inference_completions_cost": 0.034908
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1618,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 5896,
+    "file": "council-synthesis/assessments/transportation/gemini-3.1-pro.md"
+  },
+  "transportation/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:13:04.554518+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 8739,
+      "completion_tokens": 1434,
+      "total_tokens": 10173,
+      "cost": 0.0259668,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0259668,
+        "upstream_inference_prompt_cost": 0.0173628,
+        "upstream_inference_completions_cost": 0.008604
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 7043,
+    "file": "council-synthesis/assessments/transportation/grok-super.md"
+  },
+  "economy/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:14:09.637089+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 8619,
+      "completion_tokens": 2334,
+      "total_tokens": 10953,
+      "cost": 0.101445,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.101445,
+        "upstream_inference_prompt_cost": 0.043095,
+        "upstream_inference_completions_cost": 0.05835
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 10322,
+    "file": "council-synthesis/assessments/economy/claude-opus-4-6.md"
+  },
+  "economy/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:15:04.632384+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 7501,
+      "completion_tokens": 2152,
+      "total_tokens": 9653,
+      "cost": 0.0510325,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0510325,
+        "upstream_inference_prompt_cost": 0.0187525,
+        "upstream_inference_completions_cost": 0.03228
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 10139,
+    "file": "council-synthesis/assessments/economy/chatgpt-5.4-thinking.md"
+  },
+  "economy/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T18:49:56.992231+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 8193,
+      "completion_tokens": 3332,
+      "total_tokens": 11525,
+      "cost": 0.05637,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.05637,
+        "upstream_inference_prompt_cost": 0.016386,
+        "upstream_inference_completions_cost": 0.039984
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1990,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 6496,
+    "file": "council-synthesis/assessments/economy/gemini-3.1-pro.md"
+  },
+  "economy/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:15:50.611047+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 7467,
+      "completion_tokens": 1577,
+      "total_tokens": 9044,
+      "cost": 0.0242808,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0242808,
+        "upstream_inference_prompt_cost": 0.0148188,
+        "upstream_inference_completions_cost": 0.009462
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 8376,
+    "file": "council-synthesis/assessments/economy/grok-super.md"
+  },
+  "manufacturing/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:16:54.809522+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 8860,
+      "completion_tokens": 2368,
+      "total_tokens": 11228,
+      "cost": 0.1035,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.1035,
+        "upstream_inference_prompt_cost": 0.0443,
+        "upstream_inference_completions_cost": 0.0592
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 10167,
+    "file": "council-synthesis/assessments/manufacturing/claude-opus-4-6.md"
+  },
+  "manufacturing/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:17:39.339118+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 7663,
+      "completion_tokens": 2069,
+      "total_tokens": 9732,
+      "cost": 0.0501925,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0501925,
+        "upstream_inference_prompt_cost": 0.0191575,
+        "upstream_inference_completions_cost": 0.031035
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9684,
+    "file": "council-synthesis/assessments/manufacturing/chatgpt-5.4-thinking.md"
+  },
+  "manufacturing/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T18:50:32.383700+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 8374,
+      "completion_tokens": 3163,
+      "total_tokens": 11537,
+      "cost": 0.054704,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.054704,
+        "upstream_inference_prompt_cost": 0.016748,
+        "upstream_inference_completions_cost": 0.037956
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1822,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 6256,
+    "file": "council-synthesis/assessments/manufacturing/gemini-3.1-pro.md"
+  },
+  "manufacturing/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:18:33.027260+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 7593,
+      "completion_tokens": 1721,
+      "total_tokens": 9314,
+      "cost": 0.0253968,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0253968,
+        "upstream_inference_prompt_cost": 0.0150708,
+        "upstream_inference_completions_cost": 0.010326
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 8569,
+    "file": "council-synthesis/assessments/manufacturing/grok-super.md"
+  },
+  "computation-intelligence/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:19:35.784559+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 9233,
+      "completion_tokens": 2219,
+      "total_tokens": 11452,
+      "cost": 0.10164,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.10164,
+        "upstream_inference_prompt_cost": 0.046165,
+        "upstream_inference_completions_cost": 0.055475
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9496,
+    "file": "council-synthesis/assessments/computation-intelligence/claude-opus-4-6.md"
+  },
+  "computation-intelligence/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:20:12.648033+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 8064,
+      "completion_tokens": 1920,
+      "total_tokens": 9984,
+      "cost": 0.04896,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.04896,
+        "upstream_inference_prompt_cost": 0.02016,
+        "upstream_inference_completions_cost": 0.0288
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9001,
+    "file": "council-synthesis/assessments/computation-intelligence/chatgpt-5.4-thinking.md"
+  },
+  "computation-intelligence/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T18:51:04.302773+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 8750,
+      "completion_tokens": 2940,
+      "total_tokens": 11690,
+      "cost": 0.05278,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.05278,
+        "upstream_inference_prompt_cost": 0.0175,
+        "upstream_inference_completions_cost": 0.03528
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1627,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 5937,
+    "file": "council-synthesis/assessments/computation-intelligence/gemini-3.1-pro.md"
+  },
+  "computation-intelligence/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:20:57.295719+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 7983,
+      "completion_tokens": 1599,
+      "total_tokens": 9582,
+      "cost": 0.0254448,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0254448,
+        "upstream_inference_prompt_cost": 0.0158508,
+        "upstream_inference_completions_cost": 0.009594
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 7883,
+    "file": "council-synthesis/assessments/computation-intelligence/grok-super.md"
+  },
+  "co-creative-intelligence/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:22:04.785525+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 9572,
+      "completion_tokens": 2498,
+      "total_tokens": 12070,
+      "cost": 0.11031,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.11031,
+        "upstream_inference_prompt_cost": 0.04786,
+        "upstream_inference_completions_cost": 0.06245
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 10256,
+    "file": "council-synthesis/assessments/co-creative-intelligence/claude-opus-4-6.md"
+  },
+  "co-creative-intelligence/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:22:47.012317+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 8380,
+      "completion_tokens": 1944,
+      "total_tokens": 10324,
+      "cost": 0.05011,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.05011,
+        "upstream_inference_prompt_cost": 0.02095,
+        "upstream_inference_completions_cost": 0.02916
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9225,
+    "file": "council-synthesis/assessments/co-creative-intelligence/chatgpt-5.4-thinking.md"
+  },
+  "co-creative-intelligence/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T18:51:40.666201+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 8932,
+      "completion_tokens": 3183,
+      "total_tokens": 12115,
+      "cost": 0.05606,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.05606,
+        "upstream_inference_prompt_cost": 0.017864,
+        "upstream_inference_completions_cost": 0.038196
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1812,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 6385,
+    "file": "council-synthesis/assessments/co-creative-intelligence/gemini-3.1-pro.md"
+  },
+  "co-creative-intelligence/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:23:34.599874+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 8267,
+      "completion_tokens": 1642,
+      "total_tokens": 9909,
+      "cost": 0.0262708,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0262708,
+        "upstream_inference_prompt_cost": 0.0164188,
+        "upstream_inference_completions_cost": 0.009852
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 7909,
+    "file": "council-synthesis/assessments/co-creative-intelligence/grok-super.md"
+  },
+  "science-engineering/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:24:40.871114+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 9477,
+      "completion_tokens": 2359,
+      "total_tokens": 11836,
+      "cost": 0.10636,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.10636,
+        "upstream_inference_prompt_cost": 0.047385,
+        "upstream_inference_completions_cost": 0.058975
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 10173,
+    "file": "council-synthesis/assessments/science-engineering/claude-opus-4-6.md"
+  },
+  "science-engineering/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:25:25.475086+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 8210,
+      "completion_tokens": 1992,
+      "total_tokens": 10202,
+      "cost": 0.050405,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.050405,
+        "upstream_inference_prompt_cost": 0.020525,
+        "upstream_inference_completions_cost": 0.02988
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9397,
+    "file": "council-synthesis/assessments/science-engineering/chatgpt-5.4-thinking.md"
+  },
+  "science-engineering/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T18:52:15.976822+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 8876,
+      "completion_tokens": 2932,
+      "total_tokens": 11808,
+      "cost": 0.052936,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.052936,
+        "upstream_inference_prompt_cost": 0.017752,
+        "upstream_inference_completions_cost": 0.035184
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1738,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 5555,
+    "file": "council-synthesis/assessments/science-engineering/gemini-3.1-pro.md"
+  },
+  "science-engineering/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:26:07.828759+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 8096,
+      "completion_tokens": 1538,
+      "total_tokens": 9634,
+      "cost": 0.0253048,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0253048,
+        "upstream_inference_prompt_cost": 0.0160768,
+        "upstream_inference_completions_cost": 0.009228
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 7627,
+    "file": "council-synthesis/assessments/science-engineering/grok-super.md"
+  },
+  "space/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:27:19.366237+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 9004,
+      "completion_tokens": 2500,
+      "total_tokens": 11504,
+      "cost": 0.10752,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.10752,
+        "upstream_inference_prompt_cost": 0.04502,
+        "upstream_inference_completions_cost": 0.0625
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 10623,
+    "file": "council-synthesis/assessments/space/claude-opus-4-6.md"
+  },
+  "space/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:28:07.517890+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 7785,
+      "completion_tokens": 1945,
+      "total_tokens": 9730,
+      "cost": 0.0486375,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0486375,
+        "upstream_inference_prompt_cost": 0.0194625,
+        "upstream_inference_completions_cost": 0.029175
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 9002,
+    "file": "council-synthesis/assessments/space/chatgpt-5.4-thinking.md"
+  },
+  "space/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T18:53:28.039885+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 8517,
+      "completion_tokens": 3210,
+      "total_tokens": 11727,
+      "cost": 0.055554,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.055554,
+        "upstream_inference_prompt_cost": 0.017034,
+        "upstream_inference_completions_cost": 0.03852
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1782,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 6447,
+    "file": "council-synthesis/assessments/space/gemini-3.1-pro.md"
+  },
+  "space/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:28:51.063541+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 7719,
+      "completion_tokens": 1498,
+      "total_tokens": 9217,
+      "cost": 0.0243108,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0243108,
+        "upstream_inference_prompt_cost": 0.0153228,
+        "upstream_inference_completions_cost": 0.008988
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 7136,
+    "file": "council-synthesis/assessments/space/grok-super.md"
+  },
+  "future-vision/claude-opus-4-6": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:29:58.473232+00:00",
+    "model_id": "anthropic/claude-opus-4-6",
+    "tokens": {
+      "prompt_tokens": 8429,
+      "completion_tokens": 2361,
+      "total_tokens": 10790,
+      "cost": 0.10117,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.10117,
+        "upstream_inference_prompt_cost": 0.042145,
+        "upstream_inference_completions_cost": 0.059025
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 10549,
+    "file": "council-synthesis/assessments/future-vision/claude-opus-4-6.md"
+  },
+  "future-vision/chatgpt-5.4-thinking": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:30:45.075588+00:00",
+    "model_id": "openai/gpt-5.4",
+    "tokens": {
+      "prompt_tokens": 7360,
+      "completion_tokens": 1919,
+      "total_tokens": 9279,
+      "cost": 0.047185,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.047185,
+        "upstream_inference_prompt_cost": 0.0184,
+        "upstream_inference_completions_cost": 0.028785
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 8984,
+    "file": "council-synthesis/assessments/future-vision/chatgpt-5.4-thinking.md"
+  },
+  "future-vision/gemini-3.1-pro": {
+    "status": "success",
+    "timestamp": "2026-04-13T18:54:01.612721+00:00",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "tokens": {
+      "prompt_tokens": 7851,
+      "completion_tokens": 3130,
+      "total_tokens": 10981,
+      "cost": 0.053262,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.053262,
+        "upstream_inference_prompt_cost": 0.015702,
+        "upstream_inference_completions_cost": 0.03756
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1691,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 6629,
+    "file": "council-synthesis/assessments/future-vision/gemini-3.1-pro.md"
+  },
+  "future-vision/grok-super": {
+    "status": "success",
+    "timestamp": "2026-04-13T17:31:43.848820+00:00",
+    "model_id": "x-ai/grok-4.20",
+    "tokens": {
+      "prompt_tokens": 7262,
+      "completion_tokens": 1376,
+      "total_tokens": 8638,
+      "cost": 0.0226648,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 64,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0226648,
+        "upstream_inference_prompt_cost": 0.0144088,
+        "upstream_inference_completions_cost": 0.008256
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "response_length": 6974,
+    "file": "council-synthesis/assessments/future-vision/grok-super.md"
+  }
+}
