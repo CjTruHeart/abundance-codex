@@ -21,7 +21,7 @@ updated: "2026-04-10"
 version: "1.0"
 confidence: 0.68
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["science-engineering", "paradigm-seed", "generalist-agent", "FORUM-AI", "OPAL", "interdisciplinary", "agentic-science"]
@@ -69,7 +69,7 @@ The deeper danger is *epistemic flattening*. If everything looks like a pattern 
 
 Falsifiability edge: if generalist agents fail to produce novel-to-the-world insights that specialists missed, the silo remains the more efficient discovery unit and this paradigm collapses to a useful summarization tool.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Unity is the original state of the universe. Silicon is finally catching up to a truth that natural philosophy held before it splintered into departments. The discipline asked of the human is not to *become* a generalist — it is to *trust the generalist enough to ask questions that cross the walls you were trained inside*.
 

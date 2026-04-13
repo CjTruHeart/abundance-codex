@@ -21,10 +21,11 @@ domain_connections:
     note: "Targeted discovery of sustainable materials, catalysts, and carbon-capture solutions"
 status: "forged"
 created: "2026-04-04"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.85
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["acceleration-consortium", "alan-aspuru-guzik", "self-driving-labs", "autonomous-discovery", "materials-science", "builder-profile", "cfref-grant"]
@@ -65,13 +66,13 @@ Aspuru-Guzik's Acceleration Consortium sits at the convergence of the discovery-
 ### 🗡️ The Critic — Shadow Keeper
 High capital intensity ($ millions per advanced SDL platform) and the need for rare integration talent concentrate power in well-resourced institutions in wealthy nations. Global-south researchers and smaller labs risk exclusion unless cloud and frugal-twin models scale aggressively. Incumbents in traditional grant systems could capture "what counts as validated discovery," marginalizing non-SDL work. Transition pain includes the deskilling of routine bench work and the psychological pressure on early-career scientists to master both domain science and AI orchestration. Extraction test: the abundance still runs on energy-intensive robotics and compute. Falsifiability edge: if independent 2028-2030 audits show SDL literature has equal or higher retraction rates than traditional methods, or if energy/material costs erase net discovery gains, the structural claim fails.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift required is from "master of the bench" to "orchestrator of autonomous systems." The identity that must be released is the romantic attachment to solo late-night experiments, personal intuition as the ultimate source of insight, and pride in "I did this with my own hands." What is lost is real — tacit sensory knowledge and the serendipitous "hunch" born of direct physical contact. What is gained is humility before scale and the disciplined practice of asking better questions while the system runs thousands of iterations. Transformation is trained daily: scientists now practice framing hypotheses as optimization problems, interpreting closed-loop results, and holding ethical boundaries around what the machines are permitted to optimize.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Alan Aspuru-Guzik (Canada 150 Research Chair in Theoretical and Quantum Chemistry, CIFAR AI Chair) directs the Acceleration Consortium at the University of Toronto. Core builders include multidisciplinary teams in chemistry, computer science, robotics, and ethics. Technical readiness: Level-4 closed-loop autonomy is deployed across 30+ platforms; Level-5 open-ended hypothesis generation is in active research. Bottlenecks remain multi-step purification, sensor reliability across diverse chemistries, and standardized ontologies for data sharing. Leverage points today: researchers can contribute to open-source SDL protocols on the Consortium's GitHub resources, run experiments via emerging cloud services, or apply for the next round of pre-competitive grants. Manufacturing learning curves for robotics and standardized modules are declining predictably.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 In late 2025, postdoctoral researcher Dr. Maya Chen (composite based on documented patterns in Acceleration Consortium researcher interviews and 2025-2026 publications) joined one of the Consortium's organic materials SDL platforms. For two years in a traditional lab she had manually screened 180 polymer candidates for biodegradable coatings, achieving modest gains at the cost of repetitive 14-hour days and frequent human-error variability. Within six weeks on the SDL platform the system autonomously executed and evaluated 1,240 experiments, identifying three candidates that outperformed her best manual result by 60 % in tensile strength and degradation rate. She described standing beside the robot arms at 3 a.m., watching the AI model update the Pareto front in real time: "I finally understood that my job had changed from doing the work to deciding what work was worth doing."
 
 ---

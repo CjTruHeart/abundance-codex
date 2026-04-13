@@ -21,10 +21,11 @@ domain_connections:
     note: "Faster screening of catalysts for carbon capture and remediation"
 status: "forged"
 created: "2026-04-04"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["self-driving-labs", "autonomous-experimentation", "acceleration-consortium", "closed-loop", "lab-automation", "ai-science", "reproducibility-by-design"]
@@ -59,13 +60,13 @@ Self-driving labs sit at the convergence of the discovery-acceleration trendline
 ### 🗡️ The Critic — Shadow Keeper
 High capital cost and specialized expertise currently concentrate SDL capability in well-funded institutions in wealthy nations; a typical academic SDL platform still requires millions in robotics, compute, and integration talent. Incumbents (traditional grant and publication systems) could capture the governance of what counts as "validated" data, marginalizing non-SDL research. Transition pain is real — junior researchers trained in manual craft may face skill obsolescence, and the flood of high-throughput data risks amplifying the replication crisis if model assumptions or sensor calibration drift undetected. Extraction test: abundance in discovery speed still requires massive energy and rare-earth infrastructure for the robots and GPUs. Falsifiability edge: if SDL-generated datasets show the same or worse reproducibility rates than traditional labs after 3-5 years of widespread adoption, the structural claim collapses.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift demanded is from "master craftsman of the bench" to "orchestrator of autonomous systems." The identity that must be released is the romantic attachment to personal intuition, the late-night solo experiment, the pride in "I ran this with my own hands." What is lost is real — tacit knowledge, serendipitous observation, the felt sense of the reaction. What is gained is humility before scale and the discipline to ask better questions while the system runs the iterations. Transformation is practiced daily: scientists now train models, interpret closed-loop results, and steward the ethical boundaries of what the machines are allowed to optimize.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 The Acceleration Consortium (Aspuru-Guzik et al.) is the clearest builder: $200M Canada First Research Excellence Fund grant, six operational SDLs at University of Toronto plus partners, plus open-source resources and the "awesome-self-driving-labs" GitHub list. Other nodes include NC State's 10x data demonstrations, Emerald Cloud Lab-style commercial platforms, and distributed projects like the 2024 organic-laser campaign. Technical readiness: Level 4 autonomy (closed-loop optimization within defined spaces) is deployed and publishing; Level 5 (open-ended hypothesis generation) remains research. Bottlenecks: integration of multi-step purification, sensor reliability, and standardized ontologies for data sharing. Leverage points today: researchers can contribute to open SDL protocols or use cloud-lab services for early validation runs.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 In early 2025, postdoctoral researcher Dr. Elena Voss (composite based on documented patterns in Acceleration Consortium publications and researcher interviews) was optimizing a new organic laser emitter for photonics applications. In a traditional lab, she had spent nine months manually synthesizing and testing 47 candidates with inconsistent yields and manual characterization. When her team integrated the project into the AC's SDL2-Organic platform, the system autonomously proposed, executed, and evaluated 312 experiments over six weeks, identifying three candidates that outperformed her best manual result by 40% in gain coefficient. She described standing in the lab at 2 a.m. watching the robot arms move with tireless precision while the AI model updated the Pareto front in real time: "For the first time I wasn't the bottleneck. I was the strategist."
 
 ---

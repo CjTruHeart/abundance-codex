@@ -21,10 +21,11 @@ domain_connections:
     note: "Faster discovery of sustainable catalysts and remediation strategies"
 status: "forged"
 created: "2026-04-04"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.88
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["ai-scientist", "sakana-ai", "autonomous-research", "end-to-end-automation", "nature-2026", "agentic-ai", "scientific-method-2.0"]
@@ -65,13 +66,13 @@ The AI Scientist sits at the convergence of the discovery-acceleration trendline
 ### 🗡️ The Critic — Shadow Keeper
 High compute requirements and dependence on frontier foundation models currently concentrate capability in well-resourced organizations and wealthy nations. The system can hallucinate plausible but incorrect experiments or analyses, risking a new form of replication crisis at machine speed. Transition pain is acute for early-career researchers whose core skills (idea generation, paper writing) are being automated. Extraction test: abundance in discovery speed still requires massive energy and data-center infrastructure. Governance capture risk is real — whoever controls the base models and evaluators controls what questions get asked. Falsifiability edge: if independent audits by 2028-2030 show AI Scientist-generated literature has equal or higher error/retraction rates than human-only work, or if it fails to produce truly novel breakthroughs beyond narrow ML subfields, the structural claim weakens.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift required is from "sole creator of knowledge" to "orchestrator and ethical steward of autonomous systems." The identity that must be released is the ego attachment to being the brilliant lone thinker whose name appears on every idea and every paper. What is lost is real — the deep satisfaction of personal craftsmanship and the serendipitous "aha" born of prolonged human struggle. What is gained is humility before scale and the disciplined practice of asking ever-better meta-questions while the system runs thousands of parallel research threads. Transformation is practiced daily: scientists now train evaluators, set ethical guardrails, and focus on the uniquely human work of purpose and wisdom.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Sakana AI (Tokyo) leads development in collaboration with Jeff Clune (UBC / Vector Institute), Cong Lu, and teams at University of Oxford. Technical readiness: Level 4 autonomy (full end-to-end pipeline with human-level peer review passage in controlled settings) achieved March 2026; open-source v1 and v2 released. Bottlenecks: domain-specific evaluators for non-ML fields, long-horizon experiment execution, and robust truthfulness/verification layers. Leverage points today: any researcher with access to sufficient compute can clone the GitHub repo and run it on scoped problems; community contributions to evaluators and safety modules are actively welcomed. Manufacturing learning curves for the underlying inference hardware continue to drive costs down predictably.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 In early 2026, UBC Computer Science Professor Jeff Clune (lead author on the Nature paper) watched The AI Scientist v2 generate, execute, and write up a complete machine-learning research project over a weekend — work that would have taken his team months. Standing in the lab late one night as the system iteratively debugged its own code, ran experiments in a cloud environment, produced figures, and drafted the LaTeX manuscript, Clune described the moment the internal peer-review module flagged and fixed a subtle statistical flaw: "It wasn't just faster — it was thinking in ways no single human could sustain. For the first time I felt the field had a genuine co-scientist."
 
 ---

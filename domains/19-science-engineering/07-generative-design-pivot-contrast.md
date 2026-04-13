@@ -21,7 +21,7 @@ updated: "2026-04-10"
 version: "1.0"
 confidence: 0.84
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["science-engineering", "contrast", "generative-design", "topology-optimization", "NASA", "Airbus", "evolved-structures", "dematerialization"]
@@ -85,17 +85,17 @@ We are also creating a new "scarcity of access." While the math is abundant, the
 
 Organic designs are also notoriously difficult to repair or inspect; we are trading the simplicity of the right angle for a complexity that may be impossible for a human mechanic to service in a crisis.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Do not be afraid of the alien appearance of these structures. Nature has used generative design for four billion years; a bone does not need a blueprint to be perfectly optimized for its environment. To use generative design is to align human intention with the deeper grammar of physics. We are not creating — we are uncovering the forms the universe already wants to exist.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Topology optimization has driven aircraft component weight reductions of 40% and accelerated design cycles by 70% by exploring thousands of alternatives in parallel rather than sequentially. In automotive, optimized designs deliver 25–40% reductions in total product lifecycle costs through energy savings during operation.
 
 This is no longer a research curiosity — it is competitive advantage and survival.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from NASA Goddard Evolved Structures reporting and Ryan McClelland interviews.**
 

@@ -25,7 +25,7 @@ updated: "2026-04-10"
 version: "1.0"
 confidence: 0.86
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["science-engineering", "trendline", "open-source-hardware", "FOSH", "Opentrons", "Arduino", "RaspberryPi", "instrumentation", "demonetization"]
@@ -75,7 +75,7 @@ We are flirting with a "scarcity of integrity." If any student can print a qPCR 
 
 We must also be honest: printing a plastic chassis is easy, but printing the precision-ground lenses or high-purity catalysts needed for true breakthroughs remains a bottleneck of the physical world. The collapse of one cost barrier does not collapse them all.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Field deployments tell the story. The Opentrons OT-2 has cut manual hands-on time by ~61% in adopting labs and achieved coefficients of variation under 11% — on par with systems costing five times as much. In the metal sector, stainless steel parts are now being printed using ~$475 spools of BASF Ultrafuse wire on roughly $200 FDM printers.
 

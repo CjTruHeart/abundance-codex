@@ -25,7 +25,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.84
 codex_version: "1.1"
-co_author_model: "GPT-5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["reproducibility", "registered-reports", "preregistration", "fair", "open-science", "research-integrity", "correction", "science-infrastructure", "science-engineering", "framework"]
@@ -107,7 +107,7 @@ This is hard because uncertainty feels like exposure. A preregistration reveals 
 
 The scarcity belief underneath the old system is, "If my result does not look decisive, I lose value." The abundance reframe says, "My value grows when others can inspect, reuse, and refine my work." One worldview hoards certainty. The other compounds learning.
 
-### 🔨 The Builder -- Ground Truth
+### 🔧 The Builder -- Ground Truth
 
 The reliability layer is already being built.
 

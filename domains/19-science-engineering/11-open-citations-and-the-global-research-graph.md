@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.86
 codex_version: "1.1"
-co_author_model: "GPT-5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["open-citations", "openalex", "unpaywall", "crossref", "crossmark", "research-graph", "open-science", "metadata", "knowledge-commons", "science-engineering", "trendline"]
@@ -99,7 +99,7 @@ And then there is platform substitution. If the world escapes one private gate o
 
 So the falsifiability edge is clear: if discoverability grows but independent verification, broad participation, and correction visibility do not improve, then the graph has become convenience infrastructure, not abundance infrastructure.
 
-### 🔨 The Builder -- Ground Truth
+### 🔧 The Builder -- Ground Truth
 
 The build is real, layered, and underway.
 
