@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.78
 codex_version: "1.1"
-co_author_model: "Chat GPT 5.4 - Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["security", "framework", "community-resilience", "collective-efficacy", "preparedness", "mutual-aid", "community-policing"]
@@ -118,7 +118,7 @@ Third: governments can misuse the idea. "Community resilience" can become a poli
 
 The falsifiability edge is straightforward: if these networks do not increase trust, improve response coordination, or reduce fear and selected harms without increasing bias complaints or exclusion, then the model is failing. A neighborhood that becomes more suspicious, more fragmented, or more performative after adopting "community resilience" is not practicing this framework. It is cosplaying it.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift required here is the release of the fortress identity.
 
@@ -134,7 +134,7 @@ This shift also asks institutions to release ego. Police departments, city offic
 
 Transformation here is not a speech. It is repetition. Meetings. Drills. Shared language. Small acts of follow-through. Trust grows the way balance grows in practice: through many ordinary reps that teach the body a new way to stand.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 What can actually be built now is pleasantly unglamorous.
 

@@ -21,10 +21,11 @@ domain_connections:
     note: "Safer streets reduce violence-related economic costs and unlock investment"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.78
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["cure-violence", "violence-interrupters", "public-health-approach", "community-safety", "gary-slutkin", "epidemic-model"]
@@ -72,15 +73,15 @@ Public-health framing of violence follows the same exponential pattern seen in s
 
 Not every site achieves 70 % reductions; quasi-experimental designs have limitations and some studies show fade-out without sustained funding. The model does not directly address structural drivers like concentrated poverty or historical disinvestment. Risk of performative adoption exists when cities claim the label without full fidelity. Who gets left behind? Communities without local credible messengers or political will to fund interrupters at scale. Falsifiability edge: if long-term randomized controlled trials show no sustained effect beyond two years, the abundance claim weakens.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift required is releasing the scarcity identity of "us versus them" or "tough-on-crime savior" and adopting the disciplined, non-judgmental stance of an epidemiologist: every person is both potential vector and potential interrupter. Communities must train the muscle of listening to former perpetrators as experts rather than threats. Transformation is practiced daily through hiring, training, and protecting interrupters who walk the hardest streets.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Cure Violence Global (originally CeaseFire Chicago, 2000) now operates in 30+ U.S. cities and multiple countries. Core components: (1) Violence Interrupters — credible messengers with street credibility who mediate conflicts within minutes; (2) Outreach Workers connecting high-risk youth to jobs, mentoring, and services; (3) Norm-change campaigns. Current stage: scaled deployment with data dashboards and training institutes. Bottleneck: sustainable municipal funding and protection of interrupters from retaliation. Leverage point now: cities can replicate the model with existing community leaders; technical assistance packages are publicly available.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 Quinones "Q" Corniel, Jr. was a victim of an attempted carjacking in Louisville when two teenagers pointed a gun at him. The trauma left him with PTSD and a burning question: "How do we stop this?" In court he chose confrontation through conversation instead of vengeance; the teens shook his hand. Limited by that single moment, Q discovered Cure Violence and became a Regional Associate Director. Today he trains interrupters across the South, turning his own pain into a pipeline that has helped de-escalate hundreds of conflicts. One turning point: a single mediated truce that prevented a retaliatory shooting and let a neighborhood breathe for the first time in years.
 

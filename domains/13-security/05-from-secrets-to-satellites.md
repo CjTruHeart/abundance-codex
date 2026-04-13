@@ -21,10 +21,11 @@ domain_connections:
     note: "Commercial satellite constellations converge with AI analytics for real-time GEOINT"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["osint", "commercial-satellites", "geoint", "transparency", "ukraine-war", "planet-labs", "maxar", "democratized-intelligence"]
@@ -72,15 +73,15 @@ Commercial satellite imagery follows the classic 6D exponential: digitized in th
 
 Democratization is uneven — commercial providers can restrict imagery (Planet Labs imposed delays over Middle East conflicts in 2026). Powerful actors may still classify or jam data. Who gets left behind: nations or groups without technical literacy or funding to use the tools. Transition pain: intelligence agencies lose exclusive advantage, creating bureaucratic resistance. Falsifiability edge: if major powers successfully impose global access controls or orbital denial, the abundance claim collapses.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift is releasing the scarcity identity of "we alone must know" and embracing disciplined transparency. Leaders must let go of the comfort that secrecy provided and train the muscle of operating under verifiable scrutiny. Transformation is practiced by routinely publishing verifiable data first rather than demanding others trust classified briefings.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Planet Labs (daily global scans), Maxar (high-resolution tasking), and Hawkeye 360 (RF signal detection) lead the commercial constellation boom. Ukraine integrated these feeds with OSINT networks in 2022; NGA facilitated 40 million sq km of commercial data in the war's first weeks. Current stage: scaled deployment with AI analytics layers. Bottleneck: provider policy restrictions and potential orbital congestion. Leverage point now: open training in OSINT-GEOINT for governments and NGOs is publicly available.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 In early 2022, Ukrainian civilian analyst "Pomo" (pseudonym used in open-source reporting) sat in a Kyiv apartment cross-referencing Planet Labs imagery of Russian convoys with Telegram geolocations posted by locals. One specific image showed a 40-mile convoy stalled north of Kyiv; within hours, civilian spotters and Ukrainian forces used the public data to prepare ambushes and evacuation routes. That single verified image shifted Pomo from passive observer to active contributor in a people's intelligence network that helped blunt the initial assault.
 

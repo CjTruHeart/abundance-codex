@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.81
 codex_version: "1.1"
-co_author_model: "Chat GPT 5.4 - Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["security", "framework", "cpted", "urban-design", "street-lighting", "public-space", "greening", "natural-surveillance", "place-based-safety"]
@@ -111,7 +111,7 @@ There is also an evidence trap. Some interventions are bundled—lighting plus p
 
 The falsifiability edge is clear: if a redesign makes a place look better but fails to reduce fear or targeted harms, or if it improves safety for newcomers while degrading dignity for current residents, the abundance claim weakens. A beautifully controlled plaza that people do not feel they belong in is not a peaceful design success. It is cosmetic order.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift required here is the release of the siege mindset.
 
@@ -127,7 +127,7 @@ Institutions must train too. Planners and police alike have to let go of the fan
 
 Transformation here is not sentimental. It is disciplined hospitality. The practice is to create places where good behavior is easy, healthy use is natural, and harm has fewer places to hide.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 What can be built now is concrete and repeatable.
 

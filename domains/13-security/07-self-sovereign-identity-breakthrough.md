@@ -21,7 +21,7 @@ updated: "2026-04-11"
 version: "1.0"
 confidence: 0.8
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["security", "breakthrough", "self-sovereign-identity", "DID", "verifiable-credentials", "W3C", "idOS", "cryptography"]
@@ -81,19 +81,19 @@ This is a massive transfer of responsibility. If you lose your seed phrase or yo
 
 There is also a hidden centralization risk: "decentralized silos" run by a handful of wallet providers could recreate the custodial model with new branding. Falsifiability edge: if phishing of private keys becomes the dominant theft vector and total identity-harm metrics do not improve, the abundance claim fails.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Security is the stillness of being truly seen without being truly owned. When you hold your own identifiers, you move through the world with the dignity of a sovereign. The scarcity of trust is a phantom created by the walls we built to protect ourselves from each other. Tear down the database and you rediscover the human beneath the record.
 
 The practice is small: notice each time a system asks for data it does not need. That friction is the old world asking for tribute.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 The shipped artifacts are real. Dual-endorsement policies validated through smart contracts, SHA-256 hashing achieving 99.9% integrity detection rates, libsodium encryption ensuring per-user keys at the storage layer. The W3C DID Core 1.0 specification is a Recommendation, and open-source libraries (Veramo, Aries, Hyperledger Indy) provide production-grade stacks.
 
 The builder's lesson: when you architect for "no honeypot," you stop fighting breaches and start preventing them from being possible at all.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from idOS deployment case studies and UNHCR digital identity field reports.**
 

@@ -29,7 +29,7 @@ updated: "2026-04-12"
 version: "1.0"
 confidence: 0.77
 codex_version: "1.1"
-co_author_model: "Chat GPT 5.4 - Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["security", "framework", "ai", "peacebuilding", "conflict-prevention", "early-warning", "disinformation", "hate-speech", "human-oversight"]
@@ -107,7 +107,7 @@ There is also a seduction problem. Leaders love dashboards because dashboards fe
 
 The falsifiability edge is simple: if these systems cannot demonstrate better signal detection, lower harm, and stronger legitimacy than conventional approaches—or if they increase rights violations, misclassification, or fear—then they are not peace technology. They are digital theater with collateral damage.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift here is the release of the omniscience fantasy and the fear reflex at the same time.
 
@@ -123,7 +123,7 @@ The new identity is the disciplined interpreter. This actor can receive an algor
 
 The practice is humility. Let the model raise a hand. Let the human ask better questions. Let the community judge whether the action increased dignity or merely increased control.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 The near-term build path is clearer than it looks.
 

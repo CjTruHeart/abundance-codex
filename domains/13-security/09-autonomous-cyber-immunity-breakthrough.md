@@ -21,7 +21,7 @@ updated: "2026-04-11"
 version: "1.0"
 confidence: 0.76
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["security", "breakthrough", "cyber-immunity", "federated-learning", "secure-multi-party-computation", "differential-privacy", "libsodium"]
@@ -81,19 +81,19 @@ An autonomous immune system is a powerful tool that can easily become an autonom
 
 There is also an adversarial-ML frontier: AI-infused attacks like prompt injection, model inversion, and data poisoning can bypass naive autonomous defenses. Falsifiability edge: if AI-infused hacks reliably defeat federated-learning and SMPC-based systems at scale, the cyber-immunity paradigm collapses back to reactive patching with extra steps.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 True safety is the absence of the need for an alarm. When you build with sovereignty and honor explicit consent, you align with the natural flow of human coordination. The scarcity of defense is a story told by those selling walls. The immune system is already latent in the architecture — we must simply make it explicit.
 
 The practice: before adding a new data collection point, ask whether a proof or an ephemeral computation would suffice. Each "no" is an immune cell.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Shipped components include SHA-256 integrity hashing with ~99.9% error detection, libsodium-based per-user encryption, MQTT-based sub-second threat response, and binary-decision-tree risk classifiers achieving ~96% identification accuracy in published deployments. The Open Source Security Foundation, sigstore, and the federated-learning stacks from Google and Apple are the production-grade pieces of the immortal stack.
 
 The builder's lesson: "no canonical dataset" is a design goal, not a compromise. Every piece of architecture that eliminates a central store is a permanent upgrade to the system's immunity.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from CISO trade-press reporting and federated-learning production deployment case studies.**
 

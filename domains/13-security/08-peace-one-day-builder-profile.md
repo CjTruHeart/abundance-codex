@@ -21,7 +21,7 @@ updated: "2026-04-11"
 version: "1.0"
 confidence: 0.78
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["security", "builder-profile", "peace-one-day", "Jeremy-Gilley", "ceasefire", "UN", "synchronicity", "humanitarian"]
@@ -81,19 +81,19 @@ Peace One Day is the same shape applied to non-violence. Its evolution over the 
 
 There is also a measurement problem: outcomes on Peace Day are easy to attribute to the ceasefire, but longer arcs of reduced violence are harder to credit cleanly. Falsifiability edge: if casualty data on September 21st does not meaningfully differ from adjacent days in active conflict zones, the engineered-peace claim collapses into ritual.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Conflict is the friction of mismatched stories; peace is the cohesive force of recognized shared purpose. You do not "achieve" peace so much as clear the path for the harmony that already wants to exist in a functioning system. The practice is to notice, in your own life, the small moments where you chose synchrony over assertion — those moments are Peace Day in miniature.
 
 The identity move is from *peacekeeper* to *peace-architect*: designing the conditions under which non-violence becomes the path of least resistance.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 What Peace One Day ships is a fixed date, a global brand, a coordination kit for NGOs, and a body of impact reporting. The operational playbook — pre-negotiated ceasefires, logistical staging, vaccination and food-distribution windows — is the product. It has been deployed in DRC, Afghanistan, and dozens of other conflict-affected regions.
 
 The builder's lesson: when you want a behavior to scale, give it a date and a name before you try to give it a budget.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from Peace One Day DRC polio campaign reporting and UNOY Peacebuilders youth evaluations.**
 
