@@ -25,7 +25,7 @@ updated: "2026-04-07"
 version: "1.0"
 confidence: 0.84
 codex_version: "1.1"
-co_author_model: "Chat GPT - Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["education", "tarl", "pratham", "foundational-learning", "targeted-instruction", "learning-poverty"]
@@ -133,7 +133,7 @@ Fourth, some children remain at risk of exclusion even inside a well-run TaRL sy
 
 TaRL is not the answer to everything. It is the answer to a very specific wound: schooling without learning. Its integrity depends on staying honest about that.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 TaRL asks adults to surrender a seductive illusion: the illusion that covering content is the same as teaching.
 
@@ -149,7 +149,7 @@ This is why the method lands so deeply. It restores proportional challenge. Not 
 
 The scarcity belief underneath conventional failure is this: *if a child has fallen behind, the honest response is to push harder.* TaRL replaces that with a truer discipline: *slow down enough to find the real starting point, then advance with precision.*
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 The build is elegant because it is operationally plain.
 
@@ -163,7 +163,7 @@ Across Africa, TaRL Africa reports a regional infrastructure of support: governm
 
 What can be built now? More ministry-owned targeted-instruction blocks, stronger mentor pipelines, locally adapted materials, and better early warning assessments. What remains blocked? Exam pressure, timetable rigidity, teacher overload, and the institutional vanity that prefers the appearance of pace over the truth of mastery.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 Dyness Makesa was in Grade 5 at Lubunda Primary School in Zambia when UNICEF documented what Catch-Up had changed for her.
 

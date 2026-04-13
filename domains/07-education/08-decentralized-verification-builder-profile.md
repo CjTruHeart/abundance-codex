@@ -25,7 +25,7 @@ updated: "2026-04-06"
 version: "1.0"
 confidence: 0.76
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["builder-profile", "education", "decentralized-verification", "zero-knowledge-proofs", "skills-based-hiring", "credentials", "web3", "attestation"]
@@ -79,17 +79,17 @@ The techno-optimism surrounding decentralized verification willfully ignores the
 
 Furthermore, who authors the assessment algorithms? If the global standard for "capability" is defined by a narrow consensus of Silicon Valley engineers, we are simply replacing geographic gatekeeping with epistemic gatekeeping. The transition pain will be devastating for entire regional economies built around legacy university towns, leading to localized economic collapse. And if these decentralized ledgers are not aggressively protected against financialization, we will see the emergence of predatory credential-farming, where the poorest populations are forced to continuously purchase algorithmic assessments just to prove their right to exist in the labor market. Do not confuse the efficiency of a database with the equity of a society.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 For generations, students bowed to the piece of paper, believing the diploma contained the wisdom. But the map is not the territory; the receipt is not the meal. The shift to verifiable skills returns the focus to the breath, to the action, to the present moment of capability. Do not seek to accumulate attestations like heavy armor. Treat them merely as footprints in the snow, temporary evidence of where you have walked, while your eyes remain fixed on the horizon of continuous mastery.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 The leading edge of this shift is represented by teams building Ethereum Attestation Service integrations for Open Skills Protocols. The core innovation is the deployment of localized, sovereign AI agents that conduct dynamic, rigorous skill assessments and issue Zero-Knowledge Proofs directly to a user's digital wallet.
 
 The engineering bottleneck solved was preventing systemic cheating without requiring invasive surveillance, achieved by shifting assessment from "answering questions" to "building systems within simulated physics environments" while the AI monitors cognitive strategy, not just final output. The cost to cryptographically verify a master-level understanding of a complex domain has dropped from six figures in university tuition to sub-cent gas fees on a Layer-2 rollup. Current deployments are onboarding tens of thousands of users per week, directly linking verified wallets to autonomous hiring smart contracts.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns in skills-based hiring, open-source portfolio employment, and decentralized credential adoption in the Global South.**
 

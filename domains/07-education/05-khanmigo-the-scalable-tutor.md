@@ -26,7 +26,7 @@ version: "1.0"
 confidence: 0.79
 codex_version: "1.1"
 tags: ["education", "khan-academy", "khanmigo", "ai-tutoring", "mastery-learning", "sal-khan", "builder-profile", "2-sigma"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -66,13 +66,13 @@ Khanmigo sits at the exact convergence of computation-intelligence's exponential
 ### 🗡️ The Critic — Shadow Keeper
 Scaling any abundance technology creates new shadows. Khanmigo's data hunger raises privacy risks, especially for minors. Over-reliance could erode human resilience if students never learn to struggle without instant scaffolding. In low-resource regions the digital divide persists — 2.2 billion still offline — and credential gatekeepers may simply raise bars rather than accept AI-verified mastery. The falsifiability edge is clear: if large-scale independent RCTs show gains evaporate after novelty or if outcome gaps widen for the most disadvantaged cohorts, the abundance narrative fails. Transition pain is real for teachers whose identity was tied to being the sole expert.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift required is profound for both teachers and learners. Teachers must release the scarcity-era identity of "content deliverer and grader" and step into the higher-order role of relationship architect and growth coach — a role that demands greater emotional intelligence and less ego attachment to being the smartest person in the room. Learners must release the fixed-mindset story "I'm just not good at this" and adopt the practitioner identity: "I iterate until I master." This is not a one-time insight; it is daily practice in surrendering shame around mistakes and embracing deliberate repetition. The scarcity frame that protected us from failure now becomes the very cage that prevents abundance.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Sal Khan and the Khan Academy team are the clearest living example of abundance engineering. They took an open-source ethos, integrated frontier LLMs, added mastery-enforcement logic, teacher dashboards, and offline capabilities, then deployed at district scale. Current stage: classroom pilots widespread, full national integrations in discussion, open-source elements available for Global South adaptation. Bottlenecks remain teacher professional development, equitable device access, and policy alignment around mastery-based credentials. The learning curve is visible — marginal cost per learner-hour continues to fall predictably. Builders closest to global scale are those (like Khan's team) who embed AI inside existing school infrastructure rather than attempting wholesale replacement.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 Amina, a 14-year-old girl in a crowded public school in Lagos, Nigeria, had fallen two grade levels behind in algebra. Her teacher had 45 students and no time for remediation. In early 2025 her school joined a Khanmigo pilot. For the first time Amina could pause a lesson, ask the AI to re-explain a concept using her native language and local examples, receive instant practice sets matched to her exact misconceptions, and only move forward after hitting 90 % mastery — all without judgment. Within one term she caught up and began helping classmates. Her teacher noted the shift: "I finally have time to see the whole child instead of just managing the curriculum." Amina's own words: "It felt like the tutor was sitting right next to me — but it never got frustrated."
 
 ---

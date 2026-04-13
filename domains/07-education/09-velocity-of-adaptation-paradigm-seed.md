@@ -21,7 +21,7 @@ updated: "2026-04-06"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["paradigm-seed", "education", "velocity", "adaptation", "unlearning", "agility", "cognitive-flexibility", "obsolescence"]
@@ -69,15 +69,15 @@ When knowledge becomes ambient and free, institutional prestige evaporates overn
 
 Agility without an ethical anchor is just accelerating into a wall. Who gets crushed when we demand humans move too fast to remember why we built the road in the first place? The glorification of relentless disruption ignores the severe psychological toll of perpetual cognitive instability. Not everyone can sprint forever — and a society that discards those who need time to integrate is not abundant; it is brutal.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The stiffest tree breaks in the exponential wind. Stop defending your old answers. Become the water. The shift from knowledge accumulation to adaptive capacity is not just an intellectual adjustment; it is an identity dissolution. The ego that clings to "I am the expert" must learn to bow to "I am the learner, always."
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 The engineering translation is clear: entirely deprecate the "final exam" milestone and deploy continuous, stateful adaptation loops directly to the edge. Build learning systems that measure not what a student knows today, but how quickly they can rebuild their understanding when the paradigm shifts tomorrow.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns in career displacement and rapid reskilling through AI-assisted learning.**
 

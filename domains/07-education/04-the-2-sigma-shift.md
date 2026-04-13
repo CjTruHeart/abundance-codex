@@ -26,7 +26,7 @@ version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
 tags: ["education", "bloom-two-sigma", "ai-tutoring", "mastery-learning", "personalized-learning", "contrast", "khanmigo", "industrial-model"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -66,13 +66,13 @@ Education paradigms follow the same 6D exponential curve as every other domain. 
 ### 🗡️ The Critic — Shadow Keeper
 The contrast is real, but the transition pain is brutal. The industrial model, however flawed, provided structure, socialization, and credential signaling that employers and societies still demand. AI tutors risk deepening the digital divide (2.2 billion still offline) and creating new forms of extraction — data on every keystroke, attention capture, and potential homogenization of thought from a few foundation models. Credential gatekeepers may capture the abundance signal and simply raise the bar again. Most dangerously, over-reliance on AI could atrophy human self-regulation and relational learning skills. The falsifiability edge: if large-scale randomized trials show no sustained 1.5+ sigma gains once novelty effects wear off, or if AI tutors widen rather than close outcome gaps for the bottom quintile, the abundance claim collapses.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The deepest shift is identity. Teachers must release the "sage on the stage" or "grader of papers" self-conception and step into the far more demanding role of relationship architect and mastery coach. Students must release "I'm not good at X" as a fixed trait and adopt the identity of deliberate practitioners who iterate until proficient. The scarcity mindset that kept the bell curve stable — competition for limited spots — must be replaced by an abundance identity: "There is enough mastery for everyone; my success does not require your failure." This is not a soft skill. It is the hardest rewire of a lifetime.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Khan Academy's Khanmigo is the clearest current build: 700k+ school users, integrated into curricula, with teacher dashboards and offline modes in development. Other builders include Duolingo Max (AI conversation practice), ASSISTments, MATHia, and emerging open-source ITS projects. Technical readiness: classroom pilots widespread, full system integration still early. Bottlenecks: teacher training, equitable device access, and credentialing reform. The learning curve is already visible — cost per learner-hour is falling predictably as models improve and inference costs drop. Builders closest to scale are those embedding AI inside existing school infrastructure rather than replacing it.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 Maria, a ninth-grader in a rural Philippine public school, used to dread math class. The teacher moved at a pace that left her lost by week three; she internalized "I'm just bad at numbers." In 2025 her school piloted Khanmigo. For the first time she could pause, ask the AI to explain the same concept three different ways, receive instant practice problems matched to her exact misconceptions, and only advance when she hit 90 % mastery. Within one semester she went from failing quarterly exams to scoring in the top quartile. She still credits her human teacher for encouragement and classroom community — but the AI gave her the patient, private repetition she had never experienced. "It felt like someone finally had time for me," she said.
 
 ---

@@ -25,7 +25,7 @@ updated: "2026-04-07"
 version: "1.0"
 confidence: 0.8
 codex_version: "1.1"
-co_author_model: "Chat GPT - Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["education", "genai", "teacher-agency", "child-rights", "learning-ecosystems", "ai-governance"]
@@ -146,7 +146,7 @@ The third risk is **unequal exposure to harm**. Children with fewer protections,
 
 This framework fails if rights language stays decorative, if human alternatives disappear in practice, or if evidence shows that AI adoption is degrading trust, agency, learning quality, or civic coherence rather than strengthening them.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 A human-centered AI contract requires leaders, teachers, and families to release a seductive illusion: the fantasy that the deepest educational problems can be solved by removing human friction.
 
@@ -160,7 +160,7 @@ The inner shift is toward disciplined discernment. Ask not only "Can this be aut
 
 The wise stance is not rejection. It is non-attachment to hype. Hold the tool lightly. Hold the child firmly in view.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 The build is already underway, but the serious work is not model training. It is institutional design.
 
@@ -176,7 +176,7 @@ What needs building now?
 
 The bottleneck is not lack of AI. It is lack of contract discipline. The systems closest to getting this right will be the ones that treat governance as product design, not as paperwork after deployment.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 Claudia Muellauer, a language teacher in Austria, tried AI-assisted feedback because she wanted to understand the tools and give students richer responses. She described uploading student work, crafting detailed prompts, then spending time deleting irrelevant comments, rewriting awkward phrasing, adding encouragement, and trying to inject her own tone back into the feedback.
 

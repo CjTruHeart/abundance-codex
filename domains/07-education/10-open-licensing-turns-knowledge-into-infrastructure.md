@@ -29,7 +29,7 @@ updated: "2026-04-07"
 version: "1.0"
 confidence: 0.84
 codex_version: "1.1"
-co_author_model: "gpt-5-4-thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["oer", "open-licensing", "digital-public-goods", "textbook-affordability", "education", "knowledge-commons"]
@@ -127,7 +127,7 @@ And yes, somebody gets left behind if this is done poorly: learners without conn
 
 The falsifiability edge is clear: if open licensing expands but affordability, adaptability, accessibility, and learning outcomes do not materially improve—or if control simply migrates from publishers to platforms—then the abundance narrative has failed its own test.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 Open licensing asks educators and institutions to release an old reflex: the belief that authority depends on control.
 
@@ -139,7 +139,7 @@ A martial artist does not become weaker because a form is shared. A dojo becomes
 
 The identity that must loosen is the scarcity-era educator who mistakes ownership for value. The abundance-era educator understands that the real craft is not hiding the scroll. It is helping the right student receive the right teaching in the right form at the right time.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 The build is already underway, but it is uneven.
 
@@ -157,7 +157,7 @@ Where should builders push now? Public procurement rules. State and institutiona
 
 The bottleneck is no longer whether OER is real. The bottleneck is whether systems will fund the maintenance of openness with the same seriousness they once funded the maintenance of scarcity.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 Nadiya Chalak first encountered OpenStax through her calculus course. On the OpenStax impact page, her story is small, almost easy to pass over: she used the digital reader to build **color-coded highlighted notes** and turned those notes into study guides. As a visual learner, she could recall sections of the textbook while taking quizzes. She also saved money.
 

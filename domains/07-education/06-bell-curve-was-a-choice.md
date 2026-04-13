@@ -18,7 +18,7 @@ version: "1.0"
 confidence: 0.88
 codex_version: "1.1"
 tags: ["paradigm_seed", "bell-curve", "mastery-learning", "fixed-vs-growth-mindset", "2-sigma", "abundance-mindset"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -46,7 +46,7 @@ Every abundance domain follows the same pattern: an artificial scarcity is revea
 ### 🗡️ The Critic — Shadow Keeper
 The seed is powerful, but it risks distortion into "technology fixes everything" if the relational and cultural layers are ignored. Fixed-mindset identities are deeply wired; rapid mastery gains can trigger status anxiety in systems still built on ranking. Who gets left behind: learners in zero-connectivity zones or cultures where collective harmony trumps individual acceleration. The falsifiability edge: if large-scale deployments show mastery gains plateau below 1.5 sigma once novelty fades, the seed was overstated.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner identity shift required is total: both educators and learners must release the comforting lie that "I'm just not a math person" (or history person, or writer). That story protected us from the shame of falling behind in a zero-sum race. The new identity is deliberate practitioner: "I iterate until proficient." This is not motivational fluff — it is daily, embodied practice in surrendering comparison and embracing repetition without self-judgment. The scarcity frame that once kept us safe now becomes the cage.
 
 ---

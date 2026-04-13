@@ -21,7 +21,7 @@ updated: "2026-04-06"
 version: "1.0"
 confidence: 0.77
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["shadow", "education", "epistemic-immune-system", "hyper-personalization", "reality-fragmentation", "consensus", "alignment"]
@@ -77,15 +77,15 @@ We are replacing state-mandated institutional indoctrination — which was at le
 
 Without an explicitly designed epistemic immune system, this "abundance" will merely optimize our tribal divisions to a razor's edge, leaving the most vulnerable populations isolated in algorithmic ghettos while the wealthy curate bespoke, self-affirming universes.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The tree that grows alone in the perfect greenhouse shatters in the first true storm. We have spent centuries running from the pain of the collective classroom, but we have forgotten that the friction of the other is what shapes the boundaries of the self. Do not ask your algorithmic guide to build a universe where you are always right. Ask it to hold your hand while you walk into the terrifying, beautiful space where your reality must compromise with mine.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 The engineering challenge here is not pedagogical; it is cryptographic. The current frontier involves building a Consensus Layer — a decentralized, zero-knowledge proof ledger that serves as the epistemic floor for personalized AI tutors. The architecture constrains models from generating divergent historical timelines or ignoring empirical scientific consensus just to maximize user comfort. The AI can teach physics using whatever metaphors resonate with the learner, but the underlying mathematical reality must cryptographically anchor to a shared global ledger. The protocols force localized AI to handshake with the global commons.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns in algorithmic radicalization, personalized learning divergence, and civic mediation.**
 
