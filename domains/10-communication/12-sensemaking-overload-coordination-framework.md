@@ -170,6 +170,22 @@ This is where the system lands: not in data — but in a moment of uncertainty.
 
 ---
 
+## 6D Position
+
+| D | Status | Evidence |
+|---|--------|----------|
+| Digitized | ✅ | Information production, storage, and transmission are fully digital and measurable. |
+| Deceptive | ✅ | Early internet optimism treated "access" as the solution; the coordination problem was invisible to most through roughly 2005–2015. |
+| Disruptive | ⚠️ | Social media and algorithmic feeds have already disrupted legacy sensemaking institutions, but the replacement coordination layer is not yet stable. |
+| Demonetized | ⚠️ | Publishing is effectively free, but high-quality synthesis, fact-checking, and deliberation infrastructure are still costly and unevenly funded. |
+| Dematerialized | ✅ | Sensemaking systems operate in software, protocols, and human networks rather than printing presses or broadcast towers. |
+| Democratized | ⚠️ | Access to publish is universal; access to well-designed coordination tools is not. |
+
+**Current Phase:** Disruptive — the old sensemaking order has weakened faster than the new one has been built
+**Next Phase ETA:** Emergence of a viable coordination layer (AI synthesis + deliberation platforms + incentive realignment) is plausible within 5–10 years, but depends on design and governance choices rather than raw capability.
+
+---
+
 ## Connections
 
 - **Supports:** `07-semantic-bridge-paradigm-seed` — provides the systemic frame in which the semantic-bridge intuition becomes load-bearing

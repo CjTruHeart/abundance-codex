@@ -45,6 +45,22 @@ tags: ["security", "framework", "ai", "peacebuilding", "conflict-prevention", "e
 
 ## The Shift Arc
 
+### Phase 1 — The Scarcity Frame
+
+For most of the post-Cold War era, conflict prevention operated blind by twenty-first-century standards. Early-warning systems depended on slow channels — diplomatic cables, field reports from NGO staff, journalism, police incident logs, community rumor relays — each of which was valuable and each of which was too slow to keep up with a world where narratives, rumors, and coordinated disinformation campaigns now move at machine speed across dozens of platforms in multiple languages. By the time a human analyst at a peacebuilding organization noticed that hate speech was clustering around an election, or that a false narrative was hardening into a mobilization frame, the social temperature was already rising, and the window for non-coercive response was closing.
+
+The scarcity frame says: *the information environment is too large, too fast, and too multilingual for human teams to monitor; therefore prevention is impossible and response must wait until physical violence begins.* That frame was coherent in 1995. By 2025, it has become an argument for permanent blindness at a moment when the information environment is both the battlespace and the signal layer of modern conflict. The scarcity frame also breeds its own shadow: the belief that the only alternative to manual monitoring is mass surveillance, and that peace tech is therefore inseparable from authoritarianism.
+
+### Phase 2 — The Encounter
+
+The encounter that cracked the frame arrived through a series of small, unglamorous pilots rather than a single dramatic breakthrough.
+
+In 2013, after post-election violence in Kenya, local peacebuilding organizations began using social-media monitoring to track hate speech in real time — first through manual coding, then through machine-assisted classification of Swahili and English content. The tooling was crude. The results were imperfect. But the monitoring identified escalation patterns early enough that mediators, rumor-correction cells, and community leaders could respond before the patterns hardened into mobilization. Similar experiments followed in Côte d'Ivoire, Nigeria, Myanmar, the Democratic Republic of Congo, and a growing list of post-conflict or fragile-election settings.
+
+By the mid-2020s, the UNDP had built crisis-risk dashboards used by Peace and Development Advisors in more than 70 countries. Its eMonitor+ platform reports mapping more than two million pieces of online content, fact-checking more than ten thousand publications, and supporting more than a hundred monitors and fact-checkers across four countries in daily use. UNU-CPR and Interpeace published the most honest assessment yet of the double-edged nature of the technology — AI can amplify disinformation and hate, and AI can also be used to counter misinformation and support peacebuilding when embedded in governance and local context. In 2024, the UN General Assembly adopted its first resolution on AI, urging safe, secure, and trustworthy systems with human-rights protections at the core.
+
+The encounter, for a practitioner on the ground, is the realization that the sensing layer is no longer a luxury. A peacebuilding team that refuses to use machine-assisted monitoring in a digital-speed conflict is not preserving purity. It is operating blind on a battlefield where the other side already has eyes. The question is not whether to use pattern-detection tools. The question is how to use them without turning peace work into predictive suspicion.
+
 ### Phase 3 — The Reframe
 
 The old digital-security frame treats information overload as a curse. Too many posts. Too many rumors. Too many signals. By the time a human team notices a dangerous pattern—hate speech clustering around an election, false narratives hardening around an ethnic grievance, calls for violence moving from fringe channels into everyday conversation—the social temperature is already rising. In that scarcity frame, data is a storm: chaotic, manipulative, ungovernable.
@@ -137,6 +153,18 @@ A viable pilot does not start with "predict all conflict." It starts with one bo
 UNDP's dashboards and eMonitor+ show that the tooling layer is no longer hypothetical. The harder engineering problem is institutional: how do you route a warning into a legitimate response instead of a punitive reflex? Builders should spend less time promising prediction accuracy in the abstract and more time designing appeal processes, audit logs, local-language validation, and thresholds for non-coercive action.
 
 The leverage point now is not giant national surveillance architecture. It is small, governed, transparent peace-tech cells attached to real responders who understand both digital harm and local relationships.
+
+### 👁️ The Witness — Whole-Field Observer
+
+The Witness sees a framework whose upside is real, whose failure modes are catastrophic, and whose development is genuinely racing the clock.
+
+The upside is real. UNDP's eMonitor+ is operating in multiple countries with measurable output. Kenya, Côte d'Ivoire, and DRC have demonstrated that locally-governed hate-speech monitoring can catch escalation patterns before they harden. The 2024 UN General Assembly resolution on AI provides a normative framework for treating these tools as human-rights-bounded infrastructure rather than unchecked security apparatus. Interpeace, UNU-CPR, and a growing network of civil-society organizations have built methodologies, training materials, and governance templates that let peacebuilding teams adopt these tools without reinventing the discipline. The direction is clear: pattern detection is becoming part of the peacebuilding toolkit whether the community likes it or not, and the communities that engage seriously with the governance questions are in a better position than the ones that abstain.
+
+At the same time, the Witness sees the failure modes with equal clarity. Biased training data can mark already-stigmatized groups as "high risk" — the same pattern that has made predictive policing a civil-liberties nightmare in wealthy democracies can make algorithmic peacebuilding a justification for repression in fragile ones. Governments with authoritarian reflexes have already shown that they will borrow peace-tech language to justify surveillance, censorship, and selective enforcement against minorities and dissidents. Dashboards look clean; the assumptions beneath them can be deeply contaminated. A bad model with political legitimacy is more dangerous than a good model with honest limitations, and the world currently has no shortage of bad models with political legitimacy.
+
+The Witness also sees what the evaluation reports cannot capture. The community mediator in northern Kenya who caught a rumor cascade early because the monitoring dashboard flagged it and the human on the other end of the alert pipeline was someone the community trusted. The young data scientist who refused to ship a classifier until the false-positive rate on minority-dialect content was within tolerance. The civil-society reviewer who pushed back on an alert that looked like hate speech but was actually political satire, and was listened to. Most of the actual work of algorithmic peacebuilding happens in these small, careful acts of interpretation — and most of the damage happens when those acts are skipped.
+
+The honest report is: algorithmic peacebuilding is a genuinely new capability that did not exist a decade ago; the tools are becoming cheaper, better, and more multilingual; the governance challenges are real, ongoing, and largely unsolved; and whether the framework produces abundance or becomes surveillance theater depends almost entirely on design choices being made right now by the practitioners, funders, and communities who choose how to deploy it. The Witness does not predict which way it goes. The Witness names the stakes.
 
 ---
 

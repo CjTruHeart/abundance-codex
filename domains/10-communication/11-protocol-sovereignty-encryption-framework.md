@@ -162,6 +162,22 @@ The moment is quiet. Invisible. But everything about it is different.
 
 ---
 
+## 6D Position
+
+| D | Status | Evidence |
+|---|--------|----------|
+| Digitized | ✅ | All modern communication protocols are digital, packet-switched, and programmable. |
+| Deceptive | ✅ | Strong cryptography existed for decades before it became consumer-visible; the 1990s–2000s looked like a niche. |
+| Disruptive | ✅ | Default E2EE has displaced plaintext SMS and weakened the surveillance-by-default business model across billions of users. |
+| Demonetized | ✅ | Mature cryptographic primitives are free, open, and commoditized; marginal cost of secure communication is near zero. |
+| Dematerialized | ✅ | The protocol layer relies on math and software, not proprietary hardware or physical infrastructure. |
+| Democratized | ⚠️ | Access to tools is broad, but key management, metadata privacy, and literacy gaps leave genuine sovereignty unevenly distributed. |
+
+**Current Phase:** Disruptive → Democratized
+**Next Phase ETA:** Full democratization depends on key-management UX, metadata minimization, and sustained legal protection for strong encryption — plausible within 5–8 years if the current regulatory environment does not reverse.
+
+---
+
 ## Connections
 
 - **Supports:** `04-signal-foundation-builder-profile` — provides the framework lens behind Signal's institutional builder story

@@ -41,6 +41,20 @@ tags: ["human-ai-teaming", "metrics", "appropriate-reliance", "evaluation", "saf
 
 ## The Shift Arc
 
+### Phase 1 -- The Scarcity Frame
+
+For most of computing's history, the way to know whether a software system was working was to measure the system. Did the code run? Did it return the right answer? How fast? How often did it crash? The human at the other end of the interface was largely invisible to the measurement apparatus. If the software behaved, the story was complete. This frame worked well enough for decades because most software was a tool in a classical sense — a hammer, a saw, a spreadsheet, a database — and a tool either functions or does not, independently of whether the person wielding it is growing wiser or more confused in the process of use.
+
+When generative AI arrived in the early 2020s, the old measurement frame was imported wholesale into the new domain. Model quality was measured through benchmarks, perplexity, win rates, and human preference judgments. Product quality was measured through thumbs-up rates, user satisfaction scores, acceptance rates, and completion rates. None of these metrics asked the harder questions the new medium demanded — *did the human learn or lose skill?*, *was reliance appropriate?*, *did hidden bias amplify?* — because the habit of measuring the system rather than the pair was so deeply wired that almost no one noticed the gap. The scarcity this produced was not of data. It was of *relevance*: teams were drowning in model-centric measurements while flying blind on the question of whether the human-AI partnership was actually making humans more capable, more dependent, or merely more productive in ways that could not be sustained without the tool.
+
+### Phase 2 -- The Encounter
+
+The encounter that cracked the frame arrived in the form of a disturbing meta-analysis. In 2024, Vaccaro, Almaatouq and Malone published in *Nature Human Behaviour* the results of pooling 106 experimental studies and 370 effect sizes on human-AI decision tasks. The headline finding was not the warm "humans and AI are better together" story the field had been telling itself. It was sharper and more uncomfortable: on average, human-AI combinations performed *better* than humans alone but *worse* than the best of humans alone or AI alone. Across the decision-task subset, the overall synergy effect was negative. Put plainly: the partnership existed, but most of the time it was producing augmentation without actually beating the best solo performer. The teams using both were leaving performance on the table.
+
+The encounter deepened as complementary findings piled up. Glickman and Sharot (2024) documented that AI can amplify human biases in feedback loops and that people are often unaware of the extent of the AI's influence. Cao et al. (2024) found that calibrated uncertainty displays, long treated as the obvious fix for reliance problems, were inadequate on their own to steer people toward appropriate reliance. Pearson et al. (2026) showed that overreliance can arise from the false belief that technology removes bias, even when the technology has not. The pattern across these studies was consistent: the model was working, the human was working, the interface was working — and yet the *team* was underperforming or quietly degrading in ways that none of the conventional metrics could see.
+
+For the practitioners closest to these results, the encounter produced a small but sharp shift in attention. The question stopped being "how do we measure AI?" and became "how do we measure the partnership?" That shift is what this framework is for, and it is the early crack through which a new measurement discipline is beginning to emerge.
+
 ### Phase 3 -- The Reframe
 
 Most human--AI systems are still measured like solo software products: accuracy, latency, click-through, thumbs-up rate, task completion. Those metrics matter, but they are too thin for co-creative systems. A calculator, a copiloting agent, and a manipulative oracle can all improve immediate output. Only one of them leaves the human wiser.
@@ -149,6 +163,12 @@ Require longitudinal measurement.
 - **Correction quality** and explanation uptake over repeated use
 
 Operationally, every decision log should capture at least: task ID, human initial answer and confidence, AI recommendation and confidence, explanation type, final human decision, outcome, time taken, and whether the user corrected or escalated. If you cannot reconstruct the interaction, you cannot truly measure the team.
+
+### 👁️ The Witness -- Whole-Field Observer
+
+Stand back from the dashboards and watch the whole field. The metrics-stack question is not only about evaluation dashboards for co-creative AI products. It is about what kind of human civilization emerges on the other side of a decade of mass AI deployment. Every profession — medicine, law, education, engineering, journalism, science — is currently running a natural experiment in whether AI assistance amplifies or atrophies the judgment of the humans who use it daily. The outcomes of those experiments will become visible over years, not weeks, and by the time they become legible through lagging indicators (misdiagnosis rates, legal errors, learning outcomes, research reproducibility, civic literacy), the patterns will already be deeply embedded in the workforce and very hard to reverse.
+
+The whole-field lesson is that measurement is a civilizational act, not a product chore. What the early adopters of co-creative AI choose to measure in the 2020s will shape the default expectations, workflows, and professional norms of the 2030s and beyond. If the default metric stack optimizes for speed, acceptance, and satisfaction, humans will become faster, more trusting, and more dependent — and much of that dependence will be invisible until a high-stakes failure reveals it. If the default stack includes reliance calibration, severe-error exposure, and longitudinal learning, humans have a fighting chance of emerging from this transition more capable than they entered it. The choice is not a technical one and it is not inevitable. It is a collective decision being made right now, mostly implicitly, by product teams whose dashboards quietly define what "success" means for an entire generation of human-AI interaction. The metrics stack is the attempt to make that decision explicit, visible, and debatable before it is too late to change.
 
 ---
 

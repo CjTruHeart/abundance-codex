@@ -45,6 +45,20 @@ tags: ["community-health-workers", "task-shifting", "primary-care", "delivery-sy
 
 ## The Shift Arc
 
+### Phase 1 — The Scarcity Frame
+
+For most of the modern era, global health systems were built around a single assumption: care is a product of expertise, expertise is scarce, and scale is therefore capped by how many specialists a country can train and retain. That assumption felt like physics. A village with no doctor had no real health system. A district with no hospital had no real care pathway. When the experts were absent, care was absent.
+
+The scarcity frame dictated every downstream decision. Donor funding chased clinic construction. Governments measured health progress in physician-to-population ratios. Professional associations protected scope-of-practice boundaries as if those boundaries were biological rather than administrative. And when the math did not work — when training more physicians could not possibly close the gap fast enough to reach the billions of people without primary care — the default answer was to accept the gap as tragic but unavoidable. "We just do not have enough doctors" became a sentence that ended conversations about abundance instead of starting them.
+
+### Phase 2 — The Encounter
+
+The encounter that broke the frame came from places the global health establishment was not watching closely.
+
+In China in the 1960s and 1970s, the "barefoot doctor" program trained hundreds of thousands of village-level health workers in basic diagnostics, medication, and referral, delivering primary care to rural populations at a scale no physician-centered model could have matched. In Latin America, liberation-era health movements built community-based care networks rooted in local trust rather than hospital proximity. In the 2000s, Ethiopia launched its Health Extension Program, deploying tens of thousands of trained community health workers across one of the largest rural populations in Africa. Maternal and child mortality fell. Vaccination coverage rose. The encounter was not a single breakthrough; it was a pattern — several countries, across several decades, all proving that well-trained, well-supervised, community-anchored workers could carry enormous portions of care that the scarcity frame had insisted only specialists could handle.
+
+The encounter forced a question that still makes some health ministries uncomfortable: what if the binding constraint on primary care is not the number of physicians, but the architecture of delegation? When that question is taken seriously, the scarcity frame stops being a law of nature and starts being a policy choice.
+
 ### Phase 3 — The Reframe
 
 The scarcity frame says health care is limited by how many doctors, nurses, and clinic rooms a society can afford.

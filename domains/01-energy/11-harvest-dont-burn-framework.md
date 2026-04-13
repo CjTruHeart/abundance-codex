@@ -45,6 +45,18 @@ tags: ["framework", "energy", "flows-vs-stocks", "learning-curves", "grid", "abu
 
 ## The Shift Arc
 
+### Phase 1 — The Scarcity Frame
+The dominant energy story was built on possession. Civilization's power came from dense fuels you could dig up, ship, stockpile, meter, and fight over. In that frame, more abundance meant more extraction, and more extraction meant more risk concentrated in whoever controlled the vault. Energy security was shorthand for fuel security, and fuel security was shorthand for geology plus geopolitics plus military reach.
+
+The working assumption was that every new generation would burn more than the last, prices would climb as the easy deposits depleted, and the winners would be whoever sat on the thickest reserves. Abundance for most people was a downstream benefit of somebody else's oil field, and the best an honest energy policy could aim for was slower depletion and more efficient combustion.
+
+### Phase 2 — The Encounter
+The anomaly that broke the frame was not an idea. It was a manufacturing line.
+
+When solar modules, battery cells, and power electronics started following semiconductor-style cost curves, energy stopped behaving like a fuel market and started behaving like hardware. Costs fell not because new deposits had been discovered but because more units had been made. That was the encounter: engineers and operators watching their price sheets and realizing the learning curve, not the reserve curve, was now in charge of electricity.
+
+The shift did not arrive as a single breakthrough. It arrived as a slow accumulation of projects — one cohort, then another, then another — until the old explanations no longer fit the numbers. By the mid-2020s, utility planners, regulators, and financiers who had been trained to think in barrels and seams were quietly being forced to rebuild their mental models around throughput, interconnection, and factory output instead.
+
 ### Phase 3 — The Reframe
 The old question was: **Who controls the fuel?**  
 The abundance question is different: **How fast can we build the harvesters, buffers, wires, and rules that turn recurring flows into reliable power?**
@@ -128,6 +140,17 @@ If a pathway depends on one-off megaproject execution, decade-long permitting, c
 Today's practical bottlenecks are not mysterious. Builders keep naming the same ones: transformer shortages, interconnection backlogs, local permitting fights, thin transmission planning, slow distribution upgrades, and market rules that still reward old behavior. The smart money is therefore moving into the connective tissue of the system as much as into generation itself.
 
 Watch the organizations working on exactly those layers: utilities modernizing substations, regional grid operators reforming queues, companies deploying grid-enhancing technologies and advanced conductors, aggregators turning distributed devices into flexible capacity, manufacturers expanding LFP and power-electronics supply chains, and developers standardizing project design instead of reinventing every site. That is what "harvest, don't burn" looks like in builder language. It means less obsession with silver-bullet fuels and more obsession with manufacturable stacks, interoperable components, and faster system integration.
+
+### 👁️ The Witness — Whole-Field Observer
+The Witness holds the whole picture at once, without collapsing it into either triumph or despair.
+
+What is actually true in the room is that two realities are holding at the same time. More coal is still being burned somewhere right now than at almost any earlier moment in human history, and solar capacity is compounding anyway. Bills are rising for some households while plummeting for others. Communities are winning factory jobs while neighboring communities are losing refinery tax base. Some countries are leapfrogging dirty grids entirely. Others are installing new fossil plants to meet peak load because the wires for the cheap electrons are not there yet. None of this cancels the other.
+
+The Witness also notices what the framework does not do. It does not promise that every molecule disappears. It does not promise that every region can run the same stack. It does not resolve the moral question of who deserves to be compensated for the stranded coal plant, the closed refinery, the displaced worker, or the corridor that now runs through someone's backyard. A diagnostic is not a verdict.
+
+What the Witness sees clearly is that "Harvest, Don't Burn" is not a prediction. It is a lens for reading the present. The cost curves are real. The bottlenecks are real. The people are real. The job of honest attention is to keep all three in view without letting any one of them colonize the other two.
+
+That is the bare observation. No cheerleading. No refusal. Just the record of what the energy transition actually looks like when nothing about it is hidden.
 
 ---
 

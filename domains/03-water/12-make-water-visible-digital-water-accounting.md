@@ -45,6 +45,20 @@ tags: ["evapotranspiration", "digital-water-accounting", "openet", "wapor", "con
 
 ## The Shift Arc
 
+### Phase 1 — The Scarcity Frame
+
+For most of modern water governance, disputes over who was using too much of a shared basin were decided in rooms full of partial information. Surface diversions were recorded imperfectly. Some wells were metered, most were not. Crop water use was estimated from tables published decades earlier. Groundwater levels were surveyed months or years after the damage had already occurred. And across agriculture — which withdraws most of the freshwater on earth — consumption was often inferred from assumptions rather than measured at all.
+
+The scarcity frame fit that informational dark. Every party assumed someone else was taking more than their share, and every party could cite a plausible story to support that suspicion. When the science could not settle the question, politics and historical allocation rights filled the gap, usually in favor of whoever had been loudest, oldest, or most politically connected. The working theory of water governance was that in a conflict over an invisible resource, the visible actors win. That logic guaranteed perpetual unfairness and perpetual mistrust, even where the physical water was abundant enough in principle to support every legitimate use.
+
+### Phase 2 — The Encounter
+
+The encounter that cracked the frame did not come from a new dam, well, or treaty. It came from a satellite.
+
+NASA, the US Department of Agriculture, the Desert Research Institute, and a coalition of Western US water agencies launched OpenET in 2021 as an open, satellite-derived measurement of evapotranspiration — the actual consumptive water use of every agricultural field in a region, computed from Landsat and other public imagery. For the first time, farmers, regulators, and neighbors could look at the same dashboard and see the same numbers for the same fields. Not estimates. Not assumptions. A measurement derived from physics.
+
+The first reactions were predictable. Some water users rejected the data on principle. Others disputed its accuracy. But the encounter could not be undone, because the data was open, the method was published, and anyone with a laptop could verify the output. FAO's WaPOR system scaled the same approach internationally, targeting agricultural water productivity across partner countries. The paradigm shift was not really about remote sensing. It was about the sudden impossibility of having a water governance conversation in which nobody could see what was actually being used. The old dark was gone.
+
 ### Phase 3 — The Reframe
 
 Most water fights are not only fights over water. They are fights over invisibility.
@@ -122,6 +136,19 @@ OpenET provides a strong pattern: open field-scale ET data, published methods, a
 FAO’s WaPOR shows the same principle at broader scales: remote-sensing data tied to agricultural water productivity, multiple resolutions, and implementation pathways linked to real country use.
 
 The main bottleneck is rarely raw data alone. It is institutional adoption: calibration, training, workflow integration, and governance rules that specify how the data inform action without collapsing due process.
+
+### 👁️ The Witness — Whole-Field Observer
+The Witness sees the tension that no single council voice can resolve.
+
+On one side, the data now exists. OpenET covers the contiguous United States at field scale. WaPOR covers agricultural basins across multiple continents. Satellite archives are growing. Physical models are improving. Cloud platforms have made high-resolution analysis economical in ways it was not a decade ago. The darkness that used to protect the loudest voices in a water dispute is genuinely receding.
+
+On the other side, visibility and justice are not the same thing. The Witness sees water users who have been disciplined by models they did not help design. Smallholders whose water rights have been recalculated based on satellite ET values without anyone explaining what ET actually measures or why the model disagrees with their own records. Communities in marginalized districts whose water allocations have been cut under the banner of "data-driven governance" while wealthier users with better lawyers remain untouched. The Witness names these cases without treating them as evidence that the data itself is the problem.
+
+The Witness also notices the places where digital water accounting has quietly worked. Water managers in California's Central Valley using OpenET data to renegotiate irrigation allocations with less acrimony than previous cycles. Ministry of Agriculture officials in East Africa using WaPOR outputs to identify which smallholder irrigation schemes are actually producing food per unit of consumed water. Basin councils in water-stressed regions shifting from accusation-based meetings to budget-based meetings, because the budget numbers are now in front of everyone. These are not utopian cases. They are small, specific improvements in specific places. They add up.
+
+What the Witness will not do is collapse the tension. Digital water accounting is simultaneously a powerful instrument of truth and a potential instrument of coercion, and which one it becomes in any given basin depends on whether the governance structures around it have been built with honesty, appeal pathways, and genuine participation. The tool is real. The misuse is real. The honest work is real. None of those cancel the others.
+
+That is the state of the field: more visible than ever before, still less just than it must become, and still the best platform we have yet invented for arguing about water in the open.
 
 ---
 

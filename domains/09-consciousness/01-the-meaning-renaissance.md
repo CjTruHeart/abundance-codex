@@ -45,6 +45,20 @@ tags: ["meaning-crisis", "consciousness", "flourishing", "meaning-triad", "maste
 
 ## The Shift Arc
 
+### Phase 1 — The Scarcity Frame
+
+For most of human history, meaning was not something people consciously pursued. It was something they inherited. Religion, family structure, village, ritual, guild, land, language, and story supplied the answers to the questions modern people now ask alone at three in the morning. Who am I? What am I for? Do I matter? Whose am I? These questions were not experienced as questions because the answers were already in the air everyone breathed. The scarcity frame of the pre-modern world was material; meaning was the free background condition of being alive inside a functioning tradition.
+
+Modernity inverted that. Beginning in the nineteenth and accelerating through the twentieth century, Western societies systematically dismantled the institutional substrates of inherited meaning — not always maliciously, but relentlessly. Religion's social authority receded. Extended family structures fragmented. Local community gave way to metropolitan mobility. Guild identity was replaced by job title. Place was replaced by brand. The modern project, at its most honest, said: you are free to construct your own meaning now, because the inherited answers no longer compel you. What the project did not say clearly was how difficult that construction would turn out to be, or how many people would be left unable to perform it without help.
+
+### Phase 2 — The Encounter
+
+The encounter with the meaning vacuum happened twice, at two different scales, a century apart.
+
+The first encounter was individual. Viktor Frankl, a Viennese psychiatrist, was deported to Auschwitz in 1942. In the camp, he observed something that changed the rest of his life's work: the prisoners who survived were not necessarily the strongest or youngest. They were the ones who, even in conditions of total material deprivation and ongoing terror, managed to hold onto a sense of meaning — an unfinished book, a child waiting, a belief in a future, a moral commitment. Prisoners without that inner thread often died quickly, not from starvation but from collapse. Frankl emerged from the camp with a single insight: *humans can endure almost any suffering if they have a why, and collapse under almost any comfort without one*. He spent the next forty years building logotherapy around that insight.
+
+The second encounter was collective, and it arrived with the material abundance Frankl could not have predicted. By the early twenty-first century, the wealthiest societies on Earth were simultaneously experiencing record rates of depression, loneliness, drug overdose, and suicide. The United States Surgeon General declared loneliness a national epidemic. Deaths of despair doubled in two decades. John Vervaeke at the University of Toronto named the phenomenon "the meaning crisis" and gave a fifty-part lecture series about it that reached millions of people who recognized, in his words, the texture of their own inner lives. What had been a personal observation in Frankl's individual practice became, by the 2020s, a structural fact about whole societies. The encounter was no longer an abstract philosophical problem. It was in the suicide statistics, the loneliness surveys, and the mental-health budgets of every wealthy nation on Earth.
+
 ### Phase 3 — The Reframe
 
 Here is the paradox the other twenty domains of this Codex cannot solve on their own: as material scarcity decreases, meaning scarcity *increases*.

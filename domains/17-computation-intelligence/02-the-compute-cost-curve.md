@@ -53,6 +53,14 @@ Computation was so scarce that it was rationed. Time-sharing systems were invent
 
 The scarcity frame: computation is expensive, physically massive, energy-intensive, and reserved for those who can afford it. Every other scarcity — in communication, health diagnostics, financial infrastructure, material design — was downstream of this one.
 
+### Phase 2 — The Encounter
+
+The encounter that cracked the frame was an observation that looked, at the time, like a footnote. In April 1965, Gordon Moore — then director of R&D at Fairchild Semiconductor, not yet a founder of Intel — published a short article in *Electronics* magazine titled "Cramming More Components onto Integrated Circuits." In it, he noted that the number of transistors on a single chip had been doubling roughly every year since 1959, and he predicted the doubling would continue for at least another decade. He was modestly guessing at an industry roadmap. He was actually describing the steepest, longest-running cost curve in human history.
+
+The encounter deepened every time someone tested whether Moore's casual observation would hold. It held through the vacuum-tube-to-transistor transition, through planar to bipolar to CMOS, through 10-micron to 1-micron to 100-nanometer to 7-nanometer to 3-nanometer nodes, through five distinct manufacturing paradigm shifts across six decades. Each time a physicist declared the ceiling reached, industrial engineering found another dimension to optimize. The deeper pattern Kurzweil later named — the Law of Accelerating Returns — showed that this trajectory predated Moore's specific substrate: electromechanical relays, vacuum tubes, and discrete transistors each had their own exponential curves before integrated circuits carried the baton. The curve was bigger than any single technology, and it was making computation cheaper faster than any other manufactured good in history, by several orders of magnitude, for reasons that no single theorist fully predicted.
+
+For most individuals, the encounter is rarely a single moment. It is cumulative, and it usually arrives as astonishment in hindsight. A person who remembers the first family computer in the 1980s — boxy, slow, expensive, barely capable — and then sets it beside the phone in their pocket in 2026 understands the curve experientially, even without knowing the word "Moore." The encounter is the moment of noticing that a piece of everyday glass in your hand has more computing power than the entire Apollo program, cost less than a week of groceries, and came with a camera, a library, a radio, a map of the world, and a translator for every major human language. The encounter is realizing that this is not normal. No other resource in human history has ever done this.
+
 ### Phase 3 — The Reframe
 
 Computation is not a fixed resource. It is a manufactured resource that follows a learning curve so steep it has no analog in any other domain of human endeavor.
@@ -85,6 +93,10 @@ The LLM inference cost curve is the newest and steepest in this family. The Stan
 
 The smartphone is where all these curves converge into a single object. A modern device contains approximately 15 billion transistors, multiple CPU and GPU cores, a dedicated neural processing unit, computational photography, multiple radios, biometric sensors — all for $200-1,000. In 1970, assembling equivalent capability would have required an entire building and billions of dollars.
 
+### Phase 5 — The Invitation
+
+The invitation of the compute cost curve is to stop treating intelligence, information, and computation as luxuries to be rationed and start treating them as public goods to be extended. For individuals, that means using the astonishing compute now within reach to learn, create, diagnose, translate, and collaborate — and refusing to take its abundance for granted. For developers, it means designing software and AI systems that respect the fact that inference is no longer a scarce resource and can be given away freely at scale. For policymakers, it means protecting the fragile global supply chain that keeps the curve alive, investing in distributed fabrication capacity, and treating data-center energy demand as a civilizational infrastructure question, not a niche engineering one. For researchers, it means guarding against the concentration paradox — where the democratization of consumer compute runs in parallel with the concentration of frontier compute — and fighting for open weights, open architectures, and open benchmarks. The deeper invitation is philosophical: if the steepest cost curve in human history is real, the ceiling on what humanity can think, know, and coordinate has risen by roughly ten trillion times in a single human lifetime. The only remaining question is what we choose to do with the abundance.
+
 ---
 
 ## The Council Speaks
@@ -109,6 +121,12 @@ The concentration paradox is structural. As chip fabrication becomes more comple
 
 The energy wall may be the binding constraint. Koomey's Law says each individual operation uses less energy — but total compute demand is growing faster than efficiency improves. Global data center electricity consumption reached approximately 415 TWh in 2024 and the IEA projects it will more than double to 945 TWh by 2030. The compute cost curve drives abundance in most domains while simultaneously challenging the energy domain with voracious and growing demand.
 
+### 🧘 The Sensei — Transformation Guide
+
+The inner shift the compute cost curve asks is to stop being stingy with a resource that is no longer scarce. Most humans alive today grew up in a world where calculation, storage, communication, photography, navigation, encyclopedic knowledge, and language translation were all expensive, each metered in some form, each gated by cost or friction or institutional access. Those habits of rationing are stubborn. They linger long after the underlying scarcity disappears, and they show up as small refusals: not looking something up, not running the simulation, not asking the model, not recording the idea, not sharing the insight, not trying the experiment that would have been unthinkable a generation ago.
+
+The practice is to notice, one interaction at a time, when you are still rationing compute out of habit rather than necessity. Look up the question. Run the calculation. Ask the model. Prototype the idea. Digitize the photograph. Record the meeting. The compute is there, and for the first time in human history it is cheap enough to be wrong occasionally without any meaningful cost. At the same time, the practice is to refuse the temptation to use abundance thoughtlessly — to pollute the world with more slop, more surveillance, more low-quality output, more unnecessary energy draw. Abundance is not the absence of discipline; it is the freedom to apply discipline where it actually matters: to the quality of what you make, the integrity of how you make it, and the care with which you give the output back to the world.
+
 ### 🔧 The Builder — Ground Truth
 
 The technologies extending the cost curve beyond classical transistor shrinking are already in production or entering it.
@@ -122,6 +140,12 @@ Domain-specific architectures replace general-purpose improvement with purpose-b
 Photonic computing uses light instead of electrons for certain operations. Companies like Lightmatter are targeting matrix operations — the core of AI workloads — with potentially orders-of-magnitude improvement in energy efficiency. Neuromorphic computing (Intel Loihi 2, IBM NorthPole) models brain-like event-driven computation for edge AI and robotics. Quantum computing (IBM, Google's Willow chip demonstrating below-threshold error correction in 2024, PsiQuantum, IonQ) remains early-stage but offers potential enormous leaps for specific problem classes.
 
 Open-source silicon via the RISC-V instruction set architecture is democratizing chip design even as fabrication remains concentrated. SiFive, Tenstorrent, and broad Chinese adoption are creating alternatives to proprietary architectures, lowering the barrier to custom chip development.
+
+### 👁️ The Witness — Whole-Field Observer
+
+Stand back from the specific transistor counts and watch the whole field. The compute cost curve is the single most connected trendline in the Codex. Solar cost decline rides on it. Battery cost decline rides on it. Genome sequencing rides on it. Mobile phones ride on it. M-Pesa and UPI and every financial inclusion platform on the planet ride on it. AI and climate modeling and materials discovery ride on it. So do surveillance, manipulation, deepfakes, mass phishing, and every new class of digital harm. The curve does not choose its direction of moral travel. It simply makes the possible cheaper, and humans decide what to make possible.
+
+The whole-field lesson is that cheap compute is a *capability multiplier*, not an outcome. Whether it produces abundance or amplification of existing pathologies depends entirely on the governance, the intent, the distribution of access, and the social architecture surrounding it. A civilization with root-exponential compute and no public goods mindset will produce astonishing inequality. The same civilization with strong commons, open weights, honest benchmarks, universal access to the fundamental layers, and democratic governance over the frontier will produce something closer to the Star Trek specification the Codex points toward. The curve gives humanity a dramatically wider band of possible futures than any previous generation ever had. The decision about which future inside that band gets built is not technological. It is political, ethical, and collective.
 
 ---
 
@@ -181,6 +205,14 @@ Open-source silicon via the RISC-V instruction set architecture is democratizing
 
 - **Abundance is achievable IF:** Architectural innovation (chiplets, 3D stacking, domain-specific accelerators) continues compensating for classical scaling slowdown; energy infrastructure scales to meet data center demand; supply chain concentration risk is mitigated through geographic diversification of fabrication.
 - **Abundance fails IF:** Leading-edge manufacturing costs reverse the cost-per-transistor trend sustainably; geopolitical disruption (Taiwan conflict) severs the global chip supply chain; energy constraints physically cap compute expansion.
+
+---
+
+## Practice Hook
+
+- **This week:** Identify one task you still do in the old "compute is expensive" mode — avoiding a lookup, skipping a simulation, refusing to ask a model, not recording a useful event. Do it the new way once, and notice what it changes.
+- **This month:** Learn one concrete fact about the fragility of the compute supply chain (TSMC concentration, EUV lithography monopoly, critical minerals for chips, data-center energy load). The curve's continuation is not automatic, and understanding why is the first step in defending it.
+- **This season:** Support one lever that extends frontier compute access beyond a handful of entities — open-weight model releases, public AI compute infrastructure, open-source silicon, university and civic access programs. Democratized consumer compute is already here. Democratized frontier compute is the next fight.
 
 ---
 

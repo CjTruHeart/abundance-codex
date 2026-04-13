@@ -195,6 +195,18 @@ What is blocked now:
 
 This field is still early enough for design choices to matter. That window will not stay open forever.
 
+### 👁️ The Witness — Whole-Field Observer
+
+The Witness sees a boundary being drawn — partially, unevenly, and against significant counter-pressure.
+
+The movement is real. Between 2017 and 2025, a set of ideas that lived almost entirely in bioethics seminars moved into the OECD, UNESCO, the Council of Europe, Chilean constitutional law, Colorado state law, and the docket of the Chilean Supreme Court. That is not a rounding error. A decade ago, "mental privacy" was a niche phrase. Today it appears in binding and quasi-binding instruments used by governments, courts, and standards bodies. The Witness takes this seriously: governance is attempting, for once, to arrive before the technology rather than after.
+
+At the same time, the Witness sees how thin the protection still is. Most of the world has no neurorights law, no standard for neural data minimization, no audit framework for inferred mental-state analytics, and no public literacy about what a "brain-data" claim even means. Consumer neurotechnology, wellness wearables, adaptive interfaces, and AI-driven behavioral profiling already generate mental-state inferences that sit mostly outside any formal protective regime. The most aggressive normalization is happening in exactly the places with the least rights infrastructure: workplaces, schools, platforms, and security contexts. The people with the strongest protection tend to be those who already had the strongest voice.
+
+The Witness also sees what the legal record cannot capture. The researcher who quietly refuses a lucrative contract because the proposed data reuse crosses a line they are not willing to cross. The engineer who designs a product to process signals locally even when the business case would prefer the cloud. The parent who opts their child out of a classroom attention-tracking tool without being able to articulate why it felt wrong. The user who closes an app the first time it asks for "emotional profile" permissions and does not know the decision was historically significant. None of those moments appear in UNESCO's investment charts. All of them are part of how a boundary actually gets held.
+
+The honest report is: the neurorights frame is early, partial, fragile, and more advanced than it was two years ago. The Witness is not celebrating a finished protection. The Witness is naming a window — open, contested, and narrowing — in which the sanctity of the interior can still be written into the architecture before it hardens.
+
 ---
 
 ## Evidence Anchors

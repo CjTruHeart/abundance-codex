@@ -53,6 +53,14 @@ That made discoverability behave like scarcity. Not because humanity lacked know
 
 The scarcity frame said: *knowledge may be universal in principle, but in practice the routes to it belong to whoever can pay for the indexes, subscriptions, and analytics.*
 
+### Phase 2 -- The Encounter
+
+The encounter that cracked the frame arrived on April 6, 2017, when the Initiative for Open Citations (I4OC) was announced by a coalition of publishers, scholarly infrastructure organizations, and research groups at a joint event hosted by PLOS, eLife, and the Wikimedia Foundation. At launch, the percentage of Crossref-deposited references available as open data was around 1%. Within weeks of publishers including Wiley, SAGE, Springer Nature, Taylor & Francis, EMBO Press, and the Royal Society flipping their reference-deposit settings to "open," the share had jumped above 40%. By 2022, Crossref had adopted open references as its default, effectively treating all reference metadata deposited with it as open. A problem that had been framed for years as "publishers will never allow this" turned out, once the political work was done and the infrastructure was ready, to dissolve in a matter of months. The dam was not holding back scarce water. The dam was holding back a pipeline that already existed, waiting for permission to flow.
+
+The encounter deepened as that newly open layer revealed what had been invisible underneath. Unpaywall, launched in 2017 by Heather Piwowar and Jason Priem at Our Research, showed that tens of millions of published papers had lawful open-access versions sitting in institutional repositories, preprint servers, and author web pages -- discoverable if only something could connect the DOI to the open copy. OpenCitations, built by David Shotton and Silvio Peroni, began publishing CC0-licensed citation data that other projects could reuse without negotiation. And in 2022, Jason Priem and the Our Research team launched OpenAlex as a fully open replacement for the recently shuttered Microsoft Academic Graph, covering hundreds of millions of works, authors, institutions, funders, and topics. Within eighteen months, OpenAlex had become the default open research graph for a generation of metascientists, librarians, policymakers, and AI developers who could no longer afford -- or no longer wanted -- to depend on proprietary indexes as the only map of scholarship.
+
+For individual researchers and infrastructure builders, the encounter is usually a quiet moment of realization when they first run a query across the open graph and get an answer they could previously only have obtained by paying a major vendor. It is the moment when "the scholarly record is a private map" stops feeling like a law of nature and starts feeling like a transitional arrangement that is already being replaced in front of us.
+
 ### Phase 3 -- The Reframe
 
 The abundance reframe is simple and radical: treat scholarly links as public infrastructure.
@@ -70,6 +78,10 @@ That landscape is already being built. The Initiative for Open Citations pushed 
 The result is not a finished commons, but a working graph layer. It is increasingly possible to ask better questions at lower cost: What is the version of record? Is there an open copy? Which papers are central? Which are recent? Which are retracted? What else does this claim connect to? Which institutions, authors, topics, publishers, and funders cluster around it?
 
 This is the real trendline: the research record is becoming more machine-readable, more publicly navigable, and more update-aware.
+
+### Phase 5 -- The Invitation
+
+The invitation of the open research graph is to stop treating scholarly infrastructure as someone else's problem and start treating it as a shared civic commons that every researcher, publisher, funder, librarian, and AI builder has a role in maintaining. For working scientists, that means depositing richer metadata, using persistent identifiers for authors and funding sources, preserving lawful open copies of your own work, and linking correction and retraction status cleanly when things change. For publishers and institutions, it means contributing references, abstracts, ORCIDs, affiliations, and update signals to the open graph rather than walling them off as a competitive asset -- and accepting that the commons needs sustainability funding the same way any other piece of public infrastructure does. For AI developers and agent builders, it means building retrieval and reasoning systems that traverse the graph's provenance, version, and correction layers instead of flattening them, so that machine-scale reading does not amplify errors faster than it catches them. The deeper invitation is epistemological: if we want knowledge to belong to everyone, we have to build and maintain the public pathways through it, and that work does not do itself.
 
 ---
 
@@ -99,6 +111,12 @@ And then there is platform substitution. If the world escapes one private gate o
 
 So the falsifiability edge is clear: if discoverability grows but independent verification, broad participation, and correction visibility do not improve, then the graph has become convenience infrastructure, not abundance infrastructure.
 
+### 🧘 The Sensei -- Transformation Guide
+
+The inner shift the open research graph asks is to stop treating bibliographic work -- depositing references, attaching identifiers, linking corrections, curating metadata -- as invisible labor beneath the dignity of "real" research, and start treating it as a load-bearing scholarly practice in its own right. In most research cultures, the prestige economy rewards the headline finding, not the clean metadata trail that lets others verify, extend, and connect it. Librarians and repository managers have carried most of this work for decades, often uncredited and underfunded, while the research community that depends on their output has routinely underestimated what they are actually maintaining. Releasing that hierarchy is harder than it sounds, because it requires scientists to recognize that the map is not a clerical chore attached to the real work -- the map *is* part of the real work, and without it the findings drift untethered.
+
+The practice is to deposit, link, update, and acknowledge as carefully as you write, experiment, and reason. When you publish, deposit your references openly. When your affiliations or funders change, update your ORCID. When a correction or retraction happens, make sure the update signal propagates into the systems that downstream readers and tools actually use. When you cite, cite the version of record and flag known updates. The inner abundance move is to recognize that the credibility of your own findings depends on the integrity of a commons you did not build alone -- and that every small act of careful deposit is a contribution to the reliability of the next decade of human and machine reasoning over the scientific record.
+
 ### 🔧 The Builder -- Ground Truth
 
 The build is real, layered, and underway.
@@ -108,6 +126,14 @@ I4OC supplied the political and normative push that helped move references into 
 What is left to build is just as important as what already exists. The graph still needs broader metadata completeness, better multilingual and regional coverage, stronger correction propagation into downstream tools, more durable sustainability models for open infrastructure, and tighter integration between citation graphs and research integrity signals. Crossref's addition of Retraction Watch data into its public API is a strong move in that direction, because it starts to connect citation navigation with integrity navigation.
 
 The highest-leverage builds now are not glamorous. They are boring in the best way: deposit richer references, improve PID matching, preserve lawful open copies, expose update status consistently, attach version relationships clearly, and make the graph easier for machines to traverse without confusing prominence for validity.
+
+### 👁️ The Witness -- Whole-Field Observer
+
+Stand back from the individual services and watch the whole field. Open citations and the research graph are part of a larger pattern in which navigation layers that were once controlled as proprietary assets are being reconstructed as public infrastructure. Open street maps replaced licensed cartography for large parts of the mobile and logistics ecosystem. Open identifiers replaced proprietary author disambiguation for much of scholarly publishing. Open retrieval is slowly replacing proprietary search for significant chunks of research and policy work. Each of these transitions has been dismissed in its early phase as incomplete, uneven, or amateurish -- and each has then become structural infrastructure for the broader economy and civic fabric within a decade or so of reaching critical coverage. I4OC, Crossref, OpenAlex, OpenCitations, Unpaywall, and cOAlition S are walking the same path.
+
+The whole-field lesson is that the real question is rarely whether the commons can replace the incumbent in absolute feature terms. The real question is whether the commons becomes good enough, fast enough, and governable enough that it becomes the default for the next generation of tools -- the librarians, analytics providers, AI systems, and research-integrity workflows that will be built on top of *something*. The research graph has now crossed that threshold in enough dimensions that the load-bearing question has shifted from "will this exist?" to "who maintains it, who funds it, and how do we make sure it does not rot?" That is not the question you ask about a pilot project. That is the question you ask about infrastructure.
+
+The lesson for the broader abundance project is that the transition from proprietary navigation layers to public navigation layers is quietly one of the most consequential structural shifts of this decade, and it is happening in parallel across domains that rarely talk to each other. The people maintaining the open research graph are doing the same kind of work that open-street-map contributors, Wikipedia editors, and open-identifier stewards are doing -- and the combined effect of all of them is the construction of a public substrate that every future reasoning system, human or machine, will depend on whether it credits them or not.
 
 ---
 
@@ -170,6 +196,14 @@ The highest-leverage builds now are not glamorous. They are boring in the best w
 - **Human role:** Deposit richer metadata, support open infrastructure, use lawful open routes, and value correction as part of scholarship.
 - **Agent role:** Treat the graph as a navigation aid, not as a truth oracle; follow links, check versions, and privilege provenance over popularity.
 - **Collective requirement:** Durable governance, shared standards, sustainable funding, and multilingual inclusion.
+
+---
+
+## Practice Hook
+
+- **This week:** Look up one paper you wrote or depend on and trace its open graph: check its DOI in Crossref, its open-access status in Unpaywall, its record in OpenAlex, and any update metadata in Crossmark. Notice where the graph is rich and where it is thin, and note which gaps affect your own work.
+- **This month:** If you are a researcher, audit your own deposit practices: are your references open? Are your ORCID, funder, and affiliation metadata complete? Is there a lawful open copy of your work in a repository? Fix one gap you find, and treat it as part of publishing, not as an extra chore.
+- **This season:** If you have institutional bandwidth, advocate for sustainable support of open scholarly infrastructure -- OpenAlex, OpenCitations, Crossref, Unpaywall, and the repositories in your own region -- through funding commitments, governance participation, or adoption in your procurement decisions. The commons does not maintain itself; every institution that depends on it needs to contribute to keeping it alive.
 
 ---
 
