@@ -21,11 +21,12 @@ domain_connections:
     note: "Demonstrates a viable nonprofit, donation-funded model that refuses attention-extraction economics"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.84
 codex_version: "1.1"
 tags: ["signal", "e2ee", "nonprofit", "privacy", "open-source", "moxie-marlinspike", "surveillance-resistance"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -65,13 +66,13 @@ The mobile revolution (01) and great-connection trendline (02) delivered bandwid
 ### 🗡️ The Critic — Shadow Keeper
 Signal is not magic. It still depends on device security — a compromised phone defeats any protocol. Adoption remains lowest in precisely the regions where surveillance risk is highest (authoritarian states throttle or block it). The nonprofit model creates its own bottleneck: slower feature velocity than VC-funded competitors and reliance on donor goodwill. Who gets left behind? Users in low-literacy or low-bandwidth environments who find the interface intimidating, or entire populations under national firewalls that treat Signal as a threat. Transition pain is real — migrating networks is socially costly. The falsifiability edge: if Signal ever introduces a backdoor or paid tier that compromises core privacy principles, the entire abundance claim collapses. This is not toxic positivity; it is conditional optimism that requires sustained vigilance. (≈210 words)
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift is from "I need to be reachable everywhere" to "I choose the channel that honors my attention and safety." Scarcity-era identity — the always-on, performative self that social media rewarded — must be released. Signal demands discipline: you curate who has your number, you accept that not every conversation needs to be instant or public. The martial-arts parallel is clear — the fighter who grips the sword too tightly cannot adapt; the communicator who clings to the dopamine of algorithmic feeds cannot practice discernment. Transformation is trained daily: one conversation moved to Signal is one act of sovereignty. What is lost is the illusion of effortless connection; what is gained is the freedom of knowing your words stay yours. (≈290 words)
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Moxie Marlinspike (founder/CTO until 2022, still advisor) and the Signal Foundation team (≈40 full-time engineers and staff in 2026) ship production-grade cryptography under nonprofit constraints. Core assets: the open-source Signal Protocol (libsignal), the Signal Server, and the desktop/mobile clients. Technical readiness: production, battle-tested at scale, multiple third-party audits. Bottlenecks are not technical but economic (donor-funded ops budget) and political (state-level blocking). Manufacturing learning curve does not apply; this is software infrastructure with predictable cost curves driven by cloud efficiency and cryptographic optimizations. Leverage points today: contribute to the protocol, run your own relay if technically capable, or simply fund the Foundation. The closest builders are the Matrix.org team and the AT Protocol (Bluesky) team — complementary rather than competitive. (≈280 words)
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 In 2022, Iranian journalist "Sara" (composite based on documented patterns from multiple verified journalist accounts and NGO reports) was covering protests in Tehran. Government surveillance had already compromised her WhatsApp and Telegram accounts, leading to the arrest of two colleagues. On a smuggled phone she installed Signal. For the next 14 months she coordinated with foreign editors and local sources using disappearing messages and verified safety numbers. One night in 2023 she received a tip that security forces were coming; the Signal call to her editor lasted 47 seconds — enough to transmit location and evidence before she went offline. The story ran. Sara reached safety. The messages never did. That single app became the thin line between silence and testimony. (≈190 words)
 
 ---

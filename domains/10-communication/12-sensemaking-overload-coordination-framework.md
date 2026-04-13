@@ -25,7 +25,7 @@ updated: "2026-04-10"
 version: "1.0"
 confidence: 0.76
 codex_version: "1.1"
-co_author_model: "Chat GPT 5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["communication", "framework", "sensemaking", "information-overload", "misinformation", "coordination", "collective-intelligence"]
@@ -110,7 +110,7 @@ Fifth, **AI amplification risk**. Generative systems can increase both signal an
 
 Falsifiability edge: if information abundance consistently correlates with improved collective outcomes without new sensemaking systems, this framework is wrong.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The inner shift is from consumption to discernment.
 
@@ -126,7 +126,7 @@ To: *participant in collective sensemaking.*
 
 The practice: instead of asking "what do I think?" ask "how do we arrive at better shared understanding?"
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Builders are already working on this layer: AI summarization and reasoning tools (early-stage, rapidly improving), Wikipedia-style collaborative knowledge systems, fact-checking organizations and verification protocols, and deliberative democracy platforms (citizen assemblies, structured dialogue tools).
 
@@ -138,7 +138,7 @@ Bottleneck: not technology — but **alignment of incentives and trust architect
 
 Leverage point: design systems where accuracy, coherence, and collective benefit are rewarded — not just attention.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from public health communication research and misinformation studies.**
 

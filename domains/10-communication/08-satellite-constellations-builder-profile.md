@@ -21,7 +21,7 @@ updated: "2026-04-07"
 version: "1.0"
 confidence: 0.96
 codex_version: "1.1"
-co_author_model: "Gemini 3.1 Pro"
+co_author_model: "gemini-3.1-pro"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["builder-profile", "communication", "LEO-satellites", "Starlink", "connectivity", "orbital-internet", "6Ds"]
@@ -62,13 +62,13 @@ The historical trajectory of network architecture is unmistakable. As the cost t
 ### 🗡️ The Critic — Shadow Keeper
 The immediate shadow of the orbital constellation is the profound risk of corporate enclosure. We are actively trading terrestrial telecom monopolies for orbital ones governed by singular corporate entities. Furthermore, the global astronomical community is suffering immense transition pain; the proliferation of highly reflective satellite trains has fundamentally contaminated the night sky with light pollution and radio frequency interference. By throwing the internet into the sky to solve terrestrial coordination, we risk blinding our scientific instruments to the wider universe. Finally, who controls the routing tables of this orbital mesh controls the truth for billions of the previously unconnected.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 To shift a community from absolute isolation to infinite digital access requires a profound psychological grounding. For populations historically shielded from the volatile global memetic environment, the sudden, unfiltered influx of the internet's immense cognitive load can be shattering. The inner shift requires the active cultivation of deep digital immune systems — teaching discernment, attention regulation, and psychological resilience — before completely opening the floodgates of global information. We must prepare the mind for abundance, lest it drown in it.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 The primary engineering bottleneck has decisively shifted. It is no longer launch capacity or hardware manufacturing; it is automated collision avoidance and international spectrum allocation. Managing a decentralized swarm of over 40,000 physical objects moving at 27,000 kilometers per hour requires flawless, AI-driven traffic coordination. The ground truth is that the physical hardware equation is solved; the software governance of orbit and the mitigation of the Kessler Syndrome are the absolute current frontiers for engineers in this domain.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 **Composite based on documented patterns in LEO satellite deployment and rural education access.**
 
 Elara, a primary school educator in a village high in the Peruvian Andes, spent the first two decades of her career waiting weeks for outdated printed materials to arrive by truck up unpaved mountain roads. In late 2023, a LEO terminal was installed on the tin roof of her school. Within twenty minutes of activation, she was streaming a live biological dissection from a medical university in Tokyo directly to her classroom. She didn't marvel at the physics of the satellite; she marveled at the psychological shift in her students. They instantly stopped asking what the outside world looked like, and started asking how they could actively change it.

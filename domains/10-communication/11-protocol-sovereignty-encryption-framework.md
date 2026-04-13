@@ -25,7 +25,7 @@ updated: "2026-04-10"
 version: "1.0"
 confidence: 0.82
 codex_version: "1.1"
-co_author_model: "Chat GPT 5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["communication", "framework", "encryption", "protocols", "privacy", "digital-rights", "sovereignty", "Signal", "E2EE"]
@@ -106,7 +106,7 @@ Fifth, **false sense of security**. Users assume encryption solves all privacy i
 
 Falsifiability edge: if encryption is systematically weakened by regulation or bypassed by dominant platforms, protocol sovereignty becomes symbolic rather than real.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The shift here is from trust to verification.
 
@@ -120,7 +120,7 @@ To: *participant in systems that cannot betray you.*
 
 The practice is subtle: notice where you are trusting by default. Ask whether that trust is necessary — or whether it could be replaced by guarantees. This is not about paranoia. It is about clarity.
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 Key builders in this space include Signal (open-source E2EE messaging protocol), WhatsApp (mass-scale E2EE deployment using the Signal protocol), the OpenPGP ecosystem for email encryption, and an emerging layer of decentralized identity (DID) and zero-knowledge systems.
 
@@ -130,7 +130,7 @@ What's not solved: key management UX, metadata privacy, interoperability between
 
 Leverage point: the next frontier is **making sovereignty usable**. The winning systems will not just be secure — they will make security invisible and default.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from global journalism and digital security reporting.**
 

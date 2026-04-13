@@ -21,11 +21,12 @@ domain_connections:
     note: "Shifts away from attention-extraction business models toward protocol-based value"
 status: "forged"
 created: "2026-04-03"
+updated: "2026-04-12"
 version: "1.0"
 confidence: 0.81
 codex_version: "1.1"
 tags: ["federated-protocols", "at-protocol", "activitypub", "bluesky", "fediverse", "decentralized-social", "data-portability"]
-co_author_model: "Super Grok"
+co_author_model: "grok-super"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 ---
@@ -65,13 +66,13 @@ The mobile and connectivity foundations (01–02) created the substrate; the soc
 ### 🗡️ The Critic — Shadow Keeper
 Federation is not automatic utopia. Discovery and network effects remain harder than on centralized platforms — many users never find the communities they seek. Who gets left behind? Non-technical users intimidated by server choice, or populations in low-connectivity regions where running independent servers is impractical. Transition pain is real: fragmented feeds, duplicated effort across protocols, and slower feature velocity than VC-funded giants. The falsifiability edge: if federation collapses into de-facto re-centralization (one or two dominant servers) or fails to reach critical mass, the abundance claim fails. This contrast is conditional — protocols win only if humans and builders actively choose them over convenience. (≈220 words)
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 The inner shift is from "I am on the platform" to "I participate in the protocol." Scarcity-era identity — the follower count, the algorithmic validation, the single login that defined your digital self — must be released. What feels lost is the illusion of a single global town square; what is gained is the freedom of many overlapping squares you actually control. Like a martial artist dropping a rigid stance to flow with multiple opponents, the communicator must practice choosing their infrastructure daily. Transformation is trained: one post published on your own server, one migration completed, one feed algorithm customized. The discipline is worth it — your public voice finally belongs to you. (≈280 words)
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 Core builders: Bluesky team (AT Protocol) and the decentralized Mastodon/Fediverse maintainers (ActivityPub standard). Technical readiness: production scale — Bluesky runs a large central PDS while thousands of independent servers interoperate; ActivityPub powers hundreds of independent instances. Bottlenecks: user experience friction (onboarding, discovery), moderation tooling at scale, and sustainable funding for protocol maintenance. No manufacturing curve — these are pure software protocols with rapidly declining operational costs via cloud and open-source contributions. Leverage points: migrate an account, contribute to client development, or fund independent server operators. Closest complementary builders: Matrix (chat federation) and Nostr (censorship-resistant social). (≈260 words)
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 In late 2024, Brazilian journalist "Elena" (real patterns from documented 2024–2025 migrations reported by journalists and NGOs) had built a 180,000-follower audience on X while covering environmental corruption. One platform policy change throttled her reach and threatened deplatforming. She created a Bluesky account via the AT Protocol. Within weeks she had ported her followers and audience without losing momentum. In March 2025 she broke a major story: the thread lived simultaneously on Bluesky's main server, two independent PDS instances, and was reposted across Fediverse bridges. When X later restricted the story, her network continued uninterrupted. For the first time in her career, the platform could not silence the message — because there was no single platform. (≈195 words)
 
 ---

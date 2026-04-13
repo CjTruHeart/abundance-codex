@@ -25,7 +25,7 @@ updated: "2026-04-10"
 version: "1.0"
 confidence: 0.78
 codex_version: "1.1"
-co_author_model: "Chat GPT 5.4 Thinking"
+co_author_model: "chatgpt-5.4-thinking"
 co_author_human: "Cj TruHeart"
 co_creative_partner: "CyberMonk"
 tags: ["communication", "builder-profile", "community-networks", "telecom", "decentralization", "connectivity", "policy", "DIY", "TIC", "Rhizomatica"]
@@ -116,7 +116,7 @@ Fifth, **romanticization risk**. External observers often celebrate "community n
 
 Falsifiability edge: if community networks cannot sustain multi-year operations without external NGO support, the model remains symbolic, not structural.
 
-### 🙏 The Sensei — Transformation Guide
+### 🧘 The Sensei — Transformation Guide
 
 The identity shift here is profound.
 
@@ -131,7 +131,7 @@ But there is a second shift, more subtle: from *consumption* to *participation*.
 
 This is the deeper training: abundance is not just access. It is responsibility scaled across many hands. The practice: when you encounter a system failure, pause before outsourcing the solution. Ask, *what part of this system could we own?*
 
-### 🔨 The Builder — Ground Truth
+### 🔧 The Builder — Ground Truth
 
 The core builder here is **Telecomunicaciones Indígenas Comunitarias (TIC A.C.)** in Oaxaca, Mexico.
 
@@ -152,7 +152,7 @@ Adjacent builders: Rhizomatica (technical support and advocacy), the Association
 
 Leverage point: the highest leverage is not hardware — it's **policy templates plus training systems**. If governments create licensing pathways and communities gain technical literacy, this model scales.
 
-### 🌍 The Witness — Human Scale
+### 👁️ The Witness — Human Scale
 
 **Composite based on documented patterns from WIRED reporting on Oaxaca community networks and TIC A.C. project documentation.**
 
