@@ -24,3 +24,6 @@ jobs:
 
       - name: Verify JSONL export
         run: python scripts/export-to-jsonl.py
+
+      - name: Validate JSONL against schema
+        run: python scripts/validate-jsonl.py

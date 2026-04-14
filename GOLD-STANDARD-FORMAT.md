@@ -22,7 +22,7 @@ status: "forged | curated | seed | archived"
 created: "YYYY-MM-DD"
 updated: "YYYY-MM-DD"
 version: "1.0"
-confidence: 0.0
+confidence: 0.0  # See Confidence Calibration below
 codex_version: "1.1"
 tags: []
 ---
@@ -167,6 +167,21 @@ A section unique to `council_synthesis` entries. Contains three components that 
 
 </details>
 ````
+
+---
+
+## Confidence Calibration
+
+The `confidence` field (0.0-1.0) appears on each entry and each evidence anchor. It represents **evidence strength**, not author certainty or consensus.
+
+| Range | Category | Criteria |
+|-------|----------|----------|
+| 0.88-0.96 | Measured phenomena | Peer-reviewed sources, quantified metrics, multiple independent confirmations |
+| 0.78-0.87 | Documented trends | Strong evidence with some gaps -- well-documented but not definitively settled |
+| 0.65-0.78 | Conceptual frameworks | Theoretical models, emerging trends, limited empirical validation |
+| Below 0.65 | Speculative or contested | Rare in the dataset; typically flagged in shadow checks |
+
+Scores are assigned by the human curator during the curation process. They are not the product of automated scoring, inter-rater agreement, or model confidence outputs. The gradient correlates with entry type: trendlines and breakthroughs cluster in the 0.85-0.95 range; paradigm seeds and star_trek_specs cluster in the 0.65-0.78 range.
 
 ---
 

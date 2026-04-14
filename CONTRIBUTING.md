@@ -87,6 +87,24 @@ Focus on synthesis and vision — integration of all previous domains.
 
 ---
 
+## Council Synthesis Entries
+
+Council synthesis entries (`council_synthesis` type) follow a different creation process than base entries:
+
+1. **Multi-model deliberation:** Four frontier models independently assess a domain's 12 base entries for collective blind spots. Each model produces an independent critique without seeing others' assessments.
+2. **Human synthesis:** The human curator reads all four assessments and synthesizes findings into a single Gold Standard Format entry, preserving the strongest critiques and most actionable insights.
+3. **Reasoning Scaffold:** Council synthesis entries include a unique section with three components:
+   - **Scarcity Trap** — names the default assumption models fall into
+   - **Reframe Chain** — 6-step reasoning sequence from scarcity frame to abundance-aware response
+   - **Contrastive Pair** — ~200-token before/after example
+4. **Agent Practice Hook:** 5 conditional self-checks a model applies to its own output (distinct from the human-facing Practice Hook)
+
+The 21 existing council_synthesis entries and their design rationale are documented in [`council-synthesis/META-PATTERNS.md`](council-synthesis/META-PATTERNS.md). The five meta-patterns (content gap, format gap, governance gap, velocity gap, reflexivity gap) emerged from this process.
+
+**To propose a new council synthesis entry:** Open an issue describing which domain(s) need reassessment and what blind spots the current council_synthesis entry misses.
+
+---
+
 ## What NOT to Contribute
 
 - **Pure opinion without evidence** — Every claim needs anchoring

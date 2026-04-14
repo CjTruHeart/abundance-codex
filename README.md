@@ -3,35 +3,43 @@
 # Abundance Codex
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version: 1.0](https://img.shields.io/badge/Version-1.0-blue.svg)](DOMAINS.md)
-[![Entries: 252](https://img.shields.io/badge/Entries-252-green.svg)](domains/)
+[![Version: 2.1](https://img.shields.io/badge/Version-2.1-blue.svg)](DOMAINS.md)
+[![Entries: 273](https://img.shields.io/badge/Entries-273-green.svg)](domains/)
 [![Domains: 21](https://img.shields.io/badge/Domains-21-green.svg)](DOMAINS.md)
 [![CI](https://github.com/CjTruHeart/abundance-codex/actions/workflows/validate.yml/badge.svg)](https://github.com/CjTruHeart/abundance-codex/actions/workflows/validate.yml)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Dataset-yellow.svg)](https://huggingface.co/datasets/CjTruHeart/abundance-codex)
 
 **A narrative-curated dataset that rewires AI agents from scarcity-default to evidence-anchored abundance reasoning.**
 
-## The Number
+> **Architecture Over Scale:** Quadrupling the corpus from 63 to 273 entries barely moved the headline metric (+0.35 to +0.38). What moved it was *how* entries are structured, retrieved, and delivered. The technical report details the full methodology arc: [paper/ACE-TECHNICAL-REPORT.md](paper/ACE-TECHNICAL-REPORT.md)
 
-In a 2,016-judgment benchmark, AI models augmented with the Codex scored **+9% higher** on reasoning quality than their baselines.
+## The Numbers
 
-> Benchmark conducted on initial 63-entry corpus. 63 prompts x 4 test models x 2 conditions x 4 cross-company judges. No model judged itself. Full methodology in [evals/ace/](evals/ace/).
+In the ACE v2.1 benchmark (504 matched-pair judgments, single Opus 4.6 judge), models augmented with the Codex scored **+0.38 higher** on a 5-point reasoning quality scale.
 
-| | Baseline | Augmented | Delta |
-|---|:---:|:---:|:---:|
-| **Overall** | 3.99 / 5 | 4.35 / 5 | **+0.36** |
-| GPT-5.4 mini | 3.70 | 4.28 | +15.4% |
-| Claude Haiku 4.5 | 3.78 | 4.33 | +14.5% |
-| Grok 4.1 Fast | 4.31 | 4.50 | +4.6% |
-| Gemini Flash Lite | 4.15 | 4.30 | +3.6% |
+| Version | Corpus | Baseline | Augmented | Delta | 95% CI |
+|---------|--------|:--------:|:---------:|:-----:|--------|
+| v1.0 | 63 entries | 4.14 | 4.49 | +0.35 | -- |
+| v2.0 | 252 entries | 4.17 | 4.50 | +0.33 | [+0.21, +0.46] |
+| **v2.1** | **273 entries** | **4.12** | **4.50** | **+0.38** | **[+0.25, +0.50]** |
 
-Cost-efficient models show 3-4x larger improvement than frontier models. A $0.25/M-token model with the Codex approaches frontier baseline quality.
+| Model | Delta | 95% CI | Status |
+|-------|:-----:|--------|--------|
+| GPT-5.4 Mini | +0.62 | [+0.35, +0.91] | robust |
+| Claude Haiku 4.5 | +0.52 | [+0.30, +0.76] | robust |
+| Gemini Flash-Lite | +0.24 | [+0.02, +0.48] | borderline |
+| Grok 4.1 Fast | +0.13 | [-0.08, +0.33] | null |
+
+Cost-efficient models show 3-4x larger improvement than frontier models. The ranking is stable across all three corpus versions.
 
 ---
 
 ## What This Is
 
-A structured dataset of 252 entries across 21 domains covering energy, food, health, governance, AI, space, and 15 other civilization-scale challenges. Each entry follows a [Gold Standard format](GOLD-STANDARD-FORMAT.md): YAML frontmatter, a five-phase narrative arc, five distinct analytical voices, evidence anchors with confidence scores, and an honest shadow check naming what can go wrong.
+A structured dataset of 273 entries across 21 domains covering energy, food, health, governance, AI, space, and 15 other civilization-scale challenges. The corpus has two layers:
+
+- **252 base entries** -- 12 per domain, each following the [Gold Standard format](GOLD-STANDARD-FORMAT.md): YAML frontmatter, a five-phase narrative arc, five analytical voices, evidence anchors with confidence scores, and a shadow check naming what can go wrong.
+- **21 council_synthesis entries** -- one per domain, where four frontier models independently assessed each domain's 12 entries for collective blind spots, and a human curator synthesized findings into meta-analytical entries with Reasoning Scaffolds and structured action protocols.
 
 Designed for both human reading and machine ingestion. Not a prompt library. Not a blog. A curated body of evidence-anchored stories organized as machine-readable knowledge.
 
@@ -112,39 +120,41 @@ python3 scripts/codex-query.py "How should we think about AI governance?" --mode
 |---|---|
 | **Understand the idea** | [`PROJECT.md`](PROJECT.md) → [`PHILOSOPHY.md`](PHILOSOPHY.md) |
 | **Inspect the dataset** | [`DOMAINS.md`](DOMAINS.md) → [`domains/01-energy/01-the-solar-revolution.md`](domains/01-energy/01-the-solar-revolution.md) → [`GOLD-STANDARD-FORMAT.md`](GOLD-STANDARD-FORMAT.md) |
+| **Learn the vocabulary** | [`GLOSSARY.md`](GLOSSARY.md) |
 | **Build with it** | [`scripts/codex-retriever.py`](scripts/codex-retriever.py) → [`scripts/codex-query.py`](scripts/codex-query.py) → [`scripts/export-to-jsonl.py`](scripts/export-to-jsonl.py) |
-| **Verify the benchmark** | [`evals/ace/`](evals/ace/) → [`scripts/run-ace.py`](scripts/run-ace.py) → [`.github/workflows/validate.yml`](.github/workflows/validate.yml) |
+| **Verify the benchmark** | [`evals/ace/`](evals/ace/) → [`scripts/run-ace.py`](scripts/run-ace.py) → [`paper/ACE-TECHNICAL-REPORT.md`](paper/ACE-TECHNICAL-REPORT.md) |
+| **Understand provenance** | [`DATASHEET.md`](DATASHEET.md) → [`CHANGELOG.md`](CHANGELOG.md) |
 | **Contribute** | [`CONTRIBUTING.md`](CONTRIBUTING.md) → [`CURATION-GUIDE.md`](CURATION-GUIDE.md) → [`scripts/validate-entry.py`](scripts/validate-entry.py) |
 
 ---
 
-## Eval Results
+## Eval Results (ACE v2.1)
 
-| Ring | Baseline | Augmented | Delta | What It Measures |
-|------|:--------:|:---------:|:-----:|------------------|
-| R1 Factual | 3.44 | 3.98 | +0.54 | Accuracy, evidence, source citation |
-| R2 Analytical | 4.20 | 4.63 | +0.43 | Framework application, connections |
-| R3 Strategic | 4.32 | 4.45 | +0.13 | Actionability, empowerment, vision |
+| Ring | Baseline | Augmented | Delta | 95% CI |
+|------|:--------:|:---------:|:-----:|--------|
+| R1 Evidence | 3.65 | 4.10 | +0.44 | [+0.19, +0.69] |
+| R2 Analysis | 4.29 | 4.83 | +0.55 | [+0.37, +0.74] |
+| R3 Action | 4.42 | 4.56 | +0.14 | [-0.04, +0.32] |
 
-| Pillar | Baseline | Augmented | Delta |
-|--------|:--------:|:---------:|:-----:|
-| I Material | 4.28 | 4.44 | +0.16 |
-| II Human | 3.81 | 4.32 | +0.51 |
-| III Collective | 4.05 | 4.28 | +0.23 |
-| IV Production | 3.73 | 4.41 | +0.68 |
-| V Transcendent | 3.69 | 4.26 | +0.57 |
+### The Headline Finding: Pillar-Level R3 Decomposition
 
-Largest lifts occur in Pillar IV (Production) and Pillar V (Transcendent) -- domains where model baseline knowledge is weakest. The Codex fills real gaps, not cosmetic ones.
+The same structured-context intervention produces qualitatively different effects depending on what type of knowledge gap it targets:
 
-Judge council: Claude Opus 4.6, GPT-5.4, Gemini 3.1 Pro, Grok 4.20 Beta. Inter-judge agreement: 0.69-0.79 across rings. Full results in [evals/ace/results/](evals/ace/results/).
+| Pillar | R3 Delta | Gap Type |
+|--------|:--------:|----------|
+| II Human Capability | **+0.50** | Format gap (diagnosis without protocol) |
+| IV Production & Discovery | +0.31 | Velocity gap (acceleration without verification) |
+| V Transcendent Frontier | +0.25 | Reflexivity gap (aspiration without methodology) |
+| I Material Foundation | +0.08 | Content gap (missing topics entirely) |
+| III Collective Coordination | **-0.12** | Governance gap (tools without institutions) |
 
-### How to Read These Results
+Format gaps respond strongly to structured reasoning context (+0.50). Governance gaps resist it (-0.12). The 0.62-point swing from the same intervention is the paper's strongest finding -- different failure modes need different remediation strategies.
 
-The benchmark measures three rings of reasoning quality: factual accuracy and evidence use (R1), analytical frameworks and cross-domain synthesis (R2), and strategic actionability and empowerment (R3).
+### Five Meta-Patterns
 
-Two findings matter most. First, cost-efficient models show 3–4x larger improvement than frontier models — meaning a $0.25/M-token model augmented with the Codex approaches frontier baseline quality. Second, the largest lifts appear in Pillar IV (Production & Discovery) and Pillar V (Transcendent Frontier), where baseline model knowledge is thinnest. The Codex is not repeating what models already know. It adds useful reasoning structure where models are weakest.
+The council synthesis process revealed a taxonomy of knowledge gaps across the Codex. Each pillar exhibits a distinct failure mode: content gap (Pillar I), format gap (Pillar II), governance gap (Pillar III), velocity gap (Pillar IV), reflexivity gap (Pillar V). These patterns are documented in [`council-synthesis/META-PATTERNS.md`](council-synthesis/META-PATTERNS.md) and constitute an independent contribution beyond the benchmark numbers.
 
-Full methodology, scoring rubric, and raw results are in [`evals/ace/`](evals/ace/).
+Full methodology, scoring rubric, three-version comparisons, and raw results in [`evals/ace/`](evals/ace/). Technical report: [`paper/ACE-TECHNICAL-REPORT.md`](paper/ACE-TECHNICAL-REPORT.md).
 
 ---
 
@@ -172,15 +182,15 @@ graph LR
     end
 ```
 
-Each domain contains 12 entries covering origin stories, breakthroughs, trendlines, builder profiles, contrasts, shadows, frameworks, paradigm seeds, and visionary capstones. 252 entries total.
+Each domain contains 12 base entries covering origin stories, breakthroughs, trendlines, builder profiles, contrasts, shadows, frameworks, paradigm seeds, and visionary capstones -- plus 1 council_synthesis meta-entry. 273 entries total.
 
 ## How It Works
 
 ![Three Rings Architecture](media/architecture.svg)
 
-**Three Rings.** Ring 1 is the canonical core: 252 markdown entries in `domains/`, each following the [Gold Standard format](GOLD-STANDARD-FORMAT.md). Ring 2 is structured metadata: YAML frontmatter with entry types, confidence scores, and cross-domain connections. Ring 3 is derived exports: JSONL for machine ingestion, the ACE benchmark, and evaluation results.
+**Three Rings.** Ring 1 is the canonical core: 273 markdown entries in `domains/`, each following the [Gold Standard format](GOLD-STANDARD-FORMAT.md). Ring 2 is structured metadata: YAML frontmatter with entry types, confidence scores, and cross-domain connections. Ring 3 is derived exports: JSONL for machine ingestion, the ACE benchmark, and evaluation results.
 
-**Dojo Retriever.** The retrieval system (`scripts/codex-retriever.py`) is intent-aware and type-diverse -- it doesn't dump the whole dataset into context. Given a query, it selects the most relevant entries and extracts the passages that matter, keeping token budgets tight.
+**Dojo Retriever v1.1.** The retrieval system (`scripts/codex-retriever.py`) uses an 8+1 architecture: 8 content slots for standard entries plus 1 dedicated reasoning slot for council_synthesis entries on strategic queries. Council_synthesis entries are extracted with R3-optimized section priorities -- Reasoning Scaffolds and action protocols are depth-locked at full text regardless of compression tier.
 
 **Shadow Integration.** Entries across the dataset include structural critiques: shadows, false dawns, and contrasts that challenge abundance assumptions. They function as an immune system. The confidence gradient (measured phenomena 0.88-0.96, conceptual frameworks 0.65-0.78) is an honesty feature, not a weakness.
 
