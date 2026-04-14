@@ -454,7 +454,7 @@ def generate_scorecard(all_results: list, output_path: Path, judge_id: str):
     overall_ci = _bootstrap_ci(base_scores, aug_scores)
 
     lines = [
-        "# ACE Scorecard (v2.0)",
+        "# ACE Scorecard",
         "",
         f"> Generated: {datetime.now(timezone.utc).isoformat()}",
         f"> Prompts evaluated: {len(set(r['prompt_id'] for r in all_results))}",
@@ -640,10 +640,11 @@ async def main(args):
     # Determine conditions
     conditions = [args.condition] if args.condition else ["baseline", "augmented"]
 
-    # Resume support — v2.0 results land in results/v2.0/
+    # Resume support — results land in results/v{run_version}/
+    run_version = args.run_version
     existing_results = []
     existing_keys = set()
-    results_dir = REPO_ROOT / "evals" / "ace" / "results" / "v2.0"
+    results_dir = REPO_ROOT / "evals" / "ace" / "results" / f"v{run_version}"
     results_dir.mkdir(parents=True, exist_ok=True)
 
     if args.resume:
@@ -768,7 +769,7 @@ async def main(args):
     retriever_version = cfg["retrieval"].get("retriever_version", "1.0")
 
     print(f"\n{'='*60}")
-    print(f"  ACE v2.0 — Starting Run")
+    print(f"  ACE v{run_version} — Starting Run")
     print(f"  Prompts: {len(prompts)} | Subjects: {len(test_subjects)} | Conditions: {len(conditions)}")
     print(f"  Judge: {judge_id}")
     print(f"  Retriever: dojo-v{retriever_version} | Corpus: {corpus_size} entries")
@@ -815,6 +816,8 @@ async def main(args):
                         "type_coverage": retrieval_result.metadata.get("type_coverage"),
                         "entries_per_tier": retrieval_result.metadata.get("entries_per_tier"),
                         "retrieved_authors": retrieved_authors,
+                        "reasoning_slot_used": retrieval_result.metadata.get("reasoning_slot_used"),
+                        "council_synthesis": retrieval_result.metadata.get("council_synthesis"),
                     }
 
                 result = await evaluate_prompt(
@@ -839,7 +842,7 @@ async def main(args):
 
     run_data = {
         "eval_run_id": run_id,
-        "version": "2.0",
+        "version": run_version,
         "timestamp_utc": datetime.now(timezone.utc).isoformat(),
         "codex_entry_count": corpus_size,
         "retriever_version": f"dojo-v{retriever_version}",
@@ -870,7 +873,7 @@ async def main(args):
 
     elapsed = time.time() - start_time
     print(f"\n{'='*60}")
-    print(f"  ACE v2.0 Run Complete: {run_id}")
+    print(f"  ACE v{run_version} Run Complete: {run_id}")
     print(f"  Duration: {elapsed:.0f}s")
     print(f"  Results: {json_path.relative_to(REPO_ROOT)}")
     print(f"  Scorecard: {(results_dir / 'SCORECARD.md').relative_to(REPO_ROOT)}")
@@ -908,6 +911,8 @@ def parse_args():
                         help="Show what would run without making API calls")
     parser.add_argument("--resume", action="store_true",
                         help="Resume from most recent run, skipping completed evaluations")
+    parser.add_argument("--run-version", default="2.0",
+                        help="Run version label for output directory and metadata (e.g. '2.1')")
     return parser.parse_args()
 
 
