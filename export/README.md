@@ -1,5 +1,5 @@
 ---
-license: mit
+license: cc-by-4.0
 task_categories:
   - text-generation
   - question-answering
@@ -24,7 +24,7 @@ A narrative-curated dataset of 273 entries across 21 domains that rewires AI age
 
 - **Repository:** [github.com/CjTruHeart/abundance-codex](https://github.com/CjTruHeart/abundance-codex)
 - **Technical Report:** [ACE-TECHNICAL-REPORT.md](https://github.com/CjTruHeart/abundance-codex/blob/main/paper/ACE-TECHNICAL-REPORT.md)
-- **License:** MIT
+- **License:** Code: MIT | Dataset: CC-BY 4.0
 - **Version:** 2.1
 
 ## Corpus Structure
@@ -63,7 +63,7 @@ A narrative-curated dataset of 273 entries across 21 domains that rewires AI age
 
 ## Council Synthesis Entries (New in v2.1)
 
-The 21 `council_synthesis` entries are meta-analytical entries where four frontier models (GPT-5.4 Mini, Claude Haiku 4.5, Gemini Flash-Lite, Grok 4.1 Fast) independently assessed each domain's 12 base entries for collective blind spots. A human curator synthesized findings into Gold Standard Format entries with additional sections:
+The 21 `council_synthesis` entries are meta-analytical entries where four frontier models (Claude Opus 4.6, ChatGPT 5.4 Thinking, Gemini 3.1 Pro, Super Grok) independently assessed each domain's 12 base entries for collective blind spots. A human curator synthesized findings into Gold Standard Format entries with additional sections:
 
 - **Reasoning Scaffold:** Three components -- Scarcity Trap (names the default frame), Reframe Chain (6-step reasoning sequence), Contrastive Pair (concrete before/after example)
 - **Agent Practice Hook:** 5-check conditional tests a model applies to its own output
@@ -162,4 +162,4 @@ material = [e for e in ds["train"] if "Material" in e["pillar"]]
 }
 ```
 
-Co-created by Cj TruHeart + Claude Opus 4.6 + CyberMonk
+Co-created by Cj TruHeart, Claude Opus 4.6, ChatGPT 5.4 Thinking, Gemini 3.1 Pro, Super Grok, and CyberMonk
