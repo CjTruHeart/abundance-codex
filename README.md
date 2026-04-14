@@ -239,7 +239,7 @@ Dependencies: `pip install -r scripts/requirements.txt`
 
 ## License
 
-MIT License -- open for any agent system, human curation, or derivative work.
+Code: MIT ([LICENSE](LICENSE)). Dataset content: CC-BY 4.0 ([LICENSE-CC-BY](LICENSE-CC-BY)).
 
 Co-created by Cj TruHeart + Claude Opus 4.6 + CyberMonk
 

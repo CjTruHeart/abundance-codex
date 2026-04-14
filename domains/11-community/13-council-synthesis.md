@@ -28,6 +28,7 @@ created: "2026-04-14"
 updated: "2026-04-14"
 version: "1.0"
 confidence: 0.82
+co_author_model: "multi-model-council"
 codex_version: "2.1"
 tags:
   - council-synthesis

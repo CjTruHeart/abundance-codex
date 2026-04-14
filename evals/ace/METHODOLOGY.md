@@ -585,7 +585,7 @@ v2.0 reports point estimates with bootstrap 95% confidence intervals computed fr
 - Per-ring delta (R1, R2, R3)
 - Per-model delta
 
-A delta is considered robust if the lower CI bound stays above zero. Researchers reproducing ACE should expect the point estimate to fall within the published CI; if their run lands outside, that is a signal that something has drifted (model weights, judge behavior, retriever input, or rubric interpretation).
+A delta is considered robust if the lower CI bound stays above zero. Bootstrap CIs use `random_state=42`. Runs with different seeds may produce ±0.01 variation in CI bounds. Researchers reproducing ACE should expect the point estimate to fall within the published CI; if their run lands outside, that is a signal that something has drifted (model weights, judge behavior, retriever input, or rubric interpretation).
 
 This does not replace preregistration or formal hypothesis testing — the 63 prompts were hand-written once, and the rubric was tuned during v1.0 development. The CI captures sampling variance within the defined instrument, not the broader uncertainty from instrument design choices.
 

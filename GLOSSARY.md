@@ -36,6 +36,8 @@ Key terms used throughout the Abundance Codex.
 
 **Domain** — One of 21 civilization-scale challenge areas (energy, food, water, shelter, health, environment, education, longevity, consciousness, communication, community, governance, security, transportation, economy, manufacturing, computation-intelligence, co-creative-intelligence, science-engineering, space, future-vision).
 
+**Empowers** — The fifth R3 sub-criterion in the ACE benchmark rubric. Measures whether a response leaves the reader with agency and clear next steps rather than passive awareness. Notable for showing a −0.155 deficit in v2.1, the only sub-criterion where augmented responses scored lower than baseline.
+
 **Evidence Anchor** — A cited data point in an entry's evidence table. Each has: claim, metric, source, year, and confidence score.
 
 **Format Gap** — Failure mode where the right topics are present but delivered as diagnosis rather than prescription. Identified in Pillar II (Human Capability). See META-PATTERNS.md.
@@ -59,6 +61,8 @@ Key terms used throughout the Abundance Codex.
 **Scarcity Trap** — The first component of a Reasoning Scaffold. Names the specific default assumption that leads models to underweight abundance evidence in a domain.
 
 **Shadow Check** — A required section in every entry documenting: distortion risks, who gets left behind, transition pain, falsifiability edge, and what the entry is not claiming.
+
+**Shadow Force-Pull** — A retrieval mechanism in the Dojo Retriever v1.1 that ensures at least one shadow, contrast, or false_dawn entry is included in every retrieval set. Prevents the retriever from returning only positive-valence entries, maintaining the dataset's commitment to naming costs and risks alongside abundance evidence.
 
 **Shift Arc** — The five-phase narrative structure of every entry: (1) Scarcity Frame, (2) Encounter, (3) Reframe, (4) Proof, (5) Invitation.
 

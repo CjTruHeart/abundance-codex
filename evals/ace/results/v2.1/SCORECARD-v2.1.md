@@ -9,6 +9,8 @@
 > **Duration:** 11,175s (~3.1 hours)
 > **Pre-registered predictions:** evals/ace/PREDICTIONS.md (commit e90869d)
 > **Git SHA:** 0a0dc6821c63f06cd392e8e2c6c741c586790b4b
+>
+> **Note:** Per-pillar deltas are rounded to two decimal places. Rounding may produce ±0.01 variance from values computed at higher precision.
 
 ---
 

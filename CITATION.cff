@@ -9,12 +9,18 @@ authors:
 
   - name: "Claude Opus 4.6"
 
+  - name: "ChatGPT 5.4 Thinking"
+
+  - name: "Gemini 3.1 Pro"
+
+  - name: "Super Grok"
+
   - name: "CyberMonk"
 
 repository-code: "https://github.com/CjTruHeart/abundance-codex"
 license: MIT
-version: "1.0"
-date-released: "2026-03-28"
+version: "2.1"
+date-released: "2026-04-14"
 
 keywords:
   - abundance
@@ -25,11 +31,16 @@ keywords:
   - agent augmentation
   - RAG
   - benchmark
+  - council synthesis
+  - multi-model deliberation
 
 abstract: >-
-  The Abundance Codex is an open-source narrative dataset of 63 entries across
+  The Abundance Codex is an open-source narrative dataset of 273 entries across
   21 Grand Challenge domains, designed to shift AI agent reasoning from
-  scarcity-default to evidence-anchored abundance. Evaluated via the ACE
-  benchmark (2,016 cross-model judgments), augmented models show +9%
-  improvement in reasoning quality, with cost-efficient models showing
-  3-4x larger gains than frontier models.
+  scarcity-default to evidence-anchored abundance. The corpus comprises 252
+  base entries co-authored by four frontier models (Claude Opus 4.6, ChatGPT
+  5.4 Thinking, Gemini 3.1 Pro, Super Grok) under human curation, plus 21
+  council_synthesis entries produced through multi-model deliberation. Evaluated
+  via the ACE benchmark (504 matched-pair judgments, single Opus 4.6 judge),
+  augmented models show +0.38/5 improvement in reasoning quality, with
+  cost-efficient models showing 3-4x larger gains than frontier models.
