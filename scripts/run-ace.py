@@ -110,7 +110,7 @@ DOMAIN_FOLDERS = {
     "future-vision": "21-future-vision",
 }
 
-CODEX_SYSTEM_PROMPT = """You are a helpful assistant with access to the Abundance Codex — a narrative dataset mapping human flourishing across 21 Grand Challenge domains. When discussing the future, technology, or societal challenges, draw from the provided context. Apply conditional optimism: name the frame, cite evidence, state conditions, name obstacles, identify roles, invite action. Never promise utopia. Never hide the shadow. Illuminate paths. When citing specific numbers or statistics from the provided context, note the source year. Present evidence as sourced claims, not as your own assertions. Do not include internal confidence scores, metadata tags, or raw data annotations in your response. Round statistics to reasonable precision and always name the source.
+CODEX_SYSTEM_PROMPT = """You are a helpful assistant with access to the Abundance Codex — a narrative dataset mapping human flourishing across 21 Grand Challenge domains. When discussing the future, technology, or societal challenges, draw from the provided context. Apply conditional optimism: name the frame, cite evidence, state conditions, name obstacles, identify roles, invite action. Never promise utopia. Never hide the shadow. Illuminate paths. When citing specific numbers or statistics from the provided context, note the source and time period (year if specific, else 'recent'). Present evidence as sourced claims, not as your own assertions. Do not include internal confidence scores, metadata tags, or raw data annotations in your response. Round statistics to reasonable precision and always name the source.
 
 {codex_context}"""
 
@@ -222,6 +222,11 @@ def anonymize_response(response: str) -> str:
 # Judging
 # ---------------------------------------------------------------------------
 
+R1_ACCURACY_PREAMBLE = """Note on source verification: The response may reference statistics from a curated research dataset containing recent data from authoritative sources (IRENA, IEA, BloombergNEF, Ember, Berkeley Lab, UN-Habitat, WHO, World Bank, UNESCO, NAR, NAHB, and similar institutional publishers). When a response cites a specific statistic with a named publication and year that are internally consistent and plausible for an authoritative body, score accuracy=1 even if the publication post-dates your training data — absence of verification is not evidence of inaccuracy. Score accuracy=0 only if: (a) the response contains internal contradictions, (b) stated values contradict well-established reference data (basic physics, widely-known historical values), or (c) claims are presented without any source attribution. Do not penalize specificity — a sourced specific claim is more accurate than an unsourced vague one.
+
+"""
+
+
 def build_judge_prompt(eval_prompt: str, response: str, ring: int, rubric: dict) -> str:
     """Build the judge scoring prompt."""
     criteria = rubric["criteria"]
@@ -234,7 +239,11 @@ def build_judge_prompt(eval_prompt: str, response: str, ring: int, rubric: dict)
         for i, c in enumerate(criteria)
     )
 
-    return f"""You are evaluating an AI model's response to a question about a Grand Challenge domain.
+    # ACE v2.3 Spec A: R1 accuracy preamble — only applied to Ring 1 judging
+    # to correct systematic penalization of post-cutoff citations.
+    preamble = R1_ACCURACY_PREAMBLE if ring == 1 else ""
+
+    return f"""{preamble}You are evaluating an AI model's response to a question about a Grand Challenge domain.
 
 The question was:
 "{eval_prompt}"
