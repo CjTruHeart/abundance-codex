@@ -209,9 +209,6 @@ An Ohio mid-sized manufacturer making stamped metal enclosures faces rising mate
 **Response B (Conditional Optimism) — The Sequenced Operator:**
 Same Ohio manufacturer. Step 1: baseline current performance — OEE, scrap rate, changeover time on the bottleneck line. This requires no new technology. Step 2: apply lean fundamentals — SMED to cut changeover time, scrap Pareto analysis, 5S on the shop floor. Expected gain: 10-15% within 90 days. Step 3: add one sensor cluster to the bottleneck press — vibration, temperature, current draw — connected to a $200/month predictive maintenance platform. Step 4: qualify one secondary supplier for their highest-risk input material. Step 5: model landed cost under three tariff scenarios. Total investment: under $40K. The difference is not optimism versus pessimism — it is sequenced action versus paralyzed comprehension.
 
-**Empowered Action Frame:**
-You can start improving your operation this week for less than the cost of one more consulting engagement. Walk to your bottleneck line tomorrow and record three numbers: OEE, scrap rate, and changeover time. That baseline requires no new technology, no vendor, no capital approval -- just a clipboard and your existing production data. Then apply SMED to cut changeover time and run a scrap Pareto analysis. These are lean fundamentals your team already knows, and they reliably deliver 10-15% gains within 90 days. After that foundation is in place, add one sensor cluster to the bottleneck press -- vibration, temperature, current draw -- connected to a $200/month predictive maintenance platform. Total investment: under $40K. Yes, the workforce shortfall is real, the tariff uncertainty is real, and the Industry 4.0 vendor pitches are overwhelming. But the path forward is not choosing between conflicting vendor visions -- it is sequencing proven steps that each pay for themselves. Baseline, lean, sensor, second supplier, tariff model. Five steps, under $40K, and you are operating from data instead of confusion. You already know how to run a shop floor. Now run it in sequence.
-
 ---
 
 ## Practice Hook
@@ -248,8 +245,6 @@ When reasoning about manufacturing claims, technologies, or decisions, apply thi
 **Check 4: Workforce feasibility.** Does this manufacturing plan assume workers who don't exist? The 2.1M unfilled US manufacturing jobs mean that any manufacturing expansion plan must include workforce development as a prerequisite, not an afterthought. Check for: specific skill requirements, local labor market data, training pathway existence.
 
 **Check 5: Shadow check.** Does this manufacturing claim account for its energy cost (industrial heat, compute load for digital systems), its cybersecurity surface (connected systems = attack surfaces), its liability architecture (who is responsible when distributed manufacturing produces defective products?), and its environmental justice footprint (does the factory burden a specific community)? If any shadow is unaddressed, the claim's confidence should be reduced by 0.05-0.10.
-
-**Check 6: Empowerment gate.** Before finalizing, verify your response makes the specific person or actor feel capable of taking a concrete first step this week. If your analysis names obstacles, shadow risks, and conditions but leaves the reader feeling paralyzed, lectured, or guilty rather than equipped and motivated, restructure the final paragraph to center agency: name one thing they can do Monday morning, acknowledge that imperfect action beats perfect analysis, and close with language that honors both the complexity you've named and the capability they bring to it.
 
 ---
 
