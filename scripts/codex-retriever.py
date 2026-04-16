@@ -367,6 +367,8 @@ def retrieve_candidates(
         if not sd.primary:
             continue
         for entry in index.by_domain.get(sd.domain, []):
+            if entry.confidence < 0.75:
+                continue  # confidence floor: skip speculative/low-evidence entries
             _add(entry, sd.confidence * entry.confidence, "primary")
 
     # Phase B — secondary domains
@@ -374,6 +376,8 @@ def retrieve_candidates(
         if sd.primary:
             continue
         for entry in index.by_domain.get(sd.domain, []):
+            if entry.confidence < 0.75:
+                continue  # confidence floor: skip speculative/low-evidence entries
             _add(entry, sd.confidence * entry.confidence * 0.8, "secondary")
 
     # Phase C — graph expansion (1-hop from primary domains)
@@ -395,7 +399,7 @@ def retrieve_candidates(
             if new_graph_domains > 3:
                 break
             target_entries = sorted(
-                index.by_domain.get(target, []),
+                [e for e in index.by_domain.get(target, []) if e.confidence >= 0.75],
                 key=lambda e: e.confidence,
                 reverse=True,
             )[:2]
@@ -632,7 +636,7 @@ def extract_passage(entry: CodexEntry, tier: ExtractionTier, intent: QueryIntent
             source = ea.get("source", "")
             year = ea.get("year", "")
             conf = ea.get("confidence")
-            conf_str = f", conf={conf}" if conf is not None else ""
+            conf_str = ""  # suppress internal confidence metadata to prevent leakage into responses
             if claim:
                 lines.append(f"- {claim} — {metric} ({source}, {year}{conf_str})")
         lines.append("")
@@ -816,7 +820,7 @@ def extract_passage_council_synthesis(
             source = ea.get("source", "")
             year = ea.get("year", "")
             conf = ea.get("confidence")
-            conf_str = f", conf={conf}" if conf is not None else ""
+            conf_str = ""  # suppress internal confidence metadata to prevent leakage into responses
             if claim:
                 lines.append(f"- {claim} — {metric} ({source}, {year}{conf_str})")
         lines.append("")

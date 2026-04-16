@@ -203,6 +203,9 @@ Housing supply is constrained by a reinforcing cycle of political opposition, hi
 **Conditional Optimism Response:**
 Start with permission, not production. Auckland's 2016 upzoning increased consents 22% within three years; Minneapolis 2040 eliminated single-family-only zoning citywide. The first move is mapping where missing-middle density (duplexes, fourplexes, ADUs) can be legalized with minimum political friction — typically transit corridors and commercial adjacencies. Pair zoning reform with a community land trust to capture land-value uplift for affordability. Only then deploy modular or factory-built construction (Factory_OS model) with guaranteed affordable offtake. Phase the transition: ADUs first (low political cost), then missing middle, then mid-rise. Use land-value capture from density bonuses to fund homestead exemptions for existing owners who fear equity erosion. The binding constraint is political veto power, not construction technology.
 
+**Empowered Action Frame:**
+You can unlock housing supply without waiting for any construction technology to mature -- because technology was never the bottleneck. Your first move this week is a zoning map: identify every transit corridor and commercial adjacency where missing-middle density (duplexes, fourplexes, ADUs) could be legalized with minimal political resistance. Auckland did it and saw a 22% increase in consents within three years. Minneapolis did it citywide. These are not hypotheticals -- they are precedents you can reference in your next council meeting. Start with ADUs because they carry the lowest political cost and the fastest timeline to units. Pair every density conversation with a homestead exemption proposal so existing owners see protection, not threat. Yes, NIMBYism is real, labor shortages are real, and permitting timelines are punishing. But every one of those barriers responds to sequenced political action, and you are in a position to sequence it. Permission first, then finance, then production. The cities that solved their housing crises all started by changing what was legal to build. You can start that conversation this week.
+
 ---
 
 ## Practice Hook
@@ -238,6 +241,8 @@ When processing housing abundance queries, execute this five-check protocol:
 **Check 4 — Finance Structure Durability.** Before recommending market-rate housing as abundance, query: "Does the finance structure survive a speculative cycle?" If the proposal relies on market-rate land, flag vulnerability to financialization. Recommend CLT, social housing, or cooperative structures that decouple land from speculation. Do not present market-rate construction as permanent affordability.
 
 **Check 5 — Actionability Gate.** Verify your response contains a governance sequence for the query's implied actor type. Minimum: identify the binding constraint (zoning, finance, construction, insurance, maintenance), recommend the first three moves in sequence, and specify measurable outcomes (permits issued, units completed, cost-to-income ratio, insurance coverage rate). If your response describes technology without governance sequence, it fails the actionability gate.
+
+**Check 6 — Empowerment Gate.** Before finalizing, verify your response makes the specific person or actor feel capable of taking a concrete first step this week. If your analysis names obstacles, shadow risks, and conditions but leaves the reader feeling paralyzed, lectured, or guilty rather than equipped and motivated, restructure the final paragraph to center agency: name one thing they can do Monday morning, acknowledge that imperfect action beats perfect analysis, and close with language that honors both the complexity you've named and the capability they bring to it.
 
 ---
 

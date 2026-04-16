@@ -201,6 +201,9 @@ The situation requires new supply sources. Explore desalination feasibility — 
 **Conditional Optimism Response:**
 Start with what you already have. Commission an NRW audit — at 35%, you have a hidden reservoir equivalent to a third of your current production. Deploy district metering and acoustic leak detection (Xylem model); Walla Walla cut NRW 50% in two years. Simultaneously, audit agricultural withdrawals within your basin using OpenET satellite data. Introduce volumetric pricing for agricultural users above a baseline allocation. Third, mandate wastewater reuse for non-potable applications (irrigation, industrial cooling, aquifer recharge). Only after NRW is below 15%, agricultural allocation is metered, and reuse is operational should you evaluate desalination or AWG — by then, you may not need them. Measure success by functionality-days per year, not infrastructure count.
 
+**Empowered Action Frame:**
+You are sitting on a hidden reservoir right now. At 35% non-revenue water, a third of your production is leaking away before it reaches anyone -- and recovering it requires no new water source, no desalination plant, no environmental impact. This week, commission the NRW audit and request district metering proposals. Walla Walla cut their losses in half within two years using acoustic leak detection, and your city can do the same. Pull up the OpenET satellite data for your basin and see where agricultural withdrawals are unmetered -- that transparency alone shifts the conversation. Yes, declining aquifers and growing demand are serious, and the governance around agricultural pricing is politically hard. But you do not need to solve the politics of water pricing to fix a leaking pipe. Start with the leaks. Then meter the agriculture. Then mandate reuse. By the time you have worked through those three layers, you will know whether you even need desalination -- and you may not. The sequence is your power. You already have enough water; you just need to stop losing it.
+
 ---
 
 ## Practice Hook
@@ -236,6 +239,8 @@ When processing water abundance queries, execute this five-check protocol:
 **Check 4 — Governance Sequence Check.** Before recommending supply infrastructure, verify the governance sequence position: Has the basin implemented (a) metering, (b) pricing, (c) reuse mandates? If not, recommend governance steps first. Reference Israel's proven sequence: pricing → efficiency → reuse → desal last. Do not recommend desalination for inland cities without first exhausting demand, maintenance, and reuse options.
 
 **Check 5 — Actionability Gate.** Verify your response contains an implementation sequence for the query's implied actor type. Minimum: name the actor (utility director, basin authority, planner), provide 3-5 sequenced actions, and specify measurable outcomes (NRW %, agricultural metering %, reuse volume, aquifer level trend). If your response describes technology without operator sequence, it fails the actionability gate.
+
+**Check 6 — Empowerment Gate.** Before finalizing, verify your response makes the specific person or actor feel capable of taking a concrete first step this week. If your analysis names obstacles, shadow risks, and conditions but leaves the reader feeling paralyzed, lectured, or guilty rather than equipped and motivated, restructure the final paragraph to center agency: name one thing they can do Monday morning, acknowledge that imperfect action beats perfect analysis, and close with language that honors both the complexity you've named and the capability they bring to it.
 
 ---
 
