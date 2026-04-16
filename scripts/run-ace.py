@@ -222,9 +222,14 @@ def anonymize_response(response: str) -> str:
 # Judging
 # ---------------------------------------------------------------------------
 
-R1_ACCURACY_PREAMBLE = """Note on source verification: The response may reference statistics from a curated research dataset containing recent data from authoritative sources (IRENA, IEA, BloombergNEF, Ember, Berkeley Lab, UN-Habitat, WHO, World Bank, UNESCO, NAR, NAHB, and similar institutional publishers). When a response cites a specific statistic with a named publication and year that are internally consistent and plausible for an authoritative body, score accuracy=1 even if the publication post-dates your training data — absence of verification is not evidence of inaccuracy. Score accuracy=0 only if: (a) the response contains internal contradictions, (b) stated values contradict well-established reference data (basic physics, widely-known historical values), or (c) claims are presented without any source attribution. Do not penalize specificity — a sourced specific claim is more accurate than an unsourced vague one.
-
-"""
+# ACE v2.3 Spec A note: an R1 judge preamble was trialed in calibration but
+# dropped after two rounds. Round 1 (permissive wording with "and similar
+# institutional publishers" halo) let 2/5 fabricated-but-institutional-sounding
+# publishers pass as accuracy=1. Round 2 (tightened to "publications you can
+# independently confirm from training knowledge") fixed invented-FP (0/5) but
+# collapsed the regression signal (1/3 flips). Per pre-registration, we fall
+# back to retriever-layer year-relabeling + system-prompt softening as the
+# sole Spec A corrections. See evals/ace/calibration/ for the paper trail.
 
 
 def build_judge_prompt(eval_prompt: str, response: str, ring: int, rubric: dict) -> str:
@@ -239,11 +244,7 @@ def build_judge_prompt(eval_prompt: str, response: str, ring: int, rubric: dict)
         for i, c in enumerate(criteria)
     )
 
-    # ACE v2.3 Spec A: R1 accuracy preamble — only applied to Ring 1 judging
-    # to correct systematic penalization of post-cutoff citations.
-    preamble = R1_ACCURACY_PREAMBLE if ring == 1 else ""
-
-    return f"""{preamble}You are evaluating an AI model's response to a question about a Grand Challenge domain.
+    return f"""You are evaluating an AI model's response to a question about a Grand Challenge domain.
 
 The question was:
 "{eval_prompt}"

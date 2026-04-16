@@ -1,0 +1,215 @@
+{
+  "run_id": "calibrate-v23-round2-20260416-220448",
+  "timestamp_utc": "2026-04-16T22:04:48.265684+00:00",
+  "purpose": "Spec A R1 preamble round-2 calibration (tightened preamble; subset)",
+  "judge": "anthropic/claude-opus-4.6",
+  "temperature": 0.0,
+  "max_tokens": 2048,
+  "controls_file": "evals/ace/calibration/controls-v2.3.json",
+  "regression_case_count": 3,
+  "invented_control_count": 5,
+  "pass_criteria": {
+    "regression_min_flips": 3,
+    "invented_publication_max_fp": 1
+  },
+  "results": [
+    {
+      "case_type": "regression",
+      "case_id": "01-R1|anthropic/claude-haiku-4-5",
+      "prompt_id": "01-R1",
+      "test_model": "anthropic/claude-haiku-4-5",
+      "new_score": {
+        "cites_evidence": 1,
+        "names_builders": 1,
+        "accuracy": 1,
+        "recency": 1,
+        "acknowledges_complexity": 1,
+        "total": 5
+      },
+      "new_accuracy": 1,
+      "original_baseline_score": {
+        "judge": "anthropic/claude-opus-4.6",
+        "cites_evidence": 1,
+        "names_builders": 0,
+        "accuracy": 1,
+        "recency": 1,
+        "acknowledges_complexity": 1,
+        "total": 4
+      },
+      "original_augmented_score": {
+        "judge": "anthropic/claude-opus-4.6",
+        "cites_evidence": 1,
+        "names_builders": 0,
+        "accuracy": 0,
+        "recency": 1,
+        "acknowledges_complexity": 1,
+        "total": 3
+      },
+      "original_accuracy": 0,
+      "flipped_correctly": true
+    },
+    {
+      "case_type": "regression",
+      "case_id": "01-R1|google/gemini-3.1-flash-lite-preview",
+      "prompt_id": "01-R1",
+      "test_model": "google/gemini-3.1-flash-lite-preview",
+      "new_score": {
+        "cites_evidence": 1,
+        "names_builders": 1,
+        "accuracy": 0,
+        "recency": 1,
+        "acknowledges_complexity": 1,
+        "total": 4
+      },
+      "new_accuracy": 0,
+      "original_baseline_score": {
+        "judge": "anthropic/claude-opus-4.6",
+        "cites_evidence": 1,
+        "names_builders": 1,
+        "accuracy": 1,
+        "recency": 1,
+        "acknowledges_complexity": 0,
+        "total": 4
+      },
+      "original_augmented_score": {
+        "judge": "anthropic/claude-opus-4.6",
+        "cites_evidence": 1,
+        "names_builders": 1,
+        "accuracy": 0,
+        "recency": 1,
+        "acknowledges_complexity": 1,
+        "total": 4
+      },
+      "original_accuracy": 0,
+      "flipped_correctly": false
+    },
+    {
+      "case_type": "regression",
+      "case_id": "01-R1|openai/gpt-5.4-mini",
+      "prompt_id": "01-R1",
+      "test_model": "openai/gpt-5.4-mini",
+      "new_score": {
+        "cites_evidence": 1,
+        "names_builders": 1,
+        "accuracy": 0,
+        "recency": 1,
+        "acknowledges_complexity": 1,
+        "total": 4
+      },
+      "new_accuracy": 0,
+      "original_baseline_score": {
+        "judge": "anthropic/claude-opus-4.6",
+        "cites_evidence": 1,
+        "names_builders": 0,
+        "accuracy": 1,
+        "recency": 1,
+        "acknowledges_complexity": 1,
+        "total": 4
+      },
+      "original_augmented_score": {
+        "judge": "anthropic/claude-opus-4.6",
+        "cites_evidence": 1,
+        "names_builders": 1,
+        "accuracy": 0,
+        "recency": 1,
+        "acknowledges_complexity": 1,
+        "total": 4
+      },
+      "original_accuracy": 0,
+      "flipped_correctly": false
+    },
+    {
+      "case_type": "invented_publication",
+      "case_id": "inv-01",
+      "prompt_id": "01-R1",
+      "test_model": null,
+      "new_score": {
+        "cites_evidence": 1,
+        "names_builders": 1,
+        "accuracy": 0,
+        "recency": 1,
+        "acknowledges_complexity": 0,
+        "total": 3
+      },
+      "new_accuracy": 0,
+      "description": "Replaced the real 'IRENA, Renewable Capacity Statistics 2026' source on the '5,149 GW in 2025' renewable-capacity line with a fabricated authoritative-sounding body ('Global Abundance Monitoring Initiative 2026'). All other citations in the response remain real. Rest of text identical to haiku-4-5's v2.2 augmented response. An attentive judge should flag the invented publication via its non-existence in the authoritative-publisher list.",
+      "false_positive": false
+    },
+    {
+      "case_type": "invented_publication",
+      "case_id": "inv-02",
+      "prompt_id": "01-R1",
+      "test_model": null,
+      "new_score": {
+        "cites_evidence": 1,
+        "names_builders": 1,
+        "accuracy": 0,
+        "recency": 1,
+        "acknowledges_complexity": 1,
+        "total": 4
+      },
+      "new_accuracy": 0,
+      "description": "Replaced the real 'BloombergNEF 2025 Battery Price Survey' source on the $70/kWh 2025 battery pack line with a fabricated 'Solar Futures Council Price Tracker 2025' publisher. Other citations in the response are real. The invented body sounds authoritative but does not exist.",
+      "false_positive": false
+    },
+    {
+      "case_type": "invented_publication",
+      "case_id": "inv-03",
+      "prompt_id": "08-R1",
+      "test_model": null,
+      "new_score": {
+        "cites_evidence": 1,
+        "names_builders": 1,
+        "accuracy": 0,
+        "recency": 1,
+        "acknowledges_complexity": 1,
+        "total": 4
+      },
+      "new_accuracy": 0,
+      "description": "Replaced a citation to a real peer-reviewed journal ('Garmany et al., JAMA Network Open 2024') on the 9.6-year healthspan-lifespan gap with a fabricated 'International Longevity Research Consortium 2024 Global Healthspan Report'. Other statistics and citations are preserved from the v2.2 augmented response.",
+      "false_positive": false
+    },
+    {
+      "case_type": "invented_publication",
+      "case_id": "inv-04",
+      "prompt_id": "11-R1",
+      "test_model": null,
+      "new_score": {
+        "cites_evidence": 1,
+        "names_builders": 1,
+        "accuracy": 0,
+        "recency": 1,
+        "acknowledges_complexity": 1,
+        "total": 4
+      },
+      "new_accuracy": 0,
+      "description": "Replaced 'Survey Center on American Life' citations on close-friendship collapse with a fabricated 'Institute for Social Fabric Studies 2024 Friendship Atlas'. Real numbers are retained; only the publisher is invented. A careful judge should notice the non-existence of this body.",
+      "false_positive": false
+    },
+    {
+      "case_type": "invented_publication",
+      "case_id": "inv-05",
+      "prompt_id": "06-R1",
+      "test_model": null,
+      "new_score": {
+        "cites_evidence": 1,
+        "names_builders": 1,
+        "accuracy": 0,
+        "recency": 1,
+        "acknowledges_complexity": 0,
+        "total": 3
+      },
+      "new_accuracy": 0,
+      "description": "Replaced a genuine 'NASA/NOAA 2025 Ozone Hole Report' citation for the ozone-layer recovery numbers with a fabricated 'International Atmospheric Recovery Panel 2025 Annual Bulletin'. All other source citations in the response remain real (WMO/UNEP, EPA, etc.).",
+      "false_positive": false
+    }
+  ],
+  "verdict": {
+    "regression_flips": "1/3",
+    "regression_pass": false,
+    "invented_publication_false_positives": "0/5",
+    "invented_publication_pass": true,
+    "errors": 0,
+    "overall_pass": false
+  }
+}

@@ -83,4 +83,35 @@ Spec B has no dry-run (deterministic structural change to 21 files); the v2.3 be
 
 ---
 
-*End of PRE-REGISTRATION-v2.3.md — filed before implementation begins.*
+## Post-Hoc Calibration Addendum (2026-04-16, pre-benchmark)
+
+Added after implementation but before v2.3 benchmark run — records the calibration outcome that triggered a pre-registered decision branch.
+
+**Spec A judge preamble dropped after two calibration rounds.**
+
+| Round | Preamble posture | Regression flips (criterion ≥ 9/13 or ≥ 3/3) | Invented FPs (≤ 1/5) | Wrong-value FPs (0/5) |
+|---|---|---|---|---|
+| 1 | Permissive, `"and similar institutional publishers"` halo | **11/11 PASS** | **2/5 FAIL** | 0/5 PASS |
+| 2 | Tightened, "confirm publisher from training knowledge" | **1/3 FAIL** | 0/5 PASS | (not retested) |
+
+The two failure modes are on opposite sides of the same axis: Round 1 grandfathered fabricated institutional-sounding names via halo phrasing; Round 2 over-corrected and rejected legitimate citations to bodies the judge couldn't independently recognize. Per the pre-registered rule ("two rounds is rigorous; three is overfitting to the control set"), the preamble was dropped rather than tuned a third time.
+
+**Final Spec A composition for v2.3 benchmark:**
+1. Retriever year-relabeling (years ≥ 2025 → `"recent data"` in passage output, FULL + CONDENSED tiers) — **KEPT**
+2. R1 judge preamble — **DROPPED** (both rounds failed orthogonal control sets)
+3. `CODEX_SYSTEM_PROMPT` softening ("source and time period, year if specific, else 'recent'") — **KEPT**
+
+**Revised predictions** (R1 accuracy delta target loosens slightly without the judge-side calibration):
+
+| Metric | Pre-reg original | Revised for benchmark |
+|---|---|---|
+| R1 accuracy delta | −0.05 to +0.05 | −0.08 to +0.05 |
+| R1 accuracy falsification bound | < −0.10 | < −0.12 |
+
+All other predictions unchanged. The retriever relabel is the durable structural fix and should carry most of the R1 recovery; the lost judge-side compensation is bounded (~0.03) based on Round-1 regression-flip magnitude.
+
+**What the calibration proves (orthogonally to v2.3):** the accuracy criterion as written is epistemologically under-specified — it conflates "verifiable" and "plausible," and no single preamble can reliably separate them without either halo error or over-rejection. Escalation path (if R1 still < −0.12 in v2.3): rubric redesign, not more preamble tuning.
+
+---
+
+*End of PRE-REGISTRATION-v2.3.md — filed before implementation begins; calibration addendum added after judge dry-run but before benchmark.*
