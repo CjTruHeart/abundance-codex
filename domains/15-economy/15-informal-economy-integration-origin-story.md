@@ -25,6 +25,7 @@ domain_connections:
     note: "Digital registration platforms (e-Shram) create visibility of the informal workforce but also create surveillance risk if data governance is inadequate"
 status: "forged"
 created: "2026-04-16"
+updated: "2026-04-16"
 version: "1.0"
 confidence: 0.83
 codex_version: "1.1"

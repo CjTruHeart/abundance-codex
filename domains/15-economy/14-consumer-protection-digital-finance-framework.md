@@ -25,6 +25,7 @@ domain_connections:
     note: "Predatory debt stress produces documented health consequences — hypertension, depression, and reduced healthcare utilization as households redirect spending to debt service"
 status: "forged"
 created: "2026-04-16"
+updated: "2026-04-16"
 version: "1.0"
 confidence: 0.86
 codex_version: "1.1"

@@ -25,6 +25,7 @@ domain_connections:
     note: "Epistemic health depends on information environments where sensemaking is possible — T&S governance determines whether platforms support or erode collective reasoning"
 status: "forged"
 created: "2026-04-16"
+updated: "2026-04-16"
 version: "1.0"
 confidence: 0.84
 codex_version: "1.1"

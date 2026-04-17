@@ -25,6 +25,7 @@ domain_connections:
     note: "Inspector general reports and audit findings become civic education material when publicly accessible."
 status: "forged"
 created: "2026-04-16"
+updated: "2026-04-16"
 version: "1.0"
 confidence: 0.84
 codex_version: "1.1"

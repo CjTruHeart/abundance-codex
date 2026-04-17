@@ -25,6 +25,7 @@ domain_connections:
     note: "PB processes in multiple cities have directed funds to clinics, sanitation, and public health infrastructure."
 status: "forged"
 created: "2026-04-16"
+updated: "2026-04-16"
 version: "1.0"
 confidence: 0.86
 codex_version: "1.1"

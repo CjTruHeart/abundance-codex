@@ -25,6 +25,7 @@ domain_connections:
     note: "Care work cultivates relational awareness, empathy, and interdependence — capacities that deepen individual and collective consciousness"
 status: "forged"
 created: "2026-04-16"
+updated: "2026-04-16"
 version: "1.0"
 confidence: 0.84
 codex_version: "1.1"

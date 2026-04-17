@@ -25,6 +25,7 @@ domain_connections:
     note: "Broadband availability is increasingly a factor in housing habitability and neighborhood economic viability"
 status: "forged"
 created: "2026-04-16"
+updated: "2026-04-16"
 version: "1.0"
 confidence: 0.86
 codex_version: "1.1"

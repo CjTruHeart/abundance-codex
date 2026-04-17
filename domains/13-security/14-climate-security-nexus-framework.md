@@ -25,6 +25,7 @@ domain_connections:
     note: "Climate displacement and conflict produce cascading health crises through malnutrition, disease, and destroyed health infrastructure."
 status: "forged"
 created: "2026-04-16"
+updated: "2026-04-16"
 version: "1.0"
 confidence: 0.83
 codex_version: "1.1"

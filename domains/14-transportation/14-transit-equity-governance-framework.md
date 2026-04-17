@@ -25,6 +25,7 @@ domain_connections:
     note: "Student access to school depends on transit routing decisions made in rooms where students and parents rarely sit"
 status: "forged"
 created: "2026-04-16"
+updated: "2026-04-16"
 version: "1.0"
 confidence: 0.85
 codex_version: "1.1"

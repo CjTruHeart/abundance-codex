@@ -25,6 +25,7 @@ domain_connections:
     note: "Mode shift from private cars to integrated public transit reduces per-capita emissions but only when the integrated system is competitive with driving in reliability and convenience"
 status: "forged"
 created: "2026-04-16"
+updated: "2026-04-16"
 version: "1.0"
 confidence: 0.84
 codex_version: "1.1"
