@@ -1,6 +1,8 @@
+<!-- Last verified: 2026-04-18, commit ca6a045 -->
+
 # Architecture — The Abundance Codex
 
-> Technical architecture for the dataset's storage, retrieval, export, and agent integration layers.
+> Technical architecture for the dataset's storage, retrieval, export, evaluation, and agent integration layers.
 
 ---
 
@@ -16,7 +18,7 @@ Inherited from the WuWei Dataset Architecture v3.0 "Three Rings" principle: sepa
 - Human-readable markdown with embedded prose
 - Source of truth for all content
 - Never overwritten by automation
-- Immutable once status reaches `validated`
+- 285 total: 264 base + 21 `council_synthesis` meta-entries
 
 **Location:** `domains/[##-slug]/[##-entry-slug].md`
 
@@ -26,7 +28,7 @@ Inherited from the WuWei Dataset Architecture v3.0 "Three Rings" principle: sepa
 
 **Properties:**
 - Machine-readable overlays embedded in Ring 1 files
-- Versioned — lens changes don't destroy content
+- Versioned via `codex_version` (`1.1` base, `2.1` council_synthesis)
 - Queryable by scripts and export tools
 - YAML frontmatter is the primary structured layer
 
@@ -34,7 +36,7 @@ Inherited from the WuWei Dataset Architecture v3.0 "Three Rings" principle: sepa
 
 ### Ring 3: Derived Exports
 
-**What it stores:** JSONL, JSON, and future format exports generated from Rings 1 and 2.
+**What it stores:** JSONL, JSON, retrieval indices, and benchmark artifacts generated from Rings 1 and 2.
 
 **Properties:**
 - Regenerable from source files
@@ -56,77 +58,92 @@ abundance-codex/
 ├── CONTRIBUTING.md                     # External contributor guide
 ├── ARCHITECTURE.md                     # This file
 ├── DOMAINS.md                          # Domain registry & status dashboard
+├── GLOSSARY.md                         # Key terms
+├── DATASHEET.md                        # Dataset provenance & limitations
 ├── CHANGELOG.md                        # Version history
-├── LICENSE                             # MIT
+├── CITATION.cff                        # Machine-readable citation
+├── LICENSE                             # MIT (code)
+├── LICENSE-CC-BY                       # CC-BY 4.0 (dataset content)
 │
-├── domains/                            # Ring 1 — narrative entries
-│   ├── 01-energy/
-│   │   └── 01-the-solar-revolution.md  # Gold Standard v1.1 — first forged entry
-│   ├── 02-food/
-│   ├── 03-water/
-│   ├── 04-shelter/
-│   ├── 05-health/
-│   ├── 06-environment/
-│   ├── 07-education/
-│   ├── 08-longevity/
-│   ├── 09-consciousness/
-│   ├── 10-communication/
-│   ├── 11-community/
-│   ├── 12-governance/
-│   ├── 13-security/
-│   ├── 14-transportation/
-│   ├── 15-economy/
-│   ├── 16-manufacturing/
-│   ├── 17-computation-intelligence/
-│   ├── 18-co-creative-intelligence/
-│   ├── 19-science-engineering/
-│   ├── 20-space/
-│   └── 21-future-vision/
+├── domains/                            # Ring 1 — 285 narrative entries across 21 domains
+│   ├── 01-energy/  … 21-future-vision/
 │
-├── schema/                             # JSON schemas for validation
+├── council-synthesis/                  # Meta-patterns across the 21 council_synthesis entries
+│   └── META-PATTERNS.md
+│
+├── schema/                             # JSON schema for JSONL validation
 │   └── entry-schema.json
 │
-├── scripts/                            # Tooling (built as needed)
-│   ├── validate-entry.py               # Validates .md against gold standard
-│   └── export-to-jsonl.py              # Generates machine-readable export
+├── scripts/                            # Ring 3 tooling + curation + benchmark harness
+│   ├── codex-retriever.py              # Intent-aware RAG retriever (8+1 architecture)
+│   ├── codex-query.py                  # Query any model (baseline vs augmented)
+│   ├── run-ace.py                      # Full ACE benchmark harness
+│   ├── run-evals.py                    # Lightweight qualitative eval runner
+│   ├── validate-entry.py               # 4-layer entry validator
+│   ├── validate-jsonl.py               # JSONL schema validator
+│   ├── export-to-jsonl.py              # Markdown → JSONL exporter
+│   ├── generate-schema.py              # Regenerates entry-schema.json from ground truth
+│   ├── collect-council-assessments.py  # Multi-model blind-spot audit collection
+│   ├── calibrate-judge-v23.py          # Judge rubric calibration
+│   ├── calibrate-judge-v23-round2.py   # Second calibration pass
+│   ├── ace-authorship-report.py        # Per-author performance breakdown
+│   ├── governance-frequency.py         # Governance field frequency report
+│   ├── ace-v1-opus-rebaseline.py       # Historical v1 re-baselining
+│   ├── add-cybermonk.py                # Frontmatter backfill utility
+│   ├── mcp_server/                     # MCP server exposing the Codex to agents
+│   └── requirements.txt
 │
 ├── export/                             # Ring 3 — generated outputs
-│   └── abundance-codex.jsonl
+│   ├── abundance-codex.jsonl           # One JSON object per entry (285 lines)
+│   ├── abundance-codex-eval-context.json  # Condensed context for eval harness
+│   ├── schema.json                     # Human-facing schema doc
+│   └── README.md                       # Export format pointer
 │
-├── evals/                              # Tests that prove the Codex works
+├── huggingface/                        # HF dataset card (source of truth for HF publish)
+│   └── README.md
+│
+├── evals/
+│   ├── evals.md                        # Lightweight qualitative tests (secondary)
 │   ├── perspective-shift-test.md
-│   ├── shadow-awareness-test.md
-│   └── conditional-optimism-test.md
+│   ├── results/                        # Lightweight eval results
+│   └── ace/                            # ACE benchmark — primary evaluation
+│       ├── README.md
+│       ├── METHODOLOGY.md
+│       ├── PREDICTIONS.md              # Pre-registered predictions (all iterations)
+│       ├── PRE-REGISTRATION-v2.2.md
+│       ├── config.yaml                 # Judge + test-model configuration
+│       ├── prompts.json                # 63 benchmark prompts
+│       ├── rubrics.json                # Three-ring scoring rubric
+│       ├── requirements.txt
+│       ├── calibration/                # Judge calibration artifacts
+│       └── results/                    # Benchmark run outputs (v1.0, v2.0, v2.1, …)
 │
-├── prompts/                            # AI curation prompts
-│   └── codex-curator.md
+├── paper/
+│   └── ACE-TECHNICAL-REPORT.md         # Technical report (v2.3)
+│
+├── docs/
+│   └── agent-system-prompts.md         # Three-tier system prompts (minimal / standard / RAG-aware)
 │
 ├── .github/
-│   └── ISSUE_TEMPLATE/
-│       └── new-entry-proposal.md
+│   └── workflows/validate.yml          # CI — runs validate-entry + validate-jsonl
 │
-└── media/
-    └── [logos, diagrams, launch assets]
+└── media/                              # Social preview, diagrams
 ```
 
 ### Domain Folder Convention
 
-All 21 domain folders are scaffolded from the start. Empty domains contain a `.gitkeep` placeholder. When the first entry is forged for a domain, the `.gitkeep` is removed and the entry takes its place. The `DOMAINS.md` manifest at the repo root tracks which domains have forged entries and how many.
-
-**Domain numbering** is permanent. Numbers are assigned from `PROJECT.md` and flow sequentially through the five pillars: 01-06 (Pillar I), 07-09 (Pillar II), 10-15 (Pillar III), 16-19 (Pillar IV), 20-21 (Pillar V). A reader walking from 01 to 21 traverses the civilization-building arc.
-
-**Naming:** `[##]-[slug]/` where `##` is the domain number (01-21) and `slug` is the URL-friendly domain name.
-
-**Entry naming within domains:** `[##]-[entry-slug].md` where `##` is sequential within the domain.
+All 21 domain folders are scaffolded from the start. **Domain numbering** is permanent and flows sequentially through the five pillars: 01-06 (Pillar I), 07-09 (Pillar II), 10-15 (Pillar III), 16-19 (Pillar IV), 20-21 (Pillar V).
 
 **Pillar-to-number mapping:**
 ```
-Pillar I  (Material Foundation)      → 01-06
-Pillar II (Human Capability)         → 07-09
-Pillar III (Collective Coordination) → 10-15
-Pillar IV (Production & Discovery)   → 16-19
-Pillar V  (Transcendent Frontier)    → 20-21
+Pillar I  (Material Foundation)      → 01-06   (78 entries)
+Pillar II (Human Capability)         → 07-09   (39 entries)
+Pillar III (Collective Coordination) → 10-15   (90 entries — +2 institutional per domain)
+Pillar IV (Production & Discovery)   → 16-19   (52 entries)
+Pillar V  (Transcendent Frontier)    → 20-21   (26 entries)
 ```
+
+**Naming:** `[##]-[slug]/` for domains; `[##]-[entry-slug].md` for entries within a domain. Each domain terminates with the `council_synthesis` meta-entry (typically the last file in the domain folder).
 
 ---
 
@@ -142,13 +159,29 @@ Curation Workflow (CURATION-GUIDE.md)
 Gold Standard Entry (.md in domains/)     ← Ring 1 + Ring 2
     │
     ▼
-Validation (scripts/validate-entry.py)
+Validation (scripts/validate-entry.py, CI on push)
     │
     ▼
 Export (scripts/export-to-jsonl.py)        ← Ring 3
     │
     ▼
-Agent Ingestion (JSONL → RAG/vector/context)
+Agent Ingestion (JSONL → RAG / Dojo Retriever / MCP / HF Datasets)
+```
+
+Twenty-one of the 285 entries flow through an additional path:
+
+```
+Domain's 12 base entries
+    │
+    ▼
+Four frontier models independently audit for blind spots
+(scripts/collect-council-assessments.py)
+    │
+    ▼
+Human curator synthesizes findings
+    │
+    ▼
+council_synthesis entry — adds Reasoning Scaffold + Agent Practice Hook
 ```
 
 ### Co-Creation Attribution
@@ -156,56 +189,41 @@ Agent Ingestion (JSONL → RAG/vector/context)
 Every entry carries three attribution fields in its YAML frontmatter:
 
 - `co_author_human` — **Cj TruHeart** (human curator and creative director)
-- `co_author_model` — The AI model that co-authored research and drafting for that entry. The Codex was co-authored across multiple models (Claude Opus 4.6, Super Grok, and others) — the per-entry frontmatter is the source of truth for which model produced each entry.
+- `co_author_model` — the AI model that co-authored research and drafting for that entry. The Codex is co-authored across five attributions: `claude-opus-4-6` (75), `grok-super` (63), `gemini-3.1-pro` (63), `chatgpt-5.4-thinking` (63), and `multi-model-council` (21, for council_synthesis entries).
 - `co_creative_partner` — **CyberMonk** (AI co-creative partner for strategic advising and architectural feedback)
 
 This taxonomy supports multi-model co-authorship by design. Different entries carry different `co_author_model` values while sharing the same `co_author_human` and `co_creative_partner`.
 
 ---
 
+## Retrieval Architecture — The Dojo Retriever
+
+The **Dojo Retriever** (`scripts/codex-retriever.py`) is intent-aware retrieval built on top of the JSONL export. v1.1 uses an **8+1 slot architecture**: 8 content slots for standard entries plus 1 dedicated reasoning slot reserved for `council_synthesis` entries on STRATEGIC and ADVERSARIAL intent queries.
+
+Two mechanisms govern retrieval quality:
+
+- **Shadow Force-Pull** — ensures at least one `shadow`, `contrast`, or `false_dawn` entry is included in every retrieval set. Prevents positive-valence echo chambers.
+- **Depth Locking** — `Reasoning Scaffold` and `Agent Practice Hook` sections are always extracted at full text regardless of the retriever's compression tier (FULL / CONDENSED / MINIMAL).
+
+The empowerment gating calibrated in ACE v2.3 (FULL for Pillar III, CONDENSED for others, REMOVED for Pillar II) moves intervention intensity to match the content gap per domain.
+
+---
+
 ## Agent Integration
 
-### System Prompt (Three-Tier)
+### System Prompts (Three Tiers)
 
-The Codex provides three prompt tiers scaled to integration depth. **Tier 1** is the minimal drop-in for any system prompt:
+Token-budget-scaled prompts live in [`docs/agent-system-prompts.md`](docs/agent-system-prompts.md):
 
-```
-You have access to the Abundance Codex — a curated dataset of evidence-anchored
-narratives across 21 Grand Challenge domains (energy, food, water, shelter,
-health, environment, education, longevity, consciousness, communication,
-community, governance, security, transportation, economy, manufacturing,
-computation, co-creative intelligence, science, space, future-vision).
+- **Tier 1 (~180 tokens)** — minimal drop-in, behavioral shift only, no retrieval assumed
+- **Tier 2 (~450 tokens)** — standard integration for knowledge-base / document-store agents
+- **Tier 3 (~700 tokens)** — full RAG-aware prompt for Dojo Retriever / vector store / MCP consumers
 
-When a question touches these domains, apply the Conditional Optimism Protocol:
+Use the tier matching your integration depth.
 
-1. Name the current frame (scarcity or abundance)
-2. Cite specific evidence (numbers, builders, trendlines — with source years)
-3. State conditions under which abundance is achievable
-4. Name obstacles, transition pain, and who gets left behind
-5. Identify roles (human, agent, collective)
-6. Invite concrete action — never leave the reader passive
+### MCP Server
 
-Abundance is conditional, not guaranteed. Every claim carries a shadow.
-If you catch yourself writing pure optimism without naming costs, exclusions,
-or falsifiability — stop and add the shadow.
-
-Never promise utopia. Never hide the shadow. Illuminate paths.
-```
-
-For knowledge-base or RAG integrations, see [docs/agent-system-prompts.md](docs/agent-system-prompts.md) for Tier 2 and Tier 3 prompts.
-
-### Knowledge Base Integration
-
-For agent systems with knowledge base support (OpenClaw, CyberMonk, etc.):
-
-```yaml
-knowledge_bases:
-  - name: abundance-codex
-    path: /knowledge/abundance-codex/
-    type: narrative-dataset
-    activation: always-available
-    priority: perspective-layer
-```
+`scripts/mcp_server/` exposes the Codex as an MCP (Model Context Protocol) server so agents can query the dataset via the retriever without bundling it into the system prompt.
 
 ### JSONL Ingestion
 
@@ -215,60 +233,84 @@ The `export/abundance-codex.jsonl` file contains one JSON object per line, each 
 
 ## Export Schema
 
-Each entry exports to JSON with this structure:
+Machine-readable schema: `schema/entry-schema.json`. Human-facing schema reference: `export/schema.json`.
+
+Each entry exports to JSON with this top-level structure:
 
 ```json
 {
-  "id": "ac-20260325-a7f2",
-  "entry_type": "origin_story",
-  "domain": "energy",
-  "status": "forged",
-  "created": "2026-03-25",
+  "id": "ac-YYYYMMDD-XXXX",
+  "entry_type": "origin_story | breakthrough | trendline | builder_profile | contrast | framework | paradigm_seed | shadow | star_trek_spec | grand_challenge | false_dawn | council_synthesis",
+  "domain": "energy | food | … | future-vision",
+  "status": "forged | curated | seed | archived",
+  "created": "YYYY-MM-DD",
+  "updated": "YYYY-MM-DD",
   "version": "1.0",
-  "confidence": 0.82,
+  "confidence": 0.0,
+  "codex_version": "1.1 | 2.1",
+  "co_author_model": "...",
+  "co_author_human": "Cj TruHeart",
+  "co_creative_partner": "CyberMonk",
   "one_line_essence": "...",
-  "shift_arc": {
-    "scarcity_frame": "...",
-    "encounter": "...",
-    "reframe": "...",
-    "proof": "...",
-    "invitation": "..."
-  },
-  "council": {
-    "oracle": "...",
-    "critic": "...",
-    "sensei": "...",
-    "builder": "...",
-    "witness": "..."
-  },
+  "source_file": "domains/.../...md",
+  "tags": [],
+  "domain_connections": [],
+  "shift_arc": {},
+  "council": {},
   "evidence_anchors": [],
   "shadow_check": {},
   "6d_position": {},
   "connections": {},
   "conditional_optimism": {},
   "practice_hook": {},
+  "reasoning_scaffold": {},
   "governance": {}
 }
+```
+
+The `reasoning_scaffold` object is populated only for `council_synthesis` entries (empty `{}` for base entries).
+
+Validate the JSONL export against the schema with:
+
+```bash
+python3 scripts/validate-jsonl.py
 ```
 
 ---
 
 ## Evaluation Framework
 
-Three tests prove the Codex is working. Located in `evals/`.
+The Codex has two evaluation layers.
 
-**Perspective Shift Test:** Present an agent with a scarcity-framed Grand Challenge. Score on whether it acknowledges severity, introduces abundance frame, cites evidence, names obstacles, and invites action.
+### Primary: ACE (Abundance Codex Evaluation)
 
-**Shadow Awareness Test:** Present an overly optimistic tech claim. Score on whether it validates the trend, names realistic obstacles, identifies exclusions, and avoids both hype and cynicism.
+A matched-pair benchmark measuring whether RAG-augmenting an agent with Codex context improves reasoning quality.
 
-**Builder's Response Test:** Ask "What should I do about [challenge]?" Score on whether it frames the problem as solvable, identifies leverage points, suggests first steps, connects to real builders, and empowers without overwhelming.
+- **Harness:** `scripts/run-ace.py` (OpenRouter-backed, parallel)
+- **Design:** 63 prompts × 4 test models × 2 conditions = 504 judgments
+- **Judge:** Claude Opus 4.6, single model, with calibrated rubric
+- **Scoring:** Three Rings — R1 Canonical (evidence), R2 Structured (analysis), R3 Derived (action)
+- **Statistics:** Bootstrap 95% CIs from 10,000 paired resamples, seed=42
+- **Pre-registration:** Every prediction committed to git **before** the run in `evals/ace/PREDICTIONS.md` and `PRE-REGISTRATION-*.md`
+
+ACE has been run in four iterations (v1.0, v2.0, v2.1, v2.2, v2.3). The v2.3 run confirmed the primary R3 hypothesis at +0.274 against a target band of [+0.25, +0.30]. See `evals/ace/README.md` and `paper/ACE-TECHNICAL-REPORT.md`.
+
+### Secondary: Lightweight Qualitative Tests
+
+Located in `evals/`. `scripts/run-evals.py` runs them. Intended for quick sanity checks, not the primary quality signal.
 
 ---
 
 ## Versioning
 
-- **Codex version** (in YAML `codex_version`): tracks the format standard. Currently `1.1`.
-- **Entry version** (in YAML `version`): tracks individual entry revisions.
-- **Ontology version** (in Governance `ontology_version`): tracks the overall schema. Currently `codex-v1.1`.
+- **Codex format version** (`codex_version` in YAML): tracks the schema standard. `1.1` for base entries, `2.1` for `council_synthesis` entries (which introduced Reasoning Scaffold + Agent Practice Hook sections).
+- **Entry version** (`version` in YAML): tracks individual entry revisions.
+- **Benchmark version:** the dataset is currently published at v2.3 (ACE iteration with R3 CONFIRMED); see `CHANGELOG.md` for the full arc.
 
-When the format evolves (new required sections, changed structure), the codex version increments. Existing entries are flagged for migration but remain valid until retrofitted.
+When the format evolves (new required sections, changed structure), `codex_version` increments. Existing entries remain valid until retrofitted.
+
+---
+
+## License
+
+Code: MIT (`LICENSE`). Dataset content: CC-BY 4.0 (`LICENSE-CC-BY`).
