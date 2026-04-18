@@ -1,6 +1,10 @@
+<!-- Last verified: 2026-04-18, commit c9ee337 -->
+
 # Council Synthesis Meta-Patterns
 
 Cross-pillar convergence patterns observed during council synthesis forging. Each batch reveals what the Codex collectively underweights at the pillar level.
+
+> **Forge-time document.** The R3 sub-predictions below were written before the v2.1 benchmark run and are preserved as committed (pre-registration discipline). Post-hoc outcomes — which predictions confirmed, which missed, and what the v2.2/v2.3 interventions resolved — live in `evals/ace/results/v2.0/V2.2-COMPARISON.md`, `V2.3-COMPARISON.md`, and the full narrative in `paper/ACE-TECHNICAL-REPORT.md`. Do not edit predictions in this file post-measurement.
 
 ---
 
