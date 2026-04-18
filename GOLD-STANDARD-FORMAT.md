@@ -1,6 +1,10 @@
-# Gold Standard Entry Format — v1.1
+<!-- Last verified: 2026-04-18, commit 3f6a9b2 -->
+
+# Gold Standard Entry Format — v1.1 / v2.1
 
 > This is the canonical template for every Abundance Codex entry. Copy this structure. Follow the density matrix for your entry type. No exceptions.
+>
+> **Two format versions are active.** Base entries (264 of 285) carry `codex_version: "1.1"`. Council synthesis entries (21 of 285) carry `codex_version: "2.1"` and add two sections no base entry has: the **Reasoning Scaffold** and the **Agent Practice Hook**.
 
 ---
 
@@ -11,7 +15,7 @@ Every entry is a single markdown file. Copy the structure below and fill in the 
 ````markdown
 ---
 id: "ac-YYYYMMDD-[4char]"
-entry_type: "origin_story | breakthrough | builder_profile | trendline | contrast | framework | paradigm_seed | shadow | star_trek_spec | grand_challenge | false_dawn"
+entry_type: "origin_story | breakthrough | builder_profile | trendline | contrast | framework | paradigm_seed | shadow | star_trek_spec | grand_challenge | false_dawn | council_synthesis"
 domain: "[primary domain-slug — where the file lives]"
 domain_connections:
   - domain: "[secondary domain-slug]"
@@ -23,7 +27,10 @@ created: "YYYY-MM-DD"
 updated: "YYYY-MM-DD"
 version: "1.0"
 confidence: 0.0  # See Confidence Calibration below
-codex_version: "1.1"
+codex_version: "1.1"  # "2.1" for council_synthesis entries
+co_author_human: "Cj TruHeart"
+co_author_model: "claude-opus-4-6 | chatgpt-5.4-thinking | gemini-3.1-pro | grok-super | multi-model-council"
+co_creative_partner: "CyberMonk"
 tags: []
 ---
 
@@ -148,6 +155,25 @@ A section unique to `council_synthesis` entries. Contains three components that 
 
 ---
 
+## Agent Practice Hook (council_synthesis only)
+
+5 conditional self-checks ("Before responding, verify that you have...") a model applies to its own output before it answers a domain question. Distinct from the human-facing Practice Hook above.
+
+Example structure:
+
+```
+Before responding, verify that you have:
+1. [Specific evidence citation check]
+2. [Specific builder / trendline check]
+3. [Specific shadow or counter-claim check]
+4. [Conditional optimism completeness check]
+5. [Empowerment / next-action check]
+```
+
+The five checks operationalize the Conditional Optimism Protocol for this specific domain. ACE v2.3 confirmed this section drives the R3 (derived reasoning) lift.
+
+---
+
 ## Governance
 
 - **Source type:** lived-experience | journalism | research | conversation | synthesis
@@ -156,7 +182,7 @@ A section unique to `council_synthesis` entries. Contains three components that 
 - **Last verified:** YYYY-MM-DD
 - **Counter-sources:** [What credible sources present opposing data]
 - **Review after:** YYYY-MM-DD
-- **Ontology version:** codex-v1.1
+- **Ontology version:** codex-v1.1 (or codex-v2.1 for council_synthesis entries)
 
 ---
 
@@ -359,3 +385,4 @@ Not every entry type needs every section at full depth. Use this matrix to deter
 | star_trek_spec | 5-10 KB |
 | grand_challenge | 8-15 KB |
 | false_dawn | 4-8 KB |
+| council_synthesis | 10-16 KB (heaviest — adds Reasoning Scaffold + Agent Practice Hook) |
