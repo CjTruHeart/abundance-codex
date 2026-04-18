@@ -1,5 +1,5 @@
 ---
-license: mit
+license: cc-by-4.0
 task_categories:
   - text-generation
   - question-answering
@@ -248,4 +248,7 @@ Each entry follows the Gold Standard Format:
 
 ## License
 
-MIT — open for any agent system, human curation, or derivative work.
+**Dataset content:** CC-BY 4.0 ([`LICENSE-CC-BY`](https://github.com/CjTruHeart/abundance-codex/blob/main/LICENSE-CC-BY)) — use freely with attribution.
+**Code and tooling** (scripts, harness, validators): MIT ([`LICENSE`](https://github.com/CjTruHeart/abundance-codex/blob/main/LICENSE)).
+
+Open for any agent system, human curation, or derivative work. Attribution required per CC-BY terms — cite as indicated in the Citation block above.
