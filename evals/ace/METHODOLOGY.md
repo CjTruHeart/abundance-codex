@@ -1,11 +1,13 @@
+<!-- Last verified: 2026-04-18, commit c559169 -->
+
 # ACE Benchmark — Full Methodology
 
 > Reproducibility reference for the Abundance Codex Evaluation (ACE).
-> Version: 2.0 | Last updated: 2026-04-13
+> Current through: v2.3 | Last updated: 2026-04-18
 
 This document contains everything a researcher needs to reproduce, verify, or critique the ACE benchmark results. It is the technical companion to the summary in `evals/ace/README.md`.
 
-Version 2.0 formalizes ACE as a standalone, externally reproducible benchmark package. The v1.0 methodology is preserved in `results/v1.0/` for historical reference. The substantive changes are summarized in Section 0 and detailed throughout.
+Version 2.0 formalizes ACE as a standalone, externally reproducible benchmark package. v2.1, v2.2, and v2.3 preserve the v2.0 methodology (judge, prompts, rings, rubric, statistical machinery) and vary only the **retrieval context** — which entries are available, how they are gated, and what scaffolding is injected. The v1.0 methodology is preserved in `results/v1.0/` for historical reference. The substantive changes are summarized in Section 0 and detailed throughout.
 
 ---
 
@@ -36,6 +38,30 @@ The Codex corpus grew from 63 forged entries at v1.0 to **252 entries** in the C
 ### 0.4 Configuration Externalized
 
 Model selection, retriever parameters, and API settings are now loaded from `evals/ace/config.yaml` rather than hardcoded in `scripts/run-ace.py`. The test-subject list, judge model, and retrieval/concurrency settings are configurable per run.
+
+### 0.5 Changes in v2.1, v2.2, v2.3 (post-v2.0 iterations)
+
+v2.0 is the formalized benchmark package. Subsequent iterations hold that package fixed and vary only the retrieval context. The measurement instrument (judge, prompts, rings, rubric, statistical machinery) is unchanged.
+
+**v2.1 — Corpus 273 entries; Dojo Retriever v1.1 (8+1 architecture).** +21 `council_synthesis` entries added, one per domain. The retriever gains a dedicated reasoning slot on STRATEGIC/ADVERSARIAL intent queries. Shadow Force-Pull and Depth Locking introduced. R3 Δ +0.143 — inconclusive against pre-registered target. Pre-registration: `evals/ace/results/v2.0/` (committed at commit `e90869d`).
+
+**v2.2 — Corpus 285 entries; empowerment gate v1.** +12 institutional entries added across Pillar III (governance-gap remediation). A uniform "empowerment scaffolding" mechanism was added to the retriever output. R3 Δ +0.179 — missed pre-registered band by 0.04. Post-hoc analysis showed the uniform empowerment under-served Pillar I and actively harmed Pillar II by creating rhetorical interference.
+
+**v2.3 — Pillar-gated empowerment (FULL / CONDENSED / REMOVED).** Intervention intensity calibrated per pillar to the content gap diagnosed in v2.2:
+- Pillar III: FULL empowerment content (content gap — needs institutional context)
+- Pillars I, IV, V: CONDENSED (baseline knowledge is stronger; full scaffolding is redundant)
+- Pillar II: REMOVED (rhetorical interference — models already have strong priors here; empowerment content displaced evidence)
+
+**R3 Δ +0.274 — CONFIRMED** against pre-registered target band [+0.25, +0.30]. Overall Δ +0.41. Pillar II R3 gained +0.167 by *removing* empowerment content; Pillar III R3 gained +0.125 by *adding* institutional entries. Same protocol, opposite directions, both confirmed. Pre-registration: `evals/ace/results/v2.0/PRE-REGISTRATION-v2.3.md`.
+
+| Version | Corpus | R3 Δ | Status | Key Intervention |
+|---------|-------:|-----:|--------|------------------|
+| v2.0 | 252 | +0.03 | Null | Baseline dataset, no scaffolds |
+| v2.1 | 273 | +0.143 | Inconclusive | +21 council_synthesis + Reasoning Scaffolds |
+| v2.2 | 285 | +0.179 | Missed by 0.04 | +12 institutional entries, empowerment gate v1 |
+| **v2.3** | **285** | **+0.274** | **CONFIRMED** | **Pillar-gated empowerment (FULL/CONDENSED/REMOVED)** |
+
+All numbers in this document's Section 3+ refer to the v2.0-formalized run unless otherwise noted. v2.3 currently sits at 285-entry retrieval scope.
 
 ---
 
