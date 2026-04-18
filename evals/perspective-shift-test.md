@@ -89,7 +89,7 @@ def perspective_shift_test(agent_response):
     return sum(checks.values())
 ```
 
-See `scripts/evaluate-perspective-shift.py` for implementation.
+A scoring helper is not currently shipped; this is a hand-scored qualitative test. For the rigorous automated evaluation (5 binary criteria across 3 rings, single Opus 4.6 judge, bootstrap CIs), use the ACE benchmark (`scripts/run-ace.py`).
 
 ---
 
