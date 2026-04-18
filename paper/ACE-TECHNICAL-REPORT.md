@@ -1,3 +1,5 @@
+<!-- Last verified: 2026-04-18, commit b4a942a -->
+
 # Architecture Over Scale: How Narrative Dataset Design Measurably Shifts AI Agent Reasoning
 
 **Cj TruHeart¹ and Claude Opus 4.6²**
