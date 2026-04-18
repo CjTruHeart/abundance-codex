@@ -1,3 +1,5 @@
+<!-- Last verified: 2026-04-18, commit c577437 -->
+
 # Glossary
 
 Key terms used throughout the Abundance Codex.
@@ -12,7 +14,7 @@ Key terms used throughout the Abundance Codex.
 
 **Agent Practice Hook** — A structured section in council_synthesis entries providing 5 conditional tests ("Before responding, verify that you have...") a model applies to its own output. Distinct from the human-facing Practice Hook.
 
-**Base Entry** — One of the 252 standard entries (12 per domain). Contrasted with council_synthesis entries.
+**Base Entry** — One of the 264 standard entries (12 per domain for Pillars I, II, IV, V; 14 per domain for Pillar III after v2.2 governance-gap remediation). Contrasted with council_synthesis entries.
 
 **Codex Version** — Format version of the entry schema (e.g., 1.1, 2.1). Distinct from entry version (revision count of individual entries).
 
@@ -26,7 +28,7 @@ Key terms used throughout the Abundance Codex.
 
 **Council** — The five analytical voices that speak in every entry: Oracle (pattern-seer), Critic (shadow-keeper), Sensei (transformation guide), Builder (ground truth), Witness (human-scale observer).
 
-**Council Synthesis** — A meta-analytical entry type (one per domain, 21 total) created by four frontier models independently assessing a domain's 12 base entries for blind spots, with human curation of findings. Contains unique sections: Reasoning Scaffold and enhanced Practice Hook.
+**Council Synthesis** — A meta-analytical entry type (one per domain, 21 total) created by four frontier models (Claude Opus 4.6, ChatGPT 5.4 Thinking, Gemini 3.1 Pro, Super Grok) independently assessing a domain's base entries for blind spots, with human curation of findings. Contains unique sections: Reasoning Scaffold, Agent Practice Hook, and enhanced Practice Hook. Flagged via `codex_version: "2.1"`.
 
 **Density Matrix** — A table in GOLD-STANDARD-FORMAT.md specifying which sections are required (Full), minimal (Min), or skipped (Skip) for each of the 11 entry types.
 
@@ -36,7 +38,7 @@ Key terms used throughout the Abundance Codex.
 
 **Domain** — One of 21 civilization-scale challenge areas (energy, food, water, shelter, health, environment, education, longevity, consciousness, communication, community, governance, security, transportation, economy, manufacturing, computation-intelligence, co-creative-intelligence, science-engineering, space, future-vision).
 
-**Empowers** — The fifth R3 sub-criterion in the ACE benchmark rubric. Measures whether a response leaves the reader with agency and clear next steps rather than passive awareness. Notable for showing a −0.155 deficit in v2.1, the only sub-criterion where augmented responses scored lower than baseline.
+**Empowers** — The fifth R3 sub-criterion in the ACE benchmark rubric. Measures whether a response leaves the reader with agency and clear next steps rather than passive awareness. Notable for showing a −0.155 deficit in v2.1 (the only sub-criterion where augmented responses initially scored lower than baseline). Resolved in v2.3 via pillar-gated empowerment: FULL empowerment content for Pillar III, CONDENSED for others, REMOVED for Pillar II (where the content was causing rhetorical interference).
 
 **Evidence Anchor** — A cited data point in an entry's evidence table. Each has: claim, metric, source, year, and confidence score.
 
