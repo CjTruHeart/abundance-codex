@@ -1,6 +1,12 @@
-# Evaluation Framework — The Abundance Codex
+<!-- Last verified: 2026-04-18, commit 76bbc94 -->
 
-> Three tests prove the Codex is working. Run all three against any agent before and after Codex ingestion. The delta is the measure of shift.
+> **Primary evaluation:** [ACE benchmark](ace/) — 63 prompts × 4 test models × 2 conditions = 504 matched-pair judgments, single Opus 4.6 judge, bootstrap 95% CIs, pre-registered. See [`evals/ace/README.md`](ace/README.md) and [`paper/ACE-TECHNICAL-REPORT.md`](../paper/ACE-TECHNICAL-REPORT.md).
+>
+> The three tests below are lightweight qualitative checks useful for quick sanity testing without spinning up the full benchmark harness. Use them for smoke-testing prompt changes or new entries; use ACE for the headline quality signal.
+
+# Lightweight Qualitative Evaluation — The Abundance Codex
+
+> Three tests prove the Codex is working *qualitatively*. Run all three against any agent before and after Codex ingestion. The delta is a quick indication of shift. For rigorous measurement with statistical guarantees, use the ACE benchmark.
 
 ---
 
