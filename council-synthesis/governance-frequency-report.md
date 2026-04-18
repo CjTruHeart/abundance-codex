@@ -1,30 +1,30 @@
 # Governance Keyword Frequency Report
 
-Generated from `export/abundance-codex.jsonl` (273 entries).
+Generated from `export/abundance-codex.jsonl` (285 entries).
 
 ## Summary
 
-- **Total entries:** 273
-- **Entries with conditional_optimism content:** 236/273
-- **Entries with 1+ governance keyword:** 201/236 (85.2%)
+- **Total entries:** 285
+- **Entries with conditional_optimism content:** 248/285
+- **Entries with 1+ governance keyword:** 213/248 (85.9%)
 - **Entries with zero governance keywords:** 35
 
-**Verdict:** The 90%+ claim needs softening — actual rate is 85.2%.
+**Verdict:** The 90%+ claim needs softening — actual rate is 85.9%.
 
 ## Top 10 Governance Keywords
 
 | Rank | Keyword | Occurrences |
 |------|---------|-------------|
-| 1 | standards | 84 |
-| 2 | governance | 84 |
-| 3 | regulatory | 56 |
-| 4 | policy | 51 |
-| 5 | transparency | 26 |
+| 1 | governance | 94 |
+| 2 | standards | 86 |
+| 3 | regulatory | 58 |
+| 4 | policy | 55 |
+| 5 | transparency | 28 |
 | 6 | reform | 24 |
-| 7 | participation | 19 |
-| 8 | policies | 18 |
-| 9 | regulation | 18 |
-| 10 | accountability | 15 |
+| 7 | institutional | 22 |
+| 8 | participation | 20 |
+| 9 | accountability | 20 |
+| 10 | policies | 18 |
 
 ## Breakdown by Pillar
 
@@ -32,7 +32,7 @@ Generated from `export/abundance-codex.jsonl` (273 entries).
 |--------|-------------|-----------------|---|
 | I Material Foundation | 64 | 57 | 89% |
 | II Human Capability | 34 | 23 | 68% |
-| III Collective Coordination | 71 | 67 | 94% |
+| III Collective Coordination | 83 | 79 | 95% |
 | IV Production & Discovery | 46 | 37 | 80% |
 | V Transcendent Frontier | 21 | 17 | 81% |
 
@@ -41,12 +41,12 @@ Generated from `export/abundance-codex.jsonl` (273 entries).
 | Entry Type | Entries w/ CO | w/ Gov Keywords | % |
 |-----------|-------------|-----------------|---|
 | breakthrough | 33 | 29 | 88% |
-| builder_profile | 39 | 32 | 82% |
+| builder_profile | 42 | 35 | 83% |
 | contrast | 35 | 31 | 89% |
 | council_synthesis | 1 | 1 | 100% |
 | false_dawn | 6 | 5 | 83% |
-| framework | 30 | 27 | 90% |
-| origin_story | 21 | 19 | 90% |
+| framework | 37 | 34 | 92% |
+| origin_story | 23 | 21 | 91% |
 | paradigm_seed | 9 | 6 | 67% |
 | shadow | 21 | 20 | 95% |
 | star_trek_spec | 6 | 6 | 100% |
@@ -93,3 +93,6 @@ These entries have conditional_optimism content but no governance-related keywor
 | science-engineering | trendline | ac-20260410-osir |
 | security | breakthrough | ac-20260411-aci9 |
 | shelter | breakthrough | ac-20260406-sh07 |
+
+
+Report saved to /Users/monk/abundance-codex-audit-20260418/council-synthesis/governance-frequency-report.md
