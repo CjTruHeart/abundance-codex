@@ -1,3 +1,5 @@
+<!-- Last verified: 2026-04-18, commit 269ced7 -->
+
 # PROJECT.md — The Abundance Codex
 
 > Read this document first. It tells you everything you need to know about what this project is, why it exists, how it works, and how to contribute to it.
@@ -93,7 +95,7 @@ Every entry in the Codex follows a single canonical format (see `GOLD-STANDARD-F
 
 ### Entry Types
 
-The Codex supports 11 entry types, each with different density requirements:
+The Codex supports 12 entry types, each with different density requirements:
 
 | Type | Purpose | Density |
 |------|---------|---------|
@@ -108,6 +110,7 @@ The Codex supports 11 entry types, each with different density requirements:
 | `star_trek_spec` | What a domain looks like in the civilization we're building | Visionary but grounded |
 | `grand_challenge` | Comprehensive mapping of a major human need domain | Most expansive type |
 | `false_dawn` | Where abundance was promised but didn't materialize | Inverted arc, honesty muscle |
+| `council_synthesis` | Meta-analytical entry — four models independently audit a domain for blind spots; human curator synthesizes findings | One per domain; includes Reasoning Scaffold + Agent Practice Hook |
 
 ### The 21 Domains — Ordered by Civilization's Ascent
 
@@ -191,9 +194,13 @@ The JSONL export in `/export/` is designed for bulk ingestion by RAG pipelines, 
 
 ## Current State
 
-This project is in **early development**. The architecture is established. The gold standard format is defined. Entry curation is underway.
+**285 entries across 21 domains. All five pillars at full density.** The ACE benchmark (v2.3) confirms the dataset measurably improves AI agent reasoning: +0.41 overall and +0.27 on derived reasoning, pre-registered and confirmed across four benchmark iterations.
 
-Check `DOMAINS.md` for the current count of forged entries per domain.
+- **Entry layers:** 264 base entries (Gold Standard Format) + 21 council_synthesis meta-entries (one per domain, forged by multi-model deliberation).
+- **Benchmark:** 504 matched-pair judgments (63 prompts × 4 test models × 2 conditions), single Opus 4.6 judge, bootstrap 95% CIs.
+- **Publication:** Dataset live on Hugging Face (`CjTruHeart/abundance-codex`). Technical report at `paper/ACE-TECHNICAL-REPORT.md`.
+
+Check `DOMAINS.md` for per-domain entry counts and `CHANGELOG.md` for the full version history.
 
 ---
 
@@ -248,7 +255,7 @@ The Abundance Codex draws from and builds on:
 
 ## License
 
-MIT License — this dataset is open for anyone to use, extend, and build upon.
+**Dual-licensed.** Code (scripts, harness, tooling) is MIT (`LICENSE`). Dataset content (entries, JSONL export, schema) is CC-BY 4.0 (`LICENSE-CC-BY`). Attribution: Cj TruHeart + co-authoring models (see each entry's YAML frontmatter). Open for any agent system, human curation, or derivative work.
 
 ---
 
