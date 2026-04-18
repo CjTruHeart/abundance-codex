@@ -244,7 +244,7 @@ Each entry follows the Gold Standard Format:
 
 - **GitHub:** [github.com/CjTruHeart/abundance-codex](https://github.com/CjTruHeart/abundance-codex)
 - **Technical Report:** [ACE-TECHNICAL-REPORT.md](https://github.com/CjTruHeart/abundance-codex/blob/main/paper/ACE-TECHNICAL-REPORT.md)
-- **Substack:** [inspiretruheart.com](https://inspiretruheart.com)
+- **Substack:** [inspiretruheart.com](https://www.inspiretruheart.com/p/what-a-black-belt-sees-that-engineers)
 
 ## License
 

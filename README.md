@@ -230,7 +230,7 @@ Co-created by **Cj TruHeart + Claude Opus 4.6 + CyberMonk**.
 
 - GitHub: [github.com/CjTruHeart/abundance-codex](https://github.com/CjTruHeart/abundance-codex)
 - Hugging Face: [CjTruHeart/abundance-codex](https://huggingface.co/datasets/CjTruHeart/abundance-codex)
-- Substack: [inspiretruheart.com](https://inspiretruheart.com)
+- Substack: [inspiretruheart.com](https://www.inspiretruheart.com/p/what-a-black-belt-sees-that-engineers)
 
 ## License
 
