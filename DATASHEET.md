@@ -1,3 +1,5 @@
+<!-- Last verified: 2026-04-18, commit 137c033 -->
+
 # Datasheet for the Abundance Codex
 
 Following the framework from Gebru et al. (2021), "Datasheets for Datasets."
@@ -23,7 +25,7 @@ Self-funded by Cj TruHeart. API costs for model inference (OpenRouter) and bench
 Each instance is a narrative-analytical entry about a civilization-scale challenge domain. Entries combine storytelling (the Shift Arc), multi-perspective analysis (five Council voices), quantitative evidence (Evidence Anchors), honest critique (Shadow Check), and actionable guidance (Practice Hook).
 
 **How many instances are there?**
-273 entries: 252 base entries (12 per domain) and 21 council_synthesis meta-entries (1 per domain).
+285 entries: 264 base entries and 21 council_synthesis meta-entries (1 per domain). Pillar III domains each carry 2 additional institutional entries (added in v2.2 governance-gap remediation), so 15 domains × 13 entries + 6 domains × 15 entries = 285.
 
 **What data does each instance consist of?**
 26 structured fields per entry. See `export/schema.json` for the full machine-readable schema. Key fields: narrative arc (5 phases), council voices (5 perspectives), evidence anchors (cited data points with sources, years, and confidence scores), shadow check (5 risk dimensions), practice hook (human and agent protocols), and for council_synthesis entries, a reasoning scaffold (3 components).
@@ -37,24 +39,24 @@ By design. The density matrix (see GOLD-STANDARD-FORMAT.md) specifies which sect
 **Are there any errors, sources of noise, or redundancies?**
 Known limitations:
 - Evidence anchors cite source years but are not automatically refreshed. A 2019 citation in a 2026 dataset may be outdated.
-- The `empowers` criterion in ACE benchmark evaluation shows a consistent negative delta (-0.155) — RAG augmentation with the Codex trades motivational framing for analytical structure. This is a measured property, not an error.
+- The `empowers` criterion was negative in v2.1 (-0.155); v2.3's pillar-gated empowerment protocol (FULL/CONDENSED/REMOVED) resolved this — aggregate R3 Derived moved to +0.274 (CONFIRMED against pre-registered [+0.25, +0.30] band).
 - Four co-author models share training corpora biased toward technological optimism and supply-side narratives. The council_synthesis layer partially mitigates this but does not eliminate it.
 
 **Entry type distribution:**
 
 | Type | Count | % |
 |------|------:|--:|
-| builder_profile | 41 | 15.0 |
-| contrast | 37 | 13.6 |
-| trendline | 36 | 13.2 |
-| breakthrough | 35 | 12.8 |
-| framework | 30 | 11.0 |
-| origin_story | 22 | 8.1 |
-| shadow | 21 | 7.7 |
-| council_synthesis | 21 | 7.7 |
-| paradigm_seed | 15 | 5.5 |
-| false_dawn | 6 | 2.2 |
-| star_trek_spec | 6 | 2.2 |
+| builder_profile | 44 | 15.4 |
+| contrast | 37 | 13.0 |
+| framework | 37 | 13.0 |
+| trendline | 36 | 12.6 |
+| breakthrough | 35 | 12.3 |
+| origin_story | 24 | 8.4 |
+| shadow | 21 | 7.4 |
+| council_synthesis | 21 | 7.4 |
+| paradigm_seed | 15 | 5.3 |
+| false_dawn | 6 | 2.1 |
+| star_trek_spec | 6 | 2.1 |
 | grand_challenge | 3 | 1.1 |
 
 The uneven distribution is intentional. Builder profiles and trendlines carry the most evidence; grand_challenge entries require exhaustive domain mapping and are used sparingly.
@@ -75,18 +77,20 @@ Entries are co-authored through a human-AI collaboration workflow:
 5. Entry is committed to the repository
 
 Council_synthesis entries follow a different process:
-1. Four frontier models (GPT-5.4 Mini, Claude Haiku 4.5, Gemini Flash-Lite, Grok 4.1 Fast) independently assess each domain's 12 base entries for collective blind spots
+1. Four frontier models (Claude Opus 4.6, ChatGPT 5.4 Thinking, Gemini 3.1 Pro, Super Grok) independently assess each domain's 12 base entries for collective blind spots
 2. Human curator synthesizes 84 parallel-independent assessments into 21 meta-entries
-3. Reasoning Scaffolds and Practice Hooks are designed to target measured weaknesses (R3 actionability null result)
+3. Reasoning Scaffolds and Practice Hooks are designed to target measured weaknesses (R3 actionability null result in v2.0, inconclusive in v2.1, missed by 0.04 in v2.2, CONFIRMED at +0.274 in v2.3 after pillar-gating the empowerment protocol)
 
 **Who was involved in the data collection process?**
 - Cj TruHeart: human curator, creative director, final editorial authority
-- Claude Opus 4.6 (Anthropic): primary AI co-author for base entries
+- Claude Opus 4.6 (Anthropic): primary AI co-author for base entries (75 entries)
+- Super Grok (xAI), Gemini 3.1 Pro (Google), ChatGPT 5.4 Thinking (OpenAI): secondary co-authors (63 entries each)
 - CyberMonk: AI co-creative partner for strategy and architecture
-- GPT-5.4 Mini, Claude Haiku 4.5, Gemini Flash-Lite, Grok 4.1 Fast: council deliberation models for council_synthesis entries
+- These four frontier models also form the deliberation council for the 21 council_synthesis entries
+- ACE benchmark test models (distinct from forging models): Claude Haiku 4.5, GPT-5.4 Mini, Gemini 3.1 Flash-Lite, Grok 4.1 Fast
 
 **Over what timeframe was the data collected?**
-April 2026 (v1.0 through v2.1). Entries reference evidence spanning 1954-2026.
+March–April 2026 (v1.0 through v2.3). Entries reference evidence spanning 1954-2026.
 
 **Were any ethical review processes conducted?**
 No formal IRB or ethics board review. The dataset contains no human subjects data. Ethical considerations are documented in the technical report (Section 7.6), including concerns about epistemic monoculture (4 Western-trained models), the tension between analytical rigor and motivational framing, and the risk that conditional optimism becomes unconditional optimism through retrieval compression.
@@ -96,7 +100,7 @@ No formal IRB or ethics board review. The dataset contains no human subjects dat
 ## 4. Preprocessing
 
 **Was any preprocessing/cleaning/labeling of the data done?**
-- Structural audit of all 252 base entries to ensure section completeness
+- Structural audit of all 264 base entries to ensure section completeness
 - Evidence anchor verification (sources checked, years confirmed)
 - Composite witness disclosures added to 30 entries where the Witness voice synthesized rather than quoted direct experience
 - Normalization pass across all domains (emoji consistency, header formatting, date alignment)
@@ -110,7 +114,7 @@ Yes. All scripts are in `scripts/`: `validate-entry.py` (4-layer validation), `e
 ## 5. Uses
 
 **Has the dataset been used for any tasks already?**
-Yes. The ACE benchmark (v1.0, v2.0, v2.1) uses the dataset as retrieval context for evaluating reasoning quality improvement. Results are published in the technical report (`paper/ACE-TECHNICAL-REPORT.md`).
+Yes. The ACE benchmark (v1.0, v2.0, v2.1, v2.2, v2.3) uses the dataset as retrieval context for evaluating reasoning quality improvement. The v2.3 run confirmed the primary R3 hypothesis at +0.274 against a pre-registered [+0.25, +0.30] target band. Results are published in the technical report (`paper/ACE-TECHNICAL-REPORT.md`).
 
 **What (other) tasks could the dataset be used for?**
 - RAG context for AI agents reasoning about civilization-scale challenges
@@ -121,8 +125,8 @@ Yes. The ACE benchmark (v1.0, v2.0, v2.1) uses the dataset as retrieval context 
 
 **Is there anything about the composition of the dataset or the way it was collected that might impact future uses?**
 - The dataset reflects the worldview of its creators and co-author models. It is intentionally optimistic-conditional, not neutral.
-- Co-author models (primarily Claude Opus 4.6) share training data biases toward Western, English-language, technology-optimistic sources. The council_synthesis layer identifies but does not fully correct these biases.
-- The governance gap (Pillar III) showed negative R3 delta (-0.12) under structured-context intervention, suggesting institutional knowledge gaps that retrieval augmentation alone cannot address.
+- Co-author models (Claude Opus 4.6, ChatGPT 5.4 Thinking, Gemini 3.1 Pro, Super Grok) share training data biases toward Western, English-language, technology-optimistic sources. The council_synthesis layer identifies but does not fully correct these biases.
+- The governance gap (Pillar III) was remediated in v2.2 via 12 additional institutional entries (bringing each Pillar III domain to 15 entries). Post-remediation, Pillar III R3 gained +0.125.
 
 **Are there tasks for which the dataset should not be used?**
 - Should not be used as authoritative investment or policy guidance. The dataset provides reasoning frameworks, not recommendations.
@@ -142,7 +146,7 @@ Yes. The ACE benchmark (v1.0, v2.0, v2.1) uses the dataset as retrieval context 
 Available now. Updated with each version release.
 
 **Will the dataset be distributed under a copyright or other intellectual property (IP) license?**
-MIT License. Open for any agent system, human curation, or derivative work.
+Dual-licensed. Code (scripts, harness, tooling) under MIT (`LICENSE`). Dataset content (entries, JSONL export, schema) under CC-BY 4.0 (`LICENSE-CC-BY`). Open for any agent system, human curation, or derivative work; attribution required per CC-BY terms.
 
 **Have any third parties imposed IP-based or other restrictions on the data associated with the instances?**
 No. All evidence anchors cite publicly available sources.
@@ -158,7 +162,7 @@ Cj TruHeart (primary maintainer). Repository hosted on GitHub with CI/CD via Git
 Via GitHub issues on the repository.
 
 **Will the dataset be updated?**
-Yes. The dataset follows a milestone-based versioning scheme (v1.0, v2.0, v2.1). Future versions may add entries, domains, or entry types. All changes are tracked in CHANGELOG.md.
+Yes. The dataset follows a milestone-based versioning scheme (v1.0, v2.0, v2.1, v2.2, v2.3, …). Future versions may add entries, domains, or entry types. All changes are tracked in CHANGELOG.md.
 
 **How will updates be communicated?**
 Via CHANGELOG.md, GitHub releases, and HuggingFace dataset card updates.
