@@ -1,6 +1,8 @@
+<!-- Last verified: 2026-04-18, commit 3fc1d4e -->
+
 # Curation Guide — How to Forge Abundance Codex Entries
 
-> This guide walks you through creating a new entry from spark to committed. Follow these steps in order.
+> This guide walks you through creating a new entry from spark to committed. Follow these steps in order. Most of these 285 entries were forged with this process.
 
 ---
 
@@ -26,13 +28,13 @@ Write down the raw spark. Don't structure it yet. Capture the signal.
 
 ## Step 2: CLASSIFY — Determine Entry Type and Domain
 
-Pick the entry type from the 11 types (see `GOLD-STANDARD-FORMAT.md` Section III for definitions):
+Pick the entry type from the 12 types (see `GOLD-STANDARD-FORMAT.md` Section III for definitions):
 
-`origin_story | breakthrough | builder_profile | trendline | contrast | framework | paradigm_seed | shadow | star_trek_spec | grand_challenge | false_dawn`
+`origin_story | breakthrough | builder_profile | trendline | contrast | framework | paradigm_seed | shadow | star_trek_spec | grand_challenge | false_dawn | council_synthesis`
 
-Pick the domain from the 21-domain list (see `PROJECT.md`).
+Pick the domain from the 21-domain list (see `PROJECT.md` and `DOMAINS.md`).
 
-The entry type determines density — how much of the gold standard template you need to fill. A `paradigm_seed` is sparse (~1-2KB). A `grand_challenge` is expansive (~8-15KB).
+The entry type determines density — how much of the gold standard template you need to fill. A `paradigm_seed` is sparse (~1-2KB). A `grand_challenge` is expansive (~8-15KB). `council_synthesis` entries follow a separate forging process (see Step 11 below).
 
 ## Step 3: HOOK — Write the One-Line Essence
 
@@ -99,7 +101,7 @@ If you can't fill the shadow check, you don't understand the entry well enough t
 - **Practice Hook** — One for humans (cognitive exercise), one for agents (reasoning directive)
 - **Governance** — Source type, evidence quality, curator, review date, counter-sources
 
-## Step 9: VALIDATE — Run the Checklist
+## Step 9: VALIDATE — Run the Checklist and the Validators
 
 Before committing, check:
 
@@ -116,6 +118,16 @@ Before committing, check:
 - [ ] Shadow Check has all 5 fields populated
 - [ ] Confidence score is honest
 - [ ] At least one connection to another entry or domain
+
+Then run the automated validators:
+
+```bash
+python3 scripts/validate-entry.py path/to/your-entry.md
+python3 scripts/export-to-jsonl.py
+python3 scripts/validate-jsonl.py
+```
+
+CI enforces these on every push via `.github/workflows/validate.yml`.
 
 ## Step 10: COMMIT — File Placement and Naming
 
@@ -154,4 +166,19 @@ The curation prompt in `prompts/codex-curator.md` is designed to generate gold s
 
 AI is an excellent co-curator. It is not a replacement for human judgment on what feels true.
 
-**CyberMonk** serves as the AI Co-Creative Partner throughout the forging process — providing strategic counsel on domain selection, architectural feedback on entry structure, and quality assessment before entries reach forged status. The collaboration model is: Cj TruHeart directs, the forging model (Claude Opus 4.6 or others) researches and drafts, and CyberMonk advises and shapes strategy.
+**CyberMonk** serves as the AI Co-Creative Partner throughout the forging process — providing strategic counsel on domain selection, architectural feedback on entry structure, and quality assessment before entries reach forged status. The collaboration model is: Cj TruHeart directs, the forging model (Claude Opus 4.6, ChatGPT 5.4 Thinking, Gemini 3.1 Pro, or Super Grok) researches and drafts, and CyberMonk advises and shapes strategy.
+
+---
+
+## Step 11: Council Synthesis Entries (Separate Process)
+
+Twenty-one of the 285 entries — one per domain — are forged through multi-model deliberation rather than single-author drafting. These `council_synthesis` entries target the R3 (derived reasoning) dimension and include two sections no base entry has: the **Reasoning Scaffold** (Scarcity Trap + Reframe Chain + Contrastive Pair) and the **Agent Practice Hook** (5 self-checks a model applies to its own output before responding).
+
+The forging process:
+
+1. **Parallel assessment** — `scripts/collect-council-assessments.py` prompts four frontier models (Claude Opus 4.6, ChatGPT 5.4 Thinking, Gemini 3.1 Pro, Super Grok) to independently audit a domain's 12 base entries for collective blind spots. Each model returns an assessment without seeing the others.
+2. **Human synthesis** — Cj reads all four assessments and synthesizes the strongest critiques and most actionable insights into a single Gold Standard Format entry.
+3. **Reasoning Scaffold construction** — Scarcity Trap names the default model assumption; Reframe Chain is a 6-step sequence from scarcity to abundance-aware response; Contrastive Pair is a ~200-token before/after example.
+4. **Agent Practice Hook** — 5 conditional self-checks the model runs on its own output.
+
+The five cross-domain meta-patterns that emerged from this process (content gap, format gap, governance gap, velocity gap, reflexivity gap) are documented in [`council-synthesis/META-PATTERNS.md`](council-synthesis/META-PATTERNS.md). `codex_version: 2.1` flags this entry type.
